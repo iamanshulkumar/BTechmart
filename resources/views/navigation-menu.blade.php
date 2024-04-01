@@ -10,7 +10,7 @@
             <span class="logo-lg">
                 {{-- <img src="assets/images/logo-dark.png" alt="" height="17" /> --}}
 
-                <h3 class=" fs-1 pt-3 pb-3">BTech Mart</h3>
+                <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3>
             </span>
         </a>
         <!-- Light Logo-->
@@ -22,7 +22,7 @@
             <span class="logo-lg">
                 {{-- <img src="assets/images/logo-light.png" alt="" height="17" /> --}}
 
-                <h3 class=" fs-1 pt-3 pb-3">BTech Mart</h3>
+                <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3>
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"
@@ -36,7 +36,7 @@
             <div id="two-column-menu"></div>
             <ul class="navbar-nav" id="navbar-nav">
                 <li class="menu-title"><span data-key="t-menu">Master</span></li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarDashboards">
                         <i class="bx bxs-dashboard"></i>
@@ -54,34 +54,17 @@
                                     CRM
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link" data-key="t-ecommerce">
-                                    Ecommerce
-                                </a>
-                            </li>
-                            {{-- <li class="nav-item">
-                                <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto">
-                                    Crypto
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="dashboard-projects.html" class="nav-link" data-key="t-projects">
-                                    Projects
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="dashboard-nft.html" class="nav-link" data-key="t-nft">
-                                    NFT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="dashboard-job.html" class="nav-link" data-key="t-job">Job</a>
-                            </li> --}}
                         </ul>
                     </div>
-                </li>
-
+                </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="widgets.html">
+                    <a class="nav-link menu-link" href="{{ route('dashboard') }}">
+                        <i class="bx bxs-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('viewmaster') }}">
                         <i class=" bx bx-cog"></i>
                         <span>Company Settings</span>
                     </a>
@@ -917,7 +900,7 @@
                         </ul>
                     </div>
                 </li> --}}
-{{--
+                {{--
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarLanding" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarLanding">
@@ -946,6 +929,20 @@
                 <li class="menu-title">
                     <i class="ri-more-fill"></i>
                     <span data-key="t-components">Others</span>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('vieuserlist') }}">
+                        <i class="bx bxs-user-detail"></i>
+                        <span>Users List</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('viewagentlist') }}">
+                        <i class="bx bx-user-circle"></i>
+                        <span>Agents List</span>
+                    </a>
                 </li>
 
                 {{-- <li class="nav-item">
@@ -1104,7 +1101,7 @@
                 </li> --}}
 
 
-{{--
+                {{--
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarForms" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarForms">
@@ -1394,7 +1391,7 @@
                         </ul>
                     </div>
                 </li> --}}
-
+                {{--
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarMultilevel" data-bs-toggle="collapse"
                         role="button" aria-expanded="false" aria-controls="sidebarMultilevel">
@@ -1447,7 +1444,7 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
             </ul>
         </div>
         <!-- Sidebar -->
