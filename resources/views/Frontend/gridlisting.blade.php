@@ -344,7 +344,7 @@
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Banyan Real Estate Group</a></h5>
                                                 <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg"') }}
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16"
                                                         class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
@@ -411,7 +411,7 @@
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Allen Tate Real Company</a></h5>
                                                 <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg"') }}
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16"
                                                         class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
@@ -478,7 +478,7 @@
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">510 Knob and Key Realty</a></h5>
                                                 <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg"') }}
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16"
                                                         class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>

@@ -16,9 +16,9 @@
 
 <body>
     <!-- Preloader - style you can find in spinners.css -->
-    <div id="preloader">
+    {{-- <div id="preloader">
         <div class="preloader"><span></span><span></span></div>
-    </div>
+    </div> --}}
     <div id="main-wrapper">
         <!-- Start Navigation -->
 
@@ -59,7 +59,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="/gridlisting">Listing<span class="submenu-indicator"></span></a>
+                                    <a href="/listing">Listing<span class="submenu-indicator"></span></a>
                                     {{-- <ul class="nav-dropdown nav-submenu">
                                         <li>
                                             <a href="JavaScript:Void(0);">Grid Layout<span
@@ -189,7 +189,7 @@
                                     </ul>
                                 </li>
 
-                                
+
                                 <li>
                                     <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
                                         target="_blank">Help</a>
@@ -217,7 +217,7 @@
         </div>
         <!-- ============================ Call To Action ================================== -->
         <section class="bg-cover call-action-container dark"
-            style="background: #065eb5 url(assets/img/footer-bg-dark.png) no-repeat">
+            style="background: #065eb5 url(assets/frontend-assets/img/footer-bg-dark.png) no-repeat">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
@@ -364,10 +364,20 @@
     <script src="{{ asset('assets/frontend-assets/js/dropzone.js') }}"></script>
     <script src="{{ asset('assets/frontend-assets/js/datedropper-javascript.js') }}"></script>
 
+    {{-- <script src="{{ asset('assets/frontend-assets/js/custom/dashboard.js') }}"></script> --}}
+
+
     <script src="{{ asset('assets/frontend-assets/js/custom.js') }}"></script>
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
+
+    <!-- Morris.js charts -->
+    {{-- <script src="{{ asset('assets/frontend-assets/js/raphael/raphael.min.js') }}"></script> --}}
+    {{-- <script src="{{ asset('assets/frontend-assets/js/morris.js/morris.min.js') }}"></script>  --}}
+    <!-- Custom Chart JavaScript -->
+    {{-- this causes issues in frontend dropdowns and graphs --}}
+    {{-- <script src="{{ asset('assets/frontend-assets/js/custom/dashboard.js') }}"></script> --}} 
 </body>
 
 </html>

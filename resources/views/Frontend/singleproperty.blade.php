@@ -3,18 +3,24 @@
     <!-- ============================ Hero Banner  Start================================== -->
     <div class="featured_slick_gallery gray">
         <div class="featured_slick_gallery-slide">
-            <div class="featured_slick_padd"><a href="assets/img/gallery-1.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-1.jpg" class="img-fluid mx-auto" alt=""></a></div>
-            <div class="featured_slick_padd"><a href="assets/img/gallery-2.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-2.jpg" class="img-fluid mx-auto" alt=""></a></div>
-            <div class="featured_slick_padd"><a href="assets/img/gallery-3.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-3.jpg" class="img-fluid mx-auto" alt=""></a></div>
-            <div class="featured_slick_padd"><a href="assets/img/gallery-4.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-4.jpg" class="img-fluid mx-auto" alt=""></a></div>
-            <div class="featured_slick_padd"><a href="assets/img/gallery-5.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-5.jpg" class="img-fluid mx-auto" alt=""></a></div>
-            <div class="featured_slick_padd"><a href="assets/img/gallery-6.jpg" class="mfp-gallery"><img
-                        src="assets/img/gallery-6.jpg" class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-1.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-1.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-2.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-2.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-3.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-3.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-4.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-4.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-5.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-5.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
+            <div class="featured_slick_padd"><a href="{{ asset('assets/frontend-assets/img/gallery-6.jpg') }}"
+                    class="mfp-gallery"><img src="{{ asset('assets/frontend-assets/img/gallery-6.jpg') }}"
+                        class="img-fluid mx-auto" alt=""></a></div>
         </div>
     </div>
     <!-- ============================ Hero Banner End ================================== -->
@@ -355,16 +361,19 @@
                                         aria-labelledby="pills-2d-tab" tabindex="0">
                                         <div class="row gx-3 gy-4">
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-1.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-1.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-2.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-2.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-1.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-1.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                         </div>
                                     </div>
@@ -373,16 +382,19 @@
                                         aria-labelledby="pills-3d-tab" tabindex="0">
                                         <div class="row gx-3 gy-4">
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-3.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-3.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-4.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-4.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-3.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-3.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                         </div>
                                     </div>
@@ -390,15 +402,18 @@
                                         aria-labelledby="pills-elevation-tab" tabindex="0">
                                         <div class="row gx-3 gy-4">
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-5.webp"
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-5.webp') }}"
                                                         class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-6.jpg" class="img-fluid"
-                                                        alt=""></div>
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-6.jpg') }}"
+                                                        class="img-fluid" alt=""></div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4">
-                                                <div class="floor-thumb"><img src="assets/img/fl-5.webp"
+                                                <div class="floor-thumb"><img
+                                                        src="{{ asset('assets/frontend-assets/img/fl-5.webp') }}"
                                                         class="img-fluid" alt=""></div>
                                             </div>
                                         </div>
@@ -615,8 +630,8 @@
                                         <div class="prt-reviews-single-thumb">
                                             <div class="prt-rvs-head">
                                                 <div class="prt-rvs-head-img">
-                                                    <img src="assets/img/team-1.jpg" class="img-fluid circle"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/frontend-assets/img/team-1.jpg') }}"
+                                                        class="img-fluid circle" alt="">
                                                 </div>
                                                 <div class="prt-rvs-head-caption">
                                                     <div class="prt-ves-ratting">
@@ -651,8 +666,8 @@
                                         <div class="prt-reviews-single-thumb">
                                             <div class="prt-rvs-head">
                                                 <div class="prt-rvs-head-img">
-                                                    <img src="assets/img/team-2.jpg" class="img-fluid circle"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/frontend-assets/img/team-2.jpg') }}"
+                                                        class="img-fluid circle" alt="">
                                                 </div>
                                                 <div class="prt-rvs-head-caption">
                                                     <div class="prt-ves-ratting">
@@ -687,8 +702,8 @@
                                         <div class="prt-reviews-single-thumb">
                                             <div class="prt-rvs-head">
                                                 <div class="prt-rvs-head-img">
-                                                    <img src="assets/img/team-3.jpg" class="img-fluid circle"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/frontend-assets/img/team-3.jpg') }}"
+                                                        class="img-fluid circle" alt="">
                                                 </div>
                                                 <div class="prt-rvs-head-caption">
                                                     <div class="prt-ves-ratting">
@@ -747,7 +762,8 @@
                                             <div class="nerb-lists-sgl-caption">
                                                 <div class="nerb-school-name">Myakka River Elementary School</div>
                                                 <div class="nerb-school-subtext"><span>Public</span>, <span>PreK-5</span>,
-                                                    <span>Serves this home</span></div>
+                                                    <span>Serves this home</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="nerb-lists-sgl-last">
@@ -782,7 +798,8 @@
                                             <div class="nerb-lists-sgl-caption">
                                                 <div class="nerb-school-name">Rose Wood Inter Collage</div>
                                                 <div class="nerb-school-subtext"><span>Public</span>, <span>PreK-5</span>,
-                                                    <span>Serves this home</span></div>
+                                                    <span>Serves this home</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="nerb-lists-sgl-last">
@@ -817,7 +834,8 @@
                                             <div class="nerb-lists-sgl-caption">
                                                 <div class="nerb-school-name">Bharat Green Velly School</div>
                                                 <div class="nerb-school-subtext"><span>Public</span>, <span>PreK-5</span>,
-                                                    <span>Serves this home</span></div>
+                                                    <span>Serves this home</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="nerb-lists-sgl-last">
@@ -850,7 +868,7 @@
                     </div>
 
                     <!-- Property Graph Detail -->
-                    <div class="vesh-detail-bloc">
+                    {{-- <div class="vesh-detail-bloc">
                         <div class="vesh-detail-bloc_header">
                             <h4 class="property_block_title no-arrow">View property Graph</h4>
                         </div>
@@ -870,7 +888,7 @@
                                 <div class="chart" id="line-chart" style="height:300px;"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                     <!-- Repayments Mortgage Calculator -->
@@ -1378,8 +1396,8 @@
                                         <div class="row g-4">
                                             <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                                                 <div class="othr-place-list">
-                                                    <div class="othr-place-list-icon"><i
-                                                            class="fa-solid fa-scissors"></i></div>
+                                                    <div class="othr-place-list-icon"><i class="fa-solid fa-scissors"></i>
+                                                    </div>
                                                     <div class="othr-place-list-caption">
                                                         <div class="othr-place-list-title">
                                                             <h5>High hair Cutting Salon</h5>
@@ -1513,7 +1531,8 @@
                         <div class="pg-side-block">
                             <div class="pg-side-block-head">
                                 <div class="pg-side-left">
-                                    <div class="pg-side-thumb"><img src="assets/img/team-1.jpg"
+                                    <div class="pg-side-thumb"><img
+                                            src="{{ asset('assets/frontend-assets/img/team-1.jpg') }}"
                                             class="img-fluid circle" alt=""></div>
                                 </div>
                                 <div class="pg-side-right">
@@ -1594,11 +1613,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-2.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-11.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-10.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1613,7 +1635,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Great Apex Realty Group</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1651,11 +1674,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-3.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-11.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-13.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1671,7 +1697,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Hearthstone Real Property</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1709,11 +1736,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-4.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-13.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-15.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1728,7 +1758,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">The Select Brick Builders</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1766,11 +1797,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-5.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-5.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-10.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-14.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1785,7 +1819,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Dream Big Real Estate Group</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1823,11 +1858,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-6.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-6.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-14.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-10.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1843,7 +1881,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Allen Tate Real Company</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1881,11 +1920,14 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-7.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-7.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-11.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-13.png"
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
@@ -1900,7 +1942,8 @@
                                             <div class="listing-short-detail-flex">
                                                 <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
                                                         class="prt-link-detail">Arroyo Blue Real Property</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
                                                         width="16" class="me-1" alt="">210 Zirak Road,
                                                     Canada</div>
                                             </div>
@@ -1928,64 +1971,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-list-wraps">
-                                <div class="veshm-type"><span>For rent</span></div>
 
-                                <div class="veshm-list-thumb">
-                                    <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
-                                    <div class="veshm-list-img-slide">
-                                        <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-8.png"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-15.png"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img src="assets/img/prt-11.png"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-block">
-                                    <div class="veshm-tags trending"><span><i
-                                                class="fa-solid fa-meteor"></i>Trending</span></div>
-                                    <div class="veshm-list-head">
-                                        <div class="veshm-list-head-caption">
-                                            <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$8,570<span
-                                                        class="monthly">/Months</span></h4>
-                                            </div>
-                                            <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
-                                                        class="prt-link-detail">Catbird Realty Advisors</a></h5>
-                                                <div class="rlhc-prt-location"><img src="assets/img/pin.svg"
-                                                        width="16" class="me-1" alt="">210 Zirak Road,
-                                                    Canada</div>
-                                            </div>
-                                        </div>
-                                        <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like" type="button"><i
-                                                    class="fa-solid fa-heart-circle-check"></i></button>
-                                        </div>
-                                    </div>
-
-                                    <div class="veshm-list-footer">
-                                        <div class="veshm-list-circls">
-                                            <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>4 Bed
-                                                </li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>3 Ba
-                                                </li>
-                                                <li><span class="area-inf"><i
-                                                            class="fa-solid fa-vector-square"></i></span>3000 Sft</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -1994,4 +1980,139 @@
         </div>
     </section>
     <!-- ============================= Related Property End ================================= -->
+
+    <!-- Bid Offer Modal -->
+    <div class="modal fade" id="offer" tabindex="-1" role="dialog" aria-labelledby="offermodal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered offer-pop-form" role="document">
+            <div class="modal-content" id="offermodal">
+                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i
+                        class="fas fa-close"></i></span>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <h2 class="mb-0">Bid Your Offer</h2>
+                        <h4 class="mb-0">For 5689 Resot Relly, Canada</h4>
+                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
+                    </div>
+                    <div class="offer-form">
+                        <form>
+
+                            <div class="row">
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Dhananjay Preet">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="dhananjaypreet@gmail.com">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Your Offer</label>
+                                        <input type="text" class="form-control" placeholder="$47,500">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="default-terms_wrap mb-3">
+                                <div class="default-terms_flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="terms"
+                                            value="option1">
+                                        <label class="form-check-label small font--medium" for="terms">By submitting
+                                            this form, you agree to our <a href="JavaScript:Void(0);"
+                                                title="Terms of Service" class="theme-cl font--medium">Terms of
+                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
+                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn full-width btn-primary">Submit Offer</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Message Modal -->
+    <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="messagemodal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered message-pop-form" role="document">
+            <div class="modal-content" id="messagemodal">
+                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i
+                        class="fas fa-close"></i></span>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <h2 class="mb-0">Say Hi,</h2>
+                        <h4 class="mb-0">Mr. Dhananjay Preet</h4>
+                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
+                    </div>
+                    <div class="message-form">
+                        <form>
+
+                            <div class="row">
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <textarea class="form-control ht-60">I'm interested in 5689 Resot Relly, Canada. Please send me current availability and additional details.</textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Email*</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="default-terms_wrap mb-3">
+                                <div class="default-terms_flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="msg"
+                                            value="option1">
+                                        <label class="form-check-label small font--medium" for="msg">By submitting
+                                            this form, you agree to our <a href="JavaScript:Void(0);"
+                                                title="Terms of Service" class="theme-cl font--medium">Terms of
+                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
+                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn full-width btn-primary">Send Message</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
 @endsection
