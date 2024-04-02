@@ -24,7 +24,7 @@ Route::get('/viewvendorlist', [ViewController::class, 'viewvendorlist'])->name('
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Frontend.home');
 });
 
 //Auth Routes
@@ -43,3 +43,7 @@ Route::middleware([
         return view('Admin.dashboard');
     })->name('dashboard');
 });
+
+
+//Frontend-Routes
+Route::get('/home', [ViewController::class, 'frontendhomepage'])->name('frontendhomepage');

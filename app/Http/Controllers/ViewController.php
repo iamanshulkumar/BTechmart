@@ -30,4 +30,11 @@ class ViewController extends Controller
     {
         return view();
     }
+
+
+    //WEBSITE VIEWS
+    public function frontendhomepage()
+    {
+        return view('home');
+    }
 }
