@@ -59,56 +59,21 @@
                                 </li>
 
                                 <li>
-                                    <a href="/listing">Listing<span class="submenu-indicator"></span></a>
-                                    {{-- <ul class="nav-dropdown nav-submenu">
+                                    <a href="/grid-listing">Listing<span class="submenu-indicator"></span></a>
+                                    <ul class="nav-dropdown nav-submenu">
                                         <li>
-                                            <a href="JavaScript:Void(0);">Grid Layout<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="grid-style-1.html">Grid Style 1</a></li>
-                                                <li><a href="grid-style-2.html">Grid Stle 2</a></li>
-                                                <li><a href="grid-style-3.html">Grid Style 3</a></li>
-                                                <li>
-                                                    <a href="grid-full-style-1.html">Grid Full Style 1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="grid-full-style-2.html">Grid Full Style 2</a>
-                                                </li>
-                                            </ul>
+                                            <a href="/singleproperty">Property</a>
                                         </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);">List Layout<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="list-style-1.html">List Style 1</a></li>
-                                                <li><a href="list-style-2.html">List Style 2</a></li>
-                                                <li>
-                                                    <a href="list-full-style-1.html">List Full Style 1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="list-full-style-2.html">List Full Style 2</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);">Search With Map<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="half-map.html">Half Map Style 1</a></li>
-                                                <li><a href="half-map-2.html">Half Map Style 2</a></li>
-                                                <li><a href="half-map-3.html">Half Map Style 3</a></li>
-                                                <li>
-                                                    <a href="half-map-list.html">Half Map List Search 1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="half-map-list-2.html">Half Map List Search 2</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul> --}}
+                                    </ul>
                                 </li>
+
                                 <li>
-                                    <a href="/singleproperty">Property</a>
+                                    <a href="/agentgrid">All Agents</a>
+                                    <ul class="nav-dropdown nav-submenu">
+                                        <li>
+                                            <a href="/agentdetails">Agent Details</a>
+                                        </li>
+                                    </ul>
                                 </li>
 
                                 <li>
@@ -377,7 +342,7 @@
     {{-- <script src="{{ asset('assets/frontend-assets/js/morris.js/morris.min.js') }}"></script>  --}}
     <!-- Custom Chart JavaScript -->
     {{-- this causes issues in frontend dropdowns and graphs --}}
-    {{-- <script src="{{ asset('assets/frontend-assets/js/custom/dashboard.js') }}"></script> --}} 
+    {{-- <script src="{{ asset('assets/frontend-assets/js/custom/dashboard.js') }}"></script> --}}
 </body>
 
 </html>

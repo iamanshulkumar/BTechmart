@@ -234,9 +234,8 @@
                                         </select>
                                     </div>
                                     <ul class="shorting-list">
-                                        <li><a href="grid-listing" class="active"><i
-                                                    class="fas fa-table-cells-large"></i></a></li>
-                                        <li><a href="list-listing"><i class="fas fa-list"></i></a></li>
+                                        <li><a href="grid-listing"><i class="fas fa-table-cells-large"></i></a></li>
+                                        <li><a href="list-listing" class="active"><i class="fas fa-list"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -244,23 +243,89 @@
                     </div>
 
                     <!-- Start All List -->
-                    <div class="row justify-content-start gx-3 gy-4">
+                    <div class="row gx-3 gy-4">
 
                         <!-- Single Property -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                            <div class="veshm-list-wraps">
-                                <div class="veshm-type"><span>For rent</span></div>
-
-                                <div class="veshm-list-thumb">
-                                    <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="veshm-list-prty">
+                                <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                             <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-prty-caption">
+                                    <div class="veshm-list-kygf">
+                                        <div class="veshm-list-kygf-flex">
+                                            <div class="veshm-list-typess rent"><span>For Rent</span></div>
+                                            <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                    class="prt-link-detail">Agile Real Estate Group</a></h5>
+                                            <div class="vesh-aget-rates">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span class="resy-98">322 Reviews</span>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like active" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-list-middle">
+                                        <div class="veshm-list-icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bed"></i><span>3 Bed</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>2 Ba</span></li>
+                                                <li><i class="fa-solid fa-vector-square"></i><span>2200 Sqft</span></li>
+                                                <li><i class="fa-solid fa-calendar-days"></i><span>Built 2017</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-list-footers">
+                                        <div class="veshm-list-ftr786">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">$7,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-ftr1707">
+                                            <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
+                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Property -->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="veshm-list-prty">
+                                <div class="veshm-list-prty-figure">
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-6.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-7.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                             <div><a href="single-property-1.html"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
@@ -268,20 +333,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="veshm-list-block">
-                                    <div class="veshm-list-head">
-                                        <div class="veshm-list-head-caption">
-                                            <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$7,500<span
-                                                        class="monthly">/Months</span></h4>
-                                            </div>
-                                            <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
-                                                        class="prt-link-detail">Catbird Realty Advisors</a></h5>
-                                                <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
-                                                        width="16" class="me-1" alt="">210 Zirak Road,
-                                                    Canada</div>
+                                <div class="veshm-list-prty-caption">
+                                    <div class="veshm-list-kygf">
+                                        <div class="veshm-list-kygf-flex">
+                                            <div class="veshm-list-typess rent"><span>For Rent</span></div>
+                                            <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                    class="prt-link-detail">Hearthstone Real Property</a></h5>
+                                            <div class="vesh-aget-rates">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span class="resy-98">210 Reviews</span>
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
@@ -289,64 +353,66 @@
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
-
-                                    <div class="veshm-list-availabilty">
-                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
-                                            data-bs-target="#availability" class="btn btn-avalability">Check
-                                            Availabilty</a>
-                                    </div>
-                                    <div class="veshm-list-footer">
-                                        <div class="veshm-list-circls">
+                                    <div class="veshm-list-middle">
+                                        <div class="veshm-list-icons">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
-                                                </li>
-                                                <li><span class="area-inf"><i
-                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                                <li><i class="fa-solid fa-bed"></i><span>4 Bed</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>2 Ba</span></li>
+                                                <li><i class="fa-solid fa-vector-square"></i><span>3200 Sqft</span></li>
+                                                <li><i class="fa-solid fa-calendar-days"></i><span>Built 2020</span></li>
                                             </ul>
                                         </div>
                                     </div>
+                                    <div class="veshm-list-footers">
+                                        <div class="veshm-list-ftr786">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">$10,590<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-ftr1707">
+                                            <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
+                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
-                        <!-- End Single Property -->
 
                         <!-- Single Property -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                            <div class="veshm-list-wraps">
-                                <div class="veshm-type fr-sale"><span>For sale</span></div>
-
-                                <div class="veshm-list-thumb">
-                                    <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="veshm-list-prty">
+                                <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="single-property-1.html"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-7.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
                                             <div><a href="single-property-1.html"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                             <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="veshm-list-block">
-                                    <div class="veshm-list-head">
-                                        <div class="veshm-list-head-caption">
-                                            <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$100,400</h4>
-                                            </div>
-                                            <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
-                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
-                                                <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
-                                                        width="16" class="me-1" alt="">210 Zirak Road,
-                                                    Canada</div>
+                                <div class="veshm-list-prty-caption">
+                                    <div class="veshm-list-kygf">
+                                        <div class="veshm-list-kygf-flex">
+                                            <div class="veshm-list-typess rent"><span>For Rent</span></div>
+                                            <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                    class="prt-link-detail">The Goldfinch Real Property</a></h5>
+                                            <div class="vesh-aget-rates">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span class="resy-98">452 Reviews</span>
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
@@ -354,94 +420,31 @@
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
-
-                                    <div class="veshm-list-availabilty">
-                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
-                                            data-bs-target="#availability" class="btn btn-avalability">Check
-                                            Availabilty</a>
-                                    </div>
-                                    <div class="veshm-list-footer">
-                                        <div class="veshm-list-circls">
+                                    <div class="veshm-list-middle">
+                                        <div class="veshm-list-icons">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>3 Ba
-                                                </li>
-                                                <li><span class="area-inf"><i
-                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                                <li><i class="fa-solid fa-bed"></i><span>3 Bed</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>3 Ba</span></li>
+                                                <li><i class="fa-solid fa-vector-square"></i><span>2100 Sqft</span></li>
+                                                <li><i class="fa-solid fa-calendar-days"></i><span>Built 2021</span></li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End Single Property -->
-
-                        <!-- Single Property -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                            <div class="veshm-list-wraps">
-                                <div class="veshm-type"><span>For rent</span></div>
-
-                                <div class="veshm-list-thumb">
-                                    <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
-                                    <div class="veshm-list-img-slide">
-                                        <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
-                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
-                                                        class="img-fluid mx-auto" alt=""></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-block">
-                                    <div class="veshm-list-head">
-                                        <div class="veshm-list-head-caption">
+                                    <div class="veshm-list-footers">
+                                        <div class="veshm-list-ftr786">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$8,599<span
+                                                <h4 class="rlhc-price-name theme-cl">$8,999<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
-                                            <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
-                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
-                                                <div class="rlhc-prt-location"><img
-                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
-                                                        width="16" class="me-1" alt="">210 Zirak Road,
-                                                    Canada</div>
-                                            </div>
                                         </div>
-                                        <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
-                                                    class="fa-solid fa-heart-circle-check"></i></button>
-                                        </div>
-                                    </div>
-
-                                    <div class="veshm-list-availabilty">
-                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
-                                            data-bs-target="#availability" class="btn btn-avalability">Check
-                                            Availabilty</a>
-                                    </div>
-                                    <div class="veshm-list-footer">
-                                        <div class="veshm-list-circls">
-                                            <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>4 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
-                                                </li>
-                                                <li><span class="area-inf"><i
-                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
-                                            </ul>
+                                        <div class="veshm-list-ftr1707">
+                                            <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
+                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                        <!-- End Single Property -->
 
                     </div>
 
@@ -477,69 +480,4 @@
         </div>
     </section>
     <!-- ============================ All Property ================================== -->
-
-    <!-- Availability Modal -->
-    <div class="modal fade" id="availability" tabindex="-1" role="dialog" aria-labelledby="availabilitymodal"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered availability-pop-form" role="document">
-            <div class="modal-content" id="availabilitymodal">
-                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
-                <div class="modal-body">
-                    <div class="text-center">
-                        <h2 class="mb-0">CONTACT</h2>
-                        <h4 class="mb-0">5689 Resot Relly, Canada</h4>
-                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
-                    </div>
-                    <div class="availability-form">
-                        <form>
-
-                            <div class="row">
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea class="form-control ht-60">I'm interested in 5689 Resot Relly, Canada. Please send me current availability and additional details.</textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Email*</label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Phone</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="default-terms_wrap mb-3">
-                                <div class="default-terms_flex">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="terms" value="option1">
-                                        <label class="form-check-label small font--medium" for="terms">By submitting
-                                            this form, you agree to our <a href="JavaScript:Void(0);"
-                                                title="Terms of Service" class="theme-cl font--medium">Terms of
-                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
-                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <button type="submit" class="btn full-width btn-primary">Submit Request</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal -->
 @endsection

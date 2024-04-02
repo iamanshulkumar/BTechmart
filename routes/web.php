@@ -48,5 +48,8 @@ Route::middleware([
 
 //Frontend-Routes
 Route::get('/signup', [FrontViewController::class, 'frontendsignup'])->name('frontendsignup');
-Route::get('/listing', [FrontViewController::class, 'frontendgridlisting'])->name('frontendgridlisting');
-Route::get('/singleproperty', [FrontViewController::class, 'singleproperty'])->name('singleproperty');
+Route::get('/grid-listing', [FrontViewController::class, 'frontendgridlisting'])->name('frontendgridlisting');
+Route::get('/list-listing', [FrontViewController::class, 'frontendlistlisting'])->name('frontendlistlisting');
+Route::get('/singleproperty', [FrontViewController::class, 'frontsingleproperty'])->name('frontsingleproperty');
+Route::get('/agentgrid', [FrontViewController::class, 'frontagentgrid'])->name('frontagentgrid');
+Route::get('/agentdetails', [FrontViewController::class, 'frontagentdetails'])->name('frontagentdetails');
