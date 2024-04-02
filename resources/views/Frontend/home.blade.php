@@ -1,7 +1,7 @@
 @extends('frontend.website')
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
-    <div class="image-cover hero-header" style="background: url(assets/forntend-assets/img/banner-5.jpg) no-repeat" data-overlay="6">
+    <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6">
         <div class="container">
             <div class="inner-banner-text text-center">
                 <h1>Discover A Beautiful<br />Place With Us</h1>
@@ -299,7 +299,7 @@
                     <div class="veshm-posted-box-y78">
                         <div class="veshm-posted-head-y78">
                             <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/forntend-assets/img/hs-1.png')}}" class="img-fluid" alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/hs-1.png')}}" class="img-fluid" alt="" />
                             </div>
                         </div>
                         <div class="veshm-posted-body-y78">
@@ -319,7 +319,7 @@
                     <div class="veshm-posted-box-y78 active">
                         <div class="veshm-posted-head-y78">
                             <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/forntend-assets/img/hs-3.png')}}" class="img-fluid" alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/hs-3.png')}}" class="img-fluid" alt="" />
                             </div>
                         </div>
                         <div class="veshm-posted-body-y78">
@@ -339,7 +339,7 @@
                     <div class="veshm-posted-box-y78">
                         <div class="veshm-posted-head-y78">
                             <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/forntend-assets/img/hs-2.png')}}" class="img-fluid" alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/hs-2.png')}}" class="img-fluid" alt="" />
                             </div>
                         </div>
                         <div class="veshm-posted-body-y78">
@@ -368,7 +368,7 @@
                         <div class="side-effect"></div>
                         <div class="side-thumber-img">
                             <figure>
-                                <img src="{{ asset('assets/forntend-assets/img/side-1.png')}}" class="img-fluid rounded" alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/side-1.png')}}" class="img-fluid rounded" alt="" />
                             </figure>
                         </div>
                         <div class="side-thumber-caption">
@@ -478,7 +478,7 @@
     <!-- ============================ Why Choose Us End ====================== -->
 
     <!-- ============================ What Happening ================================== -->
-    <section class="image-cover" style="background: url(assets/forntend-assets/img/banner-2.jpg) no-repeat" data-overlay="1">
+    <section class="image-cover" style="background: url(assets/frontend-assets/img/banner-2.jpg) no-repeat" data-overlay="1">
         <div class="ht-30"></div>
         <div class="container">
             <div class="row justify-content-center">
@@ -587,15 +587,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-1.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-1.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-8.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-8.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-9.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-9.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -652,15 +652,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-2.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-2.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-10.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-10.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-11.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-11.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -719,15 +719,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-3.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-3.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-12.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-12.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-13.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-13.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -786,15 +786,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-4.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-4.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-14.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-14.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-15.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-15.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -851,15 +851,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-5.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-5.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-15.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-15.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-10.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-10.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -918,15 +918,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-6.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-6.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-11.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-11.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-14.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-14.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -985,15 +985,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-7.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-7.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-13.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-13.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-11.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-11.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -1050,15 +1050,15 @@
                             <div class="veshm-list-img-slide">
                                 <div class="veshm-list-click">
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-8.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-8.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-12.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-12.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="single-property-1.html"><img src="{{ asset('assets/forntend-assets/img/prt-9.png')}}"
+                                        <a href="single-property-1.html"><img src="{{ asset('assets/frontend-assets/img/prt-9.png')}}"
                                                 class="img-fluid mx-auto" alt="" /></a>
                                     </div>
                                 </div>
@@ -1109,37 +1109,7 @@
     </section>
     <!-- ================= Recent Property End ================= -->
 
-    <!-- ============================ Call To Action ================================== -->
-    <section class="bg-cover call-action-container dark"
-        style="background: #065eb5 url(assets/img/footer-bg-dark.png) no-repeat">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
-                    <div class="call-action-wrap">
-                        <div class="call-action-caption">
-                            <h2 class="text-light">Are You Already Working With Us?</h2>
-                            <p class="text-light">
-                                At vero eos et accusamus et iusto odio dignissimos ducimus
-                                qui blanditiis praesentium voluptatum deleniti atque
-                                corrupti quos dolores et quas molestias
-                            </p>
-                        </div>
-                        <div class="call-action-form">
-                            <form>
-                                <div class="newsltr-form">
-                                    <input type="text" class="form-control" placeholder="Enter Your email" />
-                                    <button type="button" class="btn btn-subscribe">
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ============================ Call To Action End ================================== -->
+    
 
 
 
@@ -1151,7 +1121,7 @@
                 <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
                 <div class="modal-header">
                     <div class="mdl-thumb">
-                        <img src="{{ asset('assets/forntend-assets/img/ico.png')}}" class="img-fluid" width="70" alt="" />
+                        <img src="{{ asset('assets/frontend-assets/img/ico.png')}}" class="img-fluid" width="70" alt="" />
                     </div>
                     <div class="mdl-title">
                         <h4 class="modal-header-title">Hello, Again</h4>
@@ -1205,7 +1175,7 @@
                 </div>
                 <div class="modal-footer">
                     <p>
-                        Don't have an account yet?<a href="signup.html" class="theme-cl font--bold ms-1">Sign
+                        Don't have an account yet?<a href="/signup" class="theme-cl font--bold ms-1">Sign
                             Up</a>
                     </p>
                 </div>

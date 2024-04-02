@@ -6,6 +6,7 @@ use Laravel\Fortify\Fortify;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 use App\Http\Controllers\MasterController;
 use App\Http\Controllers\ViewController;
+use App\Http\Controllers\frontend\FrontViewController;
 
 //Create Routes
 // Route::post('/createmaster', [MasterController::class, 'createmaster'])->name('createmaster');
@@ -46,4 +47,6 @@ Route::middleware([
 
 
 //Frontend-Routes
-Route::get('/home', [ViewController::class, 'frontendhomepage'])->name('frontendhomepage');
+Route::get('/signup', [FrontViewController::class, 'frontendsignup'])->name('frontendsignup');
+Route::get('/gridlisting', [FrontViewController::class, 'frontendgridlisting'])->name('frontendgridlisting');
+Route::get('/singleproperty', [FrontViewController::class, 'singleproperty'])->name('singleproperty');

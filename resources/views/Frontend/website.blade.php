@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/forntend-assets/img/favicon.png')}}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/frontend-assets/img/favicon.png') }}" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/forntend-assets/css/front-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
 
 </head>
 
@@ -21,14 +21,15 @@
     </div>
     <div id="main-wrapper">
         <!-- Start Navigation -->
-        
+
         <header>
             <div class="header header-light head-shadow">
                 <div class="container">
                     <nav id="navigation" class="navigation navigation-landscape">
                         <div class="nav-header">
-                            <a class="nav-brand" href="#">
-                                <img src="{{ asset('assets/forntend-assets/img/logo.png')}}" class="logo" alt="" />
+                            <a class="nav-brand" href="/">
+                                <img src="{{ asset('assets/frontend-assets/img/logo.png') }}" class="logo"
+                                    alt="website-logo" />
                             </a>
                             <div class="nav-toggle"></div>
                             <div class="mobile_nav">
@@ -43,8 +44,8 @@
                         <div class="nav-menus-wrapper" style="transition-property: none">
                             <ul class="nav-menu">
                                 <li class="active">
-                                    <a href="JavaScript:Void(0);">Home<span class="submenu-indicator"></span></a>
-                                    <ul class="nav-dropdown nav-submenu">
+                                    <a href="/">Home<span class="submenu-indicator"></span></a>
+                                    {{-- <ul class="nav-dropdown nav-submenu">
                                         <li>
                                             <a class="active" href="index-2.html">Home Layout 1</a>
                                         </li>
@@ -54,12 +55,12 @@
                                         <li><a href="home-5.html">Home Layout 5</a></li>
                                         <li><a href="home-6.html">Home Layout 6</a></li>
                                         <li><a href="home-7.html">Home Layout 7</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </li>
 
                                 <li>
-                                    <a href="JavaScript:Void(0);">Searches<span class="submenu-indicator"></span></a>
-                                    <ul class="nav-dropdown nav-submenu">
+                                    <a href="/gridlisting">Listing<span class="submenu-indicator"></span></a>
+                                    {{-- <ul class="nav-dropdown nav-submenu">
                                         <li>
                                             <a href="JavaScript:Void(0);">Grid Layout<span
                                                     class="submenu-indicator"></span></a>
@@ -104,7 +105,10 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> --}}
+                                </li>
+                                <li>
+                                    <a href="/singleproperty">Property</a>
                                 </li>
 
                                 <li>
@@ -185,6 +189,7 @@
                                     </ul>
                                 </li>
 
+                                
                                 <li>
                                     <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
                                         target="_blank">Help</a>
@@ -197,7 +202,7 @@
                                             class="fas fa-sign-in-alt me-2"></i>Log In</a>
                                 </li>
                                 <li class="list-buttons ms-2">
-                                    <a href="signup.html"><i class="fas fa-user-alt me-2"></i>Sign Up</a>
+                                    <a href="/signup"><i class="fas fa-user-alt me-2"></i>Sign Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -210,7 +215,37 @@
         <div class="main">
             @yield('content')
         </div>
-
+        <!-- ============================ Call To Action ================================== -->
+        <section class="bg-cover call-action-container dark"
+            style="background: #065eb5 url(assets/img/footer-bg-dark.png) no-repeat">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
+                        <div class="call-action-wrap">
+                            <div class="call-action-caption">
+                                <h2 class="text-light">Are You Already Working With Us?</h2>
+                                <p class="text-light">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                                    qui blanditiis praesentium voluptatum deleniti atque
+                                    corrupti quos dolores et quas molestias
+                                </p>
+                            </div>
+                            <div class="call-action-form">
+                                <form>
+                                    <div class="newsltr-form">
+                                        <input type="text" class="form-control" placeholder="Enter Your email" />
+                                        <button type="button" class="btn btn-subscribe">
+                                            Subscribe
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================ Call To Action End ================================== -->
         <!-- ============================ Footer Start ================================== -->
         <footer class="skin-dark-footer black">
             <div>
@@ -218,7 +253,8 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="footer-widget">
-                                <img src="{{ asset('assets/forntend-assets/img/logo-light.png')}}" class="img-footer" alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/logo-light.png') }}" class="img-footer"
+                                    alt="" />
                                 <div class="footer-add">
                                     <p>Collins Street West, Victoria 8007, Australia.</p>
                                     <p>
@@ -276,11 +312,13 @@
                                 <h4 class="widget-title">Download Apps</h4>
                                 <div class="app-wrap">
                                     <p>
-                                        <a href="JavaScript:Void(0);"><img src="{{ asset('assets/forntend-assets/img/light-play.png')}}"
+                                        <a href="JavaScript:Void(0);"><img
+                                                src="{{ asset('assets/frontend-assets/img/light-play.png') }}"
                                                 class="img-fluid" alt="" /></a>
                                     </p>
                                     <p>
-                                        <a href="JavaScript:Void(0);"><img src="{{ asset('assets/forntend-assets/img/light-ios.png')}}"
+                                        <a href="JavaScript:Void(0);"><img
+                                                src="{{ asset('assets/frontend-assets/img/light-ios.png') }}"
                                                 class="img-fluid" alt="" /></a>
                                     </p>
                                 </div>
@@ -306,8 +344,7 @@
         </footer>
         <!-- ============================ Footer End ================================== -->
 
-        <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i
-                class="ti-arrow-up"></i></a>
+        <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
 
     </div>
 
@@ -315,19 +352,19 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="{{ asset('assets/forntend-assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/rangeslider.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/slick.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/lightbox.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/imagesloaded.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/dropzone.js') }}"></script>
-    <script src="{{ asset('assets/forntend-assets/js/datedropper-javascript.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/rangeslider.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/slick.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/lightbox.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/imagesloaded.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/dropzone.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/datedropper-javascript.js') }}"></script>
 
-    <script src="{{ asset('assets/forntend-assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/custom.js') }}"></script>
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
