@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar-size="lg" data-sidebar="light"
+<html lang="en" data-layout="vertical" data-topbar="dark" data-sidebar-size="lg" data-sidebar="light"
     data-sidebar-image="none" data-preloader="disable">
 
 <head>
@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- App favicon -->
-    {{-- <link rel="shortcut icon" href="{{ asset('assets/images/.ico') }}" /> --}}
+    <link rel="shortcut icon" href="{{ asset('assets/images/faviconbtech.png') }}" />
 
     <!-- jsvectormap css -->
     <link href="{{ asset('assets/libs/jsvectormap/css/jsvectormap.min.css') }}" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@
     <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('assets/libs/sweetalert2/sweetalert2.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -762,7 +762,8 @@
                                     <img class="rounded-circle header-profile-user"
                                         src="assets/images/users/avatar-1.jpg" alt="Header Avatar" />
                                     <span class="text-start ms-xl-2">
-                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Admin</span>
+                                        <span
+                                            class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Admin</span>
                                         <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
                                     </span>
                                 </span>
@@ -793,9 +794,10 @@
                                 <a class="dropdown-item" href="auth-lockscreen-basic.html"><i
                                         class="mdi mdi-lock text-muted fs-16 align-middle me-1"></i>
                                     <span class="align-middle">Lock screen</span></a>
-                                <form method="POST" action="{{ route('logout') }}">
+                                <form method="POST" action="{{ url('/logout') }}">
                                     @csrf
-                                    <button type="submit" class="dropdown-item" href=""><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>
+                                    <button type="submit" class="dropdown-item" href=""><i
+                                            class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>
                                         <span class="align-middle" data-key="t-logout">Logout</span></button>
                                 </form>
                             </div>
@@ -1708,7 +1710,7 @@
 
     <!-- Vector map-->
     <script src="{{ asset('assets/libs/jsvectormap/js/jsvectormap.min.js') }}"></script>
-    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+    <script src="{{asset('assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
     <!--Swiper slider js-->
     <script src="{{ asset('assets/libs/swiper/swiper-bundle.min.js') }}"></script>
@@ -1718,11 +1720,14 @@
 
     <!-- App js -->
     <script src="{{ asset('assets/js/app.js') }}"></script>
-        <!-- Sweet Alerts js -->
-        <script src="{{asset('assets/libs/sweetalert2/sweetalert2.min.js')}}"></script>
+    <!-- Sweet Alerts js -->
+    <script src="{{ asset('assets/libs/sweetalert2/sweetalert2.min.js') }}"></script>
 
-        <!-- Sweet alert init js-->
-        <script src="{{asset('assets/js/pages/sweetalerts.init.js')}}"></script>
+    <!-- Sweet alert init js-->
+    <script src="{{ asset('assets/js/pages/sweetalerts.init.js') }}"></script>
+
+
+
 </body>
 
 </html>
