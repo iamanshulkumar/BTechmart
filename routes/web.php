@@ -53,3 +53,12 @@ Route::get('/list-listing', [FrontViewController::class, 'frontendlistlisting'])
 Route::get('/singleproperty', [FrontViewController::class, 'frontsingleproperty'])->name('frontsingleproperty');
 Route::get('/agentgrid', [FrontViewController::class, 'frontagentgrid'])->name('frontagentgrid');
 Route::get('/agentdetails', [FrontViewController::class, 'frontagentdetails'])->name('frontagentdetails');
+Route::get('/frontdashboard', [FrontViewController::class, 'frontdashboard'])->name('frontdashboard');
+Route::get('/frontuserprofile', [FrontViewController::class, 'frontuserprofile'])->name('frontuserprofile');
+Route::get('/frontbookmarks', [FrontViewController::class, 'frontbookmarks'])->name('frontbookmarks');
+Route::get('/frontmyproperty', [FrontViewController::class, 'frontmyproperty'])->name('frontmyproperty');
+Route::get('/frontsubmitproperty', [FrontViewController::class, 'frontsubmitproperty'])->name('frontsubmitproperty');
+Route::get('/frontmessages', [FrontViewController::class, 'frontmessages'])->name('frontmessages');
+Route::get('/frontchoosepackage', [FrontViewController::class, 'frontchoosepackage'])->name('frontchoosepackage');
+Route::get('/frontchangepassword', [FrontViewController::class, 'frontchangepassword'])->name('frontchangepassword');
+Route::get('/addproperty', [FrontViewController::class, 'addproperty'])->name('addproperty');

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/frontend-assets/img/favicon.png') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/frontend-assets/img/faviconbtech.png') }}" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
@@ -28,10 +28,12 @@
                     <nav id="navigation" class="navigation navigation-landscape">
                         <div class="nav-header">
                             <a class="nav-brand" href="/">
-                                <img src="{{ asset('assets/frontend-assets/img/logo.png') }}" class="logo"
+                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}" class="logo"
                                     alt="website-logo" />
                             </a>
                             <div class="nav-toggle"></div>
+
+                            {{-- mopbiloe navigation --}}
                             <div class="mobile_nav">
                                 <ul>
                                     <li class="list-buttons">
@@ -40,22 +42,75 @@
                                     </li>
                                 </ul>
                             </div>
+                            {{-- <ul class="mobile_nav dhsbrd">
+								<li>
+									<div class="btn-group account-drop">
+										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fa-regular fa-bell"></i><span class="noti-status"></span>
+										</button>
+										<div class="dropdown-menu pull-right animated flipInX">
+											<div class="drp_menu_headr">
+												<h4>Notifications</h4>
+											</div>
+											<div class="ntf-list-groups">
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-purple"><i class="fa-solid fa-house-medical-circle-check"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi, Nothan your <strong>Vesh</strong> property uploaded successfully</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-warning"><i class="fa-solid fa-envelope"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">You have got 2 message from <strong class="text-success">Daniel</strong> 2 days ago</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-success"><i class="fa-solid fa-sack-dollar"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>$70,540</strong> transfer successfully in your account</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-danger"><i class="fa-solid fa-comments"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">2 New agent send you report messages 5 days ago</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-info"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Your payment for <strong class="text-danger">Resido</strong> proerty are cancelled due to server error</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<a href="#" class="ntf-more">View All Notifications</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="btn-group account-drop">
+										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<img src="{{ asset('assets/frontend-assets/img/user-5.png')}}" class="img-fluid circle" alt="">
+										</button>
+										<div class="dropdown-menu pull-right animated flipInX">
+											<div class="drp_menu_headr">
+												<h4>Hi, Dhananjay</h4>
+												<div class="drp_menu_headr-right"><button type="button" class="btn btn-whites">Logout</button></div>
+											</div>
+											<ul>
+												<li><a href="dashboard.html"><i class="fa fa-tachometer-alt"></i>Dashboard<span class="notti_coun style-1">4</span></a></li>                                  
+												<li><a href="my-profile.html"><i class="fa fa-user-tie"></i>My Profile</a></li>                                 
+												<li><a href="bookmark-list.html"><i class="fa fa-bookmark"></i>Saved Property<span class="notti_coun style-2">7</span></a></li>
+												<li><a href="my-property.html"><i class="fa fa-tasks"></i>My Properties</a></li>
+												<li><a href="messages.html"><i class="fa fa-envelope"></i>Messages<span class="notti_coun style-3">3</span></a></li>
+												<li><a href="choose-package.html"><i class="fa fa-gift"></i>Choose Package</a></li>
+												<li><a href="submit-property-dashboard.html"><i class="fa fa-pen-nib"></i>Submit New Property</a></li>
+												<li><a href="change-password.html"><i class="fa fa-unlock-alt"></i>Change Password</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul> --}}
                         </div>
+
+                        {{-- desktop navigation --}}
                         <div class="nav-menus-wrapper" style="transition-property: none">
                             <ul class="nav-menu">
                                 <li class="active">
                                     <a href="/">Home<span class="submenu-indicator"></span></a>
-                                    {{-- <ul class="nav-dropdown nav-submenu">
-                                        <li>
-                                            <a class="active" href="index-2.html">Home Layout 1</a>
-                                        </li>
-                                        <li><a href="home-2.html">Home Layout 2</a></li>
-                                        <li><a href="home-3.html">Home Layout 3</a></li>
-                                        <li><a href="home-4.html">Home Layout 4</a></li>
-                                        <li><a href="home-5.html">Home Layout 5</a></li>
-                                        <li><a href="home-6.html">Home Layout 6</a></li>
-                                        <li><a href="home-7.html">Home Layout 7</a></li>
-                                    </ul> --}}
                                 </li>
 
                                 <li>
@@ -77,66 +132,10 @@
                                 </li>
 
                                 <li>
-                                    <a href="JavaScript:Void(0);">Features<span class="submenu-indicator"></span></a>
-                                    <ul class="nav-dropdown nav-submenu">
-                                        <li>
-                                            <a href="JavaScript:Void(0);">Single Property<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li>
-                                                    <a href="single-property-1.html">Single Property 1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-property-2.html">Single Property 2</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-property-3.html">Single Property 3</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);">Agencies & Agents<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li>
-                                                    <a href="agent-grid.html">Agents Search Grid</a>
-                                                </li>
-                                                <li><a href="agent-list.html">Agent Search List</a></li>
-                                                <li>
-                                                    <a href="agency-grid.html">Agency Search Grid</a>
-                                                </li>
-                                                <li>
-                                                    <a href="agency-list.html">Agency Search List</a>
-                                                </li>
-                                                <li><a href="agent-detail.html">Agent Detail</a></li>
-                                                <li><a href="agency-detail.html">Agency Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);">My Account<span
-                                                    class="submenu-indicator"></span></a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="dashboard.html">User Dashboard</a></li>
-                                                <li>
-                                                    <a href="submit-property-dashboard.html">Submit Property</a>
-                                                </li>
-                                                <li><a href="my-profile.html">My Profile</a></li>
-                                                <li><a href="my-property.html">Property List</a></li>
-                                                <li>
-                                                    <a href="bookmark-list.html">Bookmarked Listings</a>
-                                                </li>
-                                                <li>
-                                                    <a href="change-password.html">Change Password</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="compare-property.html">Compare Property</a>
-                                        </li>
-                                        <li>
-                                            <a href="submit-property.html">Submit Property</a>
-                                        </li>
-                                    </ul>
+                                    <a href="/frontdashboard">My Account<span class="submenu-indicator"></span></a>
+                                </li>
+                                <li>
+                                    <a href="/addproperty">Submit Property</a>
                                 </li>
 
                                 <li>
@@ -153,14 +152,9 @@
                                         <li><a href="contact.html">Contacts</a></li>
                                     </ul>
                                 </li>
-
-
-                                <li>
-                                    <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                                        target="_blank">Help</a>
-                                </li>
                             </ul>
 
+                            {{-- loggedout user --}}
                             <ul class="nav-menu nav-menu-social align-to-right">
                                 <li class="list-buttons border">
                                     <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#login"><i
@@ -170,6 +164,70 @@
                                     <a href="/signup"><i class="fas fa-user-alt me-2"></i>Sign Up</a>
                                 </li>
                             </ul>
+
+                            {{-- logged in user --}}
+                            <ul class="nav-menu nav-menu-social align-to-right dhsbrd">
+								<li>
+									<div class="btn-group account-drop">
+										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fa-regular fa-bell"></i><span class="noti-status"></span>
+										</button>
+										<div class="dropdown-menu pull-right animated flipInX">
+											<div class="drp_menu_headr">
+												<h4>Notifications</h4>
+											</div>
+											<div class="ntf-list-groups">
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-purple"><i class="fa-solid fa-house-medical-circle-check"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi, Nothan your <strong>Vesh</strong> property uploaded successfully</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-warning"><i class="fa-solid fa-envelope"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">You have got 2 message from <strong class="text-success">Daniel</strong> 2 days ago</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-success"><i class="fa-solid fa-sack-dollar"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>$70,540</strong> transfer successfully in your account</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-danger"><i class="fa-solid fa-comments"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">2 New agent send you report messages 5 days ago</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<div class="ntf-list-groups-icon text-info"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+													<div class="ntf-list-groups-caption"><p class="small">Your payment for <strong class="text-danger">Resido</strong> proerty are cancelled due to server error</p></div>
+												</div>
+												<div class="ntf-list-groups-single">
+													<a href="#" class="ntf-more">View All Notifications</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="btn-group account-drop">
+										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<img src="{{ asset('assets/frontend-assets/img/user-5.png')}}" class="img-fluid circle" alt="">
+										</button>
+										<div class="dropdown-menu pull-right animated flipInX">
+											<div class="drp_menu_headr">
+												<h4>Hi, Dhananjay</h4>
+												<div class="drp_menu_headr-right"><button type="button" class="btn btn-whites">Logout</button></div>
+											</div>
+											<ul>
+												<li><a href="dashboard.html"><i class="fa fa-tachometer-alt"></i>Dashboard<span class="notti_coun style-1">4</span></a></li>                                  
+												<li><a href="my-profile.html"><i class="fa fa-user-tie"></i>My Profile</a></li>                                 
+												<li><a href="bookmark-list.html"><i class="fa fa-bookmark"></i>Saved Property<span class="notti_coun style-2">7</span></a></li>
+												<li><a href="my-property.html"><i class="fa fa-tasks"></i>My Properties</a></li>
+												<li><a href="messages.html"><i class="fa fa-envelope"></i>Messages<span class="notti_coun style-3">3</span></a></li>
+												<li><a href="choose-package.html"><i class="fa fa-gift"></i>Choose Package</a></li>
+												<li><a href="submit-property-dashboard.html"><i class="fa fa-pen-nib"></i>Submit New Property</a></li>
+												<li><a href="change-password.html"><i class="fa fa-unlock-alt"></i>Change Password</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
                         </div>
                     </nav>
                 </div>
@@ -218,7 +276,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="footer-widget">
-                                <img src="{{ asset('assets/frontend-assets/img/logo-light.png') }}" class="img-footer"
+                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}" class="img-footer"
                                     alt="" />
                                 <div class="footer-add">
                                     <p>Collins Street West, Victoria 8007, Australia.</p>
@@ -308,6 +366,147 @@
             </div>
         </footer>
         <!-- ============================ Footer End ================================== -->
+
+        <!-- Message Modal -->
+        <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="messagemodal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered message-pop-form" role="document">
+                <div class="modal-content" id="messagemodal">
+                    <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i
+                            class="fas fa-close"></i></span>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h2 class="mb-0">Say Hi,</h2>
+                            <h4 class="mb-0">Mr. Dhananjay Preet</h4>
+                            <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
+                        </div>
+                        <div class="message-form">
+                            <form>
+
+                                <div class="row">
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label>Message</label>
+                                            <textarea class="form-control ht-60">I'm interested in 5689 Resot Relly, Canada. Please send me current availability and additional details.</textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label>Email*</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label>Phone</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="default-terms_wrap mb-3">
+                                    <div class="default-terms_flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="msg"
+                                                value="option1">
+                                            <label class="form-check-label small font--medium" for="msg">By
+                                                submitting this form, you agree to our <a href="JavaScript:Void(0);"
+                                                    title="Terms of Service" class="theme-cl font--medium">Terms of
+                                                    Service</a> and <a href="JavaScript:Void(0);"
+                                                    title="Privacy Policy" class="theme-cl font--medium">Privacy
+                                                    Policy</a>.</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn full-width btn-primary">Send Message</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+
+        <!-- Log In Modal -->
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginmodal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+                <div class="modal-content" id="loginmodal">
+                    <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i
+                            class="fas fa-close"></i></span>
+                    <div class="modal-header">
+                        <div class="mdl-thumb">
+                            <img src="{{ asset('assets/frontend-assets/img/ico.png') }}" class="img-fluid"
+                                width="70" alt="" />
+                        </div>
+                        <div class="mdl-title">
+                            <h4 class="modal-header-title">Hello, Again</h4>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-login-form">
+                            <form>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" placeholder="name@example.com" />
+                                    <label>User Name</label>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                    <label>Password</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary full-width font--bold btn-lg">
+                                        Log In
+                                    </button>
+                                </div>
+
+                                <div class="modal-flex-item mb-3">
+                                    <div class="modal-flex-first">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="savepassword"
+                                                value="option1" />
+                                            <label class="form-check-label" for="savepassword">Save Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-flex-last">
+                                        <a href="JavaScript:Void(0);">Forget Password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="social-login">
+                            <ul>
+                                <li>
+                                    <a href="JavaScript:Void(0);" class="btn connect-fb"><i
+                                            class="fa-brands fa-facebook"></i>Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="JavaScript:Void(0);" class="btn connect-google"><i
+                                            class="fa-brands fa-google"></i>Google+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>
+                            Don't have an account yet?<a href="/signup" class="theme-cl font--bold ms-1">Sign
+                                Up</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
 
         <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
 
