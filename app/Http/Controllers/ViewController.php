@@ -1,5 +1,5 @@
 <?php
-
+#{{---------------------------------------------------🔱HAR HAR MAHADEV🔱-----------------------------------------------------------------}}
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -41,5 +41,9 @@ class ViewController extends Controller
     public function employeesetup()
     {
         return view('Employee.employeesetup');
+    }
+    public function adminprofile()
+    {
+        return view('Admin.adminprofile');
     }
 }

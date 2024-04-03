@@ -10,7 +10,7 @@ use App\Http\Controllers\ViewController;
 //Create Routes
 // Route::post('/createmaster', [MasterController::class, 'createmaster'])->name('createmaster');
 
-//View Routes
+//View Routes (Admin Views)
 Route::get('/viewmaster', [ViewController::class, 'viewmaster'])->name('viewmaster');
 Route::get('/vieuserlist', [ViewController::class, 'vieuserlist'])->name('vieuserlist');
 Route::get('/vieuserlistings', [ViewController::class, 'vieuserlistings'])->name('vieuserlistings');
@@ -21,9 +21,11 @@ Route::get('/viewpropertydetails',[ViewController::class,'viewpropertydetails'])
 Route::get('/viewenquirylist',[ViewController::class,'viewenquirylist'])->name('viewenquirylist');
 Route::get('/viewaddemployee',[ViewController::class,'viewaddemployee'])->name('viewaddemployee');
 Route::get('/employeesetup',[ViewController::class,'employeesetup'])->name('employeesetup');
+Route::get('/adminprofile',[ViewController::class,'adminprofile'])->name('adminprofile');
+
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 Route::post('/logout', function () {
     [AuthenticatedSessionController::class, 'destroy'];

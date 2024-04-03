@@ -7,7 +7,7 @@
                         <div class="col-12">
                             <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                 <div class="flex-grow-1">
-                                    <h4 class="fs-16 mb-1">Good Morning, Anna!</h4>
+                                    <h4 class="fs-16 mb-1">Good Morning, Admin!</h4>
                                     <p class="text-muted mb-0">
                                         Here's what's happening with your store today.
                                     </p>
@@ -15,7 +15,7 @@
                                 <div class="mt-3 mt-lg-0">
                                     <form action="javascript:void(0);">
                                         <div class="row g-3 mb-0 align-items-center">
-                                            <div class="col-sm-auto">
+                                            {{-- <div class="col-sm-auto">
                                                 <div class="input-group">
                                                     <input type="text"
                                                         class="form-control border-0 dash-filter-picker shadow"
@@ -26,14 +26,14 @@
                                                         <i class="ri-calendar-2-line"></i>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                             <!--end col-->
-                                            <div class="col-auto">
+                                            {{-- <div class="col-auto">
                                                 <button type="button" class="btn btn-soft-success">
                                                     <i class="ri-add-circle-line align-middle me-1"></i>
                                                     Add Product
                                                 </button>
-                                            </div>
+                                            </div> --}}
                                             <!--end col-->
                                             <div class="col-auto">
                                                 <button type="button"
@@ -53,157 +53,97 @@
                     </div>
                     <!--end row-->
 
+
                     <div class="row">
-                        <div class="col-xl-3 col-md-6">
-                            <!-- card -->
-                            <div class="card card-animate">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1 overflow-hidden">
-                                            <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                Total Earnings
-                                            </p>
+                        <div class="col-xl-12">
+                            <div class="card crm-widget">
+                                <div class="card-body p-0">
+                                    <div class="row row-cols-md-3 row-cols-1">
+                                        <div class="col col-lg border-end">
+                                            <div class="py-4 px-3">
+                                                <h5 class="text-muted text-uppercase fs-13">Users <i
+                                                        class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i>
+                                                </h5>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0">
+                                                        <i class="ri-space-ship-line display-6 text-muted"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0"><span class="counter-value"
+                                                                data-target="30">0</span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col -->
+                                        <div class="col col-lg border-end">
+                                            <div class="mt-3 mt-md-0 py-4 px-3">
+                                                <h5 class="text-muted text-uppercase fs-13">Agents <i
+                                                        class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i>
+                                                </h5>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0">
+                                                        <i class="ri-exchange-dollar-line display-6 text-muted"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0"><span class="counter-value"
+                                                                data-target="40">0</span>k</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col -->
+                                        <div class="col col-lg border-end">
+                                            <div class="mt-3 mt-md-0 py-4 px-3">
+                                                <h5 class="text-muted text-uppercase fs-13">Enquiries <i
+                                                        class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i>
+                                                </h5>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0">
+                                                        <i class="ri-pulse-line display-6 text-muted"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0"><span class="counter-value"
+                                                                data-target="100">0</span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- end col -->
+                                        <div class="col col-lg border-end">
+                                            <div class="mt-3 mt-lg-0 py-4 px-3">
+                                                <h5 class="text-muted text-uppercase fs-13">Vendors <i
+                                                        class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i>
+                                                </h5>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0">
+                                                        <i class="ri-trophy-line display-6 text-muted"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0"><span class="counter-value"
+                                                                data-target="66">0</span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="flex-shrink-0">
-                                            <h5 class="text-success fs-14 mb-0">
-                                                <i class="ri-arrow-right-up-line fs-13 align-middle"></i>
-                                                +16.24 %
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end justify-content-between mt-4">
-                                        <div>
-                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                                $<span class="counter-value" data-target="559.25">0</span>k
-                                            </h4>
-                                            <a href="#" class="text-decoration-underline text-muted">View net
-                                                earnings</a>
-                                        </div>
-                                        <div class="avatar-sm flex-shrink-0">
-                                            <span class="avatar-title bg-success-subtle rounded fs-3">
-                                                <i class="bx bx-dollar-circle text-success"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end card body -->
-                            </div>
-                            <!-- end card -->
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-xl-3 col-md-6">
-                            <!-- card -->
-                            <div class="card card-animate">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1 overflow-hidden">
-                                            <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                Orders
-                                            </p>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <h5 class="text-danger fs-14 mb-0">
-                                                <i class="ri-arrow-right-down-line fs-13 align-middle"></i>
-                                                -3.57 %
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end justify-content-between mt-4">
-                                        <div>
-                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                                <span class="counter-value" data-target="36894">0</span>
-                                            </h4>
-                                            <a href="#" class="text-decoration-underline text-muted">View all
-                                                orders</a>
-                                        </div>
-                                        <div class="avatar-sm flex-shrink-0">
-                                            <span class="avatar-title bg-info-subtle rounded fs-3">
-                                                <i class="bx bx-shopping-bag text-info"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end card body -->
-                            </div>
-                            <!-- end card -->
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-xl-3 col-md-6">
-                            <!-- card -->
-                            <div class="card card-animate">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1 overflow-hidden">
-                                            <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                Customers
-                                            </p>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <h5 class="text-success fs-14 mb-0">
-                                                <i class="ri-arrow-right-up-line fs-13 align-middle"></i>
-                                                +29.08 %
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end justify-content-between mt-4">
-                                        <div>
-                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                                <span class="counter-value" data-target="183.35">0</span>M
-                                            </h4>
-                                            <a href="#" class="text-decoration-underline text-muted">See
-                                                details</a>
-                                        </div>
-                                        <div class="avatar-sm flex-shrink-0">
-                                            <span class="avatar-title bg-warning-subtle rounded fs-3">
-                                                <i class="bx bx-user-circle text-warning"></i>
-                                            </span>
+                                        <div class="col col-lg">
+                                            <div class="mt-3 mt-lg-0 py-4 px-3">
+                                                <h5 class="text-muted text-uppercase fs-13">Employees <i
+                                                        class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i>
+                                                </h5>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0">
+                                                        <i class="ri-service-line display-6 text-muted"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h2 class="mb-0"><span class="counter-value"
+                                                                data-target="90">0</span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end card body -->
                             </div>
-                            <!-- end card -->
                         </div>
-                        <!-- end col -->
-
-                        <div class="col-xl-3 col-md-6">
-                            <!-- card -->
-                            <div class="card card-animate">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1 overflow-hidden">
-                                            <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                My Balance
-                                            </p>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <h5 class="text-muted fs-14 mb-0">+0.00 %</h5>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end justify-content-between mt-4">
-                                        <div>
-                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                                $<span class="counter-value" data-target="165.89">0</span>k
-                                            </h4>
-                                            <a href="#" class="text-decoration-underline text-muted">Withdraw
-                                                money</a>
-                                        </div>
-                                        <div class="avatar-sm flex-shrink-0">
-                                            <span class="avatar-title bg-primary-subtle rounded fs-3">
-                                                <i class="bx bx-wallet text-primary"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end card body -->
-                            </div>
-                            <!-- end card -->
-                        </div>
-                        <!-- end col -->
                     </div>
-                    <!-- end row-->
 
                     <div class="row">
                         <div class="col-xl-8">
@@ -301,44 +241,54 @@
 
                                 <!-- card body -->
                                 <div class="card-body">
-                                    <div id="sales-by-locations"
-                                        data-colors='["--vz-light", "--vz-success", "--vz-primary"]'
-                                        style="height: 269px" dir="ltr"></div>
-
-                                    <div class="px-2 py-2 mt-1">
-                                        <p class="mb-1">
-                                            Canada <span class="float-end">75%</span>
-                                        </p>
-                                        <div class="progress mt-2" style="height: 6px">
-                                            <div class="progress-bar progress-bar-striped bg-primary"
-                                                role="progressbar" style="width: 75%" aria-valuenow="75"
-                                                aria-valuemin="0" aria-valuemax="75"></div>
-                                        </div>
-
-                                        <p class="mt-3 mb-1">
-                                            Greenland <span class="float-end">47%</span>
-                                        </p>
-                                        <div class="progress mt-2" style="height: 6px">
-                                            <div class="progress-bar progress-bar-striped bg-primary"
-                                                role="progressbar" style="width: 47%" aria-valuenow="47"
-                                                aria-valuemin="0" aria-valuemax="47"></div>
-                                        </div>
-
-                                        <p class="mt-3 mb-1">
-                                            Russia <span class="float-end">82%</span>
-                                        </p>
-                                        <div class="progress mt-2" style="height: 6px">
-                                            <div class="progress-bar progress-bar-striped bg-primary"
-                                                role="progressbar" style="width: 82%" aria-valuenow="82"
-                                                aria-valuemin="0" aria-valuemax="82"></div>
-                                        </div>
+                                    <div class="table-responsive">
+                                        <table
+                                            class="table  table-hover table-bordered align-middle">
+                                            <thead class="">
+                                                <tr>
+                                                    <th>City Name</th>
+                                                    <th>Properties Count</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="">
+                                                <tr class="">
+                                                    <td>Ajmer</td>
+                                                    <td>27</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Jaipur</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Ajmer</td>
+                                                    <td>27</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Jaipur</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Ajmer</td>
+                                                    <td>27</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Jaipur</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Ajmer</td>
+                                                    <td>27</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td>Jaipur</td>
+                                                    <td>50</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                                <!-- end card body -->
                             </div>
-                            <!-- end card -->
                         </div>
-                        <!-- end col -->
                     </div>
 
                     <div class="row">
@@ -346,7 +296,7 @@
                             <div class="card">
                                 <div class="card-header align-items-center d-flex">
                                     <h4 class="card-title mb-0 flex-grow-1">
-                                        Best Selling Products
+                                        Best Selling Properties
                                     </h4>
                                     <div class="flex-shrink-0">
                                         <div class="dropdown card-header-dropdown">
@@ -587,19 +537,14 @@
                             <div class="card card-height-100">
                                 <div class="card-header align-items-center d-flex">
                                     <h4 class="card-title mb-0 flex-grow-1">
-                                        Top Sellers
+                                        Today's Enquiries
                                     </h4>
                                     <div class="flex-shrink-0">
                                         <div class="dropdown card-header-dropdown">
-                                            <a class="text-reset dropdown-btn" href="#"
-                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <span class="text-muted">Report<i
-                                                        class="mdi mdi-chevron-down ms-1"></i></span>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <a class="dropdown-item" href="#">Download Report</a>
-                                                <a class="dropdown-item" href="#">Export</a>
-                                                <a class="dropdown-item" href="#">Import</a>
+                                            <div class="flex-shrink-0">
+                                                <button type="button" class="btn btn-soft-primary btn-sm">
+                                                    Export Excel
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -607,189 +552,60 @@
                                 <!-- end card header -->
 
                                 <div class="card-body">
-                                    <div class="table-responsive table-card">
-                                        <table class="table table-centered table-hover align-middle table-nowrap mb-0">
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="flex-shrink-0 me-2">
-                                                                <img src="assets/images/companies/img-1.png"
-                                                                    alt="" class="avatar-sm p-2" />
-                                                            </div>
-                                                            <div>
-                                                                <h5 class="fs-13 my-1">
-                                                                    <a href="apps-ecommerce-seller-details.html"
-                                                                        class="text-reset">iTest Factory</a>
-                                                                </h5>
-                                                                <span class="text-muted">Oliver Tyler</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">Bags and Wallets</span>
-                                                    </td>
-                                                    <td>
-                                                        <p class="mb-0">8547</p>
-                                                        <span class="text-muted">Stock</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">$541200</span>
-                                                    </td>
-                                                    <td>
-                                                        <h5 class="fs-13 fw-semibold mb-0">
-                                                            32%<i
-                                                                class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
-                                                        </h5>
-                                                    </td>
-                                                </tr>
-                                                <!-- end -->
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="flex-shrink-0 me-2">
-                                                                <img src="assets/images/companies/img-2.png"
-                                                                    alt="" class="avatar-sm p-2" />
-                                                            </div>
-                                                            <div class="flex-grow-1">
-                                                                <h5 class="fs-13 my-1">
-                                                                    <a href="apps-ecommerce-seller-details.html"
-                                                                        class="text-reset">Digitech Galaxy</a>
-                                                                </h5>
-                                                                <span class="text-muted">John Roberts</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">Watches</span>
-                                                    </td>
-                                                    <td>
-                                                        <p class="mb-0">895</p>
-                                                        <span class="text-muted">Stock</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">$75030</span>
-                                                    </td>
-                                                    <td>
-                                                        <h5 class="fs-13 fw-semibold mb-0">
-                                                            79%<i
-                                                                class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
-                                                        </h5>
-                                                    </td>
-                                                </tr>
-                                                <!-- end -->
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="flex-shrink-0 me-2">
-                                                                <img src="assets/images/companies/img-3.png"
-                                                                    alt="" class="avatar-sm p-2" />
-                                                            </div>
-                                                            <div class="flex-gow-1">
-                                                                <h5 class="fs-13 my-1">
-                                                                    <a href="apps-ecommerce-seller-details.html"
-                                                                        class="text-reset">Nesta Technologies</a>
-                                                                </h5>
-                                                                <span class="text-muted">Harley Fuller</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">Bike Accessories</span>
-                                                    </td>
-                                                    <td>
-                                                        <p class="mb-0">3470</p>
-                                                        <span class="text-muted">Stock</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">$45600</span>
-                                                    </td>
-                                                    <td>
-                                                        <h5 class="fs-13 fw-semibold mb-0">
-                                                            90%<i
-                                                                class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
-                                                        </h5>
-                                                    </td>
-                                                </tr>
-                                                <!-- end -->
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="flex-shrink-0 me-2">
-                                                                <img src="assets/images/companies/img-8.png"
-                                                                    alt="" class="avatar-sm p-2" />
-                                                            </div>
-                                                            <div class="flex-grow-1">
-                                                                <h5 class="fs-13 my-1">
-                                                                    <a href="apps-ecommerce-seller-details.html"
-                                                                        class="text-reset">Zoetic Fashion</a>
-                                                                </h5>
-                                                                <span class="text-muted">James Bowen</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">Clothes</span>
-                                                    </td>
-                                                    <td>
-                                                        <p class="mb-0">5488</p>
-                                                        <span class="text-muted">Stock</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">$29456</span>
-                                                    </td>
-                                                    <td>
-                                                        <h5 class="fs-13 fw-semibold mb-0">
-                                                            40%<i
-                                                                class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
-                                                        </h5>
-                                                    </td>
-                                                </tr>
-                                                <!-- end -->
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="flex-shrink-0 me-2">
-                                                                <img src="assets/images/companies/img-5.png"
-                                                                    alt="" class="avatar-sm p-2" />
-                                                            </div>
-                                                            <div class="flex-grow-1">
-                                                                <h5 class="fs-13 my-1">
-                                                                    <a href="apps-ecommerce-seller-details.html"
-                                                                        class="text-reset">Meta4Systems</a>
-                                                                </h5>
-                                                                <span class="text-muted">Zoe Dennis</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">Furniture</span>
-                                                    </td>
-                                                    <td>
-                                                        <p class="mb-0">4100</p>
-                                                        <span class="text-muted">Stock</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="text-muted">$11260</span>
-                                                    </td>
-                                                    <td>
-                                                        <h5 class="fs-13 fw-semibold mb-0">
-                                                            57%<i
-                                                                class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
-                                                        </h5>
-                                                    </td>
-                                                </tr>
-                                                <!-- end -->
-                                            </tbody>
-                                        </table>
-                                        <!-- end table -->
-                                    </div>
+                                    <table class="table table-striped table-hover table-bordered table-responsive-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Role</th>
+                                                <th scope="col">Subject</th>
+                                                <th scope="col">Created_at</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Noizy</th>
+                                                <td>Admin</td>
+                                                <td>For Commercial land</td>
+                                                <td>3rd April 2024</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
                                     <div
                                         class="align-items-center mt-4 pt-2 justify-content-between row text-center text-sm-start">
                                         <div class="col-sm">
                                             <div class="text-muted">
-                                                Showing <span class="fw-semibold">5</span> of
+                                                Showing <span class="fw-semibold">6</span> of
                                                 <span class="fw-semibold">25</span> Results
                                             </div>
                                         </div>
@@ -828,9 +644,9 @@
                             <div class="card card-height-100">
                                 <div class="card-header align-items-center d-flex">
                                     <h4 class="card-title mb-0 flex-grow-1">
-                                        Store Visits by Source
+                                        Highlights
                                     </h4>
-                                    <div class="flex-shrink-0">
+                                    {{-- <div class="flex-shrink-0">
                                         <div class="dropdown card-header-dropdown">
                                             <a class="text-reset dropdown-btn" href="#"
                                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -843,7 +659,7 @@
                                                 <a class="dropdown-item" href="#">Import</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <!-- end card header -->
 
@@ -1058,7 +874,7 @@
                         <div class="card-body p-0">
                             <div class="p-3">
                                 <h6 class="text-muted mb-0 text-uppercase">
-                                    Recent Activity
+                                    Recent Enquiries
                                 </h6>
                             </div>
                             <div data-simplebar style="max-height: 410px" class="p-3 pt-0">
@@ -1071,50 +887,21 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h6 class="mb-1 lh-base">
-                                                Purchase by James Price
+                                                Enquiry by Anshul
                                             </h6>
                                             <p class="text-muted mb-1">
-                                                Product noise evolve smartwatch
+                                                Villas
                                             </p>
                                             <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
-                                    <div class="acitivity-item py-3 d-flex">
+                                    {{-- <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0 avatar-xs acitivity-avatar">
                                             <div class="avatar-title bg-danger-subtle text-danger rounded-circle">
                                                 <i class="ri-stack-fill"></i>
                                             </div>
                                         </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-1 lh-base">
-                                                Added new
-                                                <span class="fw-semibold">style collection</span>
-                                            </h6>
-                                            <p class="text-muted mb-1">
-                                                By Nesta Technologies
-                                            </p>
-                                            <div class="d-inline-flex gap-2 border border-dashed p-2 mb-2">
-                                                <a href="apps-ecommerce-product-details.html"
-                                                    class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-8.png" alt=""
-                                                        class="img-fluid d-block" />
-                                                </a>
-                                                <a href="apps-ecommerce-product-details.html"
-                                                    class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-2.png" alt=""
-                                                        class="img-fluid d-block" />
-                                                </a>
-                                                <a href="apps-ecommerce-product-details.html"
-                                                    class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-10.png" alt=""
-                                                        class="img-fluid d-block" />
-                                                </a>
-                                            </div>
-                                            <p class="mb-0 text-muted">
-                                                <small>9:47 PM Yesterday</small>
-                                            </p>
-                                        </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
                                             <img src="assets/images/users/avatar-2.jpg" alt=""
@@ -1122,13 +909,12 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h6 class="mb-1 lh-base">
-                                                Natasha Carey have liked the products
+                                                Enquiry by Anshul
                                             </h6>
                                             <p class="text-muted mb-1">
-                                                Allow users to like products in your WooCommerce
-                                                store.
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">25 Dec, 2021</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                     <div class="acitivity-item py-3 d-flex">
@@ -1141,15 +927,12 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h6 class="mb-1 lh-base">
-                                                Today offers by
-                                                <a href="apps-ecommerce-seller-details.html"
-                                                    class="link-secondary">Digitech Galaxy</a>
+                                                Enquiry by Anshul
                                             </h6>
-                                            <p class="text-muted mb-2">
-                                                Offer is valid on orders of Rs.500 Or above for
-                                                selected products only.
+                                            <p class="text-muted mb-1">
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">12 Dec, 2021</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                     <div class="acitivity-item py-3 d-flex">
@@ -1161,11 +944,13 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-1 lh-base">Favoried Product</h6>
-                                            <p class="text-muted mb-2">
-                                                Esther James have favorited product.
+                                            <h6 class="mb-1 lh-base">
+                                                Enquiry by Anshul
+                                            </h6>
+                                            <p class="text-muted mb-1">
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">25 Nov, 2021</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                     <div class="acitivity-item py-3 d-flex">
@@ -1178,15 +963,12 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h6 class="mb-1 lh-base">
-                                                Flash sale starting
-                                                <span class="text-primary">Tomorrow.</span>
+                                                Enquiry by Anshul
                                             </h6>
-                                            <p class="text-muted mb-0">
-                                                Flash sale by
-                                                <a href="javascript:void(0);" class="link-secondary fw-medium">Zoetic
-                                                    Fashion</a>
+                                            <p class="text-muted mb-1">
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">22 Oct, 2021</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                     <div class="acitivity-item py-3 d-flex">
@@ -1198,14 +980,13 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-1 lh-base">Monthly sales report</h6>
-                                            <p class="text-muted mb-2">
-                                                <span class="text-danger">2 days left</span>
-                                                notification to submit the monthly sales report.
-                                                <a href="javascript:void(0);"
-                                                    class="link-warning text-decoration-underline">Reports Builder</a>
+                                            <h6 class="mb-1 lh-base">
+                                                Enquiry by Anshul
+                                            </h6>
+                                            <p class="text-muted mb-1">
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">15 Oct</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                     <div class="acitivity-item d-flex">
@@ -1214,12 +995,13 @@
                                                 class="avatar-xs rounded-circle acitivity-avatar" />
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-1 lh-base">Frank Hook Commented</h6>
-                                            <p class="text-muted mb-2 fst-italic">
-                                                " A product that has reviews is more likable to
-                                                be sold than a product. "
+                                            <h6 class="mb-1 lh-base">
+                                                Enquiry by Anshul
+                                            </h6>
+                                            <p class="text-muted mb-1">
+                                                Villas
                                             </p>
-                                            <small class="mb-0 text-muted">26 Aug, 2021</small>
+                                            <small class="mb-0 text-muted">02:14 PM Today</small>
                                         </div>
                                     </div>
                                 </div>
@@ -1227,55 +1009,38 @@
 
                             <div class="p-3 mt-2">
                                 <h6 class="text-muted mb-3 text-uppercase">
-                                    Top 10 Categories
+                                    Top Categories
                                 </h6>
 
                                 <ol class="ps-3 text-muted">
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Mobile & Accessories
-                                            <span class="float-end">(10,294)</span></a>
+                                        <a href="#" class="text-muted">Cottages <span class="float-end">(10)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Desktop <span
-                                                class="float-end">(6,256)</span></a>
+                                        <a href="#" class="text-muted">Plots <span class="float-end">(12)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Electronics
-                                            <span class="float-end">(3,479)</span></a>
+                                        <a href="#" class="text-muted">Bungalows <span class="float-end">(16)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Home & Furniture
-                                            <span class="float-end">(2,275)</span></a>
+                                        <a href="#" class="text-muted">Warehouses <span class="float-end">(6)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Grocery <span
-                                                class="float-end">(1,950)</span></a>
+                                        <a href="#" class="text-muted">Villa <span class="float-end">(56)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Fashion <span
-                                                class="float-end">(1,582)</span></a>
+                                        <a href="#" class="text-muted">Building <span class="float-end">(77)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Appliances
-                                            <span class="float-end">(1,037)</span></a>
+                                        <a href="#" class="text-muted">Commercial <span class="float-end">(1)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Beauty, Toys & More
-                                            <span class="float-end">(924)</span></a>
+                                        <a href="#" class="text-muted">Residential projects <span class="float-end">(88)</span></a>
                                     </li>
                                     <li class="py-1">
-                                        <a href="#" class="text-muted">Food & Drinks
-                                            <span class="float-end">(701)</span></a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a href="#" class="text-muted">Toys & Games
-                                            <span class="float-end">(239)</span></a>
+                                        <a href="#" class="text-muted">Industrial <span class="float-end">(100)</span></a>
                                     </li>
                                 </ol>
-                                <div class="mt-3 text-center">
-                                    <a href="javascript:void(0);" class="text-muted text-decoration-underline">View
-                                        all Categories</a>
-                                </div>
                             </div>
                             <div class="p-3">
                                 <h6 class="text-muted mb-3 text-uppercase">
@@ -1562,23 +1327,6 @@
                                         </div>
                                     </div>
                                     <!-- end row -->
-                                </div>
-                            </div>
-
-                            <div class="card sidebar-alert bg-light border-0 text-center mx-4 mb-0 mt-3">
-                                <div class="card-body">
-                                    <img src="assets/images/giftbox.png" alt="" />
-                                    <div class="mt-4">
-                                        <h5>Invite New Seller</h5>
-                                        <p class="text-muted lh-base">
-                                            Refer a new seller to us and earn $100 per refer.
-                                        </p>
-                                        <button type="button" class="btn btn-primary btn-label rounded-pill">
-                                            <i
-                                                class="ri-mail-fill label-icon align-middle rounded-pill fs-16 me-2"></i>
-                                            Invite Now
-                                        </button>
-                                    </div>
                                 </div>
                             </div>
                         </div>

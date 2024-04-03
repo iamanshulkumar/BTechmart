@@ -69,6 +69,12 @@
                         <span>Company Settings</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('adminprofile') }}">
+                        <i class="bx bxs-user-account"></i>
+                        <span>My Profile</span>
+                    </a>
+                </li>
                 <!-- end Dashboard Menu -->
                 {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button"
