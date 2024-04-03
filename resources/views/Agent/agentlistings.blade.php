@@ -1,3 +1,4 @@
+{{---------------------------------------------------🔱HAR HAR MAHADEV🔱-----------------------------------------------------------------}}
 <x-app-layout>
     <div class="container-fluid">
         <div class="row">
@@ -267,15 +268,118 @@
                         </div>
                         <!-- end card header -->
                         <div class="card-body">
-
                             <div class="tab-content text-muted">
                                 <div class="tab-pane active" id="productnav-all" role="tabpanel">
-                                    <div id="table-product-list-all" class="table-card gridjs-border-none"></div>
+                                    <table class="table table-nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">ID</th>
+                                                <th scope="col">Image</th>
+                                                <th scope="col">Label</th>
+                                                <th scope="col">Value</th>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><img src="{{ asset('assets/images/favicon.ico') }}" alt="" height="30px" width="30px"></td>
+                                                <td>Label Name</td>
+                                                <td>Value Name</td>
+                                                <td>Admin</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a href="{{route('viewpropertydetails')}}">
+                                                            <div class="listing">
+                                                                <button class="btn btn-sm btn-primary remove-item-btn">
+                                                                    View Details
+                                                                </button>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><img src="{{ asset('assets/images/favicon.ico') }}" alt="" height="30px" width="30px"></td>
+                                                <td>Label Name</td>
+                                                <td>Value Name</td>
+                                                <td>Admin</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a href="#">
+                                                            <div class="listing">
+                                                                <button class="btn btn-sm btn-primary remove-item-btn">
+                                                                    View Details
+                                                                </button>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><img src="{{ asset('assets/images/favicon.ico') }}" alt="" height="30px" width="30px"></td>
+                                                <td>Label Name</td>
+                                                <td>Value Name</td>
+                                                <td>Admin</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a href="#">
+                                                            <div class="listing">
+                                                                <button class="btn btn-sm btn-primary remove-item-btn">
+                                                                    View Details
+                                                                </button>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <!-- end tab pane -->
 
                                 <div class="tab-pane" id="productnav-published" role="tabpanel">
-                                    <div id="table-product-list-published" class="table-card gridjs-border-none"></div>
+                                    <table class="table table-nowrap">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">ID</th>
+                                                <th scope="col">Image</th>
+                                                <th scope="col">Label</th>
+                                                <th scope="col">Value</th>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><img src="{{ asset('assets/images/favicon.ico') }}" alt="" height="30px" width="30px"></td>
+                                                <td>Label Name</td>
+                                                <td>Value Name</td>
+                                                <td>Admin</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <a href="#">
+                                                            <div class="listing">
+                                                                <button class="btn btn-sm btn-primary remove-item-btn">
+                                                                    View Details
+                                                                </button>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <!-- end tab pane -->
 

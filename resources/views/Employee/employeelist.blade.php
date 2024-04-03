@@ -1,4 +1,4 @@
-{{---------------------------------------------------🔱HAR HAR MAHADEV🔱-----------------------------------------------------------------}}
+{{-- -------------------------------------------------🔱HAR HAR MAHADEV🔱--------------------------------------------------------------- --}}
 <x-app-layout>
     <div class="container-fluid">
         <!-- start page title -->
@@ -9,8 +9,8 @@
 
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Agents List</a></li>
-                            <li class="breadcrumb-item active">Agents List</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Employees List</a></li>
+                            <li class="breadcrumb-item active">Employees List</li>
                         </ol>
                     </div>
 
@@ -70,7 +70,7 @@
                 @endif
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title mb-0">Agents List</h4>
+                        <h4 class="card-title mb-0">Employees List</h4>
                     </div>
                     <!-- end card header -->
 
@@ -81,7 +81,7 @@
                                     <div>
                                         <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
                                             data-bs-target="#signupModals">
-                                            <i class="ri-add-line align-bottom me-1"></i> Add Agent
+                                            <i class="ri-add-line align-bottom me-1"></i> Add Employee
                                         </button>
                                         <button class="btn btn-soft-danger" onClick="deleteMultiple()">
                                             <i class="ri-delete-bin-2-line"></i>
@@ -114,19 +114,13 @@
                                             <th class="sort" data-sort="customer_name">
                                                 Name
                                             </th>
-                                            <th class="sort" data-sort="customer_name">
-                                                Age
-                                            </th>
                                             <th class="sort" data-sort="email">Email</th>
-                                            <th class="sort" data-sort="phone">Phone No</th>
+                                            <th class="sort" data-sort="phone">Phone</th>
                                             <th class="sort" data-sort="date">
                                                 City
                                             </th>
                                             <th class="sort" data-sort="date">
-                                                DOB
-                                            </th>
-                                            <th class="sort" data-sort="date">
-                                                Gender
+                                                Role
                                             </th>
                                             <th class="sort" data-sort="status">
                                                 Status
@@ -143,16 +137,15 @@
                                                 </div>
                                             </th>
                                             <td class="id" style="display: none">
-                                                <a href="javascript:void(0);" class="fw-medium link-primary">#VZ2101</a>
+                                                <a href="javascript:void(0);"
+                                                    class="fw-medium link-primary">#VZ2101</a>
                                             </td>
                                             <td class="id">1</td>
                                             <td class="customer_name">Mary Cousar</td>
-                                            <td class="customer_name">21</td>
                                             <td class="email">marycousar@velzon.com</td>
                                             <td class="phone">580-464-4694</td>
-                                            <td class="customer_name">Ajmer</td>
                                             <td class="date">06 Apr, 2021</td>
-                                            <td class="date">Female</td>
+                                            <td class="date">Admin</td>
                                             <td class="status">
                                                 <span
                                                     class="badge bg-success-subtle text-success text-uppercase">Active</span>
@@ -166,19 +159,10 @@
                                                         </button>
                                                     </div>
                                                     <div class="remove">
-                                                        <button class="btn btn-sm btn-danger remove-item-btn"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#deleteRecordModal">
+                                                        <button class="btn btn-sm btn-danger remove-item-btn" id="deletewarning">
                                                             Remove
                                                         </button>
                                                     </div>
-                                                    <a href="{{ route('viewagentlistings') }}">
-                                                        <div class="listing">
-                                                            <button class="btn btn-sm btn-primary remove-item-btn">
-                                                                View Listing
-                                                            </button>
-                                                        </div>
-                                                    </a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -195,12 +179,10 @@
                                             </td>
                                             <td class="id">2</td>
                                             <td class="customer_name">Mary Cousar</td>
-                                            <td class="customer_name">21</td>
                                             <td class="email">marycousar@velzon.com</td>
                                             <td class="phone">580-464-4694</td>
-                                            <td class="customer_name">Ajmer</td>
                                             <td class="date">06 Apr, 2021</td>
-                                            <td class="date">Female</td>
+                                            <td class="date">Admin</td>
                                             <td class="status">
                                                 <span
                                                     class="badge bg-success-subtle text-success text-uppercase">Active</span>
@@ -220,13 +202,6 @@
                                                             Remove
                                                         </button>
                                                     </div>
-                                                    <a href="{{ route('viewagentlistings') }}">
-                                                        <div class="listing">
-                                                            <button class="btn btn-sm btn-primary remove-item-btn">
-                                                                View Listing
-                                                            </button>
-                                                        </div>
-                                                    </a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -243,12 +218,10 @@
                                             </td>
                                             <td class="id">3</td>
                                             <td class="customer_name">Mary Cousar</td>
-                                            <td class="customer_name">21</td>
                                             <td class="email">marycousar@velzon.com</td>
                                             <td class="phone">580-464-4694</td>
-                                            <td class="customer_name">Ajmer</td>
                                             <td class="date">06 Apr, 2021</td>
-                                            <td class="date">Female</td>
+                                            <td class="date">Admin</td>
                                             <td class="status">
                                                 <span
                                                     class="badge bg-success-subtle text-success text-uppercase">Active</span>
@@ -268,13 +241,6 @@
                                                             Remove
                                                         </button>
                                                     </div>
-                                                    <a href="{{ route('viewagentlistings') }}">
-                                                        <div class="listing">
-                                                            <button class="btn btn-sm btn-primary remove-item-btn">
-                                                                View Listing
-                                                            </button>
-                                                        </div>
-                                                    </a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -323,23 +289,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="alert alert-success  rounded-0 mb-0">
-                    <p class="mb-0 text-center">Add New Agent</p>
+                    <p class="mb-0 text-center">Add New Employee</p>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="row">
                             <div class="col-md-6">
+
                                 <div class="mb-3">
                                     <label for="fullName" class="form-label">Full Name</label>
                                     <input type="text" class="form-control" id="fullName"
                                         placeholder="Enter your name">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="fullName" class="form-label">Age</label>
-                                    <input type="text" class="form-control" id="fullName"
-                                        placeholder="Enter your age">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -364,21 +324,15 @@
                                         placeholder="Enter your city">
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Date of Birth</label>
-                                    <input type="date" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Enter your dob">
-                                </div>
-                            </div>
                             <div class="col-md-12">
                                 <div class="mb-3">
-                                    <label for="inputState" class="form-label">Gender</label>
+                                    <label for="inputState" class="form-label">Role</label>
                                     <select id="inputState" class="form-select" data-choices
                                         data-choices-sorting="true">
                                         <option selected>Choose...</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
+                                        <option>Admin</option>
+                                        <option>Listing Management</option>
+                                        <option>Customer Management</option>
                                     </select>
                                 </div>
                             </div>
@@ -389,8 +343,8 @@
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
     </div>
     <div id="showeditmodal" class="modal fadeInRight" tabindex="-1" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
@@ -400,23 +354,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="alert alert-success  rounded-0 mb-0">
-                    <p class="mb-0 text-center">Edit Agent Information</p>
+                    <p class="mb-0 text-center">Edit Employee Information</p>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="row">
                             <div class="col-md-6">
+
                                 <div class="mb-3">
                                     <label for="fullName" class="form-label">Full Name</label>
                                     <input type="text" class="form-control" id="fullName"
                                         placeholder="Enter your name">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="fullName" class="form-label">Age</label>
-                                    <input type="text" class="form-control" id="fullName"
-                                        placeholder="Enter your age">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -441,33 +389,27 @@
                                         placeholder="Enter your city">
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Date of Birth</label>
-                                    <input type="date" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Enter your dob">
-                                </div>
-                            </div>
                             <div class="col-md-12">
                                 <div class="mb-3">
-                                    <label for="inputState" class="form-label">Gender</label>
+                                    <label for="inputState" class="form-label">Role</label>
                                     <select id="inputState" class="form-select" data-choices
                                         data-choices-sorting="true">
                                         <option selected>Choose...</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
+                                        <option>Admin</option>
+                                        <option>Listing Management</option>
+                                        <option>Customer Management</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="text-end">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#showupdatemodal">Update</button>
+                                data-bs-target="#updatemodal">Update</button>
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
     </div>
     <div id="topmodal" class="modal zoomIn" tabindex="-1" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
@@ -477,17 +419,17 @@
                         colors="primary:#121331,secondary:#08a88a" style="width:120px;height:120px">
                     </lord-icon>
                     <div class="mt-4">
-                        <h4 class="mb-3">Agent has been added successfully.</h4>
+                        <h4 class="mb-3">Employee has been added successfully.</h4>
                         <p class="text-muted mb-4">Thanks for visiting BTech Mart..!!</p>
                         <div class="hstack gap-2 justify-content-center">
                             <a href="javascript:void(0);" class="btn btn-danger" data-bs-dismiss="modal">Close</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
     </div>
-    <div id="showupdatemodal" class="modal zoomIn" tabindex="-1" aria-hidden="true" style="display: none;">
+    <div id="updatemodal" class="modal zoomIn" tabindex="-1" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body text-center p-5">
@@ -495,22 +437,22 @@
                         colors="primary:#121331,secondary:#08a88a" style="width:120px;height:120px">
                     </lord-icon>
                     <div class="mt-4">
-                        <h4 class="mb-3">Updated Successfully..!!!!!!</h4>
+                        <h4 class="mb-3">Updated Successfully.!!!!</h4>
                         <p class="text-muted mb-4">Thanks for visiting BTech Mart..!!</p>
                         <div class="hstack gap-2 justify-content-center">
                             <a href="javascript:void(0);" class="btn btn-danger" data-bs-dismiss="modal">Close</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("sa-warningid").addEventListener("click", function() {
+            document.getElementById("deletewarning").addEventListener("click", function() {
                 Swal.fire({
                     title: "Are you sure?",
-                    text: "You want to delete this Agent..?",
+                    text: "You want to delete this employee..?",
                     icon: "warning",
                     showCancelButton: true,
                     confirmButtonClass: "btn btn-primary w-xs me-2 mt-2",

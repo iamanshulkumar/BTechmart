@@ -2,27 +2,27 @@
     <!-- LOGO -->
     <div class="navbar-brand-box">
         <!-- Dark Logo-->
-        <a href="index.html" class="logo logo-dark">
+        <a href="{{route('dashboard')}}" class="logo logo-dark">
             <span class="logo-sm">
-                {{-- <img src="assets/images/logo-sm.png" alt="" height="22" /> --}}
-                <h3 class=" fs-4 pt-3 pb-3">BM</h3>
+                <img src="{{ asset('assets/images/faviconbtech.png') }}" alt="" height="30" />
+                {{-- <h3 class=" fs-4 pt-3 pb-3">BM</h3> --}}
             </span>
             <span class="logo-lg">
-                {{-- <img src="assets/images/logo-dark.png" alt="" height="17" /> --}}
+                <img src="{{ asset('assets/images/logofinal.png') }}" alt="" height="50" />
 
-                <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3>
+                {{-- <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3> --}}
             </span>
         </a>
         <!-- Light Logo-->
-        <a href="index.html" class="logo logo-light">
+        <a href="{{route('dashboard')}}" class="logo logo-light">
             <span class="logo-sm">
-                {{-- <img src="assets/images/logo-sm.png" alt="" height="22" /> --}}
-                <h3 class=" fs-4 pt-3 pb-3">BM</h3>
+                <img src="{{ asset('assets/images/faviconbtech.png') }}" alt="" height="30" />
+                {{-- <h3 class=" fs-4 pt-3 pb-3">BM</h3> --}}
             </span>
             <span class="logo-lg">
-                {{-- <img src="assets/images/logo-light.png" alt="" height="17" /> --}}
+                <img src="{{ asset('assets/images/logofinal.png') }}" alt="" height="50" />
 
-                <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3>
+                {{-- <h3 class=" fs-2 pt-3 pb-3">BTech Mart</h3> --}}
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"
@@ -67,6 +67,12 @@
                     <a class="nav-link menu-link" href="{{ route('viewmaster') }}">
                         <i class=" bx bx-cog"></i>
                         <span>Company Settings</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('adminprofile') }}">
+                        <i class="bx bxs-user-account"></i>
+                        <span>My Profile</span>
                     </a>
                 </li>
                 <!-- end Dashboard Menu -->
@@ -931,7 +937,6 @@
                     <span data-key="t-components">Others</span>
                 </li>
 
-
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="{{ route('vieuserlist') }}">
                         <i class="bx bxs-user-detail"></i>
@@ -942,6 +947,31 @@
                     <a class="nav-link menu-link" href="{{ route('viewagentlist') }}">
                         <i class="bx bx-user-circle"></i>
                         <span>Agents List</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('viewenquirylist') }}">
+                        <i class="bx bx-list-ul"></i>
+                        <span>Enquiry List</span>
+                    </a>
+                </li>
+
+                <li class="menu-title">
+                    <i class="ri-more-fill"></i>
+                    <span data-key="t-components">Employee Management</span>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{route('employeesetup')}}">
+                        <i class="bx bx-cog"></i>
+                        <span>Employee Role Setup</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{route('viewaddemployee')}}">
+                        <i class="bx bx-user-plus"></i>
+                        <span>Employees List</span>
                     </a>
                 </li>
 
