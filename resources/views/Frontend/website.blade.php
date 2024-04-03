@@ -11,14 +11,15 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-responsive.css') }}">
 
 </head>
 
 <body>
     <!-- Preloader - style you can find in spinners.css -->
-    {{-- <div id="preloader">
+    <div id="preloader">
         <div class="preloader"><span></span><span></span></div>
-    </div> --}}
+    </div>
     <div id="main-wrapper">
         <!-- Start Navigation -->
 

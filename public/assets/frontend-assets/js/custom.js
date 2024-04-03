@@ -295,7 +295,61 @@ $(function() {
 	$('.side-slide').slick({
 	  slidesToShow:3,
 	  dots: true,
-	  arrows: false,
+	  arrows: true,
+	  autoplay:true,
+	  infinite: true,
+	  speed:700,
+	  slidesToScroll: 1,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			arrows: false,
+			slidesToShow:1
+		  }
+		}
+	  ]
+	});
+	
+	// property Slide
+	$('.properties-slide').slick({
+	  slidesToShow:5,
+	  dots: true,
+	  arrows: true,
+	  autoplay:true,
+	  infinite: true,
+	  speed:700,
+	  slidesToScroll: 1,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			arrows: false,
+			slidesToShow:1
+		  }
+		}
+	  ]
+	});
+
+	// category Slide
+	$('.category-slide').slick({
+	  slidesToShow:5,
+	  dots: true,
+	  arrows: true,
 	  autoplay:true,
 	  infinite: true,
 	  speed:700,
