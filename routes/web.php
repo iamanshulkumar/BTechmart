@@ -62,3 +62,14 @@ Route::get('/frontmessages', [FrontViewController::class, 'frontmessages'])->nam
 Route::get('/frontchoosepackage', [FrontViewController::class, 'frontchoosepackage'])->name('frontchoosepackage');
 Route::get('/frontchangepassword', [FrontViewController::class, 'frontchangepassword'])->name('frontchangepassword');
 Route::get('/addproperty', [FrontViewController::class, 'addproperty'])->name('addproperty');
+Route::get('/checkout', [FrontViewController::class, 'checkout'])->name('checkout');
+Route::get('/blogs', [FrontViewController::class, 'blogs'])->name('blogs');
+Route::get('/blogdetail', [FrontViewController::class, 'blogdetail'])->name('blogdetail');
+Route::get('/contactus', [FrontViewController::class, 'contactus'])->name('contactus');
+
+// static pages
+Route::get('/aboutus', [FrontViewController::class, 'aboutus'])->name('aboutus');
+Route::get('/error404', [FrontViewController::class, 'error404'])->name('error404');
+Route::get('/privacypolicy', [FrontViewController::class, 'privacypolicy'])->name('privacypolicy');
+Route::get('/pricingpage', [FrontViewController::class, 'pricingpage'])->name('pricingpage');
+Route::get('/faqs', [FrontViewController::class, 'faqs'])->name('faqs');

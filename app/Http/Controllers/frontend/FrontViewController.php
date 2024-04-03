@@ -69,4 +69,46 @@ class FrontViewController extends Controller
         return view('Frontend.addproperty');
     }
 
+    public function blogs()
+    {
+        return view('Frontend.Pages.blogs');
+    }
+    public function blogdetail()
+    {
+        return view('Frontend.Pages.blogdetail');
+    }
+
+    public function checkout()
+    {
+        return view('Frontend.checkout');
+    }
+    public function contactus()
+    {
+        return view('Frontend.Pages.contactus');
+    }
+
+    // static functions
+    public function aboutus()
+    {
+        return view('Frontend.Pages.aboutus');
+    }
+    public function error404()
+    {
+        return view('Frontend.Pages.error404');
+    }
+    public function privacypolicy()
+    {
+        return view('Frontend.Pages.privacypolicy');
+    }
+    public function pricingpage()
+    {
+        return view('Frontend.Pages.pricingpage');
+    }
+    public function faqs()
+    {
+        return view('Frontend.Pages.faqs');
+    }
+    
+    
+
 }

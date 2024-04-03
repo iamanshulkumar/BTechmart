@@ -48,7 +48,7 @@
 										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 											<i class="fa-regular fa-bell"></i><span class="noti-status"></span>
 										</button>
-										<div class="dropdown-menu pull-right animated flipInX">
+										<div class="dropdown-menu pull-right animated fadeIn">
 											<div class="drp_menu_headr">
 												<h4>Notifications</h4>
 											</div>
@@ -85,7 +85,7 @@
 										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 											<img src="{{ asset('assets/frontend-assets/img/user-5.png')}}" class="img-fluid circle" alt="">
 										</button>
-										<div class="dropdown-menu pull-right animated flipInX">
+										<div class="dropdown-menu pull-right animated fadeIn">
 											<div class="drp_menu_headr">
 												<h4>Hi, Dhananjay</h4>
 												<div class="drp_menu_headr-right"><button type="button" class="btn btn-whites">Logout</button></div>
@@ -141,15 +141,15 @@
                                 <li>
                                     <a href="JavaScript:Void(0);">Pages<span class="submenu-indicator"></span></a>
                                     <ul class="nav-dropdown nav-submenu">
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="404.html">Error Page</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="blog.html">Blogs Page</a></li>
-                                        <li><a href="blog-detail.html">Blog Detail</a></li>
-                                        <li><a href="privacy.html">Terms & Privacy</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="faq.html">FAQ's</a></li>
-                                        <li><a href="contact.html">Contacts</a></li>
+                                        <li><a href="/aboutus">About Us</a></li>
+                                        <li><a href="/error404">Error Page</a></li>
+                                        <li><a href="/checkout">Checkout</a></li>
+                                        <li><a href="/blogs">Blogs Page</a></li>
+                                        <li><a href="/blogdetail">Blog Detail</a></li>
+                                        <li><a href="/privacypolicy">Terms & Privacy</a></li>
+                                        <li><a href="/pricingpage">Pricing</a></li>
+                                        <li><a href="/faqs">FAQ's</a></li>
+                                        <li><a href="/contactus">Contacts</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -166,68 +166,101 @@
                             </ul>
 
                             {{-- logged in user --}}
-                            <ul class="nav-menu nav-menu-social align-to-right dhsbrd">
-								<li>
-									<div class="btn-group account-drop">
-										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<i class="fa-regular fa-bell"></i><span class="noti-status"></span>
-										</button>
-										<div class="dropdown-menu pull-right animated flipInX">
-											<div class="drp_menu_headr">
-												<h4>Notifications</h4>
-											</div>
-											<div class="ntf-list-groups">
-												<div class="ntf-list-groups-single">
-													<div class="ntf-list-groups-icon text-purple"><i class="fa-solid fa-house-medical-circle-check"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">Hi, Nothan your <strong>Vesh</strong> property uploaded successfully</p></div>
-												</div>
-												<div class="ntf-list-groups-single">
-													<div class="ntf-list-groups-icon text-warning"><i class="fa-solid fa-envelope"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">You have got 2 message from <strong class="text-success">Daniel</strong> 2 days ago</p></div>
-												</div>
-												<div class="ntf-list-groups-single">
-													<div class="ntf-list-groups-icon text-success"><i class="fa-solid fa-sack-dollar"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>$70,540</strong> transfer successfully in your account</p></div>
-												</div>
-												<div class="ntf-list-groups-single">
-													<div class="ntf-list-groups-icon text-danger"><i class="fa-solid fa-comments"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">2 New agent send you report messages 5 days ago</p></div>
-												</div>
-												<div class="ntf-list-groups-single">
-													<div class="ntf-list-groups-icon text-info"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">Your payment for <strong class="text-danger">Resido</strong> proerty are cancelled due to server error</p></div>
-												</div>
-												<div class="ntf-list-groups-single">
-													<a href="#" class="ntf-more">View All Notifications</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="btn-group account-drop">
-										<button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<img src="{{ asset('assets/frontend-assets/img/user-5.png')}}" class="img-fluid circle" alt="">
-										</button>
-										<div class="dropdown-menu pull-right animated flipInX">
-											<div class="drp_menu_headr">
-												<h4>Hi, Dhananjay</h4>
-												<div class="drp_menu_headr-right"><button type="button" class="btn btn-whites">Logout</button></div>
-											</div>
-											<ul>
-												<li><a href="dashboard.html"><i class="fa fa-tachometer-alt"></i>Dashboard<span class="notti_coun style-1">4</span></a></li>                                  
-												<li><a href="my-profile.html"><i class="fa fa-user-tie"></i>My Profile</a></li>                                 
-												<li><a href="bookmark-list.html"><i class="fa fa-bookmark"></i>Saved Property<span class="notti_coun style-2">7</span></a></li>
-												<li><a href="my-property.html"><i class="fa fa-tasks"></i>My Properties</a></li>
-												<li><a href="messages.html"><i class="fa fa-envelope"></i>Messages<span class="notti_coun style-3">3</span></a></li>
-												<li><a href="choose-package.html"><i class="fa fa-gift"></i>Choose Package</a></li>
-												<li><a href="submit-property-dashboard.html"><i class="fa fa-pen-nib"></i>Submit New Property</a></li>
-												<li><a href="change-password.html"><i class="fa fa-unlock-alt"></i>Change Password</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-							</ul>
+                            <ul class="nav-menu nav-menu-social align-to-right dhsbrd me-3">
+                                <li>
+                                    <div class="btn-group account-drop">
+                                        <button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa-regular fa-bell"></i><span class="noti-status"></span>
+                                        </button>
+                                        <div class="dropdown-menu pull-right animated fadeIn">
+                                            <div class="drp_menu_headr">
+                                                <h4>Notifications</h4>
+                                            </div>
+                                            <div class="ntf-list-groups">
+                                                <div class="ntf-list-groups-single">
+                                                    <div class="ntf-list-groups-icon text-purple"><i
+                                                            class="fa-solid fa-house-medical-circle-check"></i></div>
+                                                    <div class="ntf-list-groups-caption">
+                                                        <p class="small">Hi, Nothan your <strong>Vesh</strong> property
+                                                            uploaded successfully</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ntf-list-groups-single">
+                                                    <div class="ntf-list-groups-icon text-warning"><i
+                                                            class="fa-solid fa-envelope"></i></div>
+                                                    <div class="ntf-list-groups-caption">
+                                                        <p class="small">You have got 2 message from <strong
+                                                                class="text-success">Daniel</strong> 2 days ago</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ntf-list-groups-single">
+                                                    <div class="ntf-list-groups-icon text-success"><i
+                                                            class="fa-solid fa-sack-dollar"></i></div>
+                                                    <div class="ntf-list-groups-caption">
+                                                        <p class="small">Hi Nothan, Your fund <strong>$70,540</strong>
+                                                            transfer successfully in your account</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ntf-list-groups-single">
+                                                    <div class="ntf-list-groups-icon text-danger"><i
+                                                            class="fa-solid fa-comments"></i></div>
+                                                    <div class="ntf-list-groups-caption">
+                                                        <p class="small">2 New agent send you report messages 5 days
+                                                            ago</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ntf-list-groups-single">
+                                                    <div class="ntf-list-groups-icon text-info"><i
+                                                            class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                                                    <div class="ntf-list-groups-caption">
+                                                        <p class="small">Your payment for <strong
+                                                                class="text-danger">Resido</strong> proerty are
+                                                            cancelled due to server error</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ntf-list-groups-single">
+                                                    <a href="#" class="ntf-more">View All Notifications</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group account-drop">
+                                        <button type="button" class="btn btn-order-by-filt"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </button>
+                                        <div class="dropdown-menu pull-right animated fadeIn">
+                                            <div class="drp_menu_headr">
+                                                <h4>Hi, Dhananjay</h4>
+                                                <div class="drp_menu_headr-right"><button type="button"
+                                                        class="btn btn-whites">Logout</button></div>
+                                            </div>
+                                            <ul>
+                                                <li><a href="/frontdashboard"><i
+                                                            class="fa fa-tachometer-alt"></i>Dashboard</a></li>
+                                                <li><a href="/frontuserprofile"><i class="fa fa-user-tie"></i>My
+                                                        Profile</a></li>
+                                                <li><a href="/frontbookmarks"><i class="fa fa-bookmark"></i>Saved
+                                                        Property</a></li>
+                                                <li><a href="/frontmyproperty"><i class="fa fa-tasks"></i>My
+                                                        Properties</a></li>
+                                                <li><a href="/frontmessages"><i
+                                                            class="fa fa-envelope"></i>Messages</a></li>
+                                                <li><a href="choose-package.html"><i class="fa fa-gift"></i>Choose
+                                                        Package</a></li>
+                                                <li><a href="/frontsubmitproperty"><i
+                                                            class="fa fa-pen-nib"></i>Submit New Property</a></li>
+                                                <li><a href="/frontchangepassword"><i
+                                                            class="fa fa-unlock-alt"></i>Change Password</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </nav>
                 </div>
@@ -270,14 +303,14 @@
         </section>
         <!-- ============================ Call To Action End ================================== -->
         <!-- ============================ Footer Start ================================== -->
-        <footer class="skin-dark-footer black">
+        <footer class="skin-light-footer">
             <div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="footer-widget">
-                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}" class="img-footer"
-                                    alt="" />
+                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}"
+                                    class="img-footer" alt="" />
                                 <div class="footer-add">
                                     <p>Collins Street West, Victoria 8007, Australia.</p>
                                     <p>
@@ -356,8 +389,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-12 col-md-12">
                             <p class="mb-0">
-                                © 2023 Veshm. Designd By
-                                <a href="https://themezhub.com/">Themez Hub</a> All Rights
+                                © 2024 Btech Mart. Designd By
+                                <a href="https://yuvmedia.in/">Yuvmedia</a> All Rights
                                 Reserved
                             </p>
                         </div>
@@ -424,7 +457,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" class="btn full-width btn-primary">Send Message</button>
+                                    <button type="submit" class="btn full-width btn-danger">Send Message</button>
                                 </div>
 
                             </form>
@@ -444,8 +477,8 @@
                             class="fas fa-close"></i></span>
                     <div class="modal-header">
                         <div class="mdl-thumb">
-                            <img src="{{ asset('assets/frontend-assets/img/ico.png') }}" class="img-fluid"
-                                width="70" alt="" />
+                            <img src="{{ asset('assets/frontend-assets/img/faviconbtech.png') }}" class="img-fluid"
+                                width="25" alt="" />
                         </div>
                         <div class="mdl-title">
                             <h4 class="modal-header-title">Hello, Again</h4>
@@ -465,7 +498,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary full-width font--bold btn-lg">
+                                    <button type="submit" class="btn btn-danger full-width font--bold btn-lg">
                                         Log In
                                     </button>
                                 </div>
