@@ -2,7 +2,7 @@
 @section('content')
 
     <!-- ============================ Page Title Start================================== -->
-			<div class="page-title" style="background:#017efa url(assets/img/page-title.png) no-repeat;">
+			<div class="page-title" style="background:#017efa url(assets/frontend-assets/img/page-title.png) no-repeat;">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12">

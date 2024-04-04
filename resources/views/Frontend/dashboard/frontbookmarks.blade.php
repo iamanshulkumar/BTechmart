@@ -103,7 +103,7 @@
                                             <div class="title">
                                                 <h4><a href="#">11/15 Owr Tree Town</a></h4>
                                                 <span>6 Bishop Ave. Perkasie, PA </span>
-                                                <span class="table-property-price">$900 / monthly</span>
+                                                <span class="table-property-price">₹900 / monthly</span>
                                             </div>
                                         </td>
                                         <td class="action">
@@ -119,7 +119,7 @@
                                             <div class="title">
                                                 <h4><a href="#">310 Jannat Enclave</a></h4>
                                                 <span>71 Lower River Dr. Bronx, NY</span>
-                                                <span class="table-property-price">$535,000</span>
+                                                <span class="table-property-price">₹535,000</span>
                                             </div>
                                         </td>
                                         <td class="action">
@@ -135,7 +135,7 @@
                                             <div class="title">
                                                 <h4><a href="#">405 New Shiwalay Villas</a></h4>
                                                 <span>33 William St. Northbrook, IL </span>
-                                                <span class="table-property-price">$420,000</span>
+                                                <span class="table-property-price">₹420,000</span>
                                             </div>
                                         </td>
                                         <td class="action">
@@ -151,7 +151,7 @@
                                             <div class="title">
                                                 <h4><a href="#">33/450 Okhla Green Apartment</a></h4>
                                                 <span> 7843 Durham Avenue, MD </span>
-                                                <span class="table-property-price">$420,000</span>
+                                                <span class="table-property-price">₹420,000</span>
                                             </div>
                                         </td>
                                         <td class="action">

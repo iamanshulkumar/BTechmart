@@ -90,7 +90,7 @@
                                     </div>
                                     <div class="veshm-dash-block">
                                         <div class="veshm-dash-block_content">
-                                            <h4>$872M<span class="label font--medium label-purple me-2"><i
+                                            <h4>₹872M<span class="label font--medium label-purple me-2"><i
                                                         class="fa-solid fa-arrow-trend-down"></i>07%</span></h4>
                                             <h6>Total Income</h6>
                                         </div>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="veshm-dash-block">
                                         <div class="veshm-dash-block_content">
-                                            <h4>$.68M<span class="label font--medium label-success me-2"><i
+                                            <h4>₹.68M<span class="label font--medium label-success me-2"><i
                                                         class="fa-solid fa-arrow-trend-up"></i>12%</span></h4>
                                             <h6>Total Revenue</h6>
                                         </div>
@@ -181,7 +181,7 @@
                                                             <div class="d-inline-flex label text-success bg-light-success">
                                                                 Paid</div>
                                                         </td>
-                                                        <td class="prt-fgi">$120M</td>
+                                                        <td class="prt-fgi">₹120M</td>
                                                         <td>04/10/2013</td>
                                                     </tr>
 
@@ -194,7 +194,7 @@
                                                             <div class="d-inline-flex label text-warning bg-light-warning">
                                                                 Pending</div>
                                                         </td>
-                                                        <td class="prt-fgi">$210M</td>
+                                                        <td class="prt-fgi">₹210M</td>
                                                         <td>05/08/2014</td>
                                                     </tr>
 
@@ -207,7 +207,7 @@
                                                             <div class="d-inline-flex label text-danger bg-light-danger">
                                                                 Cancel</div>
                                                         </td>
-                                                        <td class="prt-fgi">$850M</td>
+                                                        <td class="prt-fgi">₹850M</td>
                                                         <td>11/05/2015</td>
                                                     </tr>
 
@@ -220,7 +220,7 @@
                                                             <div class="d-inline-flex label text-success bg-light-success">
                                                                 Paid</div>
                                                         </td>
-                                                        <td class="prt-fgi">$144M</td>
+                                                        <td class="prt-fgi">₹144M</td>
                                                         <td>06/09/2016</td>
                                                     </tr>
 
@@ -233,7 +233,7 @@
                                                             <div class="d-inline-flex label text-info bg-light-info">On
                                                                 Hold</div>
                                                         </td>
-                                                        <td class="prt-fgi">$410M</td>
+                                                        <td class="prt-fgi">₹410M</td>
                                                         <td>06/09/2016</td>
                                                     </tr>
 
@@ -246,7 +246,7 @@
                                                             <div class="d-inline-flex label text-success bg-light-success">
                                                                 Paid</div>
                                                         </td>
-                                                        <td class="prt-fgi">$317M</td>
+                                                        <td class="prt-fgi">₹317M</td>
                                                         <td>06/09/2016</td>
                                                     </tr>
 
@@ -259,7 +259,7 @@
                                                             <div class="d-inline-flex label text-danger bg-light-danger">
                                                                 Cancel</div>
                                                         </td>
-                                                        <td class="prt-fgi">$115M</td>
+                                                        <td class="prt-fgi">₹115M</td>
                                                         <td>06/09/2016</td>
                                                     </tr>
 

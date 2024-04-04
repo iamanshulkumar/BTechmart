@@ -353,7 +353,7 @@
 										<div class="check-ourio-last">
 											<h5>302/40 Jannat Enclave</h5>
 											<div class="rlhc-prt-location"><img src="{{ asset('assets/frontend-assets/img/pin.svg')}}" width="16" class="me-1" alt="">210 Zirak Road, Canada</div>
-											<div class="prt-jhio-price"><h4>$87,000</h4></div>
+											<div class="prt-jhio-price"><h4>₹87,000</h4></div>
 										</div>
 									</div>
 									<div class="check-ourio-single">
@@ -363,17 +363,17 @@
 										<div class="check-ourio-last">
 											<h5>302/40 Jannat Enclave</h5>
 											<div class="rlhc-prt-location"><img src="{{ asset('assets/frontend-assets/img/pin.svg')}}" width="16" class="me-1" alt="">210 Zirak Road, Canada</div>
-											<div class="prt-jhio-price"><h4>$95,000</h4></div>
+											<div class="prt-jhio-price"><h4>₹95,000</h4></div>
 										</div>
 									</div>
 									
 									<div class="booking-info-try rounded bg-light-success border border-success mb-4">
 										<ul>
-											<li><h6>#125469</h6><span>$87,000</span></li>
-											<li><h6>#125492</h6><span>$95,000</span></li>
-											<li><h6>GST</h6><span>$12,417</span></li>
-											<li><h6>Tax</h6><span>$72,000</span></li>
-											<li><h6 class="total-title">Total</h6><span class="total-price">$$2,14570</span></li>
+											<li><h6>#125469</h6><span>₹87,000</span></li>
+											<li><h6>#125492</h6><span>₹95,000</span></li>
+											<li><h6>GST</h6><span>₹12,417</span></li>
+											<li><h6>Tax</h6><span>₹72,000</span></li>
+											<li><h6 class="total-title">Total</h6><span class="total-price">₹₹2,14570</span></li>
 										</ul>
 									</div>
 									<button class="btn btn-theme font--medium full-width">Confirm Payment</button>

@@ -45,7 +45,7 @@
                         </div>
                         <div class="veshm-pricing-middle">
                             <div class="veshm-prc-title">
-                                <h2><sup>$</sup>49<sub>/ Month</sub></h2>
+                                <h2><sup>₹</sup>49<sub>/ Month</sub></h2>
                             </div>
                         </div>
                         <div class="veshm-pricing-content">
@@ -78,7 +78,7 @@
                         </div>
                         <div class="veshm-pricing-middle">
                             <div class="veshm-prc-title">
-                                <h2><sup>$</sup>79<sub>/ Month</sub></h2>
+                                <h2><sup>₹</sup>79<sub>/ Month</sub></h2>
                             </div>
                         </div>
                         <div class="veshm-pricing-content">
@@ -111,7 +111,7 @@
                         </div>
                         <div class="veshm-pricing-middle">
                             <div class="veshm-prc-title">
-                                <h2><sup>$</sup>99<sub>/ Month</sub></h2>
+                                <h2><sup>₹</sup>99<sub>/ Month</sub></h2>
                             </div>
                         </div>
                         <div class="veshm-pricing-content">

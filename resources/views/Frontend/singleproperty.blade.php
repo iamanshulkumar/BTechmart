@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                             <div class="vesh-detail-headup-last">
-                                <h3 class="prt-price-fix theme-cl">$10,76500<span>One Time</span></h3>
+                                <h3 class="prt-price-fix theme-cl">₹10,76500<span>One Time</span></h3>
                             </div>
                         </div>
                     </div>
@@ -463,44 +463,44 @@
                                                     <tr>
                                                         <td>10 Jan 2020</td>
                                                         <td>For Sale</td>
-                                                        <td>$40700</td>
+                                                        <td>₹40700</td>
                                                         <td>Nill</td>
-                                                        <td>$910/Sqft</td>
+                                                        <td>₹910/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td>07 Feb 2020</td>
                                                         <td>For Sale</td>
-                                                        <td>$65000</td>
+                                                        <td>₹65000</td>
                                                         <td>Nill</td>
-                                                        <td>$1650/Sqft</td>
+                                                        <td>₹1650/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td>10 Apr 2020</td>
                                                         <td>For Rent</td>
-                                                        <td>$55200</td>
+                                                        <td>₹55200</td>
                                                         <td>Nill</td>
-                                                        <td>$780/Sqft</td>
+                                                        <td>₹780/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td>17 Jan 2021</td>
                                                         <td>For Sale</td>
-                                                        <td>$70800</td>
+                                                        <td>₹70800</td>
                                                         <td>Nill</td>
-                                                        <td>$1050/Sqft</td>
+                                                        <td>₹1050/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td>20 Aug 2022</td>
                                                         <td>For Sale</td>
-                                                        <td>$80500</td>
+                                                        <td>₹80500</td>
                                                         <td>Nill</td>
-                                                        <td>$890/Sqft</td>
+                                                        <td>₹890/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td>15 Dec 2022</td>
                                                         <td>For Rent</td>
-                                                        <td>$58000</td>
+                                                        <td>₹58000</td>
                                                         <td>Nill</td>
-                                                        <td>$850/Sqft</td>
+                                                        <td>₹850/Sqft</td>
                                                     </tr>
                                                     <tr>
                                                         <td colspan="5"><span class="font--medium text-success">Source:
@@ -527,45 +527,45 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>2017</td>
-                                                        <td>$1700</td>
-                                                        <td>$40700</td>
-                                                        <td>$76,400</td>
-                                                        <td>$0</td>
+                                                        <td>₹1700</td>
+                                                        <td>₹40700</td>
+                                                        <td>₹76,400</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2018</td>
-                                                        <td>$1250</td>
-                                                        <td>$65000</td>
-                                                        <td>$75,600</td>
-                                                        <td>$0</td>
+                                                        <td>₹1250</td>
+                                                        <td>₹65000</td>
+                                                        <td>₹75,600</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2019</td>
-                                                        <td>$1360</td>
-                                                        <td>$55200</td>
-                                                        <td>$58,700</td>
-                                                        <td>$0</td>
+                                                        <td>₹1360</td>
+                                                        <td>₹55200</td>
+                                                        <td>₹58,700</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2020</td>
-                                                        <td>$1890</td>
-                                                        <td>$70800</td>
-                                                        <td>$80600</td>
-                                                        <td>$0</td>
+                                                        <td>₹1890</td>
+                                                        <td>₹70800</td>
+                                                        <td>₹80600</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2021</td>
-                                                        <td>$1620</td>
-                                                        <td>$80500</td>
-                                                        <td>$70,500</td>
-                                                        <td>$0</td>
+                                                        <td>₹1620</td>
+                                                        <td>₹80500</td>
+                                                        <td>₹70,500</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2022</td>
-                                                        <td>$1460</td>
-                                                        <td>$58000</td>
-                                                        <td>$86,800</td>
-                                                        <td>$0</td>
+                                                        <td>₹1460</td>
+                                                        <td>₹58000</td>
+                                                        <td>₹86,800</td>
+                                                        <td>₹0</td>
                                                     </tr>
                                                     <tr>
                                                         <td colspan="5"><span class="font--medium text-success">Source:
@@ -903,8 +903,8 @@
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                         <label class="form-label font--medium small">Property value</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text">$</span>
-                                            <input type="text" class="form-control" placeholder="$10000"
+                                            <span class="input-group-text">₹</span>
+                                            <input type="text" class="form-control" placeholder="₹10000"
                                                 value="250,000">
                                         </div>
                                     </div>
@@ -912,14 +912,14 @@
                                         <label class="form-label font--medium small">Your Deposit</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">@</span>
-                                            <input type="text" class="form-control" placeholder="$10000"
-                                                value="$45,000">
+                                            <input type="text" class="form-control" placeholder="₹10000"
+                                                value="₹45,000">
                                         </div>
                                     </div>
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                         <div class="alert alert-warning small mb-3" role="alert">
                                             Your Loan to value would be <strong>87%</strong> with a Deposit of
-                                            <strong>$47,0000</strong>
+                                            <strong>₹47,0000</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -977,7 +977,7 @@
 
                                 <div class="row align-items-end">
                                     <div class="col-xl-12 col-lg-12 col-12 mb-4">
-                                        <p class="m-0 p-0 font--medium small">Borrowing <strong>$250,6800</strong> and
+                                        <p class="m-0 p-0 font--medium small">Borrowing <strong>₹250,6800</strong> and
                                             repaying over 25 yers with a <strong>10 yesr fixed rates</strong>.</p>
                                     </div>
                                 </div>
@@ -987,11 +987,11 @@
                                         <div class="mortgage-wrp-bloc">
                                             <div class="mortgage-wrp-bloc-single">
                                                 <div class="mrtg-wrp-title">63 months of</div>
-                                                <div class="mrtg-wrp-subtitle">$799.70</div>
+                                                <div class="mrtg-wrp-subtitle">₹799.70</div>
                                             </div>
                                             <div class="mortgage-wrp-bloc-single">
                                                 <div class="mrtg-wrp-title">235 months of</div>
-                                                <div class="mrtg-wrp-subtitle">$12,56.40</div>
+                                                <div class="mrtg-wrp-subtitle">₹12,56.40</div>
                                             </div>
                                             <div class="mortgage-wrp-bloc-single">
                                                 <div class="mrtg-wrp-title">APRC</div>
@@ -999,7 +999,7 @@
                                             </div>
                                             <div class="mortgage-wrp-bloc-single">
                                                 <div class="mrtg-wrp-title">Initial term cost</div>
-                                                <div class="mrtg-wrp-subtitle">$72,890</div>
+                                                <div class="mrtg-wrp-subtitle">₹72,890</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1579,6 +1579,137 @@
                         </div>
 
                     </div>
+
+                    <div class="pg-side-groups mt-3">
+
+                        <div class="pg-side-block">
+                            <div class="pg-side-block-head">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-request-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-request" type="button" role="tab"
+                                            aria-controls="pills-request" aria-selected="true">Construction</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-schedule-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-schedule" type="button" role="tab"
+                                            aria-controls="pills-schedule" aria-selected="false">Interior Design</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pg-side-block-body">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-request" role="tabpanel"
+                                        aria-labelledby="pills-request-tab" tabindex="0">
+                                        <div class="pg-side-block-head b-0">
+                                           
+                                            <div class="pg-side-right">
+                                                <div class="pg-side-right-caption">
+                                                    <h4>Enquire for Construction</h4>
+                                                    {{-- <span><i class="fa-solid fa-location-dot me-2"></i>Liverpool,
+                                                        UK</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pg-side-block-info pt-0 pb-4">
+                                            <div class="sides-widget-body simple-form">
+                                                <div class="form-group">
+                                                    <label class="font--bold">Name*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Email*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Phone No.*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Phone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Description</label>
+                                                    <textarea class="form-control">I'm interested in this property.</textarea>
+                                                </div>
+                                                <button class="btn btn-theme font--medium full-width">Send
+                                                    Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="pills-schedule" role="tabpanel"
+                                        aria-labelledby="pills-schedule-tab" tabindex="0">
+                                        <div class="pg-side-block-info pt-0 pb-4">
+                                            <div class="sides-widget-body simple-form mt-2">
+                                                <div class="form-group">
+                                                    <input type="text" id="choosedate"
+                                                        data-dd-opt-custom-class="datedrp" class="form-control"
+                                                        placeholder="Choose Date">
+                                                </div>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option value="1">07:00 AM</option>
+                                                        <option value="2">08:00 AM</option>
+                                                        <option value="3">09:00 AM</option>
+                                                        <option value="4">10:00 AM</option>
+                                                        <option value="5">11:00 AM</option>
+                                                        <option value="6">12:00 PM</option>
+                                                        <option value="7">01:00 PM</option>
+                                                        <option value="8">02:00 PM</option>
+                                                        <option value="9">03:00 PM</option>
+                                                        <option value="10">04:00 PM</option>
+                                                        <option value="11">05:00 PM</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="form-group row">
+                                                    <div class="col-6">
+                                                        <input type="radio" class="btn-check" name="meeting"
+                                                            id="person-meeting" autocomplete="off" checked>
+                                                        <label class="full-width btn btn-outline-success"
+                                                            for="person-meeting"><i
+                                                                class="fa-regular fa-user me-2"></i>In Person</label>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <input type="radio" class="btn-check" name="meeting"
+                                                            id="video-meeting" autocomplete="off">
+                                                        <label class="full-width btn btn-outline-success"
+                                                            for="video-meeting"><i
+                                                                class="fa-solid fa-video me-2"></i>Video Chat</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sides-widget-body simple-form">
+                                                <div class="form-group">
+                                                    <label class="font--bold">Name*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Email*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Phone No.*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Your Phone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Description</label>
+                                                    <textarea class="form-control">I'm interested in this property.</textarea>
+                                                </div>
+                                                <button class="btn btn-theme font--medium full-width">Send
+                                                    Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
@@ -1613,13 +1744,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1629,11 +1760,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$8,540<span
+                                                <h4 class="rlhc-price-name theme-cl">₹8,540<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Great Apex Realty Group</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -1674,13 +1805,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1692,10 +1823,10 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$50,752</h4>
+                                                <h4 class="rlhc-price-name theme-cl">₹50,752</h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Hearthstone Real Property</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -1736,13 +1867,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1752,11 +1883,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$10,890<span
+                                                <h4 class="rlhc-price-name theme-cl">₹10,890<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">The Select Brick Builders</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -1797,13 +1928,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-5.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1813,11 +1944,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$7,999<span
+                                                <h4 class="rlhc-price-name theme-cl">₹7,999<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Dream Big Real Estate Group</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -1858,13 +1989,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-6.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1876,10 +2007,10 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$80,750</h4>
+                                                <h4 class="rlhc-price-name theme-cl">₹80,750</h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Allen Tate Real Company</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -1920,13 +2051,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-7.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -1936,11 +2067,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$9,540<span
+                                                <h4 class="rlhc-price-name theme-cl">₹9,540<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Arroyo Blue Real Property</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -2017,7 +2148,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <label>Your Offer</label>
-                                        <input type="text" class="form-control" placeholder="$47,500">
+                                        <input type="text" class="form-control" placeholder="₹47,500">
                                     </div>
                                 </div>
 
@@ -2048,5 +2179,4 @@
         </div>
     </div>
     <!-- End Modal -->
-
 @endsection

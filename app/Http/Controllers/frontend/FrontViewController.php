@@ -28,6 +28,10 @@ class FrontViewController extends Controller
     {
         return view('Frontend.agentgrid');
     }
+    public function frontagentlist()
+    {
+        return view('Frontend.agentlist');
+    }
     public function frontagentdetails()
     {
         return view('Frontend.agentdetails');

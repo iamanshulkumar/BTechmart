@@ -64,7 +64,7 @@
 												</div>
 												<div class="ntf-list-groups-single">
 													<div class="ntf-list-groups-icon text-success"><i class="fa-solid fa-sack-dollar"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>$70,540</strong> transfer successfully in your account</p></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>₹70,540</strong> transfer successfully in your account</p></div>
 												</div>
 												<div class="ntf-list-groups-single">
 													<div class="ntf-list-groups-icon text-danger"><i class="fa-solid fa-comments"></i></div>
@@ -199,7 +199,7 @@
                                                     <div class="ntf-list-groups-icon text-success"><i
                                                             class="fa-solid fa-sack-dollar"></i></div>
                                                     <div class="ntf-list-groups-caption">
-                                                        <p class="small">Hi Nothan, Your fund <strong>$70,540</strong>
+                                                        <p class="small">Hi Nothan, Your fund <strong>₹70,540</strong>
                                                             transfer successfully in your account</p>
                                                     </div>
                                                 </div>

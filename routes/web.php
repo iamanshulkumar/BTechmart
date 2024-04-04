@@ -57,6 +57,7 @@ Route::get('/grid-listing', [FrontViewController::class, 'frontendgridlisting'])
 Route::get('/list-listing', [FrontViewController::class, 'frontendlistlisting'])->name('frontendlistlisting');
 Route::get('/singleproperty', [FrontViewController::class, 'frontsingleproperty'])->name('frontsingleproperty');
 Route::get('/agentgrid', [FrontViewController::class, 'frontagentgrid'])->name('frontagentgrid');
+Route::get('/agentlist', [FrontViewController::class, 'frontagentlist'])->name('frontagentlist');
 Route::get('/agentdetails', [FrontViewController::class, 'frontagentdetails'])->name('frontagentdetails');
 Route::get('/frontdashboard', [FrontViewController::class, 'frontdashboard'])->name('frontdashboard');
 Route::get('/frontuserprofile', [FrontViewController::class, 'frontuserprofile'])->name('frontuserprofile');
