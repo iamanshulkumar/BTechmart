@@ -8,6 +8,9 @@
       .hero-header {
         min-height: 285px;
       }
+      .portrait-banner {
+        height: 290px;
+      }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -296,13 +296,10 @@ html body .mdi-set {
     line-height: initial;
 }
 section {
-    padding: 50px 0 50px;
+    padding: 35px 0 35px;
 }
 section.min {
-    padding: 50px 0 50px;
-}
-section.mid {
-    padding: 80px 0 50px;
+    padding: 10px 0 50px;
 }
 section.micler,
 .micler {
@@ -325,7 +322,7 @@ p {
     background: #f7d0cb;
 }
 .bg-2 {
-    background: #dde9ed;
+    background: #F0F9FF;
 }
 .tbl {
     display: table;
@@ -489,8 +486,8 @@ html body .db {
     background: #0563c2 !important;
 }
 
-.reddies-bg {
-    background: #710000 !important;
+.greenish-bg {
+    background: #EBF8F1 !important;
   }
 
 /*------------ Global Settings: Ul List Style ----------------*/
@@ -5544,6 +5541,7 @@ span.prefix-title {
     background: #f3f7fd;
     margin-bottom: 1rem;
     border-radius: 50px 4px 4px 50px;
+    flex-wrap: wrap;
 }
 .vesm-city-list-head span {
     width: 40px;
@@ -6085,6 +6083,12 @@ span.verify-icon {
     position: relative;
     display: flex;
     height: auto;
+    width: 100%;
+}
+.portrait-banner {
+    position: relative;
+    display: flex;
+    height: 335px;
     width: 100%;
 }
 .veshm-location-content {
@@ -9042,3 +9046,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     z-index: 9;
     position: relative;
   }
+
+  .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}

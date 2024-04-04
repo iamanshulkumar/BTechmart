@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/frontend-assets/img/faviconbtech.png') }}" />
+    <title>{{ config('app.name', 'Btech Mart') }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/lightfaviconbtech.png') }}" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
@@ -304,13 +304,13 @@
         </section>
         <!-- ============================ Call To Action End ================================== -->
         <!-- ============================ Footer Start ================================== -->
-        <footer class="skin-light-footer">
+        <footer class="skin-dark-footer black">
             <div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="footer-widget">
-                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}"
+                                <img src="{{ asset('assets/frontend-assets/img/lightlogo.png') }}"
                                     class="img-footer" alt="" />
                                 <div class="footer-add">
                                     <p>Collins Street West, Victoria 8007, Australia.</p>
@@ -329,11 +329,11 @@
                             <div class="footer-widget">
                                 <h4 class="widget-title">Navigations</h4>
                                 <ul class="footer-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="faq.html">FAQs Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="/aboutus">About Us</a></li>
+                                    <li><a href="/faqs">FAQs Page</a></li>
+                                    <li><a href="/checkout">Checkout</a></li>
+                                    <li><a href="/contactus">Contact</a></li>
+                                    <li><a href="/blogs">Blog</a></li>
                                 </ul>
                             </div>
                         </div>

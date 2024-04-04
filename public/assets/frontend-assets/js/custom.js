@@ -292,7 +292,7 @@ $(function() {
 	});
 	
 	// Side Slide
-	$('.side-slide').slick({
+	$('.slide-slide').slick({
 	  slidesToShow:3,
 	  dots: true,
 	  arrows: true,
@@ -317,10 +317,64 @@ $(function() {
 		}
 	  ]
 	});
+	// apartments  Slide
+	$('.apartments-slide').slick({
+	  slidesToShow:5,
+	  dots: false,
+	  arrows: true,
+	  autoplay:true,
+	  infinite: true,
+	  speed:700,
+	  slidesToScroll: 1,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		}
+	  ]
+	});
+	// rental  Slide
+	$('.rental-slide').slick({
+	  slidesToShow:3,
+	  dots: false,
+	  arrows: true,
+	  autoplay:true,
+	  infinite: true,
+	  speed:700,
+	  slidesToScroll: 1,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			arrows: false,
+			slidesToShow:1
+		  }
+		}
+	  ]
+	});
+	
+
 	
 	// property Slide
 	$('.properties-slide').slick({
-	  slidesToShow:5,
+	  slidesToShow:4,
 	  dots: true,
 	  arrows: true,
 	  autoplay:true,
@@ -344,7 +398,7 @@ $(function() {
 		}
 	  ]
 	});
-
+	
 	// category Slide
 	$('.category-slide').slick({
 	  slidesToShow:5,
@@ -366,7 +420,7 @@ $(function() {
 		  breakpoint: 600,
 		  settings: {
 			arrows: false,
-			slidesToShow:1
+			slidesToShow:2
 		  }
 		}
 	  ]
@@ -399,9 +453,41 @@ $(function() {
 	  ]
 	});
 	
+	// builders Slide
+	$('.builders-slide').slick({
+	  slidesToShow:3,
+	  arrows: true,
+	  autoplay:true,
+	  dots:true,
+	  responsive: [
+		{
+		  breakpoint: 1023,
+		  settings: {
+			arrows: false,
+			dots:true,
+			slidesToShow:3
+		  }
+		},
+		{
+		  breakpoint: 768,
+		  settings: {
+			arrows: false,
+			slidesToShow:2
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			arrows: false,
+			slidesToShow:1
+		  }
+		}
+	  ]
+	});
+
 	// Agents Slide
 	$('.agent-slide').slick({
-	  slidesToShow:4,
+	  slidesToShow:3,
 	  arrows: false,
 	  autoplay:true,
 	  dots:true,
@@ -431,7 +517,12 @@ $(function() {
 	  ]
 	});
 	
-	
+	$('.veshm-list-click').slick({
+		slidesToShow:1,
+		slidesToScroll: 1,
+		autoplay:false,
+		autoplaySpeed: 2000,
+	  });
 	
 	// Featured Slick Slider
 	$('.featured_slick_gallery-slide').slick({
@@ -505,12 +596,6 @@ $(function() {
 	  ]
 	});
 	
-	$('.veshm-list-click').slick({
-	  slidesToShow:1,
-	  slidesToScroll: 1,
-	  autoplay:false,
-	  autoplaySpeed: 2000,
-	});
 	
 	// Advance Single Slider
 	$(function() { 
