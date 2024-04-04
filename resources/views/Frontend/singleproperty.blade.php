@@ -1584,34 +1584,81 @@
 
                         <div class="pg-side-block">
                             <div class="pg-side-block-head">
-                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-request-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-request" type="button" role="tab"
-                                            aria-controls="pills-request" aria-selected="true">Construction</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-schedule-tab" data-bs-toggle="pill"
-                                            data-bs-target="#pills-schedule" type="button" role="tab"
-                                            aria-controls="pills-schedule" aria-selected="false">Interior Design</button>
-                                    </li>
-                                </ul>
+                                <h4>Enquire for Construction</h4>
                             </div>
                             <div class="pg-side-block-body">
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-request" role="tabpanel"
                                         aria-labelledby="pills-request-tab" tabindex="0">
-                                        <div class="pg-side-block-head b-0">
-                                           
-                                            <div class="pg-side-right">
-                                                <div class="pg-side-right-caption">
-                                                    <h4>Enquire for Construction</h4>
-                                                    {{-- <span><i class="fa-solid fa-location-dot me-2"></i>Liverpool,
-                                                        UK</span> --}}
+                                        
+                                        <div class="pg-side-block-info py-3">
+                                            <div class="sides-widget-body simple-form">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                                                    <div class="vsm-stay-wrap">
+                                                        <div class="vsm-stay-figure">
+                                                            <figure class="vsm-stay-thumb"><a href="JavaScript:Void(0);"
+                                                                    class="vsm-stay-link" data-bs-toggle="modal" data-bs-target="#message"><img
+                                                                        src="https://btechmart.com/assets/images/segment/img004.jpg"
+                                                                        class="img-fluid rounded" alt=""></a>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="vsm-stay-caption">
+                                                            <div class="vsm-stay-title">
+                                                                <h4>Enquire for Construction</h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-button"><a href="JavaScript:Void(0);"
+                                                                data-bs-toggle="modal" data-bs-target="#message"
+                                                                class="btn font--medium btn-theme full-width"><i
+                                                                    class="fa-solid fa-comments me-2"></i>Enquire Now</a></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="pills-schedule" role="tabpanel"
+                                        aria-labelledby="pills-schedule-tab" tabindex="0">
                                         <div class="pg-side-block-info pt-0 pb-4">
+                                            <div class="sides-widget-body simple-form mt-2">
+                                                <div class="form-group">
+                                                    <input type="text" id="choosedate"
+                                                        data-dd-opt-custom-class="datedrp" class="form-control"
+                                                        placeholder="Choose Date">
+                                                </div>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option value="1">07:00 AM</option>
+                                                        <option value="2">08:00 AM</option>
+                                                        <option value="3">09:00 AM</option>
+                                                        <option value="4">10:00 AM</option>
+                                                        <option value="5">11:00 AM</option>
+                                                        <option value="6">12:00 PM</option>
+                                                        <option value="7">01:00 PM</option>
+                                                        <option value="8">02:00 PM</option>
+                                                        <option value="9">03:00 PM</option>
+                                                        <option value="10">04:00 PM</option>
+                                                        <option value="11">05:00 PM</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="form-group row">
+                                                    <div class="col-6">
+                                                        <input type="radio" class="btn-check" name="meeting"
+                                                            id="person-meeting" autocomplete="off" checked>
+                                                        <label class="full-width btn btn-outline-success"
+                                                            for="person-meeting"><i
+                                                                class="fa-regular fa-user me-2"></i>In Person</label>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <input type="radio" class="btn-check" name="meeting"
+                                                            id="video-meeting" autocomplete="off">
+                                                        <label class="full-width btn btn-outline-success"
+                                                            for="video-meeting"><i
+                                                                class="fa-solid fa-video me-2"></i>Video Chat</label>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="sides-widget-body simple-form">
                                                 <div class="form-group">
                                                     <label class="font--bold">Name*</label>
@@ -1634,6 +1681,47 @@
                                                 </div>
                                                 <button class="btn btn-theme font--medium full-width">Send
                                                     Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="pg-side-groups mt-3">
+
+                        <div class="pg-side-block">
+                            <div class="pg-side-block-head">
+                                <h4>Enquire for Interior Designing</h4>
+                            </div>
+                            <div class="pg-side-block-body">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-request" role="tabpanel"
+                                        aria-labelledby="pills-request-tab" tabindex="0">
+                                        
+                                        <div class="pg-side-block-info py-3">
+                                            <div class="sides-widget-body simple-form">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                                                    <div class="vsm-stay-wrap">
+                                                        <div class="vsm-stay-figure">
+                                                            <figure class="vsm-stay-thumb"><a href="JavaScript:Void(0);"
+                                                                    class="vsm-stay-link" data-bs-toggle="modal" data-bs-target="#message"><img
+                                                                        src="https://sun9-69.userapi.com/impf/c855620/v855620605/ac31/1O8qZ3iKoCo.jpg?size=604x377&quality=96&sign=12303b2f8e5a3136a2ad441d9276d37e&c_uniq_tag=vNFMi1cZl7Z3Sv-AuFrbnLwRJKHakDqZ0FYimszfhnY&type=album"
+                                                                        class="img-fluid rounded" alt=""></a>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="vsm-stay-caption">
+                                                            <div class="vsm-stay-title">
+                                                                <h4>Enquire for Interior Designing</h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-button"><a href="JavaScript:Void(0);"
+                                                                data-bs-toggle="modal" data-bs-target="#message"
+                                                                class="btn font--medium btn-theme full-width"><i
+                                                                    class="fa-solid fa-comments me-2"></i>Enquire Now</a></div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

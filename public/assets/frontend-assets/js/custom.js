@@ -375,7 +375,7 @@ $(function() {
 	// property Slide
 	$('.properties-slide').slick({
 	  slidesToShow:4,
-	  dots: true,
+	  dots: false,
 	  arrows: true,
 	  autoplay:true,
 	  infinite: true,

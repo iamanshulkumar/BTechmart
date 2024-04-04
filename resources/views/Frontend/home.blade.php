@@ -67,7 +67,7 @@
                                     class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary full-width">
+                                <button type="submit" class="btn btn-danger full-width">
                                     Search
                                 </button>
                             </div>
@@ -2197,6 +2197,90 @@
     </section>
     <!-- ============================ Good Reviews By Customers ================================== -->
 
+
+    <!-- ================================= Blog Grid ================================== -->
+			<section>
+				<div class="container">
+				
+					<div class="row justify-content-center">
+						<div class="col-lg-7 col-md-10 text-center">
+							<div class="sec-heading center">
+								<h2>Trending Blog Posts</h2>
+								<p>So Much To Read</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row g-xl-3 g-lg-3 g-md-3 g-3">
+						
+						<!-- Single blog Grid -->
+						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+							<div class="veshm-grid-blog">
+								<div class="veshm-grid-blog-thumb">
+									<img src="{{ asset('assets/frontend-assets/img/blog-1.jpg')}}" class="img-fluid" alt="">
+								</div>
+								<div class="veshm-grid-blog-body">
+									<div class="veshm-grid-body-header">
+										<div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
+									</div>
+									<div class="veshm-grid-body-middle">
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+									</div>
+									<div class="veshm-grid-body-footer">
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Single blog Grid -->
+						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+							<div class="veshm-grid-blog">
+								<div class="veshm-grid-blog-thumb">
+									<img src="{{ asset('assets/frontend-assets/img/blog-2.jpg')}}" class="img-fluid" alt="">
+								</div>
+								<div class="veshm-grid-blog-body">
+									<div class="veshm-grid-body-header">
+										<div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
+									</div>
+									<div class="veshm-grid-body-middle">
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+									</div>
+									<div class="veshm-grid-body-footer">
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Single blog Grid -->
+						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+							<div class="veshm-grid-blog">
+								<div class="veshm-grid-blog-thumb">
+									<img src="{{ asset('assets/frontend-assets/img/blog-3.jpg')}}" class="img-fluid" alt="">
+								</div>
+								<div class="veshm-grid-blog-body">
+									<div class="veshm-grid-body-header">
+										<div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
+									</div>
+									<div class="veshm-grid-body-middle">
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+									</div>
+									<div class="veshm-grid-body-footer">
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>		
+			</section>
+			<!-- ================= Blog Grid End ================= -->
 
     <!-- Filter Modal -->
     <div class="modal fade" id="filter" tabindex="-1" role="dialog" aria-labelledby="filtermodal"
