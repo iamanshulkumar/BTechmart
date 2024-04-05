@@ -167,10 +167,10 @@
                             </ul>
 
                             {{-- logged in user --}}
-                            <ul class="nav-menu nav-menu-social align-to-right dhsbrd me-3">
-                                {{-- <li>
+                            {{-- <ul class="nav-menu nav-menu-social align-to-right dhsbrd me-3">
+                                <li>
                                     <div class="btn-group account-drop">
-                                        <button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown"
+                                        <button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown1"
                                             aria-haspopup="true" aria-expanded="false">
                                             <i class="fa-regular fa-bell"></i><span class="noti-status"></span>
                                         </button>
@@ -226,10 +226,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li> --}}
+                                </li>
                                 <li>
                                     <div class="btn-group account-drop">
-                                        <button type="button" class="btn btn-order-by-filt"
+                                        <button type="button" class="btn btn-order-by-filt "
                                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -261,7 +261,7 @@
                                         </div>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </nav>
                 </div>
