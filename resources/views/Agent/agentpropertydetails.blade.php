@@ -20,12 +20,14 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row gx-lg-5">
+
+
                             <div class="col-xl-4 col-md-8 mx-auto">
                                 <div class="product-img-slider sticky-side-div">
                                     <div class="swiper product-thumbnail-slider p-2 rounded bg-light">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="{{ asset('assets/images/sliderone.jpeg') }}" alt=""
+                                                <img src="{{ asset('assets/images/sliderthree.jpeg') }}" alt=""
                                                     class="img-fluid d-block" >
                                             </div>
                                             <div class="swiper-slide">
@@ -49,7 +51,7 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="nav-slide-item ">
-                                                    <img src="{{ asset('assets/images/sliderone.jpeg') }}" alt=""
+                                                    <img src="{{ asset('assets/images/sliderthree.jpeg') }}" alt=""
                                                         class="img-fluid d-block">
                                                 </div>
                                             </div>
@@ -75,6 +77,59 @@
                                     </div>
                                 </div>
                             </div>
+
+                            {{-- <div class="col-xl-4 col-md-8 mx-auto">
+                                <div class="product-img-slider sticky-side-div">
+                                    <div class="swiper product-thumbnail-slider p-2 rounded bg-light">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/products/img-8.png" alt="" class="img-fluid d-block" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/products/img-6.png" alt="" class="img-fluid d-block" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/products/img-1.png" alt="" class="img-fluid d-block" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/products/img-8.png" alt="" class="img-fluid d-block" />
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                    <!-- end swiper thumbnail slide -->
+                                    <div class="swiper product-nav-slider mt-2">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="nav-slide-item ">
+                                                    <img src="assets/images/products/img-8.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="nav-slide-item">
+                                                    <img src="assets/images/products/img-6.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="nav-slide-item">
+                                                    <img src="assets/images/products/img-1.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="nav-slide-item">
+                                                    <img src="assets/images/products/img-8.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end swiper nav slide -->
+                                </div>
+                            </div> --}}
+
+
+
+
                             <div class="col-xl-8">
                                 <div class="mt-xl-0 mt-5">
                                     <div class="d-flex">

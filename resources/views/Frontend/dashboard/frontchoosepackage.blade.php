@@ -82,7 +82,7 @@
                                     <div class="col-lg-4 col-md-4 c-l-sm-12">
                                         <div class="package-box">
                                             <span class="label d-inline-flex text-success bg-light-success">Gold Package</span>
-                                            <h4 class="packages-features-title">$449<span>/ Year</span></h4>
+                                            <h4 class="packages-features-title">₹449<span>/ Year</span></h4>
                                             <ul class="packages-lists-list">
                                                 <li>Unlimited listings</li>
                                                 <li>100 Featured</li>
@@ -102,7 +102,7 @@
                                     <div class="col-lg-4 col-md-4 c-l-sm-12">
                                         <div class="package-box">
                                             <span class="label d-inline-flex text-warning bg-light-warning">Premium Package</span>
-                                            <h4 class="packages-features-title">$249<span>/ Year</span></h4>
+                                            <h4 class="packages-features-title">₹249<span>/ Year</span></h4>
                                             <ul class="packages-lists-list">
                                                 <li>20 listings</li>
                                                 <li>5 Featured</li>
@@ -122,7 +122,7 @@
                                     <div class="col-lg-4 col-md-4 c-l-sm-12">
                                         <div class="package-box">
                                             <span class="label d-inline-flex text-info bg-light-info">Standard Package</span>
-                                            <h4 class="packages-features-title">$49<span>/ Year</span></h4>
+                                            <h4 class="packages-features-title">₹49<span>/ Year</span></h4>
                                             <ul class="packages-lists-list">
                                                 <li>10 listings</li>
                                                 <li>2 Featured</li>

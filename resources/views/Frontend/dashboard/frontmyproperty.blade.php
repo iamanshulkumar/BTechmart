@@ -46,7 +46,7 @@
 
                         <div class="adgt-wriop-footer py-3 px-3">
                             <div class="single-button d-flex align-items-center justify-content-between">
-                                <button type="button" class="btn btn-md font--bold btn-light-primary me-2 full-width"><i
+                                <button type="button" class="btn btn-md font--bold btn-light-danger me-2 full-width"><i
                                         class="fa-solid fa-phone me-2"></i>856 742 672</button>
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#message"
                                     class="btn btn-md font--bold btn-light-success full-width"><i
@@ -87,19 +87,19 @@
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                             <input type="radio" class="btn-check" name="chooselists" id="alllist"
                                                 checked>
-                                            <label class="btn btn-md btn-outline-primary font--medium"
+                                            <label class="btn btn-md btn-outline-danger font--medium"
                                                 for="alllist">All</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="activelist">
-                                            <label class="btn btn-md btn-outline-primary font--medium"
+                                            <label class="btn btn-md btn-outline-danger font--medium"
                                                 for="activelist">Active</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="expiredlist">
-                                            <label class="btn btn-md btn-outline-primary font--medium"
+                                            <label class="btn btn-md btn-outline-danger font--medium"
                                                 for="expiredlist">Expired</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="draftlist">
-                                            <label class="btn btn-md btn-outline-primary font--medium"
+                                            <label class="btn btn-md btn-outline-danger font--medium"
                                                 for="draftlist">Draft</label>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>340/15 Jannat Enclave</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$410.20M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹410.20M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -203,7 +203,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Premiere Property Group</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$275.45M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹275.45M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -262,7 +262,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Equity Point Real Estate</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$580.40M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹580.40M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -321,7 +321,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Urban Pacific Real Estate</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$260.50M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹260.50M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -380,7 +380,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Infiniti Real Estate</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$425.30M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹425.30M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -439,7 +439,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Pace Realty Corporation</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$170.50M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹170.50M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -498,7 +498,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Red Wagon Properties</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$245.20M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹245.20M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -557,7 +557,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Stream Realty Partners</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$260.40M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹260.40M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -616,7 +616,7 @@
                                                             <div class="dash_prt_caption">
                                                                 <h5>Coastal Premier Properties</h5>
                                                                 <div class="prt_dashb_lot">5682 Brown River Suit 18</div>
-                                                                <div class="prt_dash_rate"><span>$242.70M</span></div>
+                                                                <div class="prt_dash_rate"><span>₹242.70M</span></div>
                                                             </div>
                                                         </div>
                                                     </td>

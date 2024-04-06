@@ -128,7 +128,7 @@ i.req {
     color: #e41515;
 }
 .slick-next {
-    right: 20px;
+    right: -50px;
     width: 45px;
     height: 45px;
     display: flex;
@@ -140,7 +140,7 @@ i.req {
     transition: all ease 0.4s;
 }
 .slick-prev {
-    left: 20px;
+    left: -50px;
     width: 45px;
     height: 45px;
     display: flex;
@@ -296,13 +296,10 @@ html body .mdi-set {
     line-height: initial;
 }
 section {
-    padding: 80px 0 80px;
+    padding: 35px 0 35px;
 }
 section.min {
-    padding: 50px 0 50px;
-}
-section.mid {
-    padding: 80px 0 50px;
+    padding: 10px 0 50px;
 }
 section.micler,
 .micler {
@@ -325,7 +322,7 @@ p {
     background: #f7d0cb;
 }
 .bg-2 {
-    background: #dde9ed;
+    background: #F0F9FF;
 }
 .tbl {
     display: table;
@@ -488,6 +485,11 @@ html body .db {
 .classic-bg {
     background: #0563c2 !important;
 }
+
+.greenish-bg {
+    background: #EBF8F1 !important;
+  }
+
 /*------------ Global Settings: Ul List Style ----------------*/
 ul.list-style {
     padding: 0;
@@ -2148,7 +2150,11 @@ table.table tr th {
 }
 .gredient-title {
     background: -webkit-linear-gradient(45deg, #002243, #148aff 65%);
-    background: linear-gradient(45deg, #002243, #148aff 65%); /* Standard syntax */
+    background: linear-gradient(
+        45deg,
+        #002243,
+        #148aff 65%
+    ); /* Standard syntax */
     -webkit-background-clip: text;
     background-clip: text; /* Standard syntax */
     -webkit-text-fill-color: transparent;
@@ -5348,7 +5354,7 @@ span.prefix-title {
 .vesh-categ-box.light .vesh-categ-links:focus,
 .vesh-categ-box.light .vesh-categ-links:active {
     background: #cc0202;
-    border: 2px solid #17efae;
+    border: 2px solid #cc0202;
 }
 
 .vesh-categ-box .vesh-categ-links:hover .veshm-list-098,
@@ -5535,6 +5541,7 @@ span.prefix-title {
     background: #f3f7fd;
     margin-bottom: 1rem;
     border-radius: 50px 4px 4px 50px;
+    flex-wrap: wrap;
 }
 .vesm-city-list-head span {
     width: 40px;
@@ -6076,6 +6083,12 @@ span.verify-icon {
     position: relative;
     display: flex;
     height: auto;
+    width: 100%;
+}
+.portrait-banner {
+    position: relative;
+    display: flex;
+    height: 335px;
     width: 100%;
 }
 .veshm-location-content {
@@ -8145,7 +8158,7 @@ table.property-table-wrap
     border-radius: 0.2rem;
 }
 ._prt_filt_add_new .prt_submit_link i {
-    color: #87c4ff;
+    color: #fff;
     margin-right: 7px;
 }
 .dashboard_property {
@@ -8481,7 +8494,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
         line-height: 1.31818182em;
     }
     .hero-header {
-        height: 100vh;
+        /* height: 100vh; */
         min-height: 700px;
     }
     .content h1 {
@@ -8507,7 +8520,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
         border-bottom: 1px solid #e9ecef;
     }
     .hero-header {
-        min-height: 650px;
+        min-height: 350px;
     }
     .inline-top-filter-wrap .container-fluid,
     .header .container-fluid {
@@ -9019,4 +9032,21 @@ footer.skin-dark-footer .footer-widget .ftp-info {
         max-width: 140px;
         position: relative;
     }
+    
+}
+
+.container.search-bar {
+    position: absolute;
+    top: 400px;
+    z-index: 10;
+    right: 300px;
+}
+.container.sbar {
+    margin-top: -40px;
+    z-index: 9;
+    position: relative;
+  }
+
+  .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
 }

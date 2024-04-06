@@ -1,7 +1,7 @@
 @extends('frontend.website')
 @section('content')
     <!-- ============================ Page Title Start================================== -->
-    <div class="page-title" style="background:#017efa url(assets/img/page-title.png) no-repeat;">
+    <div class="page-title" style="background:#017efa url(assets/frontend-assets/img/page-title.png) no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -64,11 +64,11 @@
                                 <div class="form-group">
                                     <select id="price" class="select-normal">
                                         <option value="0">Choose Price Range</option>
-                                        <option value="1">Less Then $1000</option>
-                                        <option value="2">$1000 - $2000</option>
-                                        <option value="3">$2000 - $3000</option>
-                                        <option value="4">$3000 - $4000</option>
-                                        <option value="5">Above $5000</option>
+                                        <option value="1">Less Then ₹1000</option>
+                                        <option value="2">₹1000 - ₹2000</option>
+                                        <option value="3">₹2000 - ₹3000</option>
+                                        <option value="4">₹3000 - ₹4000</option>
+                                        <option value="5">Above ₹5000</option>
                                     </select>
                                 </div>
 
@@ -236,15 +236,11 @@
                                     <span class="small">102 Agents Found</span>
                                 </div>
                                 <div class="plc-vert-2">
-                                    <div class="btn-group" role="group">
-                                        <input type="radio" class="btn-check" name="viewpart" id="gridview" checked>
-                                        <label class="btn btn-outline-primary btn-sm font--medium" for="gridview"><i
-                                                class="fa-solid fa-border-none me-1"></i>Grid</label>
-
-                                        <input type="radio" class="btn-check" name="viewpart" id="listview">
-                                        <label class="btn btn-outline-primary btn-sm font--medium" for="listview"><i
-                                                class="fa-solid fa-bars me-1"></i>List</label>
-                                    </div>
+                                    <ul class="shorting-list">
+                                        <li class="border rounded "><a href="agentgrid" class="active"><i
+                                                    class="fas fa-table-cells-large"></i></a></li>
+                                        <li class="border rounded "><a href="agentlist"><i class="fas fa-list"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -272,8 +268,8 @@
                                         <span class="resy-98">142 Reviews</span>
                                     </div>
                                     <div class="vesh-contact">
-                                        <a href="agent-detail.html"
-                                            class="btn rounded btn-light-success full-width">Contact Agent</a>
+                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
+                                            Agent</a>
                                     </div>
                                 </div>
                                 <div class="veshm-agent-footer">
@@ -316,8 +312,8 @@
                                         <span class="resy-98">142 Reviews</span>
                                     </div>
                                     <div class="vesh-contact">
-                                        <a href="agent-detail.html"
-                                            class="btn rounded btn-light-success full-width">Contact Agent</a>
+                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
+                                            Agent</a>
                                     </div>
                                 </div>
                                 <div class="veshm-agent-footer">
@@ -359,8 +355,8 @@
                                         <span class="resy-98">140 Reviews</span>
                                     </div>
                                     <div class="vesh-contact">
-                                        <a href="agent-detail.html"
-                                            class="btn rounded btn-light-success full-width">Contact Agent</a>
+                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
+                                            Agent</a>
                                     </div>
                                 </div>
                                 <div class="veshm-agent-footer">

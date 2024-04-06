@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/frontend-assets/img/faviconbtech.png') }}" />
+    <title>{{ config('app.name', 'Btech Mart') }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/lightfaviconbtech.png') }}" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-responsive.css') }}">
 
 </head>
 
 <body>
     <!-- Preloader - style you can find in spinners.css -->
-    {{-- <div id="preloader">
+    <div id="preloader">
         <div class="preloader"><span></span><span></span></div>
-    </div> --}}
+    </div>
     <div id="main-wrapper">
         <!-- Start Navigation -->
 
@@ -63,7 +64,7 @@
 												</div>
 												<div class="ntf-list-groups-single">
 													<div class="ntf-list-groups-icon text-success"><i class="fa-solid fa-sack-dollar"></i></div>
-													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>$70,540</strong> transfer successfully in your account</p></div>
+													<div class="ntf-list-groups-caption"><p class="small">Hi Nothan, Your fund <strong>₹70,540</strong> transfer successfully in your account</p></div>
 												</div>
 												<div class="ntf-list-groups-single">
 													<div class="ntf-list-groups-icon text-danger"><i class="fa-solid fa-comments"></i></div>
@@ -166,10 +167,10 @@
                             </ul>
 
                             {{-- logged in user --}}
-                            <ul class="nav-menu nav-menu-social align-to-right dhsbrd me-3">
+                            {{-- <ul class="nav-menu nav-menu-social align-to-right dhsbrd me-3">
                                 <li>
                                     <div class="btn-group account-drop">
-                                        <button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown"
+                                        <button type="button" class="btn btn-order-by-filt" data-bs-toggle="dropdown1"
                                             aria-haspopup="true" aria-expanded="false">
                                             <i class="fa-regular fa-bell"></i><span class="noti-status"></span>
                                         </button>
@@ -198,7 +199,7 @@
                                                     <div class="ntf-list-groups-icon text-success"><i
                                                             class="fa-solid fa-sack-dollar"></i></div>
                                                     <div class="ntf-list-groups-caption">
-                                                        <p class="small">Hi Nothan, Your fund <strong>$70,540</strong>
+                                                        <p class="small">Hi Nothan, Your fund <strong>₹70,540</strong>
                                                             transfer successfully in your account</p>
                                                     </div>
                                                 </div>
@@ -228,7 +229,7 @@
                                 </li>
                                 <li>
                                     <div class="btn-group account-drop">
-                                        <button type="button" class="btn btn-order-by-filt"
+                                        <button type="button" class="btn btn-order-by-filt "
                                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -260,7 +261,7 @@
                                         </div>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </nav>
                 </div>
@@ -303,13 +304,13 @@
         </section>
         <!-- ============================ Call To Action End ================================== -->
         <!-- ============================ Footer Start ================================== -->
-        <footer class="skin-light-footer">
+        <footer class="skin-dark-footer black">
             <div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="footer-widget">
-                                <img src="{{ asset('assets/frontend-assets/img/btechmart-logo.png') }}"
+                                <img src="{{ asset('assets/frontend-assets/img/lightlogo.png') }}"
                                     class="img-footer" alt="" />
                                 <div class="footer-add">
                                     <p>Collins Street West, Victoria 8007, Australia.</p>
@@ -328,11 +329,11 @@
                             <div class="footer-widget">
                                 <h4 class="widget-title">Navigations</h4>
                                 <ul class="footer-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="faq.html">FAQs Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="/aboutus">About Us</a></li>
+                                    <li><a href="/faqs">FAQs Page</a></li>
+                                    <li><a href="/checkout">Checkout</a></li>
+                                    <li><a href="/contactus">Contact</a></li>
+                                    <li><a href="/blogs">Blog</a></li>
                                 </ul>
                             </div>
                         </div>

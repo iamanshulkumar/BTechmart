@@ -256,13 +256,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -272,11 +272,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$7,500<span
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Catbird Realty Advisors</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -322,13 +322,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -338,10 +338,10 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$100,400</h4>
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Banyan Real Estate Group</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
@@ -387,13 +387,13 @@
                                             class="fa-solid fa-repeat"></i>Compare</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
-                                            <div><a href="single-property-1.html"><img
+                                            <div><a href="/singleproperty"><img
                                                         src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
                                                         class="img-fluid mx-auto" alt=""></a></div>
                                         </div>
@@ -403,11 +403,11 @@
                                     <div class="veshm-list-head">
                                         <div class="veshm-list-head-caption">
                                             <div class="rlhc-price">
-                                                <h4 class="rlhc-price-name theme-cl">$8,599<span
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
                                                         class="monthly">/Months</span></h4>
                                             </div>
                                             <div class="listing-short-detail-flex">
-                                                <h5 class="rlhc-title-name verified"><a href="single-property-1.html"
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                         class="prt-link-detail">Allen Tate Real Company</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
