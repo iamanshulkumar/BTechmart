@@ -11,7 +11,7 @@ use App\Http\Controllers\frontend\FrontViewController;
 //Create Routes
 // Route::post('/createmaster', [MasterController::class, 'createmaster'])->name('createmaster');
 
-//View Routes (Admin Views)
+//Admin View Routes (Admin Views)
 Route::get('/viewmaster', [ViewController::class, 'viewmaster'])->name('viewmaster');
 Route::get('/vieuserlist', [ViewController::class, 'vieuserlist'])->name('vieuserlist');
 Route::get('/vieuserlistings', [ViewController::class, 'vieuserlistings'])->name('vieuserlistings');
