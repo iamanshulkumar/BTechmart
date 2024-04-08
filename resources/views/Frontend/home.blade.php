@@ -1,4 +1,4 @@
-@extends('frontend.website')
+@extends('Frontend.website')
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
     <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat"
