@@ -1,5 +1,5 @@
-@extends('frontend.website')
-@section('cotent')
+@extends('Frontend.website')
+@section('content')
 
     <!-- ============================ Page Title Start================================== -->
 			<div class="page-title" style="background:#017efa url(assets/frontend-assets/img/page-title.png) no-repeat;">
@@ -28,12 +28,12 @@
 							<div class="blog-list-block">
 								
 								<div class="blog-list-thumber">
-									<a href="blog-detail.html"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg')}}" class="img-fluid rounded" alt=""></a>
+									<a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg')}}" class="img-fluid rounded" alt=""></a>
 								</div>
 								<div class="blog-list-caption">
 									<div class="blog-info">
 										<span class="label text-success bg-light-success">Education</span>
-										<h4 class="bl-title"><a href="blog-detail.html">14 Newsletters You’ll Want in Your Inbox in 2023</a></h4>
+										<h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your Inbox in 2023</a></h4>
 									</div>
 									
 									<div class="blog-body">
@@ -57,12 +57,12 @@
 							<div class="blog-list-block">
 								
 								<div class="blog-list-thumber">
-									<a href="blog-detail.html"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg')}}" class="img-fluid rounded" alt=""></a>
+									<a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg')}}" class="img-fluid rounded" alt=""></a>
 								</div>
 								<div class="blog-list-caption">
 									<div class="blog-info">
 										<span class="label text-warning bg-light-warning">Resources</span>
-										<h4 class="bl-title"><a href="blog-detail.html">How a Change in My Role Inspired Six Impactful Habits</a></h4>
+										<h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six Impactful Habits</a></h4>
 									</div>
 									
 									<div class="blog-body">
@@ -90,13 +90,13 @@
 								<div class="veshm-grid-blog-body">
 									<div class="veshm-grid-body-header">
 										<div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="blog-detail.html">How To Work with Veshm Agency</a></h4></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
 									</div>
 									<div class="veshm-grid-body-middle">
 										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
 									</div>
 									<div class="veshm-grid-body-footer">
-										<a href="blog-detail.html" class="btn btn-blog-link">Continue Reading</a>
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
 									</div>
 								</div>
 							</div>
@@ -111,13 +111,13 @@
 								<div class="veshm-grid-blog-body">
 									<div class="veshm-grid-body-header">
 										<div class="veshm-grid-posted"><span>10 Aug 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="blog-detail.html">Want To Earn Money with Veshm?</a></h4></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">Want To Earn Money with Veshm?</a></h4></div>
 									</div>
 									<div class="veshm-grid-body-middle">
 										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
 									</div>
 									<div class="veshm-grid-body-footer">
-										<a href="blog-detail.html" class="btn btn-blog-link">Continue Reading</a>
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
 									</div>
 								</div>
 							</div>
@@ -132,13 +132,13 @@
 								<div class="veshm-grid-blog-body">
 									<div class="veshm-grid-body-header">
 										<div class="veshm-grid-posted"><span>16 Jul 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="blog-detail.html">Get Credit Card from Veshm Agency</a></h4></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">Get Credit Card from Veshm Agency</a></h4></div>
 									</div>
 									<div class="veshm-grid-body-middle">
 										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
 									</div>
 									<div class="veshm-grid-body-footer">
-										<a href="blog-detail.html" class="btn btn-blog-link">Continue Reading</a>
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
 									</div>
 								</div>
 							</div>
@@ -153,13 +153,13 @@
 								<div class="veshm-grid-blog-body">
 									<div class="veshm-grid-body-header">
 										<div class="veshm-grid-posted"><span>07 May 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="blog-detail.html">Want To Work with Veshm Agency?</a></h4></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">Want To Work with Veshm Agency?</a></h4></div>
 									</div>
 									<div class="veshm-grid-body-middle">
 										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
 									</div>
 									<div class="veshm-grid-body-footer">
-										<a href="blog-detail.html" class="btn btn-blog-link">Continue Reading</a>
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
 									</div>
 								</div>
 							</div>
@@ -174,13 +174,13 @@
 								<div class="veshm-grid-blog-body">
 									<div class="veshm-grid-body-header">
 										<div class="veshm-grid-posted"><span>19 Dec 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="blog-detail.html">How To Work with Veshm Agency</a></h4></div>
+										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
 									</div>
 									<div class="veshm-grid-body-middle">
 										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
 									</div>
 									<div class="veshm-grid-body-footer">
-										<a href="blog-detail.html" class="btn btn-blog-link">Continue Reading</a>
+										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
 									</div>
 								</div>
 							</div>

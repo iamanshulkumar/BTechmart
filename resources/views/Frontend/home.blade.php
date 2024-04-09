@@ -110,17 +110,20 @@
                                         <div class="veshm-list-click">
                                             <div>
                                                 <a href="/singleproperty">
-                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}" class="img-fluid mx-auto" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="/singleproperty"> 
-                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}" class="img-fluid mx-auto" alt="">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
                                                 </a>
                                             </div>
                                             <div>
                                                 <a href="/singleproperty">
-                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}" class="img-fluid mx-auto" alt="">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -607,10 +610,8 @@
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
-                                                </li>
-                                                <li><span class="area-inf"><i
-                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath</li>
+                                                <li><span class="area-inf"><i class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1406,7 +1407,8 @@
                         <div class="veshm-posted-body-y78">
                             <h2>Buy A Property</h2>
                             <p>
-                                Acquire ownership of a property by completing a transaction involving payment in exchange for legal rights to the asset.
+                                Acquire ownership of a property by completing a transaction involving payment in exchange
+                                for legal rights to the asset.
                             </p>
                         </div>
                         <div class="veshm-posted-footer-y78">
@@ -1426,7 +1428,8 @@
                         <div class="veshm-posted-body-y78">
                             <h2>Sell A Property</h2>
                             <p>
-                                Transfer ownership of real estate through a transaction involving payment, relinquishing legal rights to the asset to the buyer.
+                                Transfer ownership of real estate through a transaction involving payment, relinquishing
+                                legal rights to the asset to the buyer.
                             </p>
                         </div>
                         <div class="veshm-posted-footer-y78">
@@ -1446,7 +1449,8 @@
                         <div class="veshm-posted-body-y78">
                             <h2>Rent A Property</h2>
                             <p>
-                                Lease real estate for temporary use, typically involving payment to the landlord in exchange for occupying the property.
+                                Lease real estate for temporary use, typically involving payment to the landlord in exchange
+                                for occupying the property.
                             </p>
                         </div>
                         <div class="veshm-posted-footer-y78">
@@ -1586,18 +1590,15 @@
                                     </div>
                                 </div>
                                 <div class="veshm-agent-footer">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <div class="veshm-agent-social">
                                         <ul>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-facebook-f"></i></a>
+                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
                                             </li>
                                             <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
                                             </li>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1631,18 +1632,15 @@
                                     </div>
                                 </div>
                                 <div class="veshm-agent-footer">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <div class="veshm-agent-social">
                                         <ul>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-facebook-f"></i></a>
+                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
                                             </li>
                                             <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
                                             </li>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -2199,88 +2197,100 @@
 
 
     <!-- ================================= Blog Grid ================================== -->
-			<section>
-				<div class="container">
-				
-					<div class="row justify-content-center">
-						<div class="col-lg-7 col-md-10 text-center">
-							<div class="sec-heading center">
-								<h2>Trending Blog Posts</h2>
-								<p>So Much To Read</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row g-xl-3 g-lg-3 g-md-3 g-3">
-						
-						<!-- Single blog Grid -->
-						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-							<div class="veshm-grid-blog">
-								<div class="veshm-grid-blog-thumb">
-									<img src="{{ asset('assets/frontend-assets/img/blog-1.jpg')}}" class="img-fluid" alt="">
-								</div>
-								<div class="veshm-grid-blog-body">
-									<div class="veshm-grid-body-header">
-										<div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
-										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
-									</div>
-									<div class="veshm-grid-body-middle">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
-									</div>
-									<div class="veshm-grid-body-footer">
-										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Single blog Grid -->
-						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-							<div class="veshm-grid-blog">
-								<div class="veshm-grid-blog-thumb">
-									<img src="{{ asset('assets/frontend-assets/img/blog-2.jpg')}}" class="img-fluid" alt="">
-								</div>
-								<div class="veshm-grid-blog-body">
-									<div class="veshm-grid-body-header">
-										<div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
-									</div>
-									<div class="veshm-grid-body-middle">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
-									</div>
-									<div class="veshm-grid-body-footer">
-										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Single blog Grid -->
-						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-							<div class="veshm-grid-blog">
-								<div class="veshm-grid-blog-thumb">
-									<img src="{{ asset('assets/frontend-assets/img/blog-3.jpg')}}" class="img-fluid" alt="">
-								</div>
-								<div class="veshm-grid-blog-body">
-									<div class="veshm-grid-body-header">
-										<div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
-										<div class="veshm-grid-title"><h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4></div>
-									</div>
-									<div class="veshm-grid-body-middle">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
-									</div>
-									<div class="veshm-grid-body-footer">
-										<a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>		
-			</section>
-			<!-- ================= Blog Grid End ================= -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-10 text-center">
+                    <div class="sec-heading center">
+                        <h2>Trending Blog Posts</h2>
+                        <p>So Much To Read</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-xl-3 g-lg-3 g-md-3 g-3">
+
+                <!-- Single blog Grid -->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="veshm-grid-blog">
+                        <div class="veshm-grid-blog-thumb">
+                            <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}" class="img-fluid"
+                                alt="">
+                        </div>
+                        <div class="veshm-grid-blog-body">
+                            <div class="veshm-grid-body-header">
+                                <div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
+                                <div class="veshm-grid-title">
+                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                </div>
+                            </div>
+                            <div class="veshm-grid-body-middle">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                            </div>
+                            <div class="veshm-grid-body-footer">
+                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single blog Grid -->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="veshm-grid-blog">
+                        <div class="veshm-grid-blog-thumb">
+                            <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}" class="img-fluid"
+                                alt="">
+                        </div>
+                        <div class="veshm-grid-blog-body">
+                            <div class="veshm-grid-body-header">
+                                <div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
+                                <div class="veshm-grid-title">
+                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                </div>
+                            </div>
+                            <div class="veshm-grid-body-middle">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                            </div>
+                            <div class="veshm-grid-body-footer">
+                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single blog Grid -->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="veshm-grid-blog">
+                        <div class="veshm-grid-blog-thumb">
+                            <img src="{{ asset('assets/frontend-assets/img/blog-3.jpg') }}" class="img-fluid"
+                                alt="">
+                        </div>
+                        <div class="veshm-grid-blog-body">
+                            <div class="veshm-grid-body-header">
+                                <div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
+                                <div class="veshm-grid-title">
+                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                </div>
+                            </div>
+                            <div class="veshm-grid-body-middle">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                            </div>
+                            <div class="veshm-grid-body-footer">
+                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ================= Blog Grid End ================= -->
 
     <!-- Filter Modal -->
     <div class="modal fade" id="filter" tabindex="-1" role="dialog" aria-labelledby="filtermodal"

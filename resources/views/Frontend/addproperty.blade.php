@@ -1,4 +1,4 @@
-@extends('frontend.website')
+@extends('Frontend.website')
 @section('content')
 
     <!-- ============================ Page Title Start================================== -->

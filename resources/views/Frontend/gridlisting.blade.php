@@ -1,4 +1,4 @@
-@extends('frontend.website')
+@extends('Frontend.website')
 @section('content')
     <!-- ============================ Page Title Start================================== -->
     <div class="page-title" style="background:#017efa url(assets/frontend-assets/img/page-title.png) no-repeat;">
@@ -478,68 +478,5 @@
     </section>
     <!-- ============================ All Property ================================== -->
 
-    <!-- Availability Modal -->
-    <div class="modal fade" id="availability" tabindex="-1" role="dialog" aria-labelledby="availabilitymodal"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered availability-pop-form" role="document">
-            <div class="modal-content" id="availabilitymodal">
-                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
-                <div class="modal-body">
-                    <div class="text-center">
-                        <h2 class="mb-0">CONTACT</h2>
-                        <h4 class="mb-0">5689 Resot Relly, Canada</h4>
-                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
-                    </div>
-                    <div class="availability-form">
-                        <form>
-
-                            <div class="row">
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea class="form-control ht-60">I'm interested in 5689 Resot Relly, Canada. Please send me current availability and additional details.</textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Email*</label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Phone</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="default-terms_wrap mb-3">
-                                <div class="default-terms_flex">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="terms" value="option1">
-                                        <label class="form-check-label small font--medium" for="terms">By submitting
-                                            this form, you agree to our <a href="JavaScript:Void(0);"
-                                                title="Terms of Service" class="theme-cl font--medium">Terms of
-                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
-                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <button type="submit" class="btn full-width btn-primary">Submit Request</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal -->
+    
 @endsection

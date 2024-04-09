@@ -1,4 +1,4 @@
-@extends('frontend.website')
+@extends('Frontend.website')
 @section('content')
 <!-- ============================ Page Title Start================================== -->
 <div class="page-title" style="background:#017efa url(assets/frontend-assets/img/page-title.png) no-repeat;">
