@@ -324,6 +324,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
+		// centerMode: true,
 		speed: 700,
 		slidesToScroll: 1,
 		responsive: [
@@ -350,6 +351,88 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
+		centerMode: true,
+		speed: 700,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	// blog  Slide
+	$('.blog-slide').slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		centerMode: true,
+		speed: 700,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	// cities  Slide
+	$('.cities-slide').slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		// centerMode: true,
+		speed: 700,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	// reviews  Slide
+	$('.reviews-slide').slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		centerMode: true,
 		speed: 700,
 		slidesToScroll: 1,
 		responsive: [
@@ -380,6 +463,8 @@ $(function () {
 		autoplay: true,
 		infinite: true,
 		speed: 700,
+		centerMode: true,
+		variableWidth: false,
 		slidesToScroll: 1,
 		responsive: [
 			{

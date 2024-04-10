@@ -273,14 +273,14 @@
             @yield('content')
         </div>
         <!-- ============================ Call To Action ================================== -->
-        <section class="bg-cover call-action-container dark"
+        <section class="bg-cover call-action-container dark py-4"
             style="background: #065eb5 url(assets/frontend-assets/img/footer-bg-dark.png) no-repeat">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
                         <div class="call-action-wrap">
                             <div class="call-action-caption">
-                                <h2 class="text-light">Are You Already Working With Us?</h2>
+                                <h4 class="text-light">Are You Already Working With Us?</h4>
                                 <p class="text-light">
                                     At vero eos et accusamus et iusto odio dignissimos ducimus
                                     qui blanditiis praesentium voluptatum deleniti atque

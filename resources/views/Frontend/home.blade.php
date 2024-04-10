@@ -1,82 +1,116 @@
 @extends('Frontend.website')
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
-    <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat"
-        data-overlay="6">
+    {{-- <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6" --}}
+    <div class="image-cover hero-header">
         <div class="container">
             <div class="inner-banner-text text-center">
-                {{-- <h1>Discover A Beautiful<br />Place With Us</h1>
-                <p class="text-light">
+                <div class="fs-3 text-black">Find A Home <b class="text-danger">You Will Love</b></div>
+                {{-- <p class="text-light">
                     Would you explore nature paradise in the world, let't find the
                     best property in California withusss.
                 </p> --}}
             </div>
-        </div>
-    </div>
 
-    <div class="container sbar">
-        <div class="full-search-2 shadow search-bar">
-            <div class="hero-search-content colored">
-                <div class="row classic-search-box m-0 gx-2">
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                        <div class="form-group briod">
-                            <div class="input-with-icon">
-                                <input type="text" class="form-control" placeholder="Ex. villa, town etc." />
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
+            <div class="my-3 sbar">
+                <div class="full-search-2  search-bar">
+                    <div class="hero-search-content colored shadow">
+
+                        <div class="scrollable-nav mb-2 mx-1">
+                            <ul class="nav nav-underline nav-fill d-flex overflow-auto flex-nowrap">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Buy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Rent</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">New Project</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Plot</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Plot</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Plot</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                        <div class="form-group briod">
-                            <div class="input-with-icon">
-                                <select class="form-control">
-                                    <option value="1">Property types</option>
-                                    <option value="2">Townhome</option>
-                                    <option value="3">Office & Studio</option>
-                                    <option value="4">Apartments</option>
-                                    <option value="5">Condos</option>
-                                    <option value="6">Bungalow</option>
-                                    <option value="7">Farmhouse</option>
-                                    <option value="8">Tiny House</option>
-                                </select>
-                                <i class="fa-solid fa-house-crack"></i>
+                        
+                        <div class="row classic-search-box m-0 gx-2">
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                                <div class="form-group briod">
+                                    <div class="input-with-icon">
+                                        <input type="text" class="form-control "
+                                            placeholder="Search By City, Locality, Project" />
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <select class="form-control">
-                                    <option value="1">Select City</option>
-                                    <option value="2">Huntingdon</option>
-                                    <option value="3">Fenland</option>
-                                    <option value="4">Aylesbury</option>
-                                    <option value="5">Amersham</option>
-                                    <option value="6">Macclesfield</option>
-                                    <option value="7">Congleton</option>
-                                    <option value="8">UNantwich</option>
-                                </select>
-                                <i class="fa-solid fa-location-crosshairs"></i>
+
+                            {{-- Property type --}}
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                                <div class="form-group briod">
+                                    <div class="input-with-icon">
+                                        <select class="form-control">
+                                            <option value="1">Property types</option>
+                                            <option value="2">Townhome</option>
+                                            <option value="3">Office & Studio</option>
+                                            <option value="4">Apartments</option>
+                                            <option value="5">Condos</option>
+                                            <option value="6">Bungalow</option>
+                                            <option value="7">Farmhouse</option>
+                                            <option value="8">Tiny House</option>
+                                        </select>
+                                        <i class="fa-solid fa-house-crack"></i>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                        <div class="fliox-search-wiop">
-                            <div class="form-group me-2">
-                                <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#filter"
-                                    class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
+
+                            {{-- Select city --}}
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                                <div class="form-group">
+                                    <div class="input-with-icon">
+                                        <select class="form-control">
+                                            <option value="1">Select City</option>
+                                            <option value="2">Huntingdon</option>
+                                            <option value="3">Fenland</option>
+                                            <option value="4">Aylesbury</option>
+                                            <option value="5">Amersham</option>
+                                            <option value="6">Macclesfield</option>
+                                            <option value="7">Congleton</option>
+                                            <option value="8">UNantwich</option>
+                                        </select>
+                                        <i class="fa-solid fa-location-crosshairs"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-danger full-width">
-                                    Search
-                                </button>
+
+                            {{-- Filert & search btn --}}
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                                <div class="fliox-search-wiop">
+                                    <div class="form-group me-2 ">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#filter"
+                                            class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger full-width">
+                                            Search
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- ============================ Hero Banner End ================================== -->
 
     <!-- ================================= Recently Property ================================== -->
@@ -95,7 +129,7 @@
 
             <div class="row justify-content-center gx-3 gy-4">
                 <!-- Property slider -->
-                <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12 p-0">
                     <div class="properties-slide">
 
                         <!-- Single Property -->
@@ -104,8 +138,10 @@
                                 <div class="veshm-type"><span>For rent</span></div>
 
                                 <div class="veshm-list-thumb">
-                                    <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div>
@@ -141,7 +177,8 @@
                                                         class="prt-link-detail">Banyan Real Estate Group</a></h5>
                                                 <div class="rlhc-prt-location"><img
                                                         src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
-                                                        width="16" class="me-1" alt="">210 Zirak Road, Canada
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
                                                 </div>
                                             </div>
                                         </div>
@@ -151,16 +188,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
                                                 <li><span class="area-inf"><i
                                                             class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
@@ -180,7 +217,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>5</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -216,11 +253,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
@@ -245,7 +282,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>3</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -282,16 +319,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>4 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
                                                 <li><span class="area-inf"><i
                                                             class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
@@ -310,7 +347,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>6</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -347,11 +384,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
@@ -373,7 +410,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>8</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -410,16 +447,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>2 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
                                                 <li><span class="area-inf"><i
                                                             class="fa-solid fa-vector-square"></i></span>1700 Sft</li>
@@ -437,7 +474,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>2</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -474,16 +511,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
                                                 <li><span class="area-inf"><i
                                                             class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
@@ -501,7 +538,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>5</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -537,16 +574,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Ba
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
                                                 <li><span class="area-inf"><i
                                                             class="fa-solid fa-vector-square"></i></span>2000 Sft</li>
@@ -564,7 +601,7 @@
 
                                 <div class="veshm-list-thumb">
                                     <button type="button" class="compare-btn"><i
-                                            class="fa-solid fa-repeat"></i>Compare</button>
+                                            class="fa-regular fa-image"></i>5</button>
                                     <div class="veshm-list-img-slide">
                                         <div class="veshm-list-click">
                                             <div><a href="/singleproperty"><img
@@ -601,17 +638,19 @@
                                         </div>
                                     </div>
 
-                                    <div class="veshm-list-availabilty">
+                                    {{-- <div class="veshm-list-availabilty">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal"
                                             data-bs-target="#availability" class="btn btn-avalability">Check
                                             Availabilty</a>
-                                    </div>
+                                    </div> --}}
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
                                                 <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath</li>
-                                                <li><span class="area-inf"><i class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bathth
+                                                </li>
+                                                <li><span class="area-inf"><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -627,9 +666,112 @@
     </section>
     <!-- ================= Recent Property End ================= -->
 
+    <!-- ============================= Explore Categories =============================== -->
+			<section>
+				<div class="container">
+				
+					<div class="row gx-3 gy-4 p-1">
+					
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">Transaction Price</div>
+										{{-- <div class="vesh-prt-location">06 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">Price Trends</div>
+										{{-- <div class="vesh-prt-location">04 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">Locality Insights</div>
+										{{-- <div class="vesh-prt-location">07 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">Ratings & Reviews</div>
+										{{-- <div class="vesh-prt-location">05 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">My Property Insights</div>
+										{{-- <div class="vesh-prt-location">08 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+							<div class="vesh-categ-box light">
+								<a href="JavaScript:Void(0);" class="vesh-categ-links">
+									{{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
+									<div class="vesh-categ-icons">
+										<i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
+									</div>
+									<div class="vesh-categ-content">
+										<div class="vesh-content-title">Articles</div>
+										{{-- <div class="vesh-prt-location">03 Locations</div> --}}
+									</div>
+								</a>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</section>
+			<!-- ============================= End Explore Categories =============================== -->
+			
+
     <!-- ============================ Curated rental collections ================================== -->
-    <section>
-        <div class="container gray-simple p-3 rounded ">
+    <section class="gray-simple">
+        <div class="container  p-3 rounded ">
 
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-10 text-center">
@@ -642,9 +784,9 @@
                 </div>
             </div>
 
-            <div class="row g-xl-3 g-lg-3">
+            <div class="row g-xl-5 g-lg-3">
 
-                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 p-0">
                     <div class="rental-slide">
                         <!-- Single Slide -->
                         <div class="single-slide">
@@ -655,7 +797,7 @@
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h3>For Family</h4>
+                                    <h4>For Family</h4>
                                         <div class="vesh-aget-rates">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
@@ -675,7 +817,7 @@
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h3>For Single Men</h3>
+                                    <h4>For Single Men</h4>
                                     <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -695,7 +837,7 @@
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h3>For Single Women</h3>
+                                    <h4>For Single Women</h4>
                                     <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -715,7 +857,7 @@
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h3>For Tenants with Company Lease </h3>
+                                    <h4>For Tenants with Company Lease </h4>
                                     <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -745,11 +887,12 @@
     </section>
     <!-- ============================ End Curated rental collections ================================== -->
 
+
     <!-- ================= Explore Places ================= -->
     <section class="mid bg-2">
         <div class="container">
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
                 <div class="col-lg-7 col-md-10 text-center">
                     <div class="sec-heading center">
                         <h2>Homes by furnishing</h2>
@@ -758,70 +901,73 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row g-lg-5">
 
                 <!-- Single Property -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vsm-stay-wrap">
-                        <div class="vsm-stay-figure">
-                            <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
-                                        src="https://static.99acres.com/universalhp/img/d_hp_furnish_1.webp"
-                                        class="img-fluid rounded" alt=""></a>
-                            </figure>
-                        </div>
-                        <div class="vsm-stay-caption">
-                            <div class="vsm-stay-title">
-                                <h4>Furnished</h4>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12 p-0">
+                    <div class="rental-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                                src="https://static.99acres.com/universalhp/img/d_hp_furnish_1.webp"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Furnished</h4>
+                                    </div>
+                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                                src="https://static.99acres.com/universalhp/img/d_hp_furnish_4.webp"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Semifurnished </h4>
+                                    </div>
+                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                                src="https://static.99acres.com/universalhp/img/d_hp_furnish_2.webp"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Unfurnished</h4>
+                                    </div>
+                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
                 </div>
-
-                <!-- Single Property -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vsm-stay-wrap">
-                        <div class="vsm-stay-figure">
-                            <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
-                                        src="https://static.99acres.com/universalhp/img/d_hp_furnish_4.webp"
-                                        class="img-fluid rounded" alt=""></a>
-                            </figure>
-                        </div>
-                        <div class="vsm-stay-caption">
-                            <div class="vsm-stay-title">
-                                <h4>Semifurnished </h4>
-                            </div>
-                            <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Property -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vsm-stay-wrap">
-                        <div class="vsm-stay-figure">
-                            <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
-                                        src="https://static.99acres.com/universalhp/img/d_hp_furnish_2.webp"
-                                        class="img-fluid rounded" alt=""></a>
-                            </figure>
-                        </div>
-                        <div class="vsm-stay-caption">
-                            <div class="vsm-stay-title">
-                                <h4>Unfurnished</h4>
-                            </div>
-                            <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
     </section>
-    <!-- ================================= Explore Places =============================== -->
+    <!-- ================================= End Explore Places =============================== -->
+
 
     <!-- ============================ Apartments, Villas and more ================================== -->
     <section>
@@ -838,9 +984,9 @@
                 </div>
             </div>
 
-            <div class="row g-xl-3 g-lg-3">
+            <div class="row g-xl-5 g-lg-3">
 
-                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 p-0">
                     <div class="apartments-slide">
                         <!-- Single Slide -->
                         <div class="single-slide">
@@ -865,7 +1011,7 @@
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h4>Residential Land </h3>
+                                    <h4>Residential Land </h4>
 
                                 </div>
                             </div>
@@ -958,6 +1104,7 @@
     </section>
     <!-- ============================ End Apartments, Villas and more ================================== -->
 
+
     <!-- ============================ Popular builders ================================== -->
     <section class="greenish-bg mid">
         <div class="container">
@@ -971,7 +1118,7 @@
                 </div>
             </div>
 
-            <div class="row gx-xl-4 gx-lg-4">
+            <div class="row gx-xl-5 gx-lg-4">
 
                 <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
                     <div class="builders-slide">
@@ -1260,125 +1407,7 @@
 
         </div>
     </section>
-    <!-- ============================ Choose Categories End ================================== -->
-
-
-    <!-- ============================= Explore Categories =============================== -->
-    {{-- <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center">
-                        <h2>Browse More category</h2>
-                        <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque corrupti quos
-                            dolores
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gx-3 gy-4">
-                <div class="col-xl-12 col-lg-12 col-md-4 col-sm-6 col-12">
-                    <div class="category-slide">
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                    <div class="veshm-list-098"><span>26 List</span></div>
-                                    <div class="vesh-categ-icons">
-                                        <i class="fa-solid fa-house-chimney-crack abs"></i><i
-                                            class="fa-solid fa-house-chimney-crack"></i>
-                                    </div>
-                                    <div class="vesh-categ-content">
-                                        <h4 class="vesh-content-title">Townhome</h4>
-                                        <div class="vesh-prt-location">06 Locations</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                    <div class="veshm-list-098"><span>20 List</span></div>
-                                    <div class="vesh-categ-icons">
-                                        <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
-                                    </div>
-                                    <div class="vesh-categ-content">
-                                        <h4 class="vesh-content-title">Bungalow</h4>
-                                        <div class="vesh-prt-location">04 Locations</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <div class="vesh-categ-box light">
-                                    <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                        <div class="veshm-list-098"><span>19 List</span></div>
-                                        <div class="vesh-categ-icons">
-                                            <i class="fa-solid fa-house-chimney abs"></i><i
-                                                class="fa-solid fa-house-chimney"></i>
-                                        </div>
-                                        <div class="vesh-categ-content">
-                                            <h4 class="vesh-content-title">Condos</h4>
-                                            <div class="vesh-prt-location">07 Locations</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                    <div class="veshm-list-098"><span>22 List</span></div>
-                                    <div class="vesh-categ-icons">
-                                        <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
-                                    </div>
-                                    <div class="vesh-categ-content">
-                                        <h4 class="vesh-content-title">Container</h4>
-                                        <div class="vesh-prt-location">05 Locations</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                    <div class="veshm-list-098"><span>42 List</span></div>
-                                    <div class="vesh-categ-icons">
-                                        <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
-                                    </div>
-                                    <div class="vesh-categ-content">
-                                        <h4 class="vesh-content-title">Houseboat</h4>
-                                        <div class="vesh-prt-location">08 Locations</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="vesh-categ-box light">
-                                <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                    <div class="veshm-list-098"><span>16 List</span></div>
-                                    <div class="vesh-categ-icons">
-                                        <i class="fa-solid fa-house-laptop abs"></i><i
-                                            class="fa-solid fa-house-laptop"></i>
-                                    </div>
-                                    <div class="vesh-categ-content">
-                                        <h4 class="vesh-content-title">Office & Studio</h4>
-                                        <div class="vesh-prt-location">03 Locations</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- ============================= End Explore Categories =============================== -->
-
+    <!-- ============================ Popular builders End ================================== -->
 
 
     <!-- ============================ Valuable Step Start ================================== -->
@@ -1640,7 +1669,8 @@
                                             </li>
                                             <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
                                             </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            <li><a href="JavaScript:Void(0);"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1745,6 +1775,8 @@
         </div>
     </section>
     <!-- ============================ Explore Agents End ================================== -->
+
+
 
     <!-- ============================ Why Choose Us Start ================================== -->
     <section>
@@ -1865,6 +1897,7 @@
     <div class="clearfix"></div>
     <!-- ============================ Why Choose Us End ====================== -->
 
+
     <!-- ============================ Explore More City For Properties Start ================================== -->
     <section>
         <div class="container">
@@ -1881,130 +1914,129 @@
             <div class="row justify-content-center gy-4 gx-4 gx-xl-5 gx-lg-5">
 
                 <!-- Single Item -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vesm-city-list-wrap">
-                        <div class="vesm-city-list-head">
-                            <span><i class="fa-solid fa-house-tsunami"></i></span>
-                            <div>
-                                <h5>Apartment</h5>
-                                <div>Most searched localities for Flat/Apartment</div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="cities-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vesm-city-list-wrap">
+                                <div class="vesm-city-list-head">
+                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
+                                    <div>
+                                        <h5>Apartment</h5>
+                                        <div>Most searched localities for Flat/Apartment</div>
+                                    </div>
+                                </div>
+                                <div class="vesm-city-list-body">
+                                    <ul>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Huntingdonshire</a>
+                                            <span class="dios-count">15</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Huntingdon</a>
+                                            <span class="dios-count">17</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Ramsey</a>
+                                            <span class="dios-count">12</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Fenland</a>
+                                            <span class="dios-count">40</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="vesm-city-list-foot">
+                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
+                                            class="fa-regular fa-circle-right ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="vesm-city-list-body">
-                            <ul>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Huntingdonshire</a>
-                                    <span class="dios-count">15</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Huntingdon</a>
-                                    <span class="dios-count">17</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Ramsey</a>
-                                    <span class="dios-count">12</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Fenland</a>
-                                    <span class="dios-count">40</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="vesm-city-list-foot">
-                            <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                    class="fa-regular fa-circle-right ms-2"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Single Item -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vesm-city-list-wrap">
-                        <div class="vesm-city-list-head">
-                            <span><i class="fa-solid fa-house-tsunami"></i></span>
-                            <div>
-                                <h5>Plots</h5>
-                                <div>Most searched societies for Plots</div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vesm-city-list-wrap">
+                                <div class="vesm-city-list-head">
+                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
+                                    <div>
+                                        <h5>Plots</h5>
+                                        <div>Most searched societies for Plots</div>
+                                    </div>
+                                </div>
+                                <div class="vesm-city-list-body">
+                                    <ul>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Aylesbury
+                                                Vale</a>
+                                            <span class="dios-count">32</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Aylesbury</a>
+                                            <span class="dios-count">23</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Amersham</a>
+                                            <span class="dios-count">10</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Chiltern</a>
+                                            <span class="dios-count">08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="vesm-city-list-foot">
+                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
+                                            class="fa-regular fa-circle-right ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="vesm-city-list-body">
-                            <ul>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Aylesbury
-                                        Vale</a>
-                                    <span class="dios-count">32</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Aylesbury</a>
-                                    <span class="dios-count">23</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Amersham</a>
-                                    <span class="dios-count">10</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Chiltern</a>
-                                    <span class="dios-count">08</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="vesm-city-list-foot">
-                            <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                    class="fa-regular fa-circle-right ms-2"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Single Item -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                    <div class="vesm-city-list-wrap">
-                        <div class="vesm-city-list-head">
-                            <span><i class="fa-solid fa-house-tsunami"></i></span>
-                            <div>
-                                <h5>Builder Floor</h5>
-                                <div>Most searched societies for Builder Floor </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vesm-city-list-wrap">
+                                <div class="vesm-city-list-head">
+                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
+                                    <div>
+                                        <h5>Builder Floor</h5>
+                                        <div>Most searched societies for Builder Floor </div>
+                                    </div>
+                                </div>
+                                <div class="vesm-city-list-body">
+                                    <ul>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Macclesfield</a>
+                                            <span class="dios-count">07</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Congleton</a>
+                                            <span class="dios-count">10</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Knutsford</a>
+                                            <span class="dios-count">22</span>
+                                        </li>
+                                        <li>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>UNantwich</a>
+                                            <span class="dios-count">16</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="vesm-city-list-foot">
+                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
+                                            class="fa-regular fa-circle-right ms-2"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="vesm-city-list-body">
-                            <ul>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Macclesfield</a>
-                                    <span class="dios-count">07</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Congleton</a>
-                                    <span class="dios-count">10</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>Knutsford</a>
-                                    <span class="dios-count">22</span>
-                                </li>
-                                <li>
-                                    <a href="JavaScript:Void(0);"><i
-                                            class="fa-solid fa-arrow-right-long"></i>UNantwich</a>
-                                    <span class="dios-count">16</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="vesm-city-list-foot">
-                            <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                    class="fa-regular fa-circle-right ms-2"></i></a>
-                        </div>
                     </div>
-
                 </div>
-
             </div>
 
         </div>
@@ -2027,173 +2059,169 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center gx-4 gy-4">
+            <div class="row justify-content-center gx-5 gy-4">
 
                 <!-- Single Review -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="veshm-reviews-box">
-                        <div class="veshm-reviews-flex">
-                            <div class="veshm-reviews-thumb">
-                                <div class="veshm-reviews-figure"><img
-                                        src="{{ asset('assets/frontend-assets/img/team-1.jpg') }}"
-                                        class="img-fluid circle" alt=""></div>
-                            </div>
-                            <div class="veshm-reviews-caption">
-                                <div class="veshm-reviews-title">
-                                    <h4>Arturo A. Grise</h4>
+                <div class="col-xl-12 col-lg-12 col-md-6 p-0">
+                    <div class="reviews-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        <div class="veshm-reviews-figure"><img
+                                                src="{{ asset('assets/frontend-assets/img/team-1.jpg') }}"
+                                                class="img-fluid circle" alt=""></div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                        <div class="veshm-reviews-rates">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star deactive"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                <div class="veshm-reviews-rates">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star deactive"></i>
+                                <div class="veshm-reviews-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/a.webp') }}"
+                                            class="img-fluid" width="120" alt=""></figure>
                                 </div>
                             </div>
                         </div>
-                        <div class="veshm-reviews-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim.</p>
-                            <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/a.webp') }}"
-                                    class="img-fluid" width="120" alt=""></figure>
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        <div class="veshm-reviews-figure"><img
+                                                src="{{ asset('assets/frontend-assets/img/team-2.jpg') }}"
+                                                class="img-fluid circle" alt=""></div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Claudia D. Watson</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>Founder of Yeloower</span></div>
+                                        <div class="veshm-reviews-rates">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star deactive"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-reviews-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/b.webp') }}"
+                                            class="img-fluid" width="120" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        <div class="veshm-reviews-figure"><img
+                                                src="{{ asset('assets/frontend-assets/img/team-3.jpg') }}"
+                                                class="img-fluid circle" alt=""></div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Samantha J. Shoe</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Mark Soft</span></div>
+                                        <div class="veshm-reviews-rates">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star deactive"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-reviews-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/c.webp') }}"
+                                            class="img-fluid" width="120" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        <div class="veshm-reviews-figure"><img
+                                                src="{{ asset('assets/frontend-assets/img/team-4.jpg') }}"
+                                                class="img-fluid circle" alt=""></div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Nadine S. Stewart</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>Founder of Mitche LTD</span></div>
+                                        <div class="veshm-reviews-rates">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star deactive"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-reviews-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/h.webp') }}"
+                                            class="img-fluid" width="120" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        <div class="veshm-reviews-figure"><img
+                                                src="{{ asset('assets/frontend-assets/img/team-5.jpg') }}"
+                                                class="img-fluid circle" alt=""></div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Margarita J. Hutton</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Doodle</span></div>
+                                        <div class="veshm-reviews-rates">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star deactive"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-reviews-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/g.webp') }}"
+                                            class="img-fluid" width="120" alt=""></figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Single Review -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="veshm-reviews-box">
-                        <div class="veshm-reviews-flex">
-                            <div class="veshm-reviews-thumb">
-                                <div class="veshm-reviews-figure"><img
-                                        src="{{ asset('assets/frontend-assets/img/team-2.jpg') }}"
-                                        class="img-fluid circle" alt=""></div>
-                            </div>
-                            <div class="veshm-reviews-caption">
-                                <div class="veshm-reviews-title">
-                                    <h4>Claudia D. Watson</h4>
-                                </div>
-                                <div class="veshm-reviews-designation"><span>Founder of Yeloower</span></div>
-                                <div class="veshm-reviews-rates">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star deactive"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="veshm-reviews-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim.</p>
-                            <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/b.webp') }}"
-                                    class="img-fluid" width="120" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Review -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="veshm-reviews-box">
-                        <div class="veshm-reviews-flex">
-                            <div class="veshm-reviews-thumb">
-                                <div class="veshm-reviews-figure"><img
-                                        src="{{ asset('assets/frontend-assets/img/team-3.jpg') }}"
-                                        class="img-fluid circle" alt=""></div>
-                            </div>
-                            <div class="veshm-reviews-caption">
-                                <div class="veshm-reviews-title">
-                                    <h4>Samantha J. Shoe</h4>
-                                </div>
-                                <div class="veshm-reviews-designation"><span>CEO of Mark Soft</span></div>
-                                <div class="veshm-reviews-rates">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star deactive"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="veshm-reviews-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim.</p>
-                            <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/c.webp') }}"
-                                    class="img-fluid" width="120" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Review -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="veshm-reviews-box">
-                        <div class="veshm-reviews-flex">
-                            <div class="veshm-reviews-thumb">
-                                <div class="veshm-reviews-figure"><img
-                                        src="{{ asset('assets/frontend-assets/img/team-4.jpg') }}"
-                                        class="img-fluid circle" alt=""></div>
-                            </div>
-                            <div class="veshm-reviews-caption">
-                                <div class="veshm-reviews-title">
-                                    <h4>Nadine S. Stewart</h4>
-                                </div>
-                                <div class="veshm-reviews-designation"><span>Founder of Mitche LTD</span></div>
-                                <div class="veshm-reviews-rates">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star deactive"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="veshm-reviews-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim.</p>
-                            <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/h.webp') }}"
-                                    class="img-fluid" width="120" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Review -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="veshm-reviews-box">
-                        <div class="veshm-reviews-flex">
-                            <div class="veshm-reviews-thumb">
-                                <div class="veshm-reviews-figure"><img
-                                        src="{{ asset('assets/frontend-assets/img/team-5.jpg') }}"
-                                        class="img-fluid circle" alt=""></div>
-                            </div>
-                            <div class="veshm-reviews-caption">
-                                <div class="veshm-reviews-title">
-                                    <h4>Margarita J. Hutton</h4>
-                                </div>
-                                <div class="veshm-reviews-designation"><span>CEO of Doodle</span></div>
-                                <div class="veshm-reviews-rates">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star deactive"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="veshm-reviews-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim.</p>
-                            <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/g.webp') }}"
-                                    class="img-fluid" width="120" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
         </div>
     </section>
     <!-- ============================ Good Reviews By Customers ================================== -->
+
 
 
     <!-- ================================= Blog Grid ================================== -->
@@ -2209,80 +2237,84 @@
                 </div>
             </div>
 
-            <div class="row g-xl-3 g-lg-3 g-md-3 g-3">
+            <div class="row g-xl-5 g-lg-3 g-md-3 g-3">
 
                 <!-- Single blog Grid -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-grid-blog">
-                        <div class="veshm-grid-blog-thumb">
-                            <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}" class="img-fluid"
-                                alt="">
-                        </div>
-                        <div class="veshm-grid-blog-body">
-                            <div class="veshm-grid-body-header">
-                                <div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
-                                <div class="veshm-grid-title">
-                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-0">
+                    <div class="blog-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-grid-blog">
+                                <div class="veshm-grid-blog-thumb">
+                                    <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </div>
+                                <div class="veshm-grid-blog-body">
+                                    <div class="veshm-grid-body-header">
+                                        <div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
+                                        <div class="veshm-grid-title">
+                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-grid-body-middle">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                                    </div>
+                                    <div class="veshm-grid-body-footer">
+                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="veshm-grid-body-middle">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
-                            </div>
-                            <div class="veshm-grid-body-footer">
-                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Single blog Grid -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-grid-blog">
-                        <div class="veshm-grid-blog-thumb">
-                            <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}" class="img-fluid"
-                                alt="">
-                        </div>
-                        <div class="veshm-grid-blog-body">
-                            <div class="veshm-grid-body-header">
-                                <div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
-                                <div class="veshm-grid-title">
-                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-grid-blog">
+                                <div class="veshm-grid-blog-thumb">
+                                    <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </div>
+                                <div class="veshm-grid-blog-body">
+                                    <div class="veshm-grid-body-header">
+                                        <div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
+                                        <div class="veshm-grid-title">
+                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-grid-body-middle">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                                    </div>
+                                    <div class="veshm-grid-body-footer">
+                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="veshm-grid-body-middle">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
-                            </div>
-                            <div class="veshm-grid-body-footer">
-                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Single blog Grid -->
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-grid-blog">
-                        <div class="veshm-grid-blog-thumb">
-                            <img src="{{ asset('assets/frontend-assets/img/blog-3.jpg') }}" class="img-fluid"
-                                alt="">
-                        </div>
-                        <div class="veshm-grid-blog-body">
-                            <div class="veshm-grid-body-header">
-                                <div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
-                                <div class="veshm-grid-title">
-                                    <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-grid-blog">
+                                <div class="veshm-grid-blog-thumb">
+                                    <img src="{{ asset('assets/frontend-assets/img/blog-3.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </div>
+                                <div class="veshm-grid-blog-body">
+                                    <div class="veshm-grid-body-header">
+                                        <div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
+                                        <div class="veshm-grid-title">
+                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-grid-body-middle">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                                    </div>
+                                    <div class="veshm-grid-body-footer">
+                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="veshm-grid-body-middle">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat</p>
-                            </div>
-                            <div class="veshm-grid-body-footer">
-                                <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-                            </div>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -2291,6 +2323,7 @@
         </div>
     </section>
     <!-- ================= Blog Grid End ================= -->
+
 
     <!-- Filter Modal -->
     <div class="modal fade" id="filter" tabindex="-1" role="dialog" aria-labelledby="filtermodal"
@@ -3526,4 +3559,5 @@
         </div>
     </div>
     <!-- End Modal -->
+
 @endsection
