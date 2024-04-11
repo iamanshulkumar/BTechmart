@@ -8471,3 +8471,11 @@ footer.skin-dark-footer .footer-widget .ftp-info {
 .card-img-overlay {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+.insight-offcanvas.offcanvas-bottom{
+    height: 40vh !important;
+    max-width: 40% !important;
+    border-radius: 10px 10px 0 0;
+    left: 33% !important;
+}
+

@@ -10,6 +10,9 @@
     bottom: 0px; /* Adjust as needed */
     z-index: 999;
     height: auto; /* Adjust the height as needed */
+    -webkit-box-shadow: -4.5px -5px 10px 3px #00000038;
+    -moz-box-shadow: -4.5px -5px 10px 3px #00000038;
+    box-shadow: -4.5px -5px 10px 3px #00000038;
 }
 
 .mobile-footer {

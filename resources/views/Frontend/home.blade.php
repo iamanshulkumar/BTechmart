@@ -675,7 +675,7 @@
             
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
@@ -690,7 +690,7 @@
                 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
@@ -705,7 +705,7 @@
                 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
@@ -720,7 +720,7 @@
                 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
@@ -735,7 +735,7 @@
                 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
@@ -750,7 +750,7 @@
                 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>

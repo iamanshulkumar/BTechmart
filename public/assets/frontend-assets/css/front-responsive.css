@@ -1,5 +1,28 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .insight-offcanvas.offcanvas-bottom {
+        height: 50vh !important;
+        max-width: 100% !important;
+        border-radius: 10px 10px 0 0;
+        left: 0% !important;
+    }
+
+    .header.header-fixed {
+        border-bottom: 1px solid #e9ecef;
+        background: #ffffff;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-name: slideInDown;
+        animation-name: slideInDown;
+    }
+    
     .container.sbar {
         /* margin-top: -100px; */
         z-index: 9;
@@ -381,9 +404,9 @@
     a.nav-brand.static-logo {
         display: none;
     }
-    .full-search-2 .classic-search-box .form-group {
-        /* margin-bottom: 1rem; */
-    }
+    /* .full-search-2 .classic-search-box .form-group {
+        margin-bottom: 1rem;
+    } */
     .full-search-2 .hero-search-content .form-control {
         /* border: 1px solid #000; */
         border-radius: 50px;
@@ -449,9 +472,9 @@
         padding: 5px 0;
         margin: 5px 0;
     }
-    .hero-search-content .form-control {
-        /* border: 2px solid #e2e8ed; */
-    }
+    /* .hero-search-content .form-control {
+        border: 2px solid #e2e8ed;
+    } */
     .veshm-list-prty {
         display: flex;
         flex-direction: column;
