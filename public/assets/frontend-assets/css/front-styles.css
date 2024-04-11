@@ -8479,3 +8479,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     left: 33% !important;
 }
 
+#pills-tab .nav-item {
+    margin-bottom: 1rem;
+}

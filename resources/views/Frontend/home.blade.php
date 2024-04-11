@@ -2102,7 +2102,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center gx-5 gy-4">
+            <div class="row justify-content-center ">
 
                 <!-- Single Review -->
                 <div class="col-xl-12 col-lg-12 col-md-6 p-0">

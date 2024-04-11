@@ -339,19 +339,19 @@
                         </div>
                         <div id="floorinfo" class="panel-collapse collapse show" aria-labelledby="floorinfo">
                             <div class="vesh-detail-bloc-body">
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <ul class="nav nav-pills mb-3 overflow-x-auto d-flex flex-nowrap" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="pills-2d-tab" data-bs-toggle="pill"
+                                        <button class="nav-link active text-nowrap " id="pills-2d-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-2d" type="button" role="tab"
                                             aria-controls="pills-2d" aria-selected="true">2D Plans</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-3d-tab" data-bs-toggle="pill"
+                                        <button class="nav-link text-nowrap" id="pills-3d-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-3d" type="button" role="tab"
                                             aria-controls="pills-3d" aria-selected="false">3D Plans</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="pills-elevation-tab" data-bs-toggle="pill"
+                                        <button class="nav-link text-nowrap" id="pills-elevation-tab" data-bs-toggle="pill"
                                             data-bs-target="#pills-elevation" type="button" role="tab"
                                             aria-controls="pills-elevation" aria-selected="false">Elevations</button>
                                     </li>

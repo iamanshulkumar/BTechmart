@@ -644,14 +644,14 @@ $(function () {
 	$('.featured_slick_gallery-slide').slick({
 		centerMode: true,
 		infinite: true,
-		arrows: true,
+		arrows: false,
 		centerPadding: '70px',
 		slidesToShow: 2,
 		responsive: [
 			{
 				breakpoint: 768,
 				settings: {
-					arrows: true,
+					arrows: false,
 					centerPadding: '20px',
 					slidesToShow: 2
 				}
@@ -659,9 +659,9 @@ $(function () {
 			{
 				breakpoint: 480,
 				settings: {
-					arrows: true,
+					arrows: false,
 					centerPadding: '20px',
-					slidesToShow: 2
+					slidesToShow: 1
 				}
 			}
 		]
