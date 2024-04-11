@@ -11,6 +11,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/mobile.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-responsive.css') }}">
 
 </head>
@@ -303,6 +304,7 @@
             </div>
         </section>
         <!-- ============================ Call To Action End ================================== -->
+
         <!-- ============================ Footer Start ================================== -->
         <footer class="skin-dark-footer black">
             <div>
@@ -325,7 +327,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4">
+                        <div class="col-lg-2 col-md-4 hideInMobile">
                             <div class="footer-widget">
                                 <h4 class="widget-title">Navigations</h4>
                                 <ul class="footer-menu">
@@ -338,7 +340,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-2 col-md-4">
+                        <div class="col-lg-2 col-md-4 hideInMobile">
                             <div class="footer-widget">
                                 <h4 class="widget-title">The Highlights</h4>
                                 <ul class="footer-menu">
@@ -351,7 +353,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-2 col-md-6">
+                        <div class="col-lg-2 col-md-6 hideInMobile">
                             <div class="footer-widget">
                                 <h4 class="widget-title">My Account</h4>
                                 <ul class="footer-menu">
@@ -364,7 +366,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6">
+                        {{-- <div class="col-lg-3 col-md-6">
                             <div class="footer-widget">
                                 <h4 class="widget-title">Download Apps</h4>
                                 <div class="app-wrap">
@@ -380,7 +382,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -400,6 +402,71 @@
             </div>
         </footer>
         <!-- ============================ Footer End ================================== -->
+
+
+        <!-- ============================ Mobile Navigation ================================== -->
+        <div class="nav-body hideInDesktop">
+            <nav class="mobile-footer" role="menulist">
+                <a href="#!" role="menuitem" class="active" aria-describedby="nav-current">
+                    <svg aria-hidden="true">
+                        <use xlink:href="#home-icon"></use>
+                    </svg> Home
+                </a>
+                <a href="#!" role="menuitem">
+                    <svg>
+                        <use xlink:href="#insight"></use>
+                    </svg> Insights
+                </a>
+                <a href="#!" role="menuitem">
+                    <svg aria-hidden="true">
+                        <use xlink:href="#bookmark-icon"></use>
+                    </svg> Shortlist
+                </a>
+                <a href="#!" role="menuitem">
+                    <svg aria-hidden="true">
+                        <use xlink:href="#activity"></use>
+                    </svg> Activity
+                </a>
+                <a href="#!" role="menuitem">
+                    <svg aria-hidden="true">
+                        <use xlink:href="#user-icon"></use>
+                    </svg> Profile
+                </a>
+                <i class="line" id="nav-current">current item</i>
+            </nav>
+
+            
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" >
+                <symbol id="insight" viewBox="0 0 384 512">
+                    <path d="M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z"/>
+                </symbol>
+                <symbol id="home-icon" viewBox="0 0 9 9">
+                    <path
+                        d="M7.7 8.5c.3 0 .5-.2.5-.5V3.5c0-.1-.1-.3-.2-.4L4.8.6c-.2-.1-.5-.1-.7 0L1 3.1c-.1.1-.2.3-.2.4V8c0 .3.2.5.5.5h6.4zm-4.8-1h-1V3.8l2.6-2.1 2.6 2.1v3.7H2.9z" />
+                </symbol>
+                <symbol id="favorites-icon" viewBox="0 0 9 9">
+                    <path
+                        d="M4.2 8.4C3.8 8 .5 5.2.5 3 .5 1.6 1.6.5 2.9.5c.6 0 1.2.3 1.6.6.4-.4 1-.6 1.6-.6C7.4.5 8.5 1.6 8.5 3c0 2.2-3.3 5-3.7 5.3-.2.2-.5.2-.6.1zM2.9 1.5c-.7 0-1.4.7-1.4 1.5 0 1.1 1.8 3.1 3 4.3 1.1-1 3-3 3-4.3 0-.8-.6-1.5-1.4-1.5-.5 0-.9.3-1.2.7-.2.3-.6.3-.8 0-.3-.4-.7-.7-1.2-.7z" />
+                </symbol>
+                <symbol id="activity" viewBox="0 0 576 512">
+                    <path d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H512c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H512c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm96 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm104 0c0-13.3 10.7-24 24-24H448c13.3 0 24 10.7 24 24s-10.7 24-24 24H224c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24H448c13.3 0 24 10.7 24 24s-10.7 24-24 24H224c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24H448c13.3 0 24 10.7 24 24s-10.7 24-24 24H224c-13.3 0-24-10.7-24-24zm-72-64a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM96 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
+                </symbol>
+                <symbol id="plus-icon" viewBox="0 0 9 9">
+                    <path
+                        d="M4.9 2.5h-.8v1.6H2.5v.8h1.6v1.6h.8V4.9h1.6v-.8H4.9V2.5zm-.4-2c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm0 7.2c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2-1.4 3.2-3.2 3.2z" />
+                </symbol>
+                <symbol id="bookmark-icon" viewBox="0 0 9 9">
+                    <path
+                        d="M2.3.5h4.4c.5 0 .9.4.9.9v7.1L4.5 7.2 1.4 8.5V1.4c0-.5.4-.9.9-.9zm2.2 5.7l2.2 1V1.4H2.3v5.8l2.2-1z" />
+                </symbol>
+                <symbol id="user-icon" viewBox="0 0 9 9">
+                    <path
+                        d="M5.9 5.3c-.4 0-.7.3-1.4.3s-1-.3-1.4-.3c-1.2 0-2.1.9-2.1 2v.4c0 .4.3.8.8.8h5.5c.4 0 .7-.3.7-.7v-.5c0-1.1-.9-2-2.1-2zm1.4 2.5H1.8v-.5c0-.7.6-1.3 1.3-1.3.2 0 .6.3 1.4.3.8 0 1.2-.3 1.4-.3.7 0 1.3.6 1.3 1.3v.5zM4.5 5c1.2 0 2.3-1 2.3-2.3S5.8.4 4.5.4s-2.3 1-2.3 2.3S3.3 5 4.5 5zm0-3.7c.8 0 1.5.6 1.5 1.5s-.7 1.5-1.5 1.5S3 3.6 3 2.8s.7-1.5 1.5-1.5z" />
+                </symbol>
+            </svg>
+        </div>
+        <!-- ============================ Mobile Navigation End ================================== -->
+
 
         <!-- Message Modal -->
         <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="messagemodal"
@@ -611,7 +678,7 @@
         </div>
         <!-- End Modal -->
 
-        <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+        <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="fa-solid fa-angle-up"></i></a>
 
     </div>
 
@@ -635,6 +702,7 @@
 
 
     <script src="{{ asset('assets/frontend-assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/frontend-assets/js/mob-nav.js') }}"></script>
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->

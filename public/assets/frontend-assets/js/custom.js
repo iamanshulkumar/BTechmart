@@ -324,7 +324,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		// centerMode: true,
+		centerMode: false,
 		speed: 700,
 		slidesToScroll: 1,
 		responsive: [
@@ -405,7 +405,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		// centerMode: true,
+		centerMode: false,
 		speed: 700,
 		slidesToScroll: 1,
 		responsive: [
@@ -570,12 +570,43 @@ $(function () {
 		]
 	});
 
-	// Agents Slide
-	$('.agent-slide').slick({
-		slidesToShow: 3,
+	// choose Slide
+	$('.choose-slide').slick({
+		slidesToShow: 1,
 		arrows: false,
 		autoplay: true,
-		dots: true,
+		dots: false,
+		responsive: [
+			{
+				breakpoint: 1023,
+				settings: {
+					arrows: false,
+					dots: true,
+					slidesToShow: 1
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	// Agents Slide
+	$('.agent-slide').slick({
+		slidesToShow: 2,
+		arrows: true,
+		autoplay: true,
+		dots: false,
 		responsive: [
 			{
 				breakpoint: 1023,
@@ -621,7 +652,6 @@ $(function () {
 				breakpoint: 768,
 				settings: {
 					arrows: true,
-					centerMode: true,
 					centerPadding: '20px',
 					slidesToShow: 2
 				}
@@ -630,7 +660,6 @@ $(function () {
 				breakpoint: 480,
 				settings: {
 					arrows: true,
-					centerMode: true,
 					centerPadding: '20px',
 					slidesToShow: 2
 				}
@@ -764,7 +793,6 @@ $(function () {
 				breakpoint: 768,
 				settings: {
 					arrows: true,
-					centerMode: true,
 					centerPadding: '60px',
 					slidesToShow: 2
 				}
@@ -773,7 +801,6 @@ $(function () {
 				breakpoint: 480,
 				settings: {
 					arrows: false,
-					centerMode: true,
 					centerPadding: '40px',
 					slidesToShow: 1
 				}

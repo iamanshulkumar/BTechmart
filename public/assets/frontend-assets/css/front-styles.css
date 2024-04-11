@@ -210,6 +210,9 @@ i.req {
 -------------------------------------------------------------*/
 * {
     outline: none;
+    margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
 }
 
 body {
@@ -4000,7 +4003,7 @@ ul.shorting-list li a.active {
     display: none;
     cursor: pointer;
     position: fixed;
-    bottom: 10px;
+    bottom: 120px;
     right: 20px;
     text-align: center;
     font-size: 15px;
@@ -5354,7 +5357,7 @@ span.prefix-title {
 .vesh-categ-box.light .vesh-categ-links:focus,
 .vesh-categ-box.light .vesh-categ-links:active {
     background: #cc0202;
-    border: 2px solid #cc0202;
+    border: 1px solid #cc0202;
 }
 
 .vesh-categ-box .vesh-categ-links:hover .veshm-list-098,
@@ -5745,6 +5748,13 @@ span.prefix-title {
     position: relative;
 }
 .vesh-categ-list-icons i {
+    font-size: 3.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vesh-categ-list-icons img {
     font-size: 3.5rem;
     position: relative;
     display: flex;
@@ -8452,8 +8462,8 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     z-index: 10;
     right: 300px;
 }
-.container.sbar {
-    /* margin-top: -40px; */
+.container .sbar {
+    margin-top: -40px;
     z-index: 9;
     position: relative;
 }

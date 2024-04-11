@@ -1,109 +1,110 @@
 @extends('Frontend.website')
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
-    {{-- <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6" --}}
-    <div class="image-cover hero-header">
+    <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6">
+    {{-- <div class="image-cover hero-header"> --}}
         <div class="container">
             <div class="inner-banner-text text-center">
-                <div class="fs-3 text-black">Find A Home <b class="text-danger">You Will Love</b></div>
+                <div class="fs-3 text-white">Find A Home <b class="text-danger">You Will Love</b></div>
                 {{-- <p class="text-light">
                     Would you explore nature paradise in the world, let't find the
                     best property in California withusss.
                 </p> --}}
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sbar">
+            <div class="full-search-2  search-bar">
+                <div class="hero-search-content colored shadow">
 
-            <div class="my-3 sbar">
-                <div class="full-search-2  search-bar">
-                    <div class="hero-search-content colored shadow">
-
-                        <div class="scrollable-nav mb-2 mx-1">
-                            <ul class="nav nav-underline nav-fill d-flex overflow-auto flex-nowrap">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Buy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Rent</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">New Project</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Plot</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Plot</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Plot</a>
-                                </li>
-                            </ul>
+                    <div class="scrollable-nav mb-2 mx-1">
+                        <ul class="nav nav-underline nav-fill d-flex overflow-auto flex-nowrap">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Buy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Rent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">New Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Plot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Plot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Plot</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="row classic-search-box m-0 gx-2">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group briod">
+                                <div class="input-with-icon">
+                                    <input type="text" class="form-control "
+                                        placeholder="Search By City, Locality, Project" />
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
                         </div>
-                        
-                        <div class="row classic-search-box m-0 gx-2">
-                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                                <div class="form-group briod">
-                                    <div class="input-with-icon">
-                                        <input type="text" class="form-control "
-                                            placeholder="Search By City, Locality, Project" />
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </div>
+
+                        {{-- Property type --}}
+                        {{-- <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                            <div class="form-group briod">
+                                <div class="input-with-icon">
+                                    <select class="form-control">
+                                        <option value="1">Property types</option>
+                                        <option value="2">Townhome</option>
+                                        <option value="3">Office & Studio</option>
+                                        <option value="4">Apartments</option>
+                                        <option value="5">Condos</option>
+                                        <option value="6">Bungalow</option>
+                                        <option value="7">Farmhouse</option>
+                                        <option value="8">Tiny House</option>
+                                    </select>
+                                    <i class="fa-solid fa-house-crack"></i>
                                 </div>
                             </div>
+                        </div> --}}
 
-                            {{-- Property type --}}
-                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
-                                <div class="form-group briod">
-                                    <div class="input-with-icon">
-                                        <select class="form-control">
-                                            <option value="1">Property types</option>
-                                            <option value="2">Townhome</option>
-                                            <option value="3">Office & Studio</option>
-                                            <option value="4">Apartments</option>
-                                            <option value="5">Condos</option>
-                                            <option value="6">Bungalow</option>
-                                            <option value="7">Farmhouse</option>
-                                            <option value="8">Tiny House</option>
-                                        </select>
-                                        <i class="fa-solid fa-house-crack"></i>
-                                    </div>
+                        {{-- Select city --}}
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                            <div class="form-group">
+                                <div class="input-with-icon">
+                                    <select class="form-control">
+                                        <option value="1">Select City</option>
+                                        <option value="2">Huntingdon</option>
+                                        <option value="3">Fenland</option>
+                                        <option value="4">Aylesbury</option>
+                                        <option value="5">Amersham</option>
+                                        <option value="6">Macclesfield</option>
+                                        <option value="7">Congleton</option>
+                                        <option value="8">UNantwich</option>
+                                    </select>
+                                    <i class="fa-solid fa-location-crosshairs"></i>
                                 </div>
                             </div>
+                        </div>
 
-                            {{-- Select city --}}
-                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                        {{-- Filert & search btn --}}
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                            <div class="fliox-search-wiop">
+                                <div class="form-group me-2 ">
+                                    <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#filter"
+                                        class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
+                                </div>
                                 <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <select class="form-control">
-                                            <option value="1">Select City</option>
-                                            <option value="2">Huntingdon</option>
-                                            <option value="3">Fenland</option>
-                                            <option value="4">Aylesbury</option>
-                                            <option value="5">Amersham</option>
-                                            <option value="6">Macclesfield</option>
-                                            <option value="7">Congleton</option>
-                                            <option value="8">UNantwich</option>
-                                        </select>
-                                        <i class="fa-solid fa-location-crosshairs"></i>
-                                    </div>
+                                    <button type="submit" class="btn btn-danger full-width">
+                                        Search
+                                    </button>
                                 </div>
                             </div>
-
-                            {{-- Filert & search btn --}}
-                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
-                                <div class="fliox-search-wiop">
-                                    <div class="form-group me-2 ">
-                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#filter"
-                                            class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-danger full-width">
-                                            Search
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -667,106 +668,106 @@
     <!-- ================= Recent Property End ================= -->
 
     <!-- ============================= Explore Categories =============================== -->
-			<section>
-				<div class="container">
-				
-					<div class="row gx-3 gy-4 p-1">
-					
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">Transaction Price</div>
-										{{-- <div class="vesh-prt-location">06 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">Price Trends</div>
-										{{-- <div class="vesh-prt-location">04 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">Locality Insights</div>
-										{{-- <div class="vesh-prt-location">07 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">Ratings & Reviews</div>
-										{{-- <div class="vesh-prt-location">05 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">My Property Insights</div>
-										{{-- <div class="vesh-prt-location">08 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-							<div class="vesh-categ-box light">
-								<a href="JavaScript:Void(0);" class="vesh-categ-links">
-									{{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
-									<div class="vesh-categ-icons">
-										<i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
-									</div>
-									<div class="vesh-categ-content">
-										<div class="vesh-content-title">Articles</div>
-										{{-- <div class="vesh-prt-location">03 Locations</div> --}}
-									</div>
-								</a>
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</section>
-			<!-- ============================= End Explore Categories =============================== -->
+    <section>
+        <div class="container">
+        
+            <div class="row gx-3 gy-4 p-1">
+            
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Transaction Price</div>
+                                {{-- <div class="vesh-prt-location">06 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Price Trends</div>
+                                {{-- <div class="vesh-prt-location">04 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Locality Insights</div>
+                                {{-- <div class="vesh-prt-location">07 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Ratings & Reviews</div>
+                                {{-- <div class="vesh-prt-location">05 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Property Insights</div>
+                                {{-- <div class="vesh-prt-location">08 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                            {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Articles</div>
+                                {{-- <div class="vesh-prt-location">03 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <!-- ============================= End Explore Categories =============================== -->
 			
 
     <!-- ============================ Curated rental collections ================================== -->
@@ -1424,66 +1425,117 @@
                 </div>
             </div>
 
-            <div class="row align-items-center gx-4 gy-4">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-posted-box-y78">
-                        <div class="veshm-posted-head-y78">
-                            <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/frontend-assets/img/hs-1.png') }}" class="img-fluid"
-                                    alt="" />
-                            </div>
+            <div class="hideInDesktop">
+                <div class="row align-items-center gx-4 gy-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                        <div class="vesh-categ-box light">
+                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                                {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
+                                <div class="vesh-categ-icons">
+                                    <i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
+                                </div>
+                                <div class="vesh-categ-content">
+                                    <div class="vesh-content-title">Buy A Property</div>
+                                    {{-- <div class="vesh-prt-location">06 Locations</div> --}}
+                                </div>
+                            </a>
                         </div>
-                        <div class="veshm-posted-body-y78">
-                            <h2>Buy A Property</h2>
-                            <p>
-                                Acquire ownership of a property by completing a transaction involving payment in exchange
-                                for legal rights to the asset.
-                            </p>
+                    </div>
+                    
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
+                        <div class="vesh-categ-box light">
+                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                                {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
+                                <div class="vesh-categ-icons">
+                                    <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
+                                </div>
+                                <div class="vesh-categ-content">
+                                    <div class="vesh-content-title">Sell A Property</div>
+                                    {{-- <div class="vesh-prt-location">04 Locations</div> --}}
+                                </div>
+                            </a>
                         </div>
-                        <div class="veshm-posted-footer-y78">
-                            <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
+                    </div>
+                    
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1 ">
+                        <div class="vesh-categ-box light">
+                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
+                                {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
+                                <div class="vesh-categ-icons">
+                                    <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
+                                </div>
+                                <div class="vesh-categ-content">
+                                    <div class="vesh-content-title">Rent A Property</div>
+                                    {{-- <div class="vesh-prt-location">07 Locations</div> --}}
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="hideInMobile">
 
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-posted-box-y78 active">
-                        <div class="veshm-posted-head-y78">
-                            <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/frontend-assets/img/hs-3.png') }}" class="img-fluid"
-                                    alt="" />
+                <div class="row align-items-center gx-4 gy-4">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="veshm-posted-box-y78">
+                            <div class="veshm-posted-head-y78">
+                                <div class="veshm-posted-figure">
+                                    <img src="{{ asset('assets/frontend-assets/img/hs-1.png') }}" class="img-fluid"
+                                        alt="" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="veshm-posted-body-y78">
-                            <h2>Sell A Property</h2>
-                            <p>
-                                Transfer ownership of real estate through a transaction involving payment, relinquishing
-                                legal rights to the asset to the buyer.
-                            </p>
-                        </div>
-                        <div class="veshm-posted-footer-y78">
-                            <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
+                            <div class="veshm-posted-body-y78">
+                                <h2>Buy A Property</h2>
+                                <p>
+                                    Acquire ownership of a property by completing a transaction involving payment in exchange
+                                    for legal rights to the asset.
+                                </p>
+                            </div>
+                            <div class="veshm-posted-footer-y78">
+                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="veshm-posted-box-y78">
-                        <div class="veshm-posted-head-y78">
-                            <div class="veshm-posted-figure">
-                                <img src="{{ asset('assets/frontend-assets/img/hs-2.png') }}" class="img-fluid"
-                                    alt="" />
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="veshm-posted-box-y78 active">
+                            <div class="veshm-posted-head-y78">
+                                <div class="veshm-posted-figure">
+                                    <img src="{{ asset('assets/frontend-assets/img/hs-3.png') }}" class="img-fluid"
+                                        alt="" />
+                                </div>
+                            </div>
+                            <div class="veshm-posted-body-y78">
+                                <h2>Sell A Property</h2>
+                                <p>
+                                    Transfer ownership of real estate through a transaction involving payment, relinquishing
+                                    legal rights to the asset to the buyer.
+                                </p>
+                            </div>
+                            <div class="veshm-posted-footer-y78">
+                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
                             </div>
                         </div>
-                        <div class="veshm-posted-body-y78">
-                            <h2>Rent A Property</h2>
-                            <p>
-                                Lease real estate for temporary use, typically involving payment to the landlord in exchange
-                                for occupying the property.
-                            </p>
-                        </div>
-                        <div class="veshm-posted-footer-y78">
-                            <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="veshm-posted-box-y78">
+                            <div class="veshm-posted-head-y78">
+                                <div class="veshm-posted-figure">
+                                    <img src="{{ asset('assets/frontend-assets/img/hs-2.png') }}" class="img-fluid"
+                                        alt="" />
+                                </div>
+                            </div>
+                            <div class="veshm-posted-body-y78">
+                                <h2>Rent A Property</h2>
+                                <p>
+                                    Lease real estate for temporary use, typically involving payment to the landlord in exchange
+                                    for occupying the property.
+                                </p>
+                            </div>
+                            <div class="veshm-posted-footer-y78">
+                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1500,9 +1552,9 @@
             <div class="row align-items-center">
 
                 <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading">
-                        <h2 class="mb-3">Browse Agents</h2>
-                        <p class="text-paragraph">Get in touch with agents around you</p>
+                    <div class="sec-heading ">
+                        <h2 class="mb-3 text-center">Browse Agents</h2>
+                        <p class="text-paragraph text-center">Get in touch with agents around you</p>
                     </div>
                 </div>
 
@@ -1511,261 +1563,180 @@
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Amber M. Felton</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">410 Reviews</span>
-                                    </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
-                                    </div>
-                                </div>
-                                <div class="veshm-agent-footer">
+                                <div class="veshm-agent-footer mt-2 p-2">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
-                                <div class="veshm-list-75"><span>62 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Agnes R. Boggess</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">143 Reviews</span>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
                                     </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                     </div>
                                 </div>
-                                <div class="veshm-agent-footer">
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
-                                <div class="veshm-list-75"><span>84 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Elizabeth A. Sanchez</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">216 Reviews</span>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
                                     </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                     </div>
                                 </div>
-                                <div class="veshm-agent-footer">
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
-                                <div class="veshm-list-75"><span>34 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Jerry E. Middleton</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">147 Reviews</span>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
                                     </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                     </div>
                                 </div>
-                                <div class="veshm-agent-footer">
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
-                                <div class="veshm-list-75"><span>89 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Lamont B. Morrissey</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">432 Reviews</span>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
                                     </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                     </div>
                                 </div>
-                                <div class="veshm-agent-footer">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-agent-wrap">
-                                <button class="btn btn-like" type="button"><i
-                                        class="fa-solid fa-heart-circle-check"></i></button>
-                                <div class="veshm-list-75"><span>22 Property</span></div>
-                                <div class="veshm-agent-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                        class="img-fluid circle" alt="">
-                                </div>
-                                <div class="veshm-agent-content">
-                                    <h4 class="vesh-content-title">Bryan H. Radley</h4>
-                                    <div class="vesh-aget-rates">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span class="resy-98">370 Reviews</span>
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+                                        
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
                                     </div>
-                                    <div class="vesh-contact">
-                                        <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
-                                            Agent</a>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                     </div>
                                 </div>
-                                <div class="veshm-agent-footer">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
-                                    <div class="veshm-agent-social">
-                                        <ul>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-facebook-f"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i class="fa-brands fa-instagram"></i></a>
-                                            </li>
-                                            <li><a href="JavaScript:Void(0);"><i
-                                                        class="fa-brands fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
                                 </div>
                             </div>
+                            
                         </div>
 
                     </div>
@@ -1784,7 +1755,7 @@
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-5 col-md-12 col-12">
                     <div class="side-thumber-wrap">
-                        <div class="side-effect"></div>
+                        {{-- <div class="side-effect"></div> --}}
                         <div class="side-thumber-img">
                             <figure>
                                 <img src="{{ asset('assets/frontend-assets/img/side-1.png') }}"
@@ -1814,19 +1785,91 @@
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-12">
                     <div class="choose-us-head">
-                        <div class="choose-us-wriops mb-2">
+                        <div class="choose-us-wriops my-4">
                             <span class="font--bold label-light-success px-3 py-2 rounded">Choose Us</span>
                         </div>
                         <div class="choose-title">
                             <h2>Why Choose Us For Your House<br />Needs?</h2>
-                            <p>
-                                At vero eos et accusamus et iusto odio dignissimos ducimus
-                                qui blanditiis praesentium voluptatum deleniti atque
-                                corrupti quos dolores
-                            </p>
                         </div>
                         <div class="veshm-icon-box-list mt-4">
-                            <ul>
+                            <ul class="hideInDesktop">
+                                <div class="choose-slide">
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                    <li>
+                                        <div class="vib-list-wrap21">
+                                            <div class="vib-list-icon">
+                                                <i class="fa-solid fa-house-circle-check"></i>
+                                            </div>
+                                            <div class="vib-list-caption">
+                                                <h5>Comfirtable House Designs</h5>
+                                                <p>
+                                                    At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus qui blanditiis praesentium voluptatum
+                                                    deleniti atque corrupti quos dolores
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                    <li>
+                                        <div class="vib-list-wrap21">
+                                            <div class="vib-list-icon">
+                                                <i class="fa-solid fa-user-clock"></i>
+                                            </div>
+                                            <div class="vib-list-caption">
+                                                <h5>Professional & Friendly Developers</h5>
+                                                <p>
+                                                    At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus qui blanditiis praesentium voluptatum
+                                                    deleniti atque corrupti quos dolores
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                    <li>
+                                        <div class="vib-list-wrap21">
+                                            <div class="vib-list-icon">
+                                                <i class="fa-solid fa-phone-volume"></i>
+                                            </div>
+                                            <div class="vib-list-caption">
+                                                <h5>Fully & Fast Response</h5>
+                                                <p>
+                                                    At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus qui blanditiis praesentium voluptatum
+                                                    deleniti atque corrupti quos dolores
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                    <li>
+                                        <div class="vib-list-wrap21">
+                                            <div class="vib-list-icon">
+                                                <i class="fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="vib-list-caption">
+                                                <h5>Free Chat Supports</h5>
+                                                <p>
+                                                    At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus qui blanditiis praesentium voluptatum
+                                                    deleniti atque corrupti quos dolores
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                </div>
+                            </ul>
+                                    
+                            <ul class="hideInMobile">
                                 <li>
                                     <div class="vib-list-wrap21">
                                         <div class="vib-list-icon">

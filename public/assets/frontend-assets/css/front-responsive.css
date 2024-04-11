@@ -224,6 +224,13 @@
 /*--------------------------------------------------
 	Responsiveness Start
 ---------------------------------------------------*/
+
+@media all and (min-width: 767px) {
+    .hideInDesktop {
+        display: none;
+    }
+ }
+
 @media all and (min-height: 600px) and (min-width: 767px) {
     .height-10 {
         height: 10vh;
@@ -269,7 +276,7 @@
         border-bottom: 1px solid #e9ecef;
     }
     .hero-header {
-        min-height: 200px;
+        min-height: 250px;
     }
     .inline-top-filter-wrap .container-fluid,
     .header .container-fluid {
@@ -370,6 +377,7 @@
 }
 
 @media (max-width: 991px) {
+    
     a.nav-brand.static-logo {
         display: none;
     }
