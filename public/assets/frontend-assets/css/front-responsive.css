@@ -73,6 +73,7 @@
         height: calc(100% - 9rem);
         top: 9rem;
     }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -477,11 +478,13 @@
     } */
     .veshm-list-prty {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        padding: 0;
     }
     .veshm-list-prty-figure {
-        width: 100%;
-        margin-bottom: 0.8rem;
+        width: 65%;
+        margin: 0.4rem;
+        height: 170px;
     }
     .veshm-list-prty-caption {
         padding-left: 0;
@@ -497,6 +500,12 @@
     .veshm-list-prty .veshm-list-prty-caption {
         flex: auto;
         width: 100%;
+        padding: 10px;
+    }
+    .rlhc-title-name {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
     }
     .veshm-list-middle {
         height: auto;

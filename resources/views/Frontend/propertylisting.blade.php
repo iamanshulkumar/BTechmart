@@ -233,10 +233,10 @@
                                             <option value="3">Most Popular</option>
                                         </select>
                                     </div>
-                                    <ul class="shorting-list">
+                                    {{-- <ul class="shorting-list">
                                         <li><a href="grid-listing"><i class="fas fa-table-cells-large"></i></a></li>
                                         <li><a href="list-listing" class="active"><i class="fas fa-list"></i></a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                             </div>
                         </div>
@@ -246,7 +246,7 @@
                     <div class="row gx-3 gy-4">
 
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2 ">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -290,7 +290,7 @@
                                         <div class="veshm-list-icons">
                                             <ul>
                                                 <li><i class="fa-solid fa-bed"></i><span>3 Bed</span></li>
-                                                <li><i class="fa-solid fa-bath"></i><span>2 Ba</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>2 Bath</span></li>
                                                 <li><i class="fa-solid fa-vector-square"></i><span>2200 Sqft</span></li>
                                                 <li><i class="fa-solid fa-calendar-days"></i><span>Built 2017</span></li>
                                             </ul>
@@ -305,7 +305,7 @@
                                         </div>
                                         <div class="veshm-list-ftr1707">
                                             <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
-                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
+                                                class="btn btn-sm btn-primary font--medium">Bid</a>
                                         </div>
                                     </div>
                                 </div>
@@ -313,7 +313,7 @@
                         </div>
 
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2 ">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -357,7 +357,7 @@
                                         <div class="veshm-list-icons">
                                             <ul>
                                                 <li><i class="fa-solid fa-bed"></i><span>4 Bed</span></li>
-                                                <li><i class="fa-solid fa-bath"></i><span>2 Ba</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>2 Bath</span></li>
                                                 <li><i class="fa-solid fa-vector-square"></i><span>3200 Sqft</span></li>
                                                 <li><i class="fa-solid fa-calendar-days"></i><span>Built 2020</span></li>
                                             </ul>
@@ -372,7 +372,7 @@
                                         </div>
                                         <div class="veshm-list-ftr1707">
                                             <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
-                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
+                                                class="btn btn-sm btn-primary font--medium">Bid</a>
                                         </div>
                                     </div>
                                 </div>
@@ -380,7 +380,7 @@
                         </div>
 
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2 ">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -424,7 +424,7 @@
                                         <div class="veshm-list-icons">
                                             <ul>
                                                 <li><i class="fa-solid fa-bed"></i><span>3 Bed</span></li>
-                                                <li><i class="fa-solid fa-bath"></i><span>3 Ba</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>3 Bath</span></li>
                                                 <li><i class="fa-solid fa-vector-square"></i><span>2100 Sqft</span></li>
                                                 <li><i class="fa-solid fa-calendar-days"></i><span>Built 2021</span></li>
                                             </ul>
@@ -439,7 +439,73 @@
                                         </div>
                                         <div class="veshm-list-ftr1707">
                                             <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
-                                                class="btn btn-md btn-primary font--medium">Send Offer</a>
+                                                class="btn btn-sm btn-primary font--medium">Bid</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Property -->
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2 ">
+                            <div class="veshm-list-prty">
+                                <div class="veshm-list-prty-figure">
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-7.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-prty-caption">
+                                    <div class="veshm-list-kygf">
+                                        <div class="veshm-list-kygf-flex">
+                                            <div class="veshm-list-typess rent"><span>For Rent</span></div>
+                                            <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                    class="prt-link-detail">The Goldfinch Real Property</a></h5>
+                                            <div class="vesh-aget-rates">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span class="resy-98">452 Reviews</span>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like active" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-list-middle">
+                                        <div class="veshm-list-icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bed"></i><span>3 Bed</span></li>
+                                                <li><i class="fa-solid fa-bath"></i><span>3 Bath</span></li>
+                                                <li><i class="fa-solid fa-vector-square"></i><span>2100 Sqft</span></li>
+                                                <li><i class="fa-solid fa-calendar-days"></i><span>Built 2021</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="veshm-list-footers">
+                                        <div class="veshm-list-ftr786">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,999<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-ftr1707">
+                                            <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#offer"
+                                                class="btn btn-sm btn-primary font--medium">Bid</a>
                                         </div>
                                     </div>
                                 </div>

@@ -16,9 +16,9 @@ class FrontViewController extends Controller
     {
         return view('Frontend.gridlisting');
     }
-    public function frontendlistlisting()
+    public function frontendpropertylisting()
     {
-        return view('Frontend.listlisting');
+        return view('Frontend.propertylisting');
     }
     public function frontsingleproperty()
     {

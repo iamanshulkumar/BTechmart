@@ -332,7 +332,7 @@ $(function () {
 				breakpoint: 1024,
 				settings: {
 					arrows: false,
-					slidesToShow: 2
+					slidesToShow: 3
 				}
 			},
 			{
@@ -550,7 +550,7 @@ $(function () {
 				settings: {
 					arrows: false,
 					dots: true,
-					slidesToShow: 3
+					slidesToShow: 2
 				}
 			},
 			{
@@ -613,7 +613,7 @@ $(function () {
 				settings: {
 					arrows: false,
 					dots: true,
-					slidesToShow: 3
+					slidesToShow: 2
 				}
 			},
 			{

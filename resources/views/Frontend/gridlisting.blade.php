@@ -233,11 +233,11 @@
                                             <option value="3">Most Popular</option>
                                         </select>
                                     </div>
-                                    <ul class="shorting-list">
+                                    {{-- <ul class="shorting-list hideInMobile">
                                         <li><a href="grid-listing" class="active"><i
                                                     class="fas fa-table-cells-large"></i></a></li>
                                         <li><a href="list-listing"><i class="fas fa-list"></i></a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                             </div>
                         </div>

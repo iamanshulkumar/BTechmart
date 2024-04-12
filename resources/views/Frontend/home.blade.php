@@ -2,7 +2,6 @@
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
     <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6">
-    {{-- <div class="image-cover hero-header"> --}}
         <div class="container">
             <div class="inner-banner-text text-center">
                 <div class="fs-3 text-white">Find A Home <b class="text-danger">You Will Love</b></div>
@@ -13,6 +12,7 @@
             </div>
         </div>
     </div>
+    {{-- search bar --}}
     <div class="container">
         <div class="sbar">
             <div class="full-search-2  search-bar">
@@ -130,7 +130,7 @@
 
             <div class="row justify-content-center gx-3 gy-4">
                 <!-- Property slider -->
-                <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12 p-0">
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
                     <div class="properties-slide">
 
                         <!-- Single Property -->
@@ -787,7 +787,7 @@
 
             <div class="row g-xl-5 g-lg-3">
 
-                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 p-0">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 p-0">
                     <div class="rental-slide">
                         <!-- Single Slide -->
                         <div class="single-slide">
@@ -911,7 +911,7 @@
                         <div class="single-slide">
                             <div class="vsm-stay-wrap">
                                 <div class="vsm-stay-figure">
-                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
                                                 src="https://static.99acres.com/universalhp/img/d_hp_furnish_1.webp"
                                                 class="img-fluid rounded" alt=""></a>
                                     </figure>
@@ -920,7 +920,7 @@
                                     <div class="vsm-stay-title">
                                         <h4>Furnished</h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
                                     </div>
                                 </div>
                             </div>
@@ -929,7 +929,7 @@
                         <div class="single-slide">
                             <div class="vsm-stay-wrap">
                                 <div class="vsm-stay-figure">
-                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
                                                 src="https://static.99acres.com/universalhp/img/d_hp_furnish_4.webp"
                                                 class="img-fluid rounded" alt=""></a>
                                     </figure>
@@ -938,7 +938,7 @@
                                     <div class="vsm-stay-title">
                                         <h4>Semifurnished </h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
                                     </div>
                                 </div>
                             </div>
@@ -947,7 +947,7 @@
                         <div class="single-slide">
                             <div class="vsm-stay-wrap">
                                 <div class="vsm-stay-figure">
-                                    <figure class="vsm-stay-thumb"><a href="/grid-listing" class="vsm-stay-link"><img
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
                                                 src="https://static.99acres.com/universalhp/img/d_hp_furnish_2.webp"
                                                 class="img-fluid rounded" alt=""></a>
                                     </figure>
@@ -956,7 +956,7 @@
                                     <div class="vsm-stay-title">
                                         <h4>Unfurnished</h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/grid-listing" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
                                     </div>
                                 </div>
                             </div>
@@ -987,7 +987,7 @@
 
             <div class="row g-xl-5 g-lg-3">
 
-                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 p-0">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 p-0">
                     <div class="apartments-slide">
                         <!-- Single Slide -->
                         <div class="single-slide">
@@ -1096,7 +1096,7 @@
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <a href="/grid-listing" class="btn btn-outline-gray">Explore More<i
+                    <a href="/propertylisting" class="btn btn-outline-gray">Explore More<i
                             class="fa-regular fa-circle-right ms-2"></i></a>
                 </div>
             </div>
@@ -1121,12 +1121,12 @@
 
             <div class="row gx-xl-5 gx-lg-4">
 
-                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="builders-slide">
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-house-chimney-crack"></i>
                                     </div>
@@ -1146,7 +1146,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-tents"></i>
                                     </div>
@@ -1171,7 +1171,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-vihara"></i>
                                     </div>
@@ -1194,7 +1194,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-tents"></i>
                                     </div>
@@ -1218,7 +1218,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-ship"></i>
                                     </div>
@@ -1241,7 +1241,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-house-laptop"></i>
                                     </div>
@@ -1266,7 +1266,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-house-chimney-crack"></i>
                                     </div>
@@ -1286,7 +1286,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-tents"></i>
                                     </div>
@@ -1310,7 +1310,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-vihara"></i>
                                     </div>
@@ -1333,7 +1333,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-tents"></i>
                                     </div>
@@ -1357,7 +1357,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-ship"></i>
                                     </div>
@@ -1380,7 +1380,7 @@
                             </div>
 
                             <div class="vesh-list-categ-box">
-                                <a href="/grid-listing" class="vesh-categ-list-links">
+                                <a href="/propertylisting" class="vesh-categ-list-links">
                                     <div class="vesh-categ-list-icons">
                                         <i class="fa-solid fa-house-laptop"></i>
                                     </div>

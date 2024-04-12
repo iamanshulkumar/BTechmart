@@ -130,7 +130,7 @@
 
                     <div class="row gx-3 gy-4">
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -197,7 +197,7 @@
                         </div>
 
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -264,7 +264,7 @@
                         </div>
 
                         <!-- Single Property -->
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12  mt-2">
                             <div class="veshm-list-prty">
                                 <div class="veshm-list-prty-figure">
                                     <div class="veshm-list-img-slide">
@@ -841,70 +841,6 @@
     </section>
     <!-- ============================ Agent List End ================================== -->
 
-    <!-- Bid Offer Modal -->
-    <div class="modal fade" id="offer" tabindex="-1" role="dialog" aria-labelledby="offermodal"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered offer-pop-form" role="document">
-            <div class="modal-content" id="offermodal">
-                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
-                <div class="modal-body">
-                    <div class="text-center">
-                        <h2 class="mb-0">Bid Your Offer</h2>
-                        <h4 class="mb-0">For 5689 Resot Relly, Canada</h4>
-                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
-                    </div>
-                    <div class="offer-form">
-                        <form>
-
-                            <div class="row">
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Dhananjay Preet">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Phone</label>
-                                        <input type="text" class="form-control"
-                                            placeholder="dhananjaypreet@gmail.com">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <label>Your Offer</label>
-                                        <input type="text" class="form-control" placeholder="₹47,500">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="default-terms_wrap mb-3">
-                                <div class="default-terms_flex">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="terms" value="option1">
-                                        <label class="form-check-label small font--medium" for="terms">By submitting
-                                            this form, you agree to our <a href="JavaScript:Void(0);"
-                                                title="Terms of Service" class="theme-cl font--medium">Terms of
-                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
-                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <button type="submit" class="btn full-width btn-primary">Submit Offer</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal -->
+    
 
 @endsection
