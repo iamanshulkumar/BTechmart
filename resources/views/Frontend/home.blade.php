@@ -1,10 +1,11 @@
 @extends('Frontend.website')
 @section('content')
     <!-- ============================ Hero Banner  Start================================== -->
-    <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat" data-overlay="6">
+    <div class="image-cover hero-header" style="background: url(assets/frontend-assets/img/banner-5.jpg) no-repeat"
+        data-overlay="6">
         <div class="container">
             <div class="inner-banner-text text-center">
-                <div class="fs-3 text-white">Find A Home <b class="text-danger">You Will Love</b></div>
+                <div class="fs-3 text-white">Find A Home <b class="text-white">You Will Love</b></div>
                 {{-- <p class="text-light">
                     Would you explore nature paradise in the world, let't find the
                     best property in California withusss.
@@ -17,8 +18,7 @@
         <div class="sbar">
             <div class="full-search-2  search-bar">
                 <div class="hero-search-content colored shadow">
-
-                    <div class="scrollable-nav mb-2 mx-1">
+                    <div class="scrollable-nav mb-2 mx-1 hideInMobile ">
                         <ul class="nav nav-underline nav-fill d-flex overflow-auto flex-nowrap">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Buy</a>
@@ -27,27 +27,27 @@
                                 <a class="nav-link" href="#">Rent</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">New Project</a>
+                                <a class="nav-link" href="#">Sell</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plot</a>
+                                <a class="nav-link" href="#">Constructions</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plot</a>
+                                <a class="nav-link" href="#">Interior Design</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plot</a>
+                                <a class="nav-link" href="#">Top Gainers</a>
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div class="row classic-search-box m-0 gx-2">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                             <div class="form-group briod">
                                 <div class="input-with-icon">
                                     <input type="text" class="form-control "
                                         placeholder="Search By City, Locality, Project" />
-                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-location-crosshairs"></i>
                                 </div>
                             </div>
                         </div>
@@ -114,11 +114,123 @@
 
     <!-- ============================ Hero Banner End ================================== -->
 
+
+    <!-- ============================= Explore Categories =============================== -->
+    <section>
+        <div class="container">
+
+            <div class="row p-2">
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-chimney-crack abs"></i><i
+                                    class="fa-solid fa-house-chimney-crack"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Buy</div>
+                                {{-- <div class="vesh-prt-location">06 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Sell</div>
+                                {{-- <div class="vesh-prt-location">04 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Rent</div>
+                                {{-- <div class="vesh-prt-location">07 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Contructions</div>
+                                {{-- <div class="vesh-prt-location">05 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Interior Design</div>
+                                {{-- <div class="vesh-prt-location">08 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Property Insights</div>
+                                {{-- <div class="vesh-prt-location">03 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================= End Explore Categories =============================== -->
+
+
+
     <!-- ================================= Recently Property ================================== -->
     <section>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
+                <div class="col-lg- col-md-10 text-start">
                     <div class="sec-heading left">
                         <h2>Recently posted properties</h2>
                         <p>
@@ -184,7 +296,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -197,10 +309,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
                                             </ul>
                                         </div>
@@ -249,7 +361,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -262,10 +374,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
                                             </ul>
                                         </div>
@@ -315,7 +427,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -328,10 +440,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>4 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
                                             </ul>
                                         </div>
@@ -380,7 +492,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -393,10 +505,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>5 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
                                             </ul>
                                         </div>
@@ -443,7 +555,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -456,10 +568,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>2 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>2 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>1700 Sft</li>
                                             </ul>
                                         </div>
@@ -507,7 +619,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -520,10 +632,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
                                             </ul>
                                         </div>
@@ -570,7 +682,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -583,10 +695,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2000 Sft</li>
                                             </ul>
                                         </div>
@@ -634,7 +746,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -647,10 +759,10 @@
                                     <div class="veshm-list-footer">
                                         <div class="veshm-list-circls">
                                             <ul>
-                                                <li><span class="bed-inf"><i class="fa-solid fa-bed"></i></span>3 Bed</li>
-                                                <li><span class="bath-inf"><i class="fa-solid fa-bath"></i></span>2 Bathth
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bathth
                                                 </li>
-                                                <li><span class="area-inf"><i
+                                                <li><span class=" "><i
                                                             class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
                                             </ul>
                                         </div>
@@ -667,116 +779,122 @@
     </section>
     <!-- ================= Recent Property End ================= -->
 
-    <!-- ============================= Explore Categories =============================== -->
+
+
+    <!-- ================================= 1 News slider ================================== -->
     <section>
         <div class="container">
-        
-            <div class="row gx-3 gy-4 p-1">
-            
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Transaction Price</div>
-                                {{-- <div class="vesh-prt-location">06 Locations</div> --}}
-                            </div>
-                        </a>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Trending News</h2>
+                        <p>Related to Real Estate Investment</p>
                     </div>
                 </div>
-                
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Price Trends</div>
-                                {{-- <div class="vesh-prt-location">04 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Locality Insights</div>
-                                {{-- <div class="vesh-prt-location">07 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Ratings & Reviews</div>
-                                {{-- <div class="vesh-prt-location">05 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Property Insights</div>
-                                {{-- <div class="vesh-prt-location">08 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Articles</div>
-                                {{-- <div class="vesh-prt-location">03 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
             </div>
-            
+
+            <div class="row justify-content-center ">
+
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- ============================= End Explore Categories =============================== -->
-			
+    <!-- ================================= 1 News slider End ================================== -->
+
 
     <!-- ============================ Curated rental collections ================================== -->
-    <section class="gray-simple">
+    <section class="bg-3">
         <div class="container  p-3 rounded ">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center ">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
                         <h2>Curated rental collections</h2>
                         <p>
                             in your city
@@ -799,14 +917,14 @@
                                 </a>
                                 <div class="veshm-location-content">
                                     <h4>For Family</h4>
-                                        <div class="vesh-aget-rates">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <span class="resy-98">322 Reviews</span>
-                                        </div>
+                                    <div class="vesh-aget-rates">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="resy-98">322 Reviews</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -889,13 +1007,120 @@
     <!-- ============================ End Curated rental collections ================================== -->
 
 
+    <!-- ================================= 2 News slider ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Trending News</h2>
+                        <p>Related to Real Estate Investment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= 2 News slider End ================================== -->
+
+
     <!-- ================= Explore Places ================= -->
     <section class="mid bg-2">
         <div class="container">
 
             <div class="row justify-content-center ">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
                         <h2>Homes by furnishing</h2>
                         <p>Choose your preferred furnishing</p>
                     </div>
@@ -920,7 +1145,8 @@
                                     <div class="vsm-stay-title">
                                         <h4>Furnished</h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310
+                                            Properties</a>
                                     </div>
                                 </div>
                             </div>
@@ -938,7 +1164,8 @@
                                     <div class="vsm-stay-title">
                                         <h4>Semifurnished </h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310
+                                            Properties</a>
                                     </div>
                                 </div>
                             </div>
@@ -956,11 +1183,12 @@
                                     <div class="vsm-stay-title">
                                         <h4>Unfurnished</h4>
                                     </div>
-                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310 Properties</a>
+                                    <div class="vsm-stay-button"><a href="/propertylisting" class="vsm-stay-btn">2310
+                                            Properties</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -970,13 +1198,120 @@
     <!-- ================================= End Explore Places =============================== -->
 
 
+    <!-- ================================= 3 News slider ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Trending News</h2>
+                        <p>Related to Real Estate Investment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= 3 News slider End ================================== -->
+
+
     <!-- ============================ Apartments, Villas and more ================================== -->
     <section>
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center ">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
                         <h2>Apartments, Villas and more</h2>
                         <p>
                             in your city
@@ -1094,455 +1429,123 @@
 
             </div>
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                     <a href="/propertylisting" class="btn btn-outline-gray">Explore More<i
                             class="fa-regular fa-circle-right ms-2"></i></a>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </section>
     <!-- ============================ End Apartments, Villas and more ================================== -->
 
 
-    <!-- ============================ Popular builders ================================== -->
-    <section class="greenish-bg mid">
+    <!-- ================================= 4 News slider ================================== -->
+    <section>
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center dark">
-                        <h2>Popular builders</h2>
-                        <p>in your city</p>
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Trending News</h2>
+                        <p>Related to Real Estate Investment</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row gx-xl-5 gx-lg-4">
+            <div class="row justify-content-center ">
 
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="builders-slide">
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-house-chimney-crack"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>32 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">SB and GL and GS Dream Home LLP</h4>
-                                            <div class="vesh-prt-location">2 Total Projects | 1 in this city</div>
-                                        </div>
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>32 List</span></div>
-                                            {{-- <span class="starting">Know More</span> --}}
-                                            {{-- <h4 class="rlhc-price-name theme-cl">₹7,000<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                            <div class="blog-list-block ">
 
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-tents"></i>
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
                                     </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal Housing</h4>
-                                            <div class="vesh-prt-location">41 Total Projects | 1 in this city</div>
-                                        </div>
 
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>42 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹10,500<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-vihara"></i>
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
                                     </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>47 List</span></div> --}}
-                                        <div>
-
-                                            <h4 class="vesh-content-title">Shalimar Buildcon</h4>
-                                            <div class="vesh-prt-location">1 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>47 List</span></div>
-
-                                            {{-- <span class="starting">Know More</span> --}}
-                                            {{-- <h4 class="rlhc-price-name theme-cl">₹8,200<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-tents"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal Housing</h4>
-                                            <div class="vesh-prt-location">41 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>42 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹10,500<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-ship"></i>
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
                                     </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>37 List</span></div> --}}
-                                        <div>
 
-                                            <h4 class="vesh-content-title">Ajmer Aashiyana</h4>
-                                            <div class="vesh-prt-location">1 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>32 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹8,910<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-house-laptop"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>27 List</span></div> --}}
-
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal API</h4>
-                                            <div class="vesh-prt-location">114 Total Projects | 4 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>27 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹7,549<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
+
                         <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-house-chimney-crack"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>32 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">SB and GL and GS Dream Home LLP</h4>
-                                            <div class="vesh-prt-location">2 Total Projects | 1 in this city</div>
-                                        </div>
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>32 List</span></div>
-                                            {{-- <span class="starting">Know More</span> --}}
-                                            {{-- <h4 class="rlhc-price-name theme-cl">₹7,000<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                            <div class="blog-list-block">
 
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-tents"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal Housing</h4>
-                                            <div class="vesh-prt-location">41 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>42 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹10,500<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-vihara"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>47 List</span></div> --}}
-                                        <div>
-
-                                            <h4 class="vesh-content-title">Shalimar Buildcon</h4>
-                                            <div class="vesh-prt-location">1 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>47 List</span></div>
-
-                                            {{-- <span class="starting">Know More</span> --}}
-                                            {{-- <h4 class="rlhc-price-name theme-cl">₹8,200<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-tents"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal Housing</h4>
-                                            <div class="vesh-prt-location">41 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>42 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹10,500<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-ship"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>37 List</span></div> --}}
-                                        <div>
-
-                                            <h4 class="vesh-content-title">Ajmer Aashiyana</h4>
-                                            <div class="vesh-prt-location">1 Total Projects | 1 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>32 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹8,910<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="vesh-list-categ-box">
-                                <a href="/propertylisting" class="vesh-categ-list-links">
-                                    <div class="vesh-categ-list-icons">
-                                        <i class="fa-solid fa-house-laptop"></i>
-                                    </div>
-                                    <div class="vesh-categ-list-content justify-content-around">
-                                        {{-- <div class="veshm-list-098"><span>27 List</span></div> --}}
-
-                                        <div>
-                                            <h4 class="vesh-content-title">Ansal API</h4>
-                                            <div class="vesh-prt-location">114 Total Projects | 4 in this city</div>
-                                        </div>
-
-                                        <div class="vesh-categ-strt">
-                                            <div class="veshm-list-098"><span>27 List</span></div>
-
-                                            {{-- <span class="starting">Start From</span>
-                                            <h4 class="rlhc-price-name theme-cl">₹7,549<span class="monthly">/Months</span></h4> --}}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- ============================ Popular builders End ================================== -->
-
-
-    <!-- ============================ Valuable Step Start ================================== -->
-    <section class="greenish-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center dark">
-                        <h2>Choose What You Need</h2>
-                        <p>
-                            BUY - SELL - RENT
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hideInDesktop">
-                <div class="row align-items-center gx-4 gy-4">
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                        <div class="vesh-categ-box light">
-                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
-                                <div class="vesh-categ-icons">
-                                    <i class="fa-solid fa-house-chimney-crack abs"></i><i class="fa-solid fa-house-chimney-crack"></i>
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
                                 </div>
-                                <div class="vesh-categ-content">
-                                    <div class="vesh-content-title">Buy A Property</div>
-                                    {{-- <div class="vesh-prt-location">06 Locations</div> --}}
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1">
-                        <div class="vesh-categ-box light">
-                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
-                                <div class="vesh-categ-icons">
-                                    <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
-                                </div>
-                                <div class="vesh-categ-content">
-                                    <div class="vesh-content-title">Sell A Property</div>
-                                    {{-- <div class="vesh-prt-location">04 Locations</div> --}}
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-1 mt-1 ">
-                        <div class="vesh-categ-box light">
-                            <a href="JavaScript:Void(0);" class="vesh-categ-links">
-                                {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
-                                <div class="vesh-categ-icons">
-                                    <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
-                                </div>
-                                <div class="vesh-categ-content">
-                                    <div class="vesh-content-title">Rent A Property</div>
-                                    {{-- <div class="vesh-prt-location">07 Locations</div> --}}
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hideInMobile">
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
 
-                <div class="row align-items-center gx-4 gy-4">
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                        <div class="veshm-posted-box-y78">
-                            <div class="veshm-posted-head-y78">
-                                <div class="veshm-posted-figure">
-                                    <img src="{{ asset('assets/frontend-assets/img/hs-1.png') }}" class="img-fluid"
-                                        alt="" />
                                 </div>
                             </div>
-                            <div class="veshm-posted-body-y78">
-                                <h2>Buy A Property</h2>
-                                <p>
-                                    Acquire ownership of a property by completing a transaction involving payment in exchange
-                                    for legal rights to the asset.
-                                </p>
-                            </div>
-                            <div class="veshm-posted-footer-y78">
-                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
-                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                        <div class="veshm-posted-box-y78 active">
-                            <div class="veshm-posted-head-y78">
-                                <div class="veshm-posted-figure">
-                                    <img src="{{ asset('assets/frontend-assets/img/hs-3.png') }}" class="img-fluid"
-                                        alt="" />
-                                </div>
-                            </div>
-                            <div class="veshm-posted-body-y78">
-                                <h2>Sell A Property</h2>
-                                <p>
-                                    Transfer ownership of real estate through a transaction involving payment, relinquishing
-                                    legal rights to the asset to the buyer.
-                                </p>
-                            </div>
-                            <div class="veshm-posted-footer-y78">
-                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                        <div class="veshm-posted-box-y78">
-                            <div class="veshm-posted-head-y78">
-                                <div class="veshm-posted-figure">
-                                    <img src="{{ asset('assets/frontend-assets/img/hs-2.png') }}" class="img-fluid"
-                                        alt="" />
-                                </div>
-                            </div>
-                            <div class="veshm-posted-body-y78">
-                                <h2>Rent A Property</h2>
-                                <p>
-                                    Lease real estate for temporary use, typically involving payment to the landlord in exchange
-                                    for occupying the property.
-                                </p>
-                            </div>
-                            <div class="veshm-posted-footer-y78">
-                                <a href="JavaScript:Void(0);" class="btn btn-start">Get Start</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ============================ Valuable Step End ================================== -->
+    <!-- ================================= 4 News slider End ================================== -->
 
 
     <!-- ============================ Explore Agents ================================== -->
@@ -1552,9 +1555,9 @@
             <div class="row align-items-center">
 
                 <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading ">
-                        <h2 class="mb-3 text-center">Browse Agents</h2>
-                        <p class="text-paragraph text-center">Get in touch with agents around you</p>
+                    <div class="sec-heading text-start">
+                        <h2 class="mb-3">Browse Agents</h2>
+                        <p class="text-paragraph">Get in touch with agents around you</p>
                     </div>
                 </div>
 
@@ -1566,7 +1569,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1581,14 +1584,15 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
                                     </button>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <!-- Single Slide -->
@@ -1596,7 +1600,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1611,7 +1615,8 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
@@ -1625,7 +1630,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1640,7 +1645,8 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
@@ -1654,7 +1660,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1669,14 +1675,15 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
                                     </button>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <!-- Single Slide -->
@@ -1684,7 +1691,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1699,14 +1706,15 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
                                     </button>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <!-- Single Slide -->
@@ -1714,7 +1722,7 @@
                             <div class="veshm-reviews-box pb-0">
                                 <div class="veshm-reviews-flex">
                                     <div class="veshm-reviews-thumb">
-                                        
+
                                         <div class="veshm-reviews-figure">
                                             <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
                                                 class="img-fluid circle" alt="">
@@ -1729,14 +1737,15 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
                                     </button>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -1796,79 +1805,79 @@
                                 <div class="choose-slide">
                                     <!-- Single Slide -->
                                     <div class="single-slide">
-                                    <li>
-                                        <div class="vib-list-wrap21">
-                                            <div class="vib-list-icon">
-                                                <i class="fa-solid fa-house-circle-check"></i>
+                                        <li>
+                                            <div class="vib-list-wrap21">
+                                                <div class="vib-list-icon">
+                                                    <i class="fa-solid fa-house-circle-check"></i>
+                                                </div>
+                                                <div class="vib-list-caption">
+                                                    <h5>Comfirtable House Designs</h5>
+                                                    <p>
+                                                        At vero eos et accusamus et iusto odio dignissimos
+                                                        ducimus qui blanditiis praesentium voluptatum
+                                                        deleniti atque corrupti quos dolores
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="vib-list-caption">
-                                                <h5>Comfirtable House Designs</h5>
-                                                <p>
-                                                    At vero eos et accusamus et iusto odio dignissimos
-                                                    ducimus qui blanditiis praesentium voluptatum
-                                                    deleniti atque corrupti quos dolores
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
+                                        </li>
                                     </div>
                                     <!-- Single Slide -->
                                     <div class="single-slide">
-                                    <li>
-                                        <div class="vib-list-wrap21">
-                                            <div class="vib-list-icon">
-                                                <i class="fa-solid fa-user-clock"></i>
+                                        <li>
+                                            <div class="vib-list-wrap21">
+                                                <div class="vib-list-icon">
+                                                    <i class="fa-solid fa-user-clock"></i>
+                                                </div>
+                                                <div class="vib-list-caption">
+                                                    <h5>Professional & Friendly Developers</h5>
+                                                    <p>
+                                                        At vero eos et accusamus et iusto odio dignissimos
+                                                        ducimus qui blanditiis praesentium voluptatum
+                                                        deleniti atque corrupti quos dolores
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="vib-list-caption">
-                                                <h5>Professional & Friendly Developers</h5>
-                                                <p>
-                                                    At vero eos et accusamus et iusto odio dignissimos
-                                                    ducimus qui blanditiis praesentium voluptatum
-                                                    deleniti atque corrupti quos dolores
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
+                                        </li>
                                     </div>
                                     <!-- Single Slide -->
                                     <div class="single-slide">
-                                    <li>
-                                        <div class="vib-list-wrap21">
-                                            <div class="vib-list-icon">
-                                                <i class="fa-solid fa-phone-volume"></i>
+                                        <li>
+                                            <div class="vib-list-wrap21">
+                                                <div class="vib-list-icon">
+                                                    <i class="fa-solid fa-phone-volume"></i>
+                                                </div>
+                                                <div class="vib-list-caption">
+                                                    <h5>Fully & Fast Response</h5>
+                                                    <p>
+                                                        At vero eos et accusamus et iusto odio dignissimos
+                                                        ducimus qui blanditiis praesentium voluptatum
+                                                        deleniti atque corrupti quos dolores
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="vib-list-caption">
-                                                <h5>Fully & Fast Response</h5>
-                                                <p>
-                                                    At vero eos et accusamus et iusto odio dignissimos
-                                                    ducimus qui blanditiis praesentium voluptatum
-                                                    deleniti atque corrupti quos dolores
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
+                                        </li>
                                     </div>
                                     <!-- Single Slide -->
                                     <div class="single-slide">
-                                    <li>
-                                        <div class="vib-list-wrap21">
-                                            <div class="vib-list-icon">
-                                                <i class="fa-regular fa-comments"></i>
+                                        <li>
+                                            <div class="vib-list-wrap21">
+                                                <div class="vib-list-icon">
+                                                    <i class="fa-regular fa-comments"></i>
+                                                </div>
+                                                <div class="vib-list-caption">
+                                                    <h5>Free Chat Supports</h5>
+                                                    <p>
+                                                        At vero eos et accusamus et iusto odio dignissimos
+                                                        ducimus qui blanditiis praesentium voluptatum
+                                                        deleniti atque corrupti quos dolores
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="vib-list-caption">
-                                                <h5>Free Chat Supports</h5>
-                                                <p>
-                                                    At vero eos et accusamus et iusto odio dignissimos
-                                                    ducimus qui blanditiis praesentium voluptatum
-                                                    deleniti atque corrupti quos dolores
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
+                                        </li>
                                     </div>
                                 </div>
                             </ul>
-                                    
+
                             <ul class="hideInMobile">
                                 <li>
                                     <div class="vib-list-wrap21">
@@ -1946,8 +1955,8 @@
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading">
                         <h2>Search in More Cities</h2>
                         <p>Where are buyers searching in your city</p>
                     </div>
@@ -1966,7 +1975,7 @@
                                     <span><i class="fa-solid fa-house-tsunami"></i></span>
                                     <div>
                                         <h5>Apartment</h5>
-                                        <div>Most searched localities for Flat/Apartment</div>
+                                        <div>Most searched localities </div>
                                     </div>
                                 </div>
                                 <div class="vesm-city-list-body">
@@ -1982,7 +1991,8 @@
                                             <span class="dios-count">17</span>
                                         </li>
                                         <li>
-                                            <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Ramsey</a>
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Ramsey</a>
                                             <span class="dios-count">12</span>
                                         </li>
                                         <li>
@@ -2011,7 +2021,8 @@
                                 <div class="vesm-city-list-body">
                                     <ul>
                                         <li>
-                                            <a href="JavaScript:Void(0);"><i class="fa-solid fa-arrow-right-long"></i>Aylesbury
+                                            <a href="JavaScript:Void(0);"><i
+                                                    class="fa-solid fa-arrow-right-long"></i>Aylesbury
                                                 Vale</a>
                                             <span class="dios-count">32</span>
                                         </li>
@@ -2088,16 +2099,125 @@
     <!-- ============================ Explore More City For Properties End ================================== -->
 
 
+    <!-- ================================= News slider ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Trending News</h2>
+                        <p>Related to Real Estate Investment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img
+                                            src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img
+                                            src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-success bg-light-success">Education</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">14 Newsletters You’ll Want in Your
+                                                Inbox in 2023</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+
+                        <div class="single-slide">
+                            <div class="blog-list-block">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail"><img
+                                            src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}"
+                                            class="img-fluid rounded" alt=""></a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <span class="label text-warning bg-light-warning">Resources</span>
+                                        <h4 class="bl-title"><a href="/blogdetail">How a Change in My Role Inspired Six
+                                                Impactful Habits</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= News slider End ================================== -->
+
+
     <!-- ============================ Good Reviews By Customers ================================== -->
     <section>
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
                         <h2>Good Reviews By Customers</h2>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                            deleniti atque corrupti quos dolores</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -2131,10 +2251,12 @@
                                     </div>
                                 </div>
                                 <div class="veshm-reviews-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim.</p>
-                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/a.webp') }}"
-                                            class="img-fluid" width="120" alt=""></figure>
+                                    <figure class="mt-2 mb-0"><img
+                                            src="{{ asset('assets/frontend-assets/img/brand/a.webp') }}"
+                                            class="img-fluid" width="80" alt=""></figure>
                                 </div>
                             </div>
                         </div>
@@ -2161,10 +2283,12 @@
                                     </div>
                                 </div>
                                 <div class="veshm-reviews-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim.</p>
-                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/b.webp') }}"
-                                            class="img-fluid" width="120" alt=""></figure>
+                                    <figure class="mt-2 mb-0"><img
+                                            src="{{ asset('assets/frontend-assets/img/brand/b.webp') }}"
+                                            class="img-fluid" width="80" alt=""></figure>
                                 </div>
                             </div>
                         </div>
@@ -2191,10 +2315,12 @@
                                     </div>
                                 </div>
                                 <div class="veshm-reviews-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim.</p>
-                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/c.webp') }}"
-                                            class="img-fluid" width="120" alt=""></figure>
+                                    <figure class="mt-2 mb-0"><img
+                                            src="{{ asset('assets/frontend-assets/img/brand/c.webp') }}"
+                                            class="img-fluid" width="80" alt=""></figure>
                                 </div>
                             </div>
                         </div>
@@ -2221,10 +2347,12 @@
                                     </div>
                                 </div>
                                 <div class="veshm-reviews-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim.</p>
-                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/h.webp') }}"
-                                            class="img-fluid" width="120" alt=""></figure>
+                                    <figure class="mt-2 mb-0"><img
+                                            src="{{ asset('assets/frontend-assets/img/brand/h.webp') }}"
+                                            class="img-fluid" width="80" alt=""></figure>
                                 </div>
                             </div>
                         </div>
@@ -2251,10 +2379,12 @@
                                     </div>
                                 </div>
                                 <div class="veshm-reviews-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim.</p>
-                                    <figure class="mt-2 mb-0"><img src="{{ asset('assets/frontend-assets/img/brand/g.webp') }}"
-                                            class="img-fluid" width="120" alt=""></figure>
+                                    <figure class="mt-2 mb-0"><img
+                                            src="{{ asset('assets/frontend-assets/img/brand/g.webp') }}"
+                                            class="img-fluid" width="80" alt=""></figure>
                                 </div>
                             </div>
                         </div>
@@ -2267,105 +2397,210 @@
 
 
 
-    <!-- ================================= Blog Grid ================================== -->
+    <!-- ================================= News slider ================================== -->
     <section>
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 col-md-10 text-center">
-                    <div class="sec-heading center">
-                        <h2>Trending Blog Posts</h2>
-                        <p>So Much To Read</p>
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Newly Launched Projects</h2>
+                        <p>Limited launch offers available</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row g-xl-5 g-lg-3 g-md-3 g-3">
+            <div class="row justify-content-center ">
 
-                <!-- Single blog Grid -->
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-0">
-                    <div class="blog-slide">
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="news-slide">
+
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-grid-blog">
-                                <div class="veshm-grid-blog-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}" class="img-fluid"
-                                        alt="">
+                            <div class="blog-list-block border border-primary ">
+
+                                <div class="blog-list-thumber">
+                                    <div class="label banner-label text-primary bg-light-primary">
+                                        New Launch
+                                    </div>
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt="blog1">
+                                    </a>
                                 </div>
-                                <div class="veshm-grid-blog-body">
-                                    <div class="veshm-grid-body-header">
-                                        <div class="veshm-grid-posted"><span>10 Jul 2022</span></div>
-                                        <div class="veshm-grid-title">
-                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Mantram Solacia</a></h4>
+                                    </div>
+
+                                    <div class="blog-body prices">
+                                        <p>Panvel, Navi Mumbai</p>
+
+                                        <div class="d-flex">
+                                            <b>₹ 43 - 72 L</b>
+                                            <span class="mx-2"> | </span>
+                                            <div>1, 2 BHK Apartment</div>
                                         </div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
                                     </div>
-                                    <div class="veshm-grid-body-middle">
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
-                                    </div>
-                                    <div class="veshm-grid-body-footer">
-                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-                                    </div>
+
+                                            <div class="blg-authr d-flex align-items-center news-footer ">
+
+                                                <div class="blg-authr-caption pt-2  ">
+                                                    <a href="JavaScript:Void(0);"
+                                                        class="text-white px-2 py-1 rounded border bg-primary">
+                                                        <i class="fa-regular fa-circle-right"></i>
+                                                        Contact now
+                                                    </a>
+                                                </div>
+                                            </div>
+
                                 </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-grid-blog">
-                                <div class="veshm-grid-blog-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/blog-2.jpg') }}" class="img-fluid"
-                                        alt="">
+                            <div class="blog-list-block border border-primary ">
+
+                                <div class="blog-list-thumber">
+                                    <div class="label banner-label text-primary bg-light-primary">
+                                        New Launch
+                                    </div>
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt="blog1">
+                                    </a>
                                 </div>
-                                <div class="veshm-grid-blog-body">
-                                    <div class="veshm-grid-body-header">
-                                        <div class="veshm-grid-posted"><span>17 Jan 2023</span></div>
-                                        <div class="veshm-grid-title">
-                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Mantram Solacia</a></h4>
+                                    </div>
+
+                                    <div class="blog-body prices">
+                                        <p>Panvel, Navi Mumbai</p>
+
+                                        <div class="d-flex">
+                                            <b>₹ 43 - 72 L</b>
+                                            <span class="mx-2"> | </span>
+                                            <div>1, 2 BHK Apartment</div>
                                         </div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
                                     </div>
-                                    <div class="veshm-grid-body-middle">
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
-                                    </div>
-                                    <div class="veshm-grid-body-footer">
-                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
-                                    </div>
+
+                                            <div class="blg-authr d-flex align-items-center news-footer ">
+
+                                                <div class="blg-authr-caption pt-2  ">
+                                                    <a href="JavaScript:Void(0);"
+                                                        class="text-white px-2 py-1 rounded border bg-primary">
+                                                        <i class="fa-regular fa-circle-right"></i>
+                                                        Contact now
+                                                    </a>
+                                                </div>
+                                            </div>
+
                                 </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="veshm-grid-blog">
-                                <div class="veshm-grid-blog-thumb">
-                                    <img src="{{ asset('assets/frontend-assets/img/blog-3.jpg') }}" class="img-fluid"
-                                        alt="">
+                            <div class="blog-list-block border border-primary ">
+
+                                <div class="blog-list-thumber">
+                                    <div class="label banner-label text-primary bg-light-primary">
+                                        New Launch
+                                    </div>
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt="blog1">
+                                    </a>
                                 </div>
-                                <div class="veshm-grid-blog-body">
-                                    <div class="veshm-grid-body-header">
-                                        <div class="veshm-grid-posted"><span>26 Feb 2023</span></div>
-                                        <div class="veshm-grid-title">
-                                            <h4><a href="/blogdetail">How To Work with Veshm Agency</a></h4>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Mantram Solacia</a></h4>
+                                    </div>
+
+                                    <div class="blog-body prices">
+                                        <p>Panvel, Navi Mumbai</p>
+
+                                        <div class="d-flex">
+                                            <b>₹ 43 - 72 L</b>
+                                            <span class="mx-2"> | </span>
+                                            <div>1, 2 BHK Apartment</div>
                                         </div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
                                     </div>
-                                    <div class="veshm-grid-body-middle">
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                            nulla pariatur. Excepteur sint occaecat cupidatat</p>
+
+                                            <div class="blg-authr d-flex align-items-center news-footer ">
+
+                                                <div class="blg-authr-caption pt-2  ">
+                                                    <a href="JavaScript:Void(0);"
+                                                        class="text-white px-2 py-1 rounded border bg-primary">
+                                                        <i class="fa-regular fa-circle-right"></i>
+                                                        Contact now
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block border border-primary ">
+
+                                <div class="blog-list-thumber">
+                                    <div class="label banner-label text-primary bg-light-primary">
+                                        New Launch
                                     </div>
-                                    <div class="veshm-grid-body-footer">
-                                        <a href="/blogdetail" class="btn btn-blog-link">Continue Reading</a>
+                                    <a href="/blogdetail">
+                                        <img src="{{ asset('assets/frontend-assets/img/blog-1.jpg') }}"
+                                            class="img-fluid rounded" alt="blog1">
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Mantram Solacia</a></h4>
                                     </div>
+
+                                    <div class="blog-body prices">
+                                        <p>Panvel, Navi Mumbai</p>
+
+                                        <div class="d-flex">
+                                            <b>₹ 43 - 72 L</b>
+                                            <span class="mx-2"> | </span>
+                                            <div>1, 2 BHK Apartment</div>
+                                        </div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
+                                    </div>
+
+                                            <div class="blg-authr d-flex align-items-center news-footer ">
+
+                                                <div class="blg-authr-caption pt-2  ">
+                                                    <a href="JavaScript:Void(0);"
+                                                        class="text-white px-2 py-1 rounded border bg-primary">
+                                                        <i class="fa-regular fa-circle-right"></i>
+                                                        Contact now
+                                                    </a>
+                                                </div>
+                                            </div>
+
                                 </div>
                             </div>
                         </div>
                         
+
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
-    <!-- ================= Blog Grid End ================= -->
+    <!-- ================================= News slider End ================================== -->
+
 
 
     <!-- Filter Modal -->
@@ -3602,5 +3837,4 @@
         </div>
     </div>
     <!-- End Modal -->
-
 @endsection

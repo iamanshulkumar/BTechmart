@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-styles.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/mobile.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend-assets/css/front-responsive.css') }}">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -568,7 +568,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-danger full-width font--bold btn-lg">
+                                    <button type="submit" class="btn btn-primary full-width font--bold btn-lg">
                                         Log In
                                     </button>
                                 </div>
@@ -744,68 +744,70 @@
         <!-- Bid Offer Modal -->
     <div class="modal fade" id="offer" tabindex="-1" role="dialog" aria-labelledby="offermodal"
     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered offer-pop-form" role="document">
-        <div class="modal-content" id="offermodal">
-            <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
-            <div class="modal-body">
-                <div class="text-center">
-                    <h2 class="mb-0">Bid Your Offer</h2>
-                    <h4 class="mb-0">For 5689 Resot Relly, Canada</h4>
-                    <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
-                </div>
-                <div class="offer-form">
-                    <form>
+        <div class="modal-dialog modal-dialog-centered offer-pop-form" role="document">
+            <div class="modal-content" id="offermodal">
+                <span class="mod-close" data-bs-dismiss="modal" aria-hidden="true"><i class="fas fa-close"></i></span>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <h2 class="mb-0">Bid Your Offer</h2>
+                        <h4 class="mb-0">For 5689 Resot Relly, Canada</h4>
+                        <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
+                    </div>
+                    <div class="offer-form">
+                        <form>
 
-                        <div class="row">
+                            <div class="row">
 
-                            <div class="col-lg-12 col-md-12">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" placeholder="Dhananjay Preet">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Dhananjay Preet">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="dhananjaypreet@gmail.com">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Your Offer</label>
+                                        <input type="text" class="form-control" placeholder="₹47,500">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="default-terms_wrap mb-3">
+                                <div class="default-terms_flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="terms" value="option1">
+                                        <label class="form-check-label small font--medium" for="terms">By submitting
+                                            this form, you agree to our <a href="JavaScript:Void(0);"
+                                                title="Terms of Service" class="theme-cl font--medium">Terms of
+                                                Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
+                                                class="theme-cl font--medium">Privacy Policy</a>.</label>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-12 col-md-12">
-                                <div class="form-group">
-                                    <label>Phone</label>
-                                    <input type="text" class="form-control"
-                                        placeholder="dhananjaypreet@gmail.com">
-                                </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn full-width btn-primary">Submit Offer</button>
                             </div>
 
-                            <div class="col-lg-12 col-md-12">
-                                <div class="form-group">
-                                    <label>Your Offer</label>
-                                    <input type="text" class="form-control" placeholder="₹47,500">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="default-terms_wrap mb-3">
-                            <div class="default-terms_flex">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="terms" value="option1">
-                                    <label class="form-check-label small font--medium" for="terms">By submitting
-                                        this form, you agree to our <a href="JavaScript:Void(0);"
-                                            title="Terms of Service" class="theme-cl font--medium">Terms of
-                                            Service</a> and <a href="JavaScript:Void(0);" title="Privacy Policy"
-                                            class="theme-cl font--medium">Privacy Policy</a>.</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn full-width btn-primary">Submit Offer</button>
-                        </div>
-
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <!-- End Modal -->
+
+
 
     </div>
 

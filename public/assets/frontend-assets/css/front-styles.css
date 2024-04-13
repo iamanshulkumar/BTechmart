@@ -37,6 +37,8 @@
 	Fonts
 ------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Open Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*------------------------------------
 	Preloader
 ------------------------------------*/
@@ -116,7 +118,7 @@ form.dropzone.dz-clickable.primary-dropzone {
 }
 .dz-default.dz-message i {
     font-size: 3rem;
-    color: #cc0202;
+    color: #0071DC;
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -163,7 +165,7 @@ i.req {
 .slick-prev:hover,
 .slick-next:focus,
 .slick-next:active {
-    background: #cc0202;
+    background: #0071DC;
 }
 .slick-next:hover:before,
 .slick-next:focus:before,
@@ -177,7 +179,7 @@ i.req {
     background-color: #dde5eb;
 }
 .irs--flat .irs-bar {
-    background-color: #cc0202;
+    background-color: #0071DC;
 }
 .irs--flat .irs-handle > i:first-child {
     position: absolute;
@@ -197,12 +199,12 @@ i.req {
 .irs--flat .irs-from,
 .irs--flat .irs-to,
 .irs--flat .irs-single {
-    background-color: #cc0202;
+    background-color: #0071DC;
 }
 .irs--flat .irs-from:before,
 .irs--flat .irs-to:before,
 .irs--flat .irs-single:before {
-    border-top-color: #cc0202;
+    border-top-color: #0071DC;
 }
 /*--- end of preloader ---*/
 /*------------------------------------------------------------
@@ -219,7 +221,7 @@ body {
     background: #ffffff;
     color: #4f5e64;
     font-size: 14px;
-    font-family: "Jost", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     overflow-x: hidden !important;
     font-weight: 400;
@@ -245,16 +247,16 @@ a:focus {
     text-decoration: none;
 }
 .nav-link {
-    color: #cc0202;
+    color: #0071DC;
 }
 a.link {
-    color: #cc0202;
+    color: #0071DC;
 }
 a.link:hover,
 a.link:focus,
 a:hover,
 a:focus {
-    color: #cc0202;
+    color: #0071DC;
 }
 a.text-success:focus,
 a.text-success:hover {
@@ -262,7 +264,7 @@ a.text-success:hover {
 }
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #cc0202 !important;
+    color: #0071DC !important;
 }
 a.text-warning:focus,
 a.text-warning:hover {
@@ -323,6 +325,9 @@ p {
 }
 .bg-1 {
     background: #f7d0cb;
+}
+.bg-3 {
+    background: #F0F9FF;
 }
 .bg-2 {
     background: #f0f9ff;
@@ -480,10 +485,11 @@ html body .db {
 }
 
 .theme-cl {
-    color: #cc0202 !important;
+    /* color: #0071DC !important; */
+    color: #373737 !important;
 }
 .theme-bg {
-    background: #cc0202 !important;
+    background: #0071DC !important;
 }
 .classic-bg {
     background: #0563c2 !important;
@@ -1281,7 +1287,7 @@ html body .text-dark {
 }
 
 .text-theme {
-    color: #cc0202;
+    color: #0071DC;
 }
 
 /*-------------- Global Settings: Alerts & Notification --------------*/
@@ -1385,7 +1391,7 @@ html body .text-dark {
 }
 
 .bg-theme {
-    background-color: #cc0202 !important;
+    background-color: #0071DC !important;
 }
 
 html body .bg-purple {
@@ -1787,7 +1793,7 @@ table.table tr th {
     color: #ffffff !important;
 }
 .btn-primary {
-    background: #017efa;
+    background: 017efa;
     border-color: #017efa;
     color: #ffffff;
 }
@@ -1859,8 +1865,8 @@ table.table tr th {
     color: #ffffff !important;
 }
 .btn-theme {
-    background: #cc0202;
-    border-color: #cc0202;
+    background: #0071DC;
+    border-color: #0071DC;
     color: #ffffff;
 }
 .btn-theme:hover,
@@ -1872,32 +1878,32 @@ table.table tr th {
 }
 .btn-outline-theme {
     background: #ffffff;
-    border-color: #cc0202;
-    color: #cc0202;
+    border-color: #0071DC;
+    color: #0071DC;
 }
 .btn-outline-theme:hover,
 .btn-outline-theme:focus,
 .btn-outline-theme:active {
-    background: #cc0202 !important;
-    border-color: #cc0202 !important;
+    background: #0071DC !important;
+    border-color: #0071DC !important;
     color: #ffffff !important;
 }
 .btn-light-theme {
     background: rgba(1, 126, 250, 0.1);
     border-color: rgba(1, 126, 250, 0.65);
-    color: #cc0202;
+    color: #0071DC;
 }
 .btn-light-theme:hover,
 .btn-light-theme:focus,
 .btn-light-theme:active {
-    background: #cc0202 !important;
-    border-color: #cc0202 !important;
+    background: #0071DC !important;
+    border-color: #0071DC !important;
     color: #ffffff !important;
 }
 .btn-whites {
     background: #ffffff;
     border-color: #ffffff;
-    color: #cc0202;
+    color: #0071DC;
 }
 .btn-whites:hover,
 .btn-whites:focus,
@@ -1963,8 +1969,8 @@ table.table tr th {
 .btn-outline-gray:focus,
 .btn-outline-gray:active {
     background: #ffffff !important;
-    border-color: #cc0202 !important;
-    color: #cc0202 !important;
+    border-color: #0071DC !important;
+    color: #0071DC !important;
 }
 /*----------- Global Settings: Video ------------------*/
 .cover .video-block:not(:first-child):not(:last-child) {
@@ -1986,7 +1992,7 @@ table.table tr th {
 }
 .video-play-icon a {
     font-size: 3em;
-    color: #cc0202;
+    color: #0071DC;
 }
 /*----------- Global Settings: Pagination ------------------*/
 .pagination {
@@ -2032,13 +2038,13 @@ table.table tr th {
     z-index: 2;
     color: #ffffff;
     cursor: pointer;
-    background-color: #cc0202;
-    border-color: #cc0202;
+    background-color: #0071DC;
+    border-color: #0071DC;
 }
 
 .pagination li:first-child a {
-    background: #cc0202;
-    border: 1px solid #cc0202;
+    background: #0071DC;
+    border: 1px solid #0071DC;
     border-radius: 2px;
     color: #fff;
 }
@@ -2055,8 +2061,8 @@ table.table tr th {
 .page-item.active .page-link {
     z-index: 2;
     color: #fff;
-    background-color: #cc0202;
-    border-color: #cc0202;
+    background-color: #0071DC;
+    border-color: #0071DC;
 }
 
 /*------------- Global Settings: Bootstrap 4 hack --------------*/
@@ -2529,7 +2535,7 @@ nav a:hover {
 .nav-menu > .active > a,
 .nav-menu > .focus > a,
 .nav-menu > li:hover > a {
-    color: #cc0202 !important;
+    color: #0071DC !important;
 }
 
 .nav-menu > li > a > [class*="ion-"],
@@ -2706,7 +2712,7 @@ nav a:hover {
 .nav-dropdown > li > a:hover,
 .nav-dropdown > li > a:focus {
     padding-left: 20px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .social-icon a i,
 .social-icons a i {
@@ -2718,7 +2724,7 @@ nav a:hover {
 
 .nav-dropdown > .focus > a,
 .nav-dropdown > li:hover > a {
-    color: #cc0202;
+    color: #0071DC;
 }
 
 .nav-dropdown.nav-dropdown-left {
@@ -2797,7 +2803,7 @@ nav a {
 
 .nav-dropdown > .focus > a .submenu-indicator-chevron,
 .nav-dropdown > li:hover > a .submenu-indicator-chevron {
-    border-color: transparent #cc0202 #cc0202 transparent;
+    border-color: transparent #0071DC #0071DC transparent;
 }
 
 .navigation-landscape .nav-dropdown-left .submenu-indicator {
@@ -3044,8 +3050,8 @@ nav a {
 .nav-menu.nav-menu-social > li.list-buttons a {
     border-radius: 4px;
     position: relative;
-    background: #cc0202;
-    border: 2px solid #cc0202 !important;
+    background: #0071DC;
+    border: 2px solid #0071DC !important;
 }
 .nav-menu.nav-menu-social > li.list-buttons.light a {
     background: #ffffff;
@@ -3068,7 +3074,7 @@ nav a {
     color: #08184b !important;
 }
 .nav-menu.nav-menu-social > li.list-buttons.border a {
-    color: #cc0202 !important;
+    color: #0071DC !important;
 }
 .header-fixed .nav-menu.nav-menu-social > li.list-buttons.light a {
     color: #ffffff !important;
@@ -3140,7 +3146,7 @@ nav a {
     align-items: center;
     justify-content: space-between;
     padding: 1.2rem;
-    background: #cc0202;
+    background: #0071DC;
 }
 .drp_menu_headr h4 {
     font-size: 18px;
@@ -3261,7 +3267,7 @@ span.noti-status {
     padding: 0.8rem 1.5rem;
     border-radius: 0.4rem;
     border: 2px solid #e3ebf3 !important;
-    color: #cc0202;
+    color: #0071DC;
     font-weight: 500;
 }
 .mobile_nav.dhsbrd li {
@@ -3329,7 +3335,7 @@ span.noti-status {
     font-size: 35px;
 }
 .btn.search-btn {
-    background: #cc0202;
+    background: #0071DC;
     padding: 5px 15px;
     border-radius: 5px;
     box-shadow: none;
@@ -3362,7 +3368,7 @@ span.noti-status {
     padding: 5px 20px;
     margin-right: 10px;
     background: rgb(1 126 250 / 15%);
-    color: #cc0202;
+    color: #0071DC;
 }
 
 /*----------- Classic Search ------------*/
@@ -3402,7 +3408,7 @@ span.noti-status {
 }
 .colored .input-with-icon i,
 .colored .input-with-icon img {
-    color: #cc0202;
+    color: #0071DC;
 }
 .hero-search-content .form-control {
     height: 52px;
@@ -3742,7 +3748,7 @@ span.noti-status {
     border: none;
 }
 .search-inline .btn.btn-append {
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 4px;
     font-weight: 500;
     color: #ffffff;
@@ -3787,12 +3793,12 @@ span.noti-status {
     justify-content: center;
     border-radius: 4px;
     font-size: 13px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .filter-pop-link.button:hover,
 .filter-pop-link.button:focus,
 .filter-pop-link.button:active {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .map-popup-wrap .property-listing.property-2 {
@@ -3873,7 +3879,7 @@ span.noti-status {
 }
 .nav-pills.lights .nav-link.active,
 .nav-pills.lights .show > .nav-link {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .stry-counter {
@@ -3979,7 +3985,7 @@ ul.shorting-list li a {
 ul.shorting-list li a:hover,
 ul.shorting-list li a:focus,
 ul.shorting-list li a.active {
-    color: #cc0202;
+    color: #0071DC;
 }
 .page-sidebar .form-group {
     display: flex;
@@ -4067,7 +4073,7 @@ ul.shorting-list li a.active {
 }
 .rlhc-price-name {
     margin: auto;
-    font-size: 22px;
+    font-size: 14px;
     margin-bottom: 0px;
     position: relative;
     line-height: 1.2;
@@ -4136,7 +4142,7 @@ ul.shorting-list li a.active {
     position: absolute;
     top: -12px;
     left: -2px;
-    background: #cc0202;
+    background: #0071DC;
     padding: 0 15px;
     height: 24px;
     border-radius: 0px 4px 4px 0px;
@@ -4189,18 +4195,18 @@ ul.shorting-list li a.active {
     display: flex;
     font-weight: 500;
     font-size: 13px;
-    color: #cc0202;
+    color: #0071DC;
     transition: all ease 0.4s;
 }
 .veshm-list-availabilty .btn-avalability:hover,
 .veshm-list-availabilty .btn-avalability:focus,
 .veshm-list-availabilty .btn-avalability:active {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .veshm-list-wraps:hover .veshm-list-availabilty .btn-avalability,
 .veshm-list-wraps:focus .veshm-list-availabilty .btn-avalability {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .veshm-list-circls ul li span {
@@ -4258,7 +4264,7 @@ ul.shorting-list li a.active {
     height: 35px;
     display: inline-flex;
     padding: 0;
-    color: #cc0202;
+    color: #0071DC;
     border: 1px solid #e6ebf1;
     align-items: center;
     justify-content: center;
@@ -4315,7 +4321,7 @@ span.prefix-title {
 .btn.btn-offer-send {
     border: none;
     box-shadow: none;
-    background: #cc0202;
+    background: #0071DC;
     display: flex;
     justify-content: center;
     border-radius: 4px;
@@ -4398,7 +4404,7 @@ span.prefix-title {
     background: #ffffff;
 }
 .compare-btn i {
-    color: #cc0202;
+    color: #0071DC;
     margin-right: 5px;
 }
 .single-slide {
@@ -4462,7 +4468,7 @@ span.prefix-title {
     padding: 0 15px;
     border-radius: 4px;
     margin-bottom: 4px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-list-typess.rent {
     background: rgb(0 170 124 / 12%);
@@ -4569,7 +4575,7 @@ span.prefix-title {
     width: 100%;
 }
 .btn.btn-sb-mid {
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 4px;
 }
 
@@ -4816,7 +4822,7 @@ span.prefix-title {
     width: 40px;
     height: 40px;
     background: rgb(1 126 250 / 10%);
-    color: #cc0202;
+    color: #0071DC;
     border-radius: 0.3rem;
     margin-right: 10px;
     display: flex;
@@ -4894,7 +4900,7 @@ span.prefix-title {
 }
 .vshm-cov-caption ul li a:hover,
 .vshm-cov-caption ul li a:focus {
-    color: #cc0202;
+    color: #0071DC;
     background: white;
     border-color: white;
 }
@@ -4966,7 +4972,7 @@ span.prefix-title {
     transition: 0.2s ease-out;
     background: rgba(1, 126, 250, 0.1);
     border: 1px solid rgba(1, 126, 250, 0.2);
-    color: #cc0202;
+    color: #0071DC;
     width: 26px;
     height: 26px;
     font-weight: 600;
@@ -5082,7 +5088,7 @@ span.prefix-title {
     font-weight: 500;
 }
 .lvs-caption i {
-    color: #cc0202;
+    color: #0071DC;
     margin-right: 10px;
 }
 .like_share_list {
@@ -5276,8 +5282,8 @@ span.prefix-title {
     --dd-primary: #617896;
     --dd-gradient: linear-gradient(45deg, #00be82 0%, #00be82 100%);
     --dd-selectedBackground: #00be82;
-    --dd-monthBackground: #cc0202;
-    --dd-confirmButtonBackground: #cc0202;
+    --dd-monthBackground: #0071DC;
+    --dd-confirmButtonBackground: #0071DC;
 }
 
 /*---------------------------------------------
@@ -5293,7 +5299,7 @@ span.prefix-title {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0rem;
+    padding: 0rem 0rem 1rem;
     border-radius: 0px;
     background: #f1f3f7;
     transition: all ease 0.4s;
@@ -5313,7 +5319,7 @@ span.prefix-title {
     justify-content: center;
     height: 28px;
     border-radius: 50px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-list-098 span {
     font-weight: 600;
@@ -5358,13 +5364,13 @@ span.prefix-title {
 .vesh-categ-box .vesh-categ-links:hover,
 .vesh-categ-box .vesh-categ-links:focus,
 .vesh-categ-box .vesh-categ-links:active {
-    background: #cc0202;
+    background: #0071DC;
 }
 .vesh-categ-box.light .vesh-categ-links:hover,
 .vesh-categ-box.light .vesh-categ-links:focus,
 .vesh-categ-box.light .vesh-categ-links:active {
-    background: #cc0202;
-    border: 1px solid #cc0202;
+    background: #0071DC;
+    border: 1px solid #0071DC;
 }
 
 .vesh-categ-box .vesh-categ-links:hover .veshm-list-098,
@@ -5472,7 +5478,7 @@ span.prefix-title {
     height: 40px;
     border-radius: 50%;
     background: rgba(1, 126, 250, 0.1);
-    color: #cc0202;
+    color: #0071DC;
     margin-right: 10px;
 }
 .single-side-text h6 {
@@ -5560,7 +5566,7 @@ span.prefix-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #cc0202;
+    background: #0071DC;
     margin-right: 10px;
     color: #ffffff;
 }
@@ -5608,15 +5614,15 @@ span.prefix-title {
 }
 .vesm-city-list-foot .simple-link {
     font-weight: 500;
-    color: #cc0202;
+    color: #0071DC;
 }
 .vesm-city-list-body ul li a:hover,
 .vesm-city-list-body ul li a:focus {
-    color: #cc0202;
+    color: #0071DC;
 }
 .vesm-city-list-body ul li a:hover i,
 .vesm-city-list-body ul li a:focus i {
-    color: #cc0202;
+    color: #0071DC;
     margin-left: 10px;
 }
 
@@ -5714,7 +5720,7 @@ span.prefix-title {
     justify-content: center;
     font-weight: 600;
     font-size: 14px;
-    color: #cc0202;
+    color: #0071DC;
     border: 2px solid white;
     border-radius: 50%;
     margin-left: -12px;
@@ -5799,7 +5805,7 @@ span.prefix-title {
 }
 .vesh-categ-list-links:hover .vesh-categ-list-icons,
 .vesh-categ-list-links:focus .vesh-categ-list-icons {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 /* .vesh-categ-list-links:hover,
@@ -5836,7 +5842,7 @@ span.prefix-title {
     justify-content: center;
     height: 28px;
     border-radius: 50px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-list-75 span {
     font-weight: 600;
@@ -6062,7 +6068,7 @@ span.verify-icon {
     align-items: center;
     justify-content: center;
     border-radius: 100px 0px 100px 100px;
-    color: #cc0202;
+    color: #0071DC;
     font-size: 25px;
 }
 .veshm-achivement-content {
@@ -6162,7 +6168,7 @@ span.verify-icon {
     opacity: 0.3;
 }
 .veshm-location-prt.overlay .veshm-location-lists {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 
@@ -6217,7 +6223,7 @@ span.verify-icon {
     height: 52px;
 }
 .newsltr-form .btn.btn-subscribe {
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 50px;
     font-weight: 500;
     font-size: 13px;
@@ -6259,7 +6265,7 @@ span.verify-icon {
     margin: 0 auto 10px;
     background: rgb(1 126 250 / 10%);
     font-size: 30px;
-    color: #cc0202;
+    color: #0071DC;
 }
 .vesh-prc-icon-caption span {
     background: #dfe5eb;
@@ -6300,7 +6306,7 @@ span.verify-icon {
 .veshm-prc-title h2 {
     font-size: 60px;
     line-height: 1;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-prc-title h2 sup {
     font-size: 20px;
@@ -6362,13 +6368,13 @@ span.verify-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-pricing-box.featured {
-    border-color: #cc0202;
+    border-color: #0071DC;
 }
 .veshm-pricing-box.featured .veshm-pricing-footer .btn.btn-subscribe {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 
@@ -6407,7 +6413,7 @@ span.verify-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 6px;
     color: white;
     font-size: 25px;
@@ -6420,7 +6426,7 @@ span.verify-icon {
     border-radius: 50%;
     box-shadow: 4px 3px 8px 4px rgb(13 40 68 / 10%);
     -webkit-box-shadow: 4px 3px 8px 4px rgb(13 40 68 / 10%);
-    color: #cc0202;
+    color: #0071DC;
     width: 60px;
     height: 60px;
     font-size: 20px;
@@ -6498,17 +6504,17 @@ span.verify-icon {
     border-radius: 6px;
     font-size: 14px;
     font-weight: 500;
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-posted-box-y78.active .veshm-posted-body-y78 h2 {
     color: #004c97;
 }
 .veshm-posted-box-y78.active .veshm-posted-footer-y78 .btn.btn-start {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .veshm-posted-box-y78.active {
-    border-color: #cc0202;
+    border-color: #0071DC;
 }
 
 .veshm-servs-box {
@@ -6530,7 +6536,7 @@ span.verify-icon {
     justify-content: center;
     box-shadow: 4px 3px 8px 4px rgb(13 40 68 / 10%);
     -webkit-box-shadow: 4px 3px 8px 4px rgb(13 40 68 / 10%);
-    color: #cc0202;
+    color: #0071DC;
 }
 .veshm-servs-box-caption {
     position: relative;
@@ -6600,10 +6606,10 @@ span.verify-icon {
 .modal-login-form .form-group label {
     font-size: 12px;
     font-weight: 500;
-    color: #cc0202;
+    color: #0071DC;
 }
 .form-group .btn.btn-modal-login {
-    background: #cc0202;
+    background: #0071DC;
     width: 100%;
     height: 52px;
     border-radius: 5px;
@@ -6736,7 +6742,7 @@ span.mod-close {
 .filter-popup .nav-tabs .nav-item .nav-link {
     width: 100%;
     font-weight: 600;
-    color: #cc0202;
+    color: #0071DC;
     border-radius: 0.375rem;
     background: rgb(1 126 250 / 10%);
 }
@@ -6744,7 +6750,7 @@ span.mod-close {
 .filter-popup .nav-tabs .nav-item .nav-link:hover,
 .filter-popup .nav-tabs .nav-item .nav-link:focus {
     color: #ffffff;
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 0.375rem;
 }
 .filt-buttons-updates {
@@ -6869,7 +6875,7 @@ div#filTabContent {
 .veshm-reviews-designation {
     font-size: 12px;
     font-weight: 500;
-    color: #cc0202;
+    color: #0071DC;
 }
 
 /*----------------------------------------------
@@ -7082,7 +7088,7 @@ div#filTabContent {
     display: block;
     width: 24px;
     height: 4px;
-    background: #cc0202;
+    background: #0071DC;
     margin-top: 16px;
 }
 .comp-property {
@@ -7102,7 +7108,7 @@ div#filTabContent {
 .clp-title span {
     font-size: 13px;
     font-weight: 600;
-    color: #cc0202;
+    color: #0071DC;
 }
 .comp-property ul {
     padding: 0;
@@ -7129,7 +7135,7 @@ span.remove-from-compare {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #cc0202;
+    color: #0071DC;
 }
 /*----------------------------------------------
  Blog Design Start
@@ -7180,7 +7186,7 @@ span.remove-from-compare {
     height: 26px;
     font-size: 12px;
     font-weight: 600;
-    background: #cc0202;
+    background: #0071DC;
     padding: 0 15px;
     border-radius: 4px;
     color: #ffffff;
@@ -7217,7 +7223,7 @@ span.remove-from-compare {
 .veshm-grid-body-footer .btn.btn-blog-link:hover,
 .veshm-grid-body-footer .btn.btn-blog-link:focus,
 .veshm-grid-body-footer .btn.btn-blog-link:active {
-    background: #cc0202;
+    background: #0071DC;
     color: #ffffff;
 }
 .blog-list-block {
@@ -7229,10 +7235,11 @@ span.remove-from-compare {
     align-items: center;
     padding: 0.5rem;
     justify-content: flex-start;
+    border: 1px dashed gray;
 }
 .blog-list-thumber {
     height: 100%;
-    flex: 1;
+    flex: 0.5;
 }
 .blog-list-caption {
     padding: 0 1rem;
@@ -7611,13 +7618,13 @@ ul.packages-lists-list li {
     font-weight: 500;
     position: relative;
     transition: all ease 0.4s;
-    font-family: "Jost", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background: #f0f5fb;
 }
 .dash_user_menues ul li a:hover,
 .dash_user_menues ul li a:focus {
     color: #ffffff;
-    background: #cc0202;
+    background: #0071DC;
 }
 span.expiration {
     float: right;
@@ -7631,7 +7638,7 @@ span.expiration {
 }
 .dash_user_menues ul li.active a {
     color: #ffffff;
-    background: #cc0202;
+    background: #0071DC;
     padding: 1rem 2rem;
     border-radius: 0.4rem;
 }
@@ -7643,7 +7650,7 @@ span.expiration {
     margin: 2rem 0 0;
     display: flex;
     width: 100%;
-    background: #cc0202;
+    background: #0071DC;
 }
 .dash_user_footer ul li {
     padding: 0;
@@ -8171,7 +8178,7 @@ table.property-table-wrap
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #cc0202;
+    background: #0071DC;
     border-radius: 0.2rem;
 }
 ._prt_filt_add_new .prt_submit_link i {
@@ -8488,4 +8495,23 @@ footer.skin-dark-footer .footer-widget .ftp-info {
 
 #pills-tab .nav-item {
     margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
+.banner-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px 0 5px 0;
+}
+
+.prices {
+    font-size: 12px;
+}
+
+.news-footer {
+    border-top: 1px dashed var(--bs-border-color);
 }

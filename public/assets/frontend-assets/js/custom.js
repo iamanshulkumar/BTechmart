@@ -238,7 +238,7 @@ $(function () {
 		centerMode: false,
 		centerPadding: '20px',
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		arrows: false,
 		autoplay: true,
 		slidesToScroll: 1,
@@ -270,7 +270,7 @@ $(function () {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		autoplay: true,
 		responsive: [
@@ -298,7 +298,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -317,6 +317,7 @@ $(function () {
 			}
 		]
 	});
+
 	// apartments  Slide
 	$('.apartments-slide').slick({
 		slidesToShow: 5,
@@ -325,7 +326,7 @@ $(function () {
 		autoplay: true,
 		infinite: true,
 		centerMode: false,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -344,6 +345,7 @@ $(function () {
 			}
 		]
 	});
+
 	// rental  Slide
 	$('.rental-slide').slick({
 		slidesToShow: 3,
@@ -352,7 +354,7 @@ $(function () {
 		autoplay: true,
 		infinite: true,
 		centerMode: true,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -371,6 +373,7 @@ $(function () {
 			}
 		]
 	});
+
 	// blog  Slide
 	$('.blog-slide').slick({
 		slidesToShow: 3,
@@ -378,8 +381,8 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		centerMode: true,
-		speed: 700,
+		centerMode: false,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -398,6 +401,7 @@ $(function () {
 			}
 		]
 	});
+
 	// cities  Slide
 	$('.cities-slide').slick({
 		slidesToShow: 3,
@@ -406,7 +410,7 @@ $(function () {
 		autoplay: true,
 		infinite: true,
 		centerMode: false,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -425,6 +429,7 @@ $(function () {
 			}
 		]
 	});
+
 	// reviews  Slide
 	$('.reviews-slide').slick({
 		slidesToShow: 3,
@@ -433,7 +438,35 @@ $(function () {
 		autoplay: true,
 		infinite: true,
 		centerMode: true,
-		speed: 700,
+		speed: 3000,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	
+	// news  Slide
+	$('.news-slide').slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		centerMode: false,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -462,7 +495,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		centerMode: true,
 		variableWidth: false,
 		slidesToScroll: 1,
@@ -491,7 +524,7 @@ $(function () {
 		arrows: true,
 		autoplay: true,
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -518,7 +551,7 @@ $(function () {
 		arrows: false,
 		autoplay: true,
 		infinite: true,
-		speed: 700,
+		speed: 3000,
 		slidesToScroll: 1,
 		responsive: [
 			{

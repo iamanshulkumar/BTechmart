@@ -321,7 +321,7 @@
 
 @media (max-width: 1200px) {
     .vesh-content-title {
-        font-size: 14px;
+        font-size: 10px;
     }
     .veshm-agent-social ul li {
         margin-left: 5px;
@@ -527,14 +527,15 @@
         padding: 0;
     }
     .blog-list-block {
-        flex-direction: column;
+        flex-direction: row;
     }
     .blog-list-thumber {
         height: auto;
+        flex: 0.4;
     }
     .blog-list-caption {
-        margin-top: 1rem;
-        padding: 0 1rem 1rem;
+        margin-top: 0rem;
+        padding: 0 1rem 0rem;
     }
     .post-details .post-title {
         font-size: 18px;
