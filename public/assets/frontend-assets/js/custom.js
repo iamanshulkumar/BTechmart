@@ -402,11 +402,14 @@ $(function () {
 		]
 	});
 
-	// cities  Slide
-	$('.cities-slide').slick({
+
+	// Initialize Slick slider for the active tab
+	
+	$('.localities-slide').slick({
+		
 		slidesToShow: 3,
 		dots: false,
-		arrows: true,
+		arrows: false,
 		autoplay: true,
 		infinite: true,
 		centerMode: false,
@@ -429,6 +432,14 @@ $(function () {
 			}
 		]
 	});
+
+
+// Handle tab switch event
+$('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
+    // Re-initialize Slick slider for the active tab
+    $('.localities-slide').slick('setPosition')
+});
+
 
 	// reviews  Slide
 	$('.reviews-slide').slick({
@@ -481,6 +492,34 @@ $(function () {
 				settings: {
 					arrows: false,
 					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	// cities  Slide
+	$('.cities-slide').slick({
+		slidesToShow: 4,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		centerMode: false,
+		speed: 3000,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
 				}
 			}
 		]

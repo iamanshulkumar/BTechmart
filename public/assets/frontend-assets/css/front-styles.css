@@ -3376,6 +3376,7 @@ span.noti-status {
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: space-between
 }
 .hero-search-content {
     background: #ffffff;
@@ -3861,9 +3862,9 @@ span.noti-status {
 /*------------------- Tab Design ------------------*/
 .nav-pills .nav-link {
     font-weight: 500;
-    padding: 0.8rem 1.6rem;
-    background: #131b24;
-    color: #ffffff;
+    padding: 0.3rem 1.3rem;
+    background: #e3e3e3;
+    color: #000;
     margin-right: 10px;
 }
 .nav-pills.small .nav-link {
@@ -3874,6 +3875,10 @@ span.noti-status {
     margin-bottom: 10px;
 }
 .nav-pills.lights .nav-link {
+    background: #f1f5f8;
+    color: #1a2e3f;
+}
+.nav-pills.lights .nav-link:hover {
     background: #f1f5f8;
     color: #1a2e3f;
 }
@@ -7252,7 +7257,7 @@ span.remove-from-compare {
     margin: 4px 0 0;
 }
 .blg-authr {
-    margin-top: 1rem;
+    margin: 0.3rem 0;
 }
 .single-post-item.format-standard {
     position: relative;
@@ -7767,7 +7772,7 @@ small {
     align-items: center;
     justify-content: space-between;
     padding: 0.8rem 1rem;
-    border-bottom: 1px solid #e4ecef;
+    /* border-bottom: 1px solid #e4ecef; */
 }
 .ground-client-first {
     display: flex;
@@ -7792,7 +7797,7 @@ small {
 }
 .ground-client-caption h5 {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
     line-height: 1;
 }
@@ -7802,13 +7807,14 @@ small {
     justify-content: flex-end;
 }
 .ground-btn .btns {
-    width: 35px;
+    width: 60px;
     height: 35px;
-    padding: 0;
+    padding: 0 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 5px;
+    font-size: 12px;
 }
 td.prt-fgi {
     color: #022f5d;
@@ -8512,6 +8518,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     font-size: 12px;
 }
 
-.news-footer {
-    border-top: 1px dashed var(--bs-border-color);
+.localities-slide h6, .localities-slide span{
+    font-size: 13px;
 }

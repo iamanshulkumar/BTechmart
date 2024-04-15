@@ -19,7 +19,7 @@
             <div class="full-search-2  search-bar">
                 <div class="hero-search-content colored shadow">
                     <div class="scrollable-nav mb-2 mx-1 hideInMobile ">
-                        <ul class="nav nav-underline nav-fill d-flex overflow-auto flex-nowrap">
+                        <ul class="nav nav-underline nav-pills d-flex overflow-auto flex-nowrap">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Buy</a>
                             </li>
@@ -36,13 +36,13 @@
                                 <a class="nav-link" href="#">Interior Design</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Top Gainers</a>
+                                <a class="nav-link" href="#top-gainer">Top Gainers</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="row classic-search-box m-0 gx-2">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
                             <div class="form-group briod">
                                 <div class="input-with-icon">
                                     <input type="text" class="form-control "
@@ -72,7 +72,7 @@
                         </div> --}}
 
                         {{-- Select city --}}
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
+                        {{-- <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
                             <div class="form-group">
                                 <div class="input-with-icon">
                                     <select class="form-control">
@@ -88,7 +88,7 @@
                                     <i class="fa-solid fa-location-crosshairs"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
                         {{-- Filert & search btn --}}
                         <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 hideInMobile">
@@ -98,7 +98,7 @@
                                         class="btn btn-filter-search"><i class="fa-solid fa-filter"></i>Filter</a>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-danger full-width">
+                                    <button type="submit" class="btn btn-primary full-width">
                                         Search
                                     </button>
                                 </div>
@@ -204,8 +204,7 @@
 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
                     <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                        <a href="#top-gainer" class="vesh-categ-links">
                             {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
                             <div class="vesh-categ-icons">
                                 <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
@@ -230,7 +229,7 @@
     <section>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg- col-md-10 text-start">
+                <div class="col-lg-12 col-md-10 text-start">
                     <div class="sec-heading left">
                         <h2>Recently posted properties</h2>
                         <p>
@@ -1584,8 +1583,7 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
@@ -1615,8 +1613,7 @@
                                 </div>
                                 <div class="veshm-list-75"><span>23 Property</span></div>
                                 <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                     </div>
                                     <button class="btn btn-like" type="button">
                                         <i class="fa-solid fa-heart-circle-check"></i>
@@ -1793,6 +1790,7 @@
                 </div>
 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                    
                     <div class="choose-us-head">
                         <div class="choose-us-wriops my-4">
                             <span class="font--bold label-light-success px-3 py-2 rounded">Choose Us</span>
@@ -1800,6 +1798,8 @@
                         <div class="choose-title">
                             <h2>Why Choose Us For Your House<br />Needs?</h2>
                         </div>
+                        <span id="top-gainer" class="hideInDesktop"></span>
+                        
                         <div class="veshm-icon-box-list mt-4">
                             <ul class="hideInDesktop">
                                 <div class="choose-slide">
@@ -1940,10 +1940,12 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>
+                            <span id="top-gainer" class="hideInMobile"></span>
+                        </div> 
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <div class="clearfix"></div>
@@ -1951,145 +1953,824 @@
 
 
     <!-- ============================ Explore More City For Properties Start ================================== -->
-    <section>
+    <section >
         <div class="container">
 
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-10 text-start">
-                    <div class="sec-heading">
-                        <h2>Search in More Cities</h2>
-                        <p>Where are buyers searching in your city</p>
+                    <div class="sec-heading" >
+                        <h2>Top Gainers </h2>
+                        <p>Across India with highest appreciation</p>
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center gy-4 gx-4 gx-xl-5 gx-lg-5">
 
-                <!-- Single Item -->
+
                 <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                    <div class="cities-slide">
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesm-city-list-wrap">
-                                <div class="vesm-city-list-head">
-                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
-                                    <div>
-                                        <h5>Apartment</h5>
-                                        <div>Most searched localities </div>
+
+                    <div>
+                        <ul class="nav nav-pills overflow-x-auto d-flex flex-nowrap" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active text-nowrap " id="pills-2d-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-2d" type="button" role="tab"
+                                    aria-controls="pills-2d" aria-selected="true">Localities</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-nowrap" id="pills-3d-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-3d" type="button" role="tab"
+                                    aria-controls="pills-3d" aria-selected="false">Societies</button>
+                            </li>
+
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-2d" role="tabpanel"
+                                aria-labelledby="pills-2d-tab" tabindex="0">
+
+                                <div class="localities-slide">
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
                                     </div>
+
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="vesm-city-list-body">
-                                    <ul>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Huntingdonshire</a>
-                                            <span class="dios-count">15</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Huntingdon</a>
-                                            <span class="dios-count">17</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Ramsey</a>
-                                            <span class="dios-count">12</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Fenland</a>
-                                            <span class="dios-count">40</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="vesm-city-list-foot">
-                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                            class="fa-regular fa-circle-right ms-2"></i></a>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-3d" role="tabpanel" aria-labelledby="pills-3d-tab"
+                                tabindex="0">
+                                <div class="localities-slide">
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Slide -->
+                                    <div class="single-slide">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6>Top 5 In Bangalore</h6>
+                                                <span class="float-right">Last 1 year</span>
+                                            </div>
+                                            <div class="ground-client-list">
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#1 </span>Bellandur</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://static.99acres.com/images/locationREI/defaultLocality.png"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#2 </span>BTM 2nd St...</h5>
+                                                            <span class="text-mid">@ ₹12,300/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 82.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20231/2/404622904M-1675102339850.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#3 </span>Jigani</h5>
+                                                            <span class="text-mid">@ ₹5,250/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            {{-- <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span> --}}
+                                                            <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 16.7%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/20519/7/410387622M-1677849221303.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#4 </span>Varthur</h5>
+                                                            <span class="text-mid">@ ₹11,500/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="ground-client-single-list">
+                                                    <div class="ground-client-first">
+                                                        <div class="ground-client-thumb"><img
+                                                                src="https://mediacdn.99acres.com/media1/14904/11/298091688M-1621496544231.jpg"
+                                                                class="img-fluid circle" alt=""></div>
+                                                        <div class="ground-client-caption">
+                                                            <h5><span class="text-muted">#5 </span>RT Nagar</h5>
+                                                            <span class="text-mid">@ ₹12,600/ sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ground-client-last">
+                                                        <div class="ground-btn">
+                                                            <span href="JavaScript:Void(0);"
+                                                                class="btns bg-light-success text-success">
+                                                                <i class="fa-solid fa-square-caret-up me-1"></i> 86.7%
+                                                            </span>
+                                                            {{-- <span href="JavaScript:Void(0);" class="btns bg-light-danger text-danger">
+                                                                <i class="fa-solid fa-square-caret-down me-1"></i> 6.7%
+                                                            </span> --}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesm-city-list-wrap">
-                                <div class="vesm-city-list-head">
-                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
-                                    <div>
-                                        <h5>Plots</h5>
-                                        <div>Most searched societies for Plots</div>
-                                    </div>
-                                </div>
-                                <div class="vesm-city-list-body">
-                                    <ul>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Aylesbury
-                                                Vale</a>
-                                            <span class="dios-count">32</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Aylesbury</a>
-                                            <span class="dios-count">23</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Amersham</a>
-                                            <span class="dios-count">10</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Chiltern</a>
-                                            <span class="dios-count">08</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="vesm-city-list-foot">
-                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                            class="fa-regular fa-circle-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="vesm-city-list-wrap">
-                                <div class="vesm-city-list-head">
-                                    <span><i class="fa-solid fa-house-tsunami"></i></span>
-                                    <div>
-                                        <h5>Builder Floor</h5>
-                                        <div>Most searched societies for Builder Floor </div>
-                                    </div>
-                                </div>
-                                <div class="vesm-city-list-body">
-                                    <ul>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Macclesfield</a>
-                                            <span class="dios-count">07</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Congleton</a>
-                                            <span class="dios-count">10</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>Knutsford</a>
-                                            <span class="dios-count">22</span>
-                                        </li>
-                                        <li>
-                                            <a href="JavaScript:Void(0);"><i
-                                                    class="fa-solid fa-arrow-right-long"></i>UNantwich</a>
-                                            <span class="dios-count">16</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="vesm-city-list-foot">
-                                    <a href="JavaScript:Void(0);" class="simple-link">Explore More<i
-                                            class="fa-regular fa-circle-right ms-2"></i></a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -2099,7 +2780,253 @@
     <!-- ============================ Explore More City For Properties End ================================== -->
 
 
-    <!-- ================================= News slider ================================== -->
+    <!-- ================================= 5 News slider ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <p>Top Cities</p>
+                        <h2>Explore Real Estate in Popular Indian Cities</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+
+                <!-- Single Review -->
+                <div class="col-xl-12 col-lg-12 col-md-12 p-0">
+                    <div class="cities-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block  ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/11848/1/236961707D-1594715125517.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Delhi / NCR Real Estate" title="Delhi / NCR Real Estate"
+                                                type="image/jpg" class="img-fluid rounded">
+                                            <img src="https://mediacdn.99acres.com/media1/11848/1/236961707D-1594715125517.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Delhi / NCR Real Estate" title="Delhi / NCR Real Estate"
+                                                decoding="auto" class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <h4 class="bl-title"><a href="/blogdetail">Delhi / NCR</a></h4>
+                                        <span class="text-mid">1,17,000+ Properties</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="blog-list-block mt-2 ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/11848/15/236975527D-1594718126587.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Mumbai Real Estate" class="img-fluid rounded"
+                                                title="Mumbai Real Estate" type="image/jpg">
+                                            <img src="https://mediacdn.99acres.com/media1/11848/15/236975527D-1594718126587.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Mumbai Real Estate" title="Mumbai Real Estate" decoding="auto"
+                                                class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Mumbai</a></h4>
+                                        <span class="text-mid">3 Days Ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/11846/12/236932009D-1594709336922.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Bangalore Real Estate" title="Bangalore Real Estate"
+                                                type="image/jpg" class="img-fluid rounded">
+                                            <img src="https://mediacdn.99acres.com/media1/11846/12/236932009D-1594709336922.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Bangalore Real Estate" title="Bangalore Real Estate"
+                                                decoding="auto" class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Bangalore</a></h4>
+                                        <span class="text-mid">26,000+ Properties</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-list-block  mt-2 ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/11848/7/236967665D-1594716318858.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Hyderabad Real Estate" title="Hyderabad Real Estate"
+                                                type="image/jpg" class="img-fluid rounded">
+                                            <img src="https://mediacdn.99acres.com/media1/11848/7/236967665D-1594716318858.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Hyderabad Real Estate" title="Hyderabad Real Estate"
+                                                decoding="auto" class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Hyderabad</a></h4>
+                                        <span class="text-mid">19,000+ Properties</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber my-md-1">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/16807/3/336143474D-1640587363487.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Pune Real Estate" title="Pune Real Estate" type="image/jpg"
+                                                class="img-fluid rounded">
+                                            <img src="https://mediacdn.99acres.com/media1/16807/3/336143474D-1640587363487.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Pune Real Estate" title="Pune Real Estate" decoding="auto"
+                                                class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Pune</a></h4>
+                                        <span class="text-mid">27,000+ Properties</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="blog-list-block mt-4 my-md-2 ">
+
+                                <div class="blog-list-thumber">
+                                    <picture>
+                                        <source
+                                            srcset="https://mediacdn.99acres.com/media1/11848/13/236973031D-1594717541096.jpg"
+                                            style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                            alt="Kolkata Real Estate" title="Kolkata Real Estate" type="image/jpg"
+                                            class="img-fluid rounded">
+                                        <img src="https://mediacdn.99acres.com/media1/11848/13/236973031D-1594717541096.jpg"
+                                            style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                            alt="Kolkata Real Estate" title="Kolkata Real Estate" decoding="auto"
+                                            class="img-fluid rounded">
+                                    </picture>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Kolkata</a></h4>
+                                        <span class="text-mid">18,000+ Properties</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+
+                        <div class="single-slide">
+                            <div class="blog-list-block ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://mediacdn.99acres.com/media1/11848/0/236960749D-1594714810078.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Chennai Real Estate" title="Chennai Real Estate" type="image/jpg"
+                                                class="img-fluid rounded">
+                                            <img src="https://mediacdn.99acres.com/media1/11848/0/236960749D-1594714810078.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Chennai Real Estate" title="Chennai Real Estate" decoding="auto"
+                                                class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+
+                                        <h4 class="bl-title"><a href="/blogdetail">Chennai</a></h4>
+                                        <span class="text-mid">25,000+ Properties</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="blog-list-block mt-2 ">
+
+                                <div class="blog-list-thumber">
+                                    <a href="/blogdetail">
+                                        <picture>
+                                            <source
+                                                srcset="https://imagecdn.99acres.com/media1/24073/2/481462274D-1711002313632.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Ahmedabad Real Estate" title="Ahmedabad Real Estate"
+                                                type="image/jpg" class="img-fluid rounded">
+                                            <img src="https://imagecdn.99acres.com/media1/24073/2/481462274D-1711002313632.jpg"
+                                                style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;"
+                                                alt="Ahmedabad Real Estate" title="Ahmedabad Real Estate"
+                                                decoding="auto" class="img-fluid rounded">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="blog-list-caption">
+                                    <div class="blog-info">
+                                        <h4 class="bl-title"><a href="/blogdetail">Ahmedabad</a></h4>
+                                        <span class="text-mid">12,000+ Properties</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= 5 News slider End ================================== -->
+
+    <!-- ================================= 5 News slider ================================== -->
     <section>
         <div class="container">
 
@@ -2206,7 +3133,7 @@
             </div>
         </div>
     </section>
-    <!-- ================================= News slider End ================================== -->
+    <!-- ================================= 5 News slider End ================================== -->
 
 
     <!-- ============================ Good Reviews By Customers ================================== -->
@@ -2418,7 +3345,7 @@
 
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="blog-list-block border border-primary ">
+                            <div class="blog-list-block border border-subtle-secondary ">
 
                                 <div class="blog-list-thumber">
                                     <div class="label banner-label text-primary bg-light-primary">
@@ -2443,26 +3370,27 @@
                                             <span class="mx-2"> | </span>
                                             <div>1, 2 BHK Apartment</div>
                                         </div>
-                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in
+                                        </div>
                                     </div>
 
-                                            <div class="blg-authr d-flex align-items-center news-footer ">
+                                    <div class="blg-authr d-flex align-items-center news-footer ">
 
-                                                <div class="blg-authr-caption pt-2  ">
-                                                    <a href="JavaScript:Void(0);"
-                                                        class="text-white px-2 py-1 rounded border bg-primary">
-                                                        <i class="fa-regular fa-circle-right"></i>
-                                                        Contact now
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div class="blg-authr-caption pt-2  ">
+                                            <a href="JavaScript:Void(0);"
+                                                class="text-white px-2 py-1 rounded border bg-primary">
+                                                <i class="fa-regular fa-circle-right"></i>
+                                                Contact now
+                                            </a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="blog-list-block border border-primary ">
+                            <div class="blog-list-block border border-subtle-secondary ">
 
                                 <div class="blog-list-thumber">
                                     <div class="label banner-label text-primary bg-light-primary">
@@ -2487,26 +3415,27 @@
                                             <span class="mx-2"> | </span>
                                             <div>1, 2 BHK Apartment</div>
                                         </div>
-                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in
+                                        </div>
                                     </div>
 
-                                            <div class="blg-authr d-flex align-items-center news-footer ">
+                                    <div class="blg-authr d-flex align-items-center news-footer ">
 
-                                                <div class="blg-authr-caption pt-2  ">
-                                                    <a href="JavaScript:Void(0);"
-                                                        class="text-white px-2 py-1 rounded border bg-primary">
-                                                        <i class="fa-regular fa-circle-right"></i>
-                                                        Contact now
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div class="blg-authr-caption pt-2  ">
+                                            <a href="JavaScript:Void(0);"
+                                                class="text-white px-2 py-1 rounded border bg-primary">
+                                                <i class="fa-regular fa-circle-right"></i>
+                                                Contact now
+                                            </a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="blog-list-block border border-primary ">
+                            <div class="blog-list-block border border-subtle-secondary ">
 
                                 <div class="blog-list-thumber">
                                     <div class="label banner-label text-primary bg-light-primary">
@@ -2531,26 +3460,27 @@
                                             <span class="mx-2"> | </span>
                                             <div>1, 2 BHK Apartment</div>
                                         </div>
-                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in
+                                        </div>
                                     </div>
 
-                                            <div class="blg-authr d-flex align-items-center news-footer ">
+                                    <div class="blg-authr d-flex align-items-center news-footer ">
 
-                                                <div class="blg-authr-caption pt-2  ">
-                                                    <a href="JavaScript:Void(0);"
-                                                        class="text-white px-2 py-1 rounded border bg-primary">
-                                                        <i class="fa-regular fa-circle-right"></i>
-                                                        Contact now
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div class="blg-authr-caption pt-2  ">
+                                            <a href="JavaScript:Void(0);"
+                                                class="text-white px-2 py-1 rounded border bg-primary">
+                                                <i class="fa-regular fa-circle-right"></i>
+                                                Contact now
+                                            </a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
                         </div>
                         <!-- Single Slide -->
                         <div class="single-slide">
-                            <div class="blog-list-block border border-primary ">
+                            <div class="blog-list-block border border-subtle-secondary ">
 
                                 <div class="blog-list-thumber">
                                     <div class="label banner-label text-primary bg-light-primary">
@@ -2575,24 +3505,25 @@
                                             <span class="mx-2"> | </span>
                                             <div>1, 2 BHK Apartment</div>
                                         </div>
-                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in</div>
+                                        <div><span class="text-success">5.6%</span> price increase in last 3 months in
+                                        </div>
                                     </div>
 
-                                            <div class="blg-authr d-flex align-items-center news-footer ">
+                                    <div class="blg-authr d-flex align-items-center news-footer ">
 
-                                                <div class="blg-authr-caption pt-2  ">
-                                                    <a href="JavaScript:Void(0);"
-                                                        class="text-white px-2 py-1 rounded border bg-primary">
-                                                        <i class="fa-regular fa-circle-right"></i>
-                                                        Contact now
-                                                    </a>
-                                                </div>
-                                            </div>
+                                        <div class="blg-authr-caption pt-2  ">
+                                            <a href="JavaScript:Void(0);"
+                                                class="text-white px-2 py-1 rounded border bg-primary">
+                                                <i class="fa-regular fa-circle-right"></i>
+                                                Contact now
+                                            </a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
                         </div>
-                        
+
 
                     </div>
                 </div>

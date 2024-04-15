@@ -168,7 +168,7 @@
     .header .nav-menu > .active > a .submenu-indicator-chevron,
     .header .nav-menu > .focus > a .submenu-indicator-chevron,
     .header .nav-menu > li:hover > a .submenu-indicator-chevron {
-        border-color: transparent #cc0202 #cc0202 transparent;
+        border-color: transparent #0071DC #0071DC transparent;
     }
     .header.header-transparent.header-fixed .nav-brand,
     .header.header-transparent.header-fixed .nav-brand:focus,
@@ -425,7 +425,7 @@
         left: 20px;
     }
     .choose-us-head {
-        margin-bottom: 2.5rem;
+        /* margin-bottom: 2.5rem; */
     }
     .property_dashboard_navbar {
         margin-bottom: 1rem;
@@ -526,6 +526,16 @@
     .agent-list-caption {
         padding: 0;
     }
+    .cities-slide .blog-list-block {
+        flex-direction: column;
+        align-items: start;
+        border: 0;
+    }
+
+    .cities-slide .blog-list-caption {
+        padding: 0;
+    }
+
     .blog-list-block {
         flex-direction: row;
     }
@@ -647,7 +657,7 @@
         font-size: 4rem;
     }
     .nav-pills .nav-link {
-        padding: 0.8rem 1.3rem;
+        padding: 0.3rem 1.3rem;
     }
 }
 
