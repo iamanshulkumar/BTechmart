@@ -466,7 +466,9 @@ $(function () {
 $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
     // Re-initialize Slick slider for the active tab
     $('.localities-slide').slick('setPosition')
+    
 });
+
 
 
 	// reviews  Slide
@@ -731,13 +733,14 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 	});
 	// Agents Slide
 	$('.agent-slide').slick({
-		slidesToShow: 2,
-		arrows: true,
+		slidesToShow: 4,
+		dots: false,
+		arrows: false,
 		autoplay: true,
+		infinite: true,
+		centerMode: false,
 		speed: 3000,
 		slidesToScroll: 1,
-		dots: false,
-		
 		responsive: [
 			{
 				breakpoint: 1023,
@@ -762,6 +765,12 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 				}
 			}
 		]
+	});
+
+	$('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
+		// Re-initialize Slick slider for the active tab
+		$('.agent-slide').slick('setPosition')
+		
 	});
 
 	$('.veshm-list-click').slick({

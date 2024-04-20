@@ -1770,1060 +1770,1037 @@
 
             <div class="row align-items-center">
 
-                <div class="col-xl-4 col-lg-4 col-md-12">
+                <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="sec-heading text-start">
-                        <h2 class="mb-3">Browse Agents</h2>
+                        <h2 class="mb-3">Browse Service Providers</h2>
                         <p class="text-paragraph">Get in touch with agents around you</p>
-                        <div class="vsm-stay-button">
-                            <a href="/agentgrid" class="vsm-stay-btn">
-                                <i class="fa-solid fa-comments me-2"></i>
-                                Know More
-                            </a>
-                        </div>
+                        
                     </div>
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-12">
-                    <div class="agent-slide">
+                
 
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
 
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                                class="img-fluid circle" alt="">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+    
+                        <div>
+                            <ul class="nav nav-pills overflow-x-auto d-flex flex-nowrap" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-nowrap " id="pills-7d-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-7d" type="button" role="tab"
+                                        aria-controls="pills-7d" aria-selected="true">Agents</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-nowrap" id="pills-8d-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-8d" type="button" role="tab"
+                                        aria-controls="pills-8d" aria-selected="false">Builders</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-nowrap" id="pills-4d-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-4d" type="button" role="tab"
+                                        aria-controls="pills-4d" aria-selected="false">Contractors</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-nowrap" id="pills-5d-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-5d" type="button" role="tab"
+                                        aria-controls="pills-5d" aria-selected="false">Interior Desginers </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-nowrap" id="pills-6d-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-6d" type="button" role="tab"
+                                        aria-controls="pills-6d" aria-selected="false">Architectures</button>
+                                </li>
+    
+                            </ul>
+    
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-7d" role="tabpanel"
+                                    aria-labelledby="pills-7d-tab" tabindex="0">
+                                    <div class="agent-slide">
+
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
                                         </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
                                     </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    <div class="vsm-stay-button mt-2 ">
+                                        <a href="/agentgrid" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+    
+                                <div class="tab-pane fade" id="pills-8d" role="tabpanel" aria-labelledby="pills-8d-tab"
+                                    tabindex="0">
+                                    <div class="agent-slide">
+
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
                                     </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
+                                    <div class="vsm-stay-button mt-2 ">
+                                        <a href="/agentgrid" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
                                 </div>
+
+                                <div class="tab-pane fade" id="pills-4d" role="tabpanel" aria-labelledby="pills-4d-tab"
+                                    tabindex="0">
+                                    <div class="agent-slide">
+
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                    </div>
+                                    <div class="vsm-stay-button mt-2 ">
+                                        <a href="/agentgrid" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-5d" role="tabpanel" aria-labelledby="pills-5d-tab"
+                                    tabindex="0">
+                                    <div class="agent-slide">
+
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                    </div>
+                                    <div class="vsm-stay-button mt-2 ">
+                                        <a href="/agentgrid" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-6d" role="tabpanel" aria-labelledby="pills-6d-tab"
+                                    tabindex="0">
+                                    <div class="agent-slide">
+
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                        <!-- Single Slide -->
+                                        <div class="single-slide">
+                                            <div class="veshm-reviews-box pb-0">
+                                                <div class="veshm-reviews-flex">
+                                                    <div class="veshm-reviews-thumb">
+                
+                                                        <div class="veshm-reviews-figure">
+                                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                                class="img-fluid circle" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="veshm-reviews-caption">
+                                                        <div class="veshm-reviews-title">
+                                                            <h4>Arturo A. Grise</h4>
+                                                        </div>
+                                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-agent-footer mt-2 p-2">
+                                                    <div class="rlhc-prt-location"><i
+                                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                                    </div>
+                                                    <button class="btn btn-like" type="button">
+                                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                
+                                    </div>
+                                    <div class="vsm-stay-button mt-2 ">
+                                        <a href="/agentgrid" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+    
                             </div>
-
                         </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
+    
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
     <!-- ============================ Explore Agents End ================================== -->
-
-    <!-- ============================ Explore Builder  ================================== -->
-    <section class="">
-        <div class="container">
-
-            <div class="row align-items-center">
-
-                <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading text-start">
-                        <h2 class="mb-3">Browse Builders </h2>
-                        <p class="text-paragraph">Get in touch with Builders around you</p>
-                        <div class="vsm-stay-button">
-                            <a href="/agentgrid" class="vsm-stay-btn">
-                                <i class="fa-solid fa-comments me-2"></i>
-                                Know More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-8 col-lg-8 col-md-12">
-                    <div class="agent-slide">
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ============================ Explore Builder  End ================================== -->
-
-    <!-- ============================ Explore Contractor   ================================== -->
-    <section class="gray">
-        <div class="container">
-
-            <div class="row align-items-center">
-
-                <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading text-start">
-                        <h2 class="mb-3">Browse Contractors </h2>
-                        <p class="text-paragraph">Get in touch with Contractors around you</p>
-                        <div class="vsm-stay-button">
-                            <a href="/agentgrid" class="vsm-stay-btn">
-                                <i class="fa-solid fa-comments me-2"></i>
-                                Know More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-8 col-lg-8 col-md-12">
-                    <div class="agent-slide">
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ============================ Explore Contractor End ================================== -->
-
-
-    <!-- ============================ Explore Interior   ================================== -->
-    <section class="">
-        <div class="container">
-
-            <div class="row align-items-center">
-
-                <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading text-start">
-                        <h2 class="mb-3">Browse Interior Desginers </h2>
-                        <p class="text-paragraph">Get in touch with Interior Desginers around you</p>
-                        <div class="vsm-stay-button">
-                            <a href="/agentgrid" class="vsm-stay-btn">
-                                <i class="fa-solid fa-comments me-2"></i>
-                                Know More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-8 col-lg-8 col-md-12">
-                    <div class="agent-slide">
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ============================ Explore Interior End ================================== -->
-
-    <!-- ============================ Explore Architecture   ================================== -->
-    <section class="gray">
-        <div class="container">
-
-            <div class="row align-items-center">
-
-                <div class="col-xl-4 col-lg-4 col-md-12">
-                    <div class="sec-heading text-start">
-                        <h2 class="mb-3">Browse Architectures </h2>
-                        <p class="text-paragraph">Get in touch with Architectures around you</p>
-                        <div class="vsm-stay-button">
-                            <a href="/agentgrid" class="vsm-stay-btn">
-                                <i class="fa-solid fa-comments me-2"></i>
-                                Know More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-8 col-lg-8 col-md-12">
-                    <div class="agent-slide">
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-reviews-box pb-0">
-                                <div class="veshm-reviews-flex">
-                                    <div class="veshm-reviews-thumb">
-
-                                        <div class="veshm-reviews-figure">
-                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
-                                                class="img-fluid circle" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="veshm-reviews-caption">
-                                        <div class="veshm-reviews-title">
-                                            <h4>Arturo A. Grise</h4>
-                                        </div>
-                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
-                                    </div>
-                                </div>
-                                <div class="veshm-list-75"><span>23 Property</span></div>
-                                <div class="veshm-agent-footer mt-2 p-2">
-                                    <div class="rlhc-prt-location"><i
-                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
-                                    </div>
-                                    <button class="btn btn-like" type="button">
-                                        <i class="fa-solid fa-heart-circle-check"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ============================ Explore Architecture End ================================== -->
 
 
     <!-- ============================ Why Choose Us Start ================================== -->
