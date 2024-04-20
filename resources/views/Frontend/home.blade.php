@@ -5901,7 +5901,7 @@
 
 
 
-    <!-- ================================= News slider ================================== -->
+    <!-- ================================= Newly Launched Project ================================== -->
     <section>
         <div class="container">
 
@@ -6107,7 +6107,206 @@
             </div>
         </div>
     </section>
-    <!-- ================================= News slider End ================================== -->
+    <!-- ================================= Newly Launched  ================================== -->
+
+    <!-- ================================= Additional services ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Additional services</h2>
+                        <p>Explore till infinity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-lg-5">
+
+                <!-- Single Property -->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12 p-0">
+                    <div class="services-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://sidorovadesign.com/wp-content/uploads/2022/01/Planning-Application-Services-BLOG.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Building Map Approval </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://www.saelzer-security.com/fileadmin/_processed_/f/6/csm_architekten-klein_f868814882.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Hire Architect </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://www.healthnews24seven.com/wp-content/uploads/2020/03/%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81-%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%95%E0%A5%87-%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%B8%E0%A4%BE%E0%A4%B0-%E0%A4%98%E0%A4%B0-%E0%A4%95%E0%A4%BE-%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8-%E0%A4%B0%E0%A4%96%E0%A5%87%E0%A4%82-feature.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Vastu tips </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://limeworkspeedshop.com/wp-content/uploads/2018/08/Compensation-Lawyer-1536x1024.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Hire Advocate </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://th-i.thgim.com/public/incoming/7sbnbr/article66919364.ece/alternates/FREE_1200/iStock-1182411756.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Solar Rooftop </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://avatars.mds.yandex.net/i?id=b32bb466a2aeec9b06cd8e4b3d98d54036b98056-4235460-images-thumbs&n=13"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Packer and Movers </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://www.americanoutdoor.guide/wp-content/uploads/2017/10/GettyImages-153491486.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Mud House </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb">
+                                        <a href="/propertylisting" class="vsm-stay-link">
+                                            <img src="https://cdn.thezebra.com/zfront/media/production/original_images/iStock-933547182.jpg"
+                                            class="img-fluid rounded" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Home Decors </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="/addproperty" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Additional services end  ================================== -->
 
 
 

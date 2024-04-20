@@ -22,6 +22,16 @@
         -webkit-animation-name: slideInDown;
         animation-name: slideInDown;
     }
+
+    .services-slide .vsm-stay-wrap {
+        padding: 5px;
+      }
+
+    .services-slide .vsm-stay-caption h4 {
+     font-size: 12px;
+    
+    }
+    
     
     .container.sbar {
         /* margin-top: -100px; */

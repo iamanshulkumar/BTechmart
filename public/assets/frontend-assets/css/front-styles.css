@@ -8560,3 +8560,22 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     animation-delay: 0s;
     animation-iteration-count: infinite;
   }
+
+
+  .services-slide .vsm-stay-wrap {
+    border: 2px solid #e3ebf3;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .25rem rgba(var(--bs-body-color-rgb),.075) !important;
+  }
+  .services-slide .vsm-stay-wrap:hover {
+    background-color: #F0F9FF;
+  }
+  .services-slide .vsm-stay-wrap:hover .vsm-stay-button .vsm-stay-btn {
+    background-color: #065EB5;
+    color: white;
+  }
+  .services-slide .vsm-stay-caption h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }

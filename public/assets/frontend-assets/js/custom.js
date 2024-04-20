@@ -373,6 +373,34 @@ $(function () {
 			}
 		]
 	});
+	// services  Slide
+	$('.services-slide').slick({
+		slidesToShow: 4,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		centerMode: false,
+		speed: 3000,
+		slidesToScroll: 2,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					slidesToShow: 2
+				}
+			}
+		]
+	});
 
 	// blog  Slide
 	$('.blog-slide').slick({
