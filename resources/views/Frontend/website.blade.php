@@ -38,7 +38,13 @@
                             {{-- mopbiloe navigation --}}
                             <div class="mobile_nav">
                                 <ul>
-                                    <li class="list-buttons">
+                                    <li class="list-buttons ">
+                                        <a href="/addproperty" class="rounded shadow-lg">
+                                            Add Listing
+                                            <div class="fre__outerwrap">FREE <div class="fre__innerwrap"></div></div>
+                                        </a>
+                                    </li>
+                                    <li class="list-buttons hideInMobile ">
                                         <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#login"><i
                                                 class="fas fa-sign-in-alt me-2"></i>Log In</a>
                                     </li>
@@ -89,7 +95,7 @@
 										</button>
 										<div class="dropdown-menu pull-right animated fadeIn">
 											<div class="drp_menu_headr">
-												<h4>Hi, Dhananjay</h4>
+												<h4>Hi, Btechmart</h4>
 												<div class="drp_menu_headr-right"><button type="button" class="btn btn-whites">Logout</button></div>
 											</div>
 											<ul>
@@ -158,13 +164,20 @@
 
                             {{-- loggedout user --}}
                             <ul class="nav-menu nav-menu-social align-to-right">
-                                <li class="list-buttons border">
+                                <li class="list-buttons  border">
+                                    <a href="/addproperty" class="text-success">
+                                        <i class="fa-solid fa-plus me-2"></i>
+                                        Add Listing 
+                                        <div class="fre__outerwrap">FREE <div class="fre__innerwrap"></div></div>
+                                    </a>
+                                </li>
+                                <li class="list-buttons ms-2">
                                     <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#login"><i
                                             class="fas fa-sign-in-alt me-2"></i>Log In</a>
                                 </li>
-                                <li class="list-buttons ms-2">
+                                {{-- <li class="list-buttons ms-2">
                                     <a href="/signup"><i class="fas fa-user-alt me-2"></i>Sign Up</a>
-                                </li>
+                                </li> --}}
                             </ul>
 
                             {{-- logged in user --}}
@@ -237,7 +250,7 @@
                                         </button>
                                         <div class="dropdown-menu pull-right animated fadeIn">
                                             <div class="drp_menu_headr">
-                                                <h4>Hi, Dhananjay</h4>
+                                                <h4>Hi, Btechmart</h4>
                                                 <div class="drp_menu_headr-right"><button type="button"
                                                         class="btn btn-whites">Logout</button></div>
                                             </div>
@@ -315,14 +328,14 @@
                                 <img src="{{ asset('assets/frontend-assets/img/lightlogo.png') }}" class="img-footer"
                                     alt="" />
                                 <div class="footer-add">
-                                    <p>Collins Street West, Victoria 8007, Australia.</p>
+                                    <p>India.</p>
                                     <p>
-                                        <span class="ftp-info"><i class="fa fa-phone" aria-hidden="true"></i>+1
-                                            246-345-0695</span>
+                                        <span class="ftp-info">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>(+91) 0000000000</span>
                                     </p>
                                     <p>
                                         <span class="ftp-info"><i class="fa fa-envelope"
-                                                aria-hidden="true"></i>info@example.com</span>
+                                                aria-hidden="true"></i>info@btechmart.com</span>
                                     </p>
                                 </div>
                             </div>
@@ -357,9 +370,9 @@
                             <div class="footer-widget">
                                 <h4 class="widget-title">My Account</h4>
                                 <ul class="footer-menu">
-                                    <li><a href="JavaScript:Void(0);">My Profile</a></li>
-                                    <li><a href="JavaScript:Void(0);">My account</a></li>
-                                    <li><a href="JavaScript:Void(0);">My Property</a></li>
+                                    <li><a href="/frontuserprofile">My Profile</a></li>
+                                    <li><a href="JavaScript:Void(0);">Careers</a></li>
+                                    <li><a href="/frontmyproperty">My Property</a></li>
                                     <li><a href="JavaScript:Void(0);">Favorites</a></li>
                                     <li><a href="JavaScript:Void(0);">Cart</a></li>
                                 </ul>
@@ -480,7 +493,7 @@
                     <div class="modal-body">
                         <div class="text-center">
                             <h2 class="mb-0">Say Hi,</h2>
-                            <h4 class="mb-0">Mr. Dhananjay Preet</h4>
+                            <h4 class="mb-0">Mr. Btechmart Preet</h4>
                             <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
                         </div>
                         <div class="message-form">
@@ -761,7 +774,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Dhananjay Preet">
+                                        <input type="text" class="form-control" placeholder="Btechmart Preet">
                                     </div>
                                 </div>
 
@@ -769,7 +782,7 @@
                                     <div class="form-group">
                                         <label>Phone</label>
                                         <input type="text" class="form-control"
-                                            placeholder="dhananjaypreet@gmail.com">
+                                            placeholder="Btechmartpreet@gmail.com">
                                     </div>
                                 </div>
 

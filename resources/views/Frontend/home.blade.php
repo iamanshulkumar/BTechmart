@@ -127,8 +127,9 @@
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-chimney-crack abs"></i><i
-                                    class="fa-solid fa-house-chimney-crack"></i>
+                                
+                                <i class="fa-solid fa-shop abs"></i><i
+                                    class="fa-solid fa-shop"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Buy</div>
@@ -144,7 +145,8 @@
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-vihara abs"></i><i class="fa-solid fa-vihara"></i>
+                                <i class="fa-solid fa-house-chimney-medical abs"></i>
+                                <i class="fa-solid fa-house-chimney-medical"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Sell</div>
@@ -160,7 +162,8 @@
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-chimney abs"></i><i class="fa-solid fa-house-chimney"></i>
+                                <i class="fa-solid fa-person-shelter abs"></i>
+                                <i class="fa-solid fa-person-shelter"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Rent</div>
@@ -176,7 +179,8 @@
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-tents abs"></i><i class="fa-solid fa-tents"></i>
+                                <i class="fa-solid fa-person-digging abs"></i>
+                                <i class="fa-solid fa-person-digging"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Contructions</div>
@@ -192,7 +196,9 @@
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             {{-- <div class="veshm-list-098"><span>42 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-ship abs"></i><i class="fa-solid fa-ship"></i>
+                                
+                                <i class="fa-solid fa-couch abs"></i>
+                                <i class="fa-solid fa-couch"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Interior Design</div>
@@ -207,7 +213,8 @@
                         <a href="#top-gainer" class="vesh-categ-links">
                             {{-- <div class="veshm-list-098"><span>16 List</span></div> --}}
                             <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-house-laptop abs"></i><i class="fa-solid fa-house-laptop"></i>
+                                <i class="fa-solid fa-chart-line abs"></i>
+                                <i class="fa-solid fa-chart-line"></i>
                             </div>
                             <div class="vesh-categ-content">
                                 <div class="vesh-content-title">Property Insights</div>
@@ -778,6 +785,91 @@
     </section>
     <!-- ================= Recent Property End ================= -->
 
+    
+    <!-- ============================= Explore Categories =============================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center p-2">
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>26 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-child abs"></i><i
+                                    class="fa-solid fa-child"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Hostels for Boys</div>
+                                {{-- <div class="vesh-prt-location">06 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-child-dress abs"></i>
+                                <i class="fa-solid fa-child-dress"></i>
+                                
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Hostels for Girls</div>
+                                {{-- <div class="vesh-prt-location">04 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>19 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-people-roof abs"></i>
+                                <i class="fa-solid fa-people-roof"></i>
+                                
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">PG / Co-living</div>
+                                {{-- <div class="vesh-prt-location">07 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                    <div class="vesh-categ-box light">
+                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                            {{-- <div class="veshm-list-098"><span>22 List</span></div> --}}
+                            <div class="vesh-categ-icons">
+                                <i class="fa-solid fa-people-carry-box abs"></i>
+                                <i class="fa-solid fa-people-carry-box"></i>
+                            </div>
+                            <div class="vesh-categ-content">
+                                <div class="vesh-content-title">Co-working spaces</div>
+                                {{-- <div class="vesh-prt-location">05 Locations</div> --}}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================= End Explore Categories =============================== -->
+
 
 
     <!-- ================================= 1 News slider ================================== -->
@@ -916,14 +1008,14 @@
                                 </a>
                                 <div class="veshm-location-content">
                                     <h4>For Family</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">322 Reviews</span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -936,14 +1028,14 @@
                                 </a>
                                 <div class="veshm-location-content">
                                     <h4>For Single Men</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">410 Reviews</span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -956,14 +1048,14 @@
                                 </a>
                                 <div class="veshm-location-content">
                                     <h4>For Single Women</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">340 Reviews</span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -976,14 +1068,14 @@
                                 </a>
                                 <div class="veshm-location-content">
                                     <h4>For Tenants with Company Lease </h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">512 Reviews</span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -1113,14 +1205,14 @@
     <!-- ================================= 2 News slider End ================================== -->
 
 
-    <!-- ================= Explore Places ================= -->
+    <!-- ================= Interior design ================= -->
     <section class="mid bg-2">
         <div class="container">
 
             <div class="row justify-content-center ">
                 <div class="col-lg-12 col-md-10 text-start">
                     <div class="sec-heading ">
-                        <h2>Homes by furnishing</h2>
+                        <h2>Home sweet home</h2>
                         <p>Choose your preferred furnishing</p>
                     </div>
                 </div>
@@ -1194,7 +1286,79 @@
 
         </div>
     </section>
-    <!-- ================================= End Explore Places =============================== -->
+    <!-- ================================= End Interior design =============================== -->
+
+
+    <!-- ================= construction Places ================= -->
+    <section class="mid bg-2">
+        <div class="container">
+
+            <div class="row justify-content-center ">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Construction Services</h2>
+                        <p>Choose your preferred Construction</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-lg-5">
+
+                <!-- Single Property -->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12 p-0">
+                    <div class="rental-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://reliantconstruction.net/wp-content/uploads/2017/08/home-blueprints.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Residential construction</h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#message" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="vsm-stay-wrap">
+                                <div class="vsm-stay-figure">
+                                    <figure class="vsm-stay-thumb"><a href="/propertylisting" class="vsm-stay-link"><img
+                                                src="https://images.squarespace-cdn.com/content/v1/56ffac8ae707eb5e3e89d16b/1526431511242-1I60GCOY21DFEWUBK35R/Commercial-Construction-Site-Med.jpg"
+                                                class="img-fluid rounded" alt=""></a>
+                                    </figure>
+                                </div>
+                                <div class="vsm-stay-caption">
+                                    <div class="vsm-stay-title">
+                                        <h4>Commercial Construction </h4>
+                                    </div>
+                                    <div class="vsm-stay-button">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal" data-bs-target="#message" class="vsm-stay-btn">
+                                            <i class="fa-solid fa-comments me-2"></i>
+                                            Know More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================================= End construction Places =============================== -->
 
 
     <!-- ================================= 3 News slider ================================== -->
@@ -1326,13 +1490,13 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">15,000+ Properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner">
                                     <img src="https://i.pinimg.com/originals/83/8f/cb/838fcb18636d30067ee1b9e935e2f458.jpg"
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h4>Residential Apartment </h4>
+                                    <h4>Apartments </h4>
 
                                 </div>
                             </div>
@@ -1340,41 +1504,28 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">720+ Properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner" style="background-color: #F0F9FF">
                                     <img src="https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h4>Residential Land </h4>
+                                    <h4>Pent house</h4>
 
                                 </div>
                             </div>
                         </div>
+                        
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">250+ Properties</div>
-                                <a href="JavaScript:Void(0);" class="portrait-banner">
-                                    <img src="https://i.pinimg.com/originals/e1/45/7c/e1457cf3fc2b3ebdb1d87aa0c2e171e0.jpg"
-                                        class="img-fluid" alt="">
-                                </a>
-                                <div class="veshm-location-content">
-                                    <h4>1 RK/ Studio Apartment </h4>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">242+ properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner">
                                     <img src="https://i.pinimg.com/736x/e3/13/ec/e313ecdb0dfcde99a6a5481e673ee6ca--house--dream-life.jpg"
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h4>Independent House/ Villa</h4>
+                                    <h4>Villas</h4>
 
                                 </div>
                             </div>
@@ -1382,13 +1533,13 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">142+ properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner">
                                     <img src="https://ekspert-kapital.ru/wp-content/uploads/2021/07/kv.png"
                                         class="img-fluid" alt="">
                                 </a>
                                 <div class="veshm-location-content">
-                                    <h4>Independent/ Builder Floor </h4>
+                                    <h4>Flats </h4>
 
                                 </div>
                             </div>
@@ -1396,7 +1547,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">242+ properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner">
                                     <img src="https://avatars.mds.yandex.net/i?id=bac5ad23bfa15c57c7a2148d6299de46_l-8252971-images-thumbs&ref=rim&n=13&w=1080&h=1350"
                                         class="img-fluid" alt="">
@@ -1410,7 +1561,7 @@
                         <!-- Single Slide -->
                         <div class="single-slide">
                             <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">242+ properties</div>
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
                                 <a href="JavaScript:Void(0);" class="portrait-banner">
                                     <img src="https://avatars.mds.yandex.net/i?id=1e887da4bb7a445c22daaf87b35c2a18-4599759-images-thumbs&n=13"
                                         class="img-fluid" alt="">
@@ -1438,6 +1589,72 @@
         </div>
     </section>
     <!-- ============================ End Apartments, Villas and more ================================== -->
+
+    <!-- ============================ Invest Abroad ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading ">
+                        <h2>Invest Abroad</h2>
+                        <p>
+                            Expand your horizon
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-xl-5 g-lg-3">
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 p-0">
+                    <div class="apartments-slide">
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-location-prt">
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
+                                <a href="JavaScript:Void(0);" class="portrait-banner">
+                                    <img src="https://i.pinimg.com/originals/5e/d2/ac/5ed2ac1ba0b3878da4d215972f536929.jpg"
+                                        class="img-fluid" alt="">
+                                </a>
+                                <div class="veshm-location-content">
+                                    <h4>Dubai</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-location-prt">
+                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
+                                <a href="JavaScript:Void(0);" class="portrait-banner" style="background-color: #F0F9FF">
+                                    <img src="https://avatars.mds.yandex.net/i?id=f83877305ef8dca66b2f4d3ec3e9722df3ba6621-5220334-images-thumbs&n=13"
+                                        class="img-fluid" alt="">
+                                </a>
+                                <div class="veshm-location-content">
+                                    <h4>Mauritius</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            {{-- <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <a href="/propertylisting" class="btn btn-outline-gray">Explore More<i
+                            class="fa-regular fa-circle-right ms-2"></i></a>
+                </div>
+            </div> --}}
+
+        </div>
+    </section>
+    <!-- ============================ End Invest Abroad ================================== -->
 
 
     <!-- ================================= 4 News slider ================================== -->
@@ -1557,6 +1774,12 @@
                     <div class="sec-heading text-start">
                         <h2 class="mb-3">Browse Agents</h2>
                         <p class="text-paragraph">Get in touch with agents around you</p>
+                        <div class="vsm-stay-button">
+                            <a href="/agentgrid" class="vsm-stay-btn">
+                                <i class="fa-solid fa-comments me-2"></i>
+                                Know More
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1753,6 +1976,854 @@
     </section>
     <!-- ============================ Explore Agents End ================================== -->
 
+    <!-- ============================ Explore Builder  ================================== -->
+    <section class="">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="sec-heading text-start">
+                        <h2 class="mb-3">Browse Builders </h2>
+                        <p class="text-paragraph">Get in touch with Builders around you</p>
+                        <div class="vsm-stay-button">
+                            <a href="/agentgrid" class="vsm-stay-btn">
+                                <i class="fa-solid fa-comments me-2"></i>
+                                Know More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12">
+                    <div class="agent-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Explore Builder  End ================================== -->
+
+    <!-- ============================ Explore Contractor   ================================== -->
+    <section class="gray">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="sec-heading text-start">
+                        <h2 class="mb-3">Browse Contractors </h2>
+                        <p class="text-paragraph">Get in touch with Contractors around you</p>
+                        <div class="vsm-stay-button">
+                            <a href="/agentgrid" class="vsm-stay-btn">
+                                <i class="fa-solid fa-comments me-2"></i>
+                                Know More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12">
+                    <div class="agent-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Explore Contractor End ================================== -->
+
+
+    <!-- ============================ Explore Interior   ================================== -->
+    <section class="">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="sec-heading text-start">
+                        <h2 class="mb-3">Browse Interior Desginers </h2>
+                        <p class="text-paragraph">Get in touch with Interior Desginers around you</p>
+                        <div class="vsm-stay-button">
+                            <a href="/agentgrid" class="vsm-stay-btn">
+                                <i class="fa-solid fa-comments me-2"></i>
+                                Know More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12">
+                    <div class="agent-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Explore Interior End ================================== -->
+
+    <!-- ============================ Explore Architecture   ================================== -->
+    <section class="gray">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="sec-heading text-start">
+                        <h2 class="mb-3">Browse Architectures </h2>
+                        <p class="text-paragraph">Get in touch with Architectures around you</p>
+                        <div class="vsm-stay-button">
+                            <a href="/agentgrid" class="vsm-stay-btn">
+                                <i class="fa-solid fa-comments me-2"></i>
+                                Know More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12">
+                    <div class="agent-slide">
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-1.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-2.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-3.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-4.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-5.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Single Slide -->
+                        <div class="single-slide">
+                            <div class="veshm-reviews-box pb-0">
+                                <div class="veshm-reviews-flex">
+                                    <div class="veshm-reviews-thumb">
+
+                                        <div class="veshm-reviews-figure">
+                                            <img src="{{ asset('assets/frontend-assets/img/user-6.png') }}"
+                                                class="img-fluid circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="veshm-reviews-caption">
+                                        <div class="veshm-reviews-title">
+                                            <h4>Arturo A. Grise</h4>
+                                        </div>
+                                        <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                <div class="veshm-agent-footer mt-2 p-2">
+                                    <div class="rlhc-prt-location"><i
+                                            class="fa-solid fa-location-dot me-1"></i>Liverpool
+                                    </div>
+                                    <button class="btn btn-like" type="button">
+                                        <i class="fa-solid fa-heart-circle-check"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Explore Architecture End ================================== -->
 
 
     <!-- ============================ Why Choose Us Start ================================== -->
@@ -1952,8 +3023,8 @@
     <!-- ============================ Why Choose Us End ====================== -->
 
 
-    <!-- ============================ Explore More City For Properties Start ================================== -->
-    <section >
+    <!-- ============================ Top Gainers Start ================================== -->
+    <section>
         <div class="container">
 
             <div class="row justify-content-center">
@@ -2777,10 +3848,10 @@
         </div>
     </section>
     <div class="clearfix"></div>
-    <!-- ============================ Explore More City For Properties End ================================== -->
+    <!-- ============================ Top Gainers End ================================== -->
 
 
-    <!-- ================================= 5 News slider ================================== -->
+    <!-- ================================= Top Cities slider ================================== -->
     <section>
         <div class="container">
 
@@ -3024,7 +4095,1513 @@
             </div>
         </div>
     </section>
-    <!-- ================================= 5 News slider End ================================== -->
+    <!-- ================================= Top Cities slider End ================================== -->
+
+
+
+
+    <!-- ================================= Explore More City slider ================================== -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading left">
+                        <h2>Explore Around your City</h2>
+                        <p>
+                            Book a stunning lawn or resort for your next event, whether it's a party, function, marriage, or official meeting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center gx-3 gy-4">
+                <!-- Property slider -->
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
+                    <div class="explore-slide">
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type fr-sale"><span>For sale</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>5</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">31/78 Benchmark Realty LLC</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>3</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Blue Apogee Realty Enclave</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>6</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹9,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- End Single Property -->
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Explore More City slider End ================================== -->
+
+    <!-- ================================= Shops for sell/rent slider ================================== -->
+    <section class="bg-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading left">
+                        <h2>Explore shops in your City</h2>
+                        <p>
+                            Discover a myriad of shops in our city, offering everything from fashion to electronics, catering to all your needs and desires.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center gx-3 gy-4">
+                <!-- Property slider -->
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
+                    <div class="explore-slide">
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type fr-sale"><span>For sale</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>5</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">31/78 Benchmark Realty LLC</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>3</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Blue Apogee Realty Enclave</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>6</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹9,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- End Single Property -->
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Shops for sell/rent slider End ================================== -->
+
+    <!-- ================================= Office space for sell/rent slider ================================== -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading left">
+                        <h2>Explore office space in your City</h2>
+                        <p>
+                            Discover prime office spaces in our city, tailored to meet your business needs and elevate your workspace experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center gx-3 gy-4">
+                <!-- Property slider -->
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
+                    <div class="explore-slide">
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type fr-sale"><span>For sale</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>5</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">31/78 Benchmark Realty LLC</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>3</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Blue Apogee Realty Enclave</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>6</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹9,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- End Single Property -->
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Office space for sell/rent slider End ================================== -->
+
+    <!-- ================================= Buy Land for sell/rent slider ================================== -->
+    <section class="bg-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading left">
+                        <h2>Explore Empty Land in your City</h2>
+                        <p>
+                            Discover available empty land in our city, offering opportunities for development and investment in various sectors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center gx-3 gy-4">
+                <!-- Property slider -->
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
+                    <div class="explore-slide">
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type fr-sale"><span>For sale</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>5</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">31/78 Benchmark Realty LLC</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>3</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Blue Apogee Realty Enclave</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>6</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹9,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- End Single Property -->
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Buy Land for sell/rent slider End ================================== -->
+
+    <!-- ================================= Upcoming Projects  slider ================================== -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10 text-start">
+                    <div class="sec-heading left">
+                        <h2>Explore Upcoming Projects in your City</h2>
+                        <p>
+                            Explore exciting upcoming projects in our city, promising innovation, growth, and opportunities for investment and community development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center gx-3 gy-4">
+                <!-- Property slider -->
+                <div class="col-xl-12 col-lg-14 col-md-14 col-sm-12 p-0">
+                    <div class="explore-slide">
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn">
+                                        <i class="fa-regular fa-image"></i>
+                                        6
+                                    </button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-1.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-9.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="/singleproperty">
+                                                    <img src="{{ asset('assets/frontend-assets/img/prt-8.png') }}"
+                                                        class="img-fluid mx-auto" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹7,500<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Banyan Real Estate Group</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2200 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type fr-sale"><span>For sale</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>5</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-2.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-10.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-11.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹100,400</h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">31/78 Benchmark Realty LLC</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>3 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>1800 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <!-- Single Property -->
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>3</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-3.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-12.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-13.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹8,599<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Blue Apogee Realty Enclave</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>4 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>2 Bath
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2300 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Single Property -->
+
+                        <div class="single-slide">
+                            <div class="veshm-list-wraps">
+                                <div class="veshm-type"><span>For rent</span></div>
+
+                                <div class="veshm-list-thumb">
+                                    <button type="button" class="compare-btn"><i
+                                            class="fa-regular fa-image"></i>6</button>
+                                    <div class="veshm-list-img-slide">
+                                        <div class="veshm-list-click">
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-4.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-14.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                            <div><a href="/singleproperty"><img
+                                                        src="{{ asset('assets/frontend-assets/img/prt-15.png') }}"
+                                                        class="img-fluid mx-auto" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="veshm-list-block">
+                                    <div class="veshm-list-head">
+                                        <div class="veshm-list-head-caption">
+                                            <div class="rlhc-price">
+                                                <h4 class="rlhc-price-name theme-cl">₹9,549<span
+                                                        class="monthly">/Months</span></h4>
+                                            </div>
+                                            <div class="listing-short-detail-flex">
+                                                <h5 class="rlhc-title-name verified"><a href="/singleproperty"
+                                                        class="prt-link-detail">Allen Tate Real Company</a></h5>
+                                                <div class="rlhc-prt-location"><img
+                                                        src="{{ asset('assets/frontend-assets/img/pin.svg') }}"
+                                                        width="16" class="me-1" alt="">210 Zirak Road,
+                                                    Canada</div>
+                                            </div>
+                                        </div>
+                                        <div class="veshm-list-head-flex">
+                                            <button class="btn btn-like" type="button"><i
+                                                    class="fa-solid fa-heart-circle-check"></i></button>
+                                        </div>
+                                    </div>
+
+                                    {{-- <div class="veshm-list-availabilty">
+                                        <a href="JavaScript:Void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#availability" class="btn btn-avalability">Check
+                                            Availabilty</a>
+                                    </div> --}}
+                                    <div class="veshm-list-footer">
+                                        <div class="veshm-list-circls">
+                                            <ul>
+                                                <li><span class=" "><i class="fa-solid fa-bed"></i></span>5 Bed</li>
+                                                <li><span class=" "><i class="fa-solid fa-bath"></i></span>3 Ba
+                                                </li>
+                                                <li><span class=" "><i
+                                                            class="fa-solid fa-vector-square"></i></span>2100 Sft</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- End Single Property -->
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Upcoming Projects slider End ================================== -->
+
+
+
 
     <!-- ================================= 5 News slider ================================== -->
     <section>

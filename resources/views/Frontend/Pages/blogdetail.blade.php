@@ -292,14 +292,14 @@
                                         <div class="vl-elfo-icon"><i class="fa-regular fa-envelope"></i></div>
                                         <div class="vl-elfo-caption">
                                             <h6>Drop A Mail</h6>
-                                            <p>paythemezhub@gmail.com</p>
+                                            <p>btechmart@gmail.com</p>
                                         </div>
                                     </div>
                                     <div class="vl-elfo-group">
                                         <div class="vl-elfo-icon"><i class="fa-solid fa-globe"></i></div>
                                         <div class="vl-elfo-caption">
                                             <h6>Website</h6>
-                                            <p>Https://themezhub.com</p>
+                                            <p>Https://btechmart.com</p>
                                         </div>
                                     </div>
                                 </div>

@@ -1555,14 +1555,14 @@
                                         <div class="vl-elfo-icon"><i class="fa-regular fa-envelope"></i></div>
                                         <div class="vl-elfo-caption">
                                             <h6>Drop A Mail</h6>
-                                            <p>paythemezhub@gmail.com</p>
+                                            <p>paybtechmart@gmail.com</p>
                                         </div>
                                     </div>
                                     <div class="vl-elfo-group">
                                         <div class="vl-elfo-icon"><i class="fa-solid fa-globe"></i></div>
                                         <div class="vl-elfo-caption">
                                             <h6>Website</h6>
-                                            <p>Https://themezhub.com</p>
+                                            <p>Https://btechmart.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2221,7 +2221,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Dhananjay Preet">
+                                        <input type="text" class="form-control" placeholder="Btechmart Preet">
                                     </div>
                                 </div>
 
@@ -2229,7 +2229,7 @@
                                     <div class="form-group">
                                         <label>Phone</label>
                                         <input type="text" class="form-control"
-                                            placeholder="dhananjaypreet@gmail.com">
+                                            placeholder="Btechmartpreet@gmail.com">
                                     </div>
                                 </div>
 

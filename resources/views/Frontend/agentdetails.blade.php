@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
 
-                    <h2 class="ipt-title">Hello, Dhananjay</h2>
-                    <span class="ipn-subtitle">View Dhananjay's profile and get in touch</span>
+                    <h2 class="ipt-title">Hello, Btechmart</h2>
+                    <span class="ipn-subtitle">View Btechmart's profile and get in touch</span>
 
                 </div>
             </div>
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="adgt-wriop-cription">
-                                <h5 class="mb-0"><a href="/agentdetails">Mr. Kumar Dhananjay</a></h5>
+                                <h5 class="mb-0"><a href="/agentdetails">Mr. Btechmart</a></h5>
                                 <span class="font--medium small"><i class="fa-solid fa-location-dot me-2"></i>Liverpool,
                                     USA</span>
                             </div>
@@ -66,7 +66,7 @@
                                 <div class="vl-elfo-icon"><i class="fa-regular fa-envelope"></i></div>
                                 <div class="vl-elfo-caption">
                                     <h6>Drop A Mail</h6>
-                                    <p>paythemezhub@gmail.com</p>
+                                    <p>paybtechmart@gmail.com</p>
                                 </div>
                             </div>
                             <div class="vl-elfo-group">
@@ -80,14 +80,14 @@
                                 <div class="vl-elfo-icon"><i class="fa-brands fa-skype"></i></div>
                                 <div class="vl-elfo-caption">
                                     <h6>Skype</h6>
-                                    <p>Dhananjay.preet</p>
+                                    <p>Btechmart.preet</p>
                                 </div>
                             </div>
                             <div class="vl-elfo-group">
                                 <div class="vl-elfo-icon"><i class="fa-solid fa-globe"></i></div>
                                 <div class="vl-elfo-caption">
                                     <h6>Website</h6>
-                                    <p>Https://themezhub.com</p>
+                                    <p>https://btechmart.com</p>
                                 </div>
                             </div>
                         </div>
@@ -156,17 +156,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">Hearthstone Real Property</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">210 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -223,17 +223,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">The Goldfinch Real Property</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">452 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -290,17 +290,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">Dream Big Real Estate</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">340 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>

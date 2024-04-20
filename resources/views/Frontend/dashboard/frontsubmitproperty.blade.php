@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
 
-                    <h2 class="ipt-title">Hi, Harshvardhan</h2>
+                    <h2 class="ipt-title">Hi, Btechmart</h2>
                     <span class="ipn-subtitle">Manage your profile and view property</span>
 
                 </div>
@@ -26,7 +26,7 @@
 
                         <div class="dash_user_avater">
                             <img src="{{ asset('assets/frontend-assets/img/team-3.jpg')}}" class="img-fluid avater" alt="">
-                            <h4>Adam Harshvardhan</h4>
+                            <h4>Btechmart</h4>
                             <span class="font--medium small"><i class="fa-solid fa-location-dot me-2"></i>Liverpool,
                                 USA</span>
                         </div>
@@ -169,7 +169,7 @@
 
                                                     <div class="form-group col-md-12">
                                                         <label>Upload Gallery</label>
-                                                        <form action="https://themezhub.net/upload-target"
+                                                        <form action="#"
                                                             class="dropzone dz-clickable primary-dropzone">
                                                             <div class="dz-default dz-message">
                                                                 <i class="fa-solid fa-images"></i>

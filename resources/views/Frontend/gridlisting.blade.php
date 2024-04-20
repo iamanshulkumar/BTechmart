@@ -285,7 +285,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -350,7 +350,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -416,7 +416,7 @@
                                             </div>
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>

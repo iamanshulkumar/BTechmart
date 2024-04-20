@@ -88,7 +88,7 @@
                             <div class="ctr-veshm-signl-caption">
                                 <h5>Hyderabad</h5>
                                 <p>Krishe Emerald, Whitefields, Kondapur, Hyderabad, Telangana 500081</p>
-                                <p>themezhub@gmail.com</p>
+                                <p>btechmart@gmail.com</p>
                             </div>
                         </div>
                         <div class="ctr-veshm-signl">
@@ -96,7 +96,7 @@
                             <div class="ctr-veshm-signl-caption">
                                 <h5>Bengaluru</h5>
                                 <p>Prestige Cube, Koramangala, Bengaluru, Karnataka 560029</p>
-                                <p>themezhub@gmail.com</p>
+                                <p>btechmart@gmail.com</p>
                             </div>
                         </div>
                         <div class="ctr-veshm-signl">
@@ -104,7 +104,7 @@
                             <div class="ctr-veshm-signl-caption">
                                 <h5>Nagpur</h5>
                                 <p>B-101, Vedant Sapphire, Sneha Nagar, Nagpur, Maharashtra, 440015</p>
-                                <p>themezhub@gmail.com</p>
+                                <p>btechmart@gmail.com</p>
                             </div>
                         </div>
                     </div>

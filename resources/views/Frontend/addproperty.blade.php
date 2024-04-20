@@ -112,7 +112,7 @@
 														
 															<div class="form-group col-md-12">
 																<label>Upload Gallery</label>
-																<form action="https://themezhub.net/upload-target" class="dropzone dz-clickable primary-dropzone">
+																<form action="#" class="dropzone dz-clickable primary-dropzone">
 																	<div class="dz-default dz-message">
 																		<i class="fa-solid fa-images"></i>
 																		<span>Drag & Drop To Change Logo</span>

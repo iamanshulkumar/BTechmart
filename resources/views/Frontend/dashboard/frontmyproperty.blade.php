@@ -87,19 +87,19 @@
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                             <input type="radio" class="btn-check" name="chooselists" id="alllist"
                                                 checked>
-                                            <label class="btn btn-md btn-outline-danger font--medium"
+                                            <label class="btn btn-md btn-outline-primary font--medium"
                                                 for="alllist">All</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="activelist">
-                                            <label class="btn btn-md btn-outline-danger font--medium"
+                                            <label class="btn btn-md btn-outline-primary font--medium"
                                                 for="activelist">Active</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="expiredlist">
-                                            <label class="btn btn-md btn-outline-danger font--medium"
+                                            <label class="btn btn-md btn-outline-primary font--medium"
                                                 for="expiredlist">Expired</label>
 
                                             <input type="radio" class="btn-check" name="chooselists" id="draftlist">
-                                            <label class="btn btn-md btn-outline-danger font--medium"
+                                            <label class="btn btn-md btn-outline-primary font--medium"
                                                 for="draftlist">Draft</label>
                                         </div>
                                     </div>

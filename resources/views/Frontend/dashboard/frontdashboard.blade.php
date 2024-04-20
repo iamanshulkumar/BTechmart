@@ -324,7 +324,7 @@
                                                         src="{{ asset('assets/frontend-assets/img/team-3.jpg') }}"
                                                         class="img-fluid circle" alt=""></div>
                                                 <div class="ground-client-caption">
-                                                    <h5>Mr. Dhananjay Preet</h5>
+                                                    <h5>Mr. Btechmart Preet</h5>
                                                     <span class="text-mid">Product Designer</span>
                                                 </div>
                                             </div>

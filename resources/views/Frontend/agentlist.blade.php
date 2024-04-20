@@ -259,7 +259,7 @@
                                             class="label py-2 font--medium label-light-success me-2">32 Properties</span>
                                     </div>
                                     <div class="agent-title-uio mb-2">
-                                        <h5 class="mb-0"><a href="/agentdetails">Mr. Kumar Dhananjay</a></h5>
+                                        <h5 class="mb-0"><a href="/agentdetails">Mr. Btechmart</a></h5>
                                         <span class="font--medium small"><i
                                                 class="fa-solid fa-location-dot me-2"></i>Liverpool, USA</span>
                                     </div>
@@ -269,7 +269,7 @@
                                     </div>
                                     <div class="single-button">
                                         <button type="button" class="btn btn-md font--bold btn-light-warning me-2"><i
-                                                class="fa-solid fa-phone me-2"></i>856 742 672</button>
+                                                class="fa-solid fa-phone me-2"></i>000 000 000</button>
                                         <button type="button" class="btn btn-md font--bold btn-light-success"
                                             data-bs-toggle="modal" data-bs-target="#message"><i
                                                 class="fa-solid fa-paper-plane me-2"></i>Send Message</button>

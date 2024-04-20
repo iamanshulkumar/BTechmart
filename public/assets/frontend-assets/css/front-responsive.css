@@ -33,7 +33,7 @@
         padding: 1rem 0;
     }
     .portrait-banner {
-        height: 290px;
+        height: 150px;
     }
 
     .hideInMobile {
@@ -53,7 +53,21 @@
         
         white-space: nowrap;
     }
-    
+
+    .apartments-slide .slick-slide img {
+        display: block;
+        object-fit: cover;
+        width: 210px;
+      }
+      .veshm-reviews-flex {
+        flex-direction: column;
+      }
+      .veshm-reviews-caption {
+        
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -321,7 +335,7 @@
 
 @media (max-width: 1200px) {
     .vesh-content-title {
-        font-size: 10px;
+        font-size: 12px;
     }
     .veshm-agent-social ul li {
         margin-left: 5px;
@@ -424,9 +438,9 @@
     .right .side-thumber-caption {
         left: 20px;
     }
-    .choose-us-head {
-        /* margin-bottom: 2.5rem; */
-    }
+    /* .choose-us-head {
+        margin-bottom: 2.5rem;
+    } */
     .property_dashboard_navbar {
         margin-bottom: 1rem;
     }

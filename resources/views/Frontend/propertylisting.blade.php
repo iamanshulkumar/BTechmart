@@ -272,17 +272,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">Agile Real Estate Group</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">322 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -339,17 +339,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">Hearthstone Real Property</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">210 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -406,17 +406,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">The Goldfinch Real Property</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">452 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>
@@ -472,17 +472,17 @@
                                             <div class="veshm-list-typess rent"><span>For Rent</span></div>
                                             <h5 class="rlhc-title-name verified"><a href="/singleproperty"
                                                     class="prt-link-detail">The Goldfinch Real Property</a></h5>
-                                            <div class="vesh-aget-rates">
+                                            {{-- <div class="vesh-aget-rates">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
                                                 <span class="resy-98">452 Reviews</span>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="veshm-list-head-flex">
-                                            <button class="btn btn-like active" type="button"><i
+                                            <button class="btn btn-like" type="button"><i
                                                     class="fa-solid fa-heart-circle-check"></i></button>
                                         </div>
                                     </div>

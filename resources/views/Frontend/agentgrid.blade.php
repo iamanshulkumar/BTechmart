@@ -235,20 +235,20 @@
                                 <div class="plc-vert-1 font--bold">
                                     <span class="small">102 Agents Found</span>
                                 </div>
-                                <div class="plc-vert-2">
+                                {{-- <div class="plc-vert-2">
                                     <ul class="shorting-list">
                                         <li class="border rounded "><a href="agentgrid" class="active"><i
                                                     class="fas fa-table-cells-large"></i></a></li>
                                         <li class="border rounded "><a href="agentlist"><i class="fas fa-list"></i></a></li>
                                     </ul>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
 
                     <div class="row gx-3 gy-4">
                         <!-- Single Agents Start -->
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6">
                             <div class="veshm-agent-wrap">
                                 <button class="btn btn-like" type="button"><i
                                         class="fa-solid fa-heart-circle-check"></i></button>
@@ -259,18 +259,18 @@
                                 </div>
                                 <div class="veshm-agent-content">
                                     <h4 class="vesh-content-title">Victoria G. Ashworth</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">142 Reviews</span>
-                                    </div>
-                                    <div class="vesh-contact">
+                                    </div> --}}
+                                    {{-- <div class="vesh-contact">
                                         <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
                                             Agent</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="veshm-agent-footer">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -291,7 +291,7 @@
                         <!-- Single Property End -->
 
                         <!-- Single Agents Start -->
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6">
                             <div class="veshm-agent-wrap">
                                 <button class="btn btn-like" type="button"><i
                                         class="fa-solid fa-heart-circle-check"></i></button>
@@ -303,18 +303,18 @@
                                 </div>
                                 <div class="veshm-agent-content">
                                     <h4 class="vesh-content-title">Thomas M. Fontenot</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">142 Reviews</span>
-                                    </div>
-                                    <div class="vesh-contact">
+                                    </div> --}}
+                                    {{-- <div class="vesh-contact">
                                         <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
                                             Agent</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="veshm-agent-footer">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -335,7 +335,7 @@
                         <!-- Single Property End -->
 
                         <!-- Single Agents Start -->
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6">
                             <div class="veshm-agent-wrap">
                                 <button class="btn btn-like" type="button"><i
                                         class="fa-solid fa-heart-circle-check"></i></button>
@@ -346,18 +346,18 @@
                                 </div>
                                 <div class="veshm-agent-content">
                                     <h4 class="vesh-content-title">Deetta D. Young</h4>
-                                    <div class="vesh-aget-rates">
+                                    {{-- <div class="vesh-aget-rates">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <span class="resy-98">140 Reviews</span>
-                                    </div>
-                                    <div class="vesh-contact">
+                                    </div> --}}
+                                    {{-- <div class="vesh-contact">
                                         <a href="/agentdetails" class="btn rounded btn-light-success full-width">Contact
                                             Agent</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="veshm-agent-footer">
                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool

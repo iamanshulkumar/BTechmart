@@ -555,6 +555,34 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 			}
 		]
 	});
+	// Explore Slide
+	$('.explore-slide').slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		speed: 3000,
+		centerMode: true,
+		variableWidth: false,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					arrows: false,
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
 
 	// category Slide
 	$('.category-slide').slick({
@@ -678,7 +706,10 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 2,
 		arrows: true,
 		autoplay: true,
+		speed: 3000,
+		slidesToScroll: 1,
 		dots: false,
+		
 		responsive: [
 			{
 				breakpoint: 1023,
@@ -699,7 +730,7 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 				breakpoint: 480,
 				settings: {
 					arrows: false,
-					slidesToShow: 1
+					slidesToShow: 2
 				}
 			}
 		]
