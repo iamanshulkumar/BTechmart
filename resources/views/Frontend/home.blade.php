@@ -1573,7 +1573,7 @@
     <!-- ============================ End Apartments, Villas and more ================================== -->
 
     <!-- ============================ Invest Abroad ================================== -->
-    <section>
+    <section class="bg-2">
         <div class="container">
 
             <div class="row justify-content-center">
@@ -1589,50 +1589,48 @@
 
             <div class="row g-xl-5 g-lg-3">
 
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 p-0">
-                    <div class="apartments-slide">
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
-                                <a href="JavaScript:Void(0);" class="portrait-banner">
-                                    <img src="https://i.pinimg.com/originals/5e/d2/ac/5ed2ac1ba0b3878da4d215972f536929.jpg"
-                                        class="img-fluid" alt="">
-                                </a>
-                                <div class="veshm-location-content">
-                                    <h4>Dubai</h4>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                    <div class="abroad-slide">
+                        <div class="veshm-location-prt ">
+                            <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
+                            <a href="JavaScript:Void(0);" class="box-banner">
+                                <img src="https://i.pinimg.com/originals/5e/d2/ac/5ed2ac1ba0b3878da4d215972f536929.jpg"
+                                    class="img-fluid" alt="">
+                            </a>
+                            <div class="veshm-location-content">
+                                <h4>Invest in Dubai</h4>
 
-                                </div>
                             </div>
                         </div>
-                        <!-- Single Slide -->
-                        <div class="single-slide">
-                            <div class="veshm-location-prt">
-                                <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
-                                <a href="JavaScript:Void(0);" class="portrait-banner" style="background-color: #F0F9FF">
-                                    <img src="https://avatars.mds.yandex.net/i?id=f83877305ef8dca66b2f4d3ec3e9722df3ba6621-5220334-images-thumbs&n=13"
-                                        class="img-fluid" alt="">
-                                </a>
-                                <div class="veshm-location-content">
-                                    <h4>Mauritius</h4>
-
-                                </div>
-                            </div>
-                        </div>
-                        
-
                     </div>
+                </div> 
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                    <div class="abroad-slide">
+
+                        <div class="veshm-location-prt">
+                            <div class="veshm-location-lists">₹ 30 - 90 Lakh</div>
+                            <a href="JavaScript:Void(0);" class="box-banner" style="background-color: #F0F9FF">
+                                <img src="https://avatars.mds.yandex.net/i?id=f83877305ef8dca66b2f4d3ec3e9722df3ba6621-5220334-images-thumbs&n=13"
+                                    class="img-fluid" alt="">
+                            </a>
+                            <div class="veshm-location-content">
+                                <h4>Invest in Mauritius</h4>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
 
             </div>
 
-            {{-- <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-start">
                     <a href="/propertylisting" class="btn btn-outline-gray">Explore More<i
                             class="fa-regular fa-circle-right ms-2"></i></a>
                 </div>
-            </div> --}}
+            </div>
 
         </div>
     </section>

@@ -318,6 +318,7 @@ $(function () {
 		]
 	});
 
+	
 	// apartments  Slide
 	$('.apartments-slide').slick({
 		slidesToShow: 5,

@@ -2221,7 +2221,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Btechmart Preet">
+                                        <input type="text" class="form-control" placeholder="Btechmart">
                                     </div>
                                 </div>
 
@@ -2229,7 +2229,7 @@
                                     <div class="form-group">
                                         <label>Phone</label>
                                         <input type="text" class="form-control"
-                                            placeholder="Btechmartpreet@gmail.com">
+                                            placeholder="Btechmart@gmail.com">
                                     </div>
                                 </div>
 

@@ -493,7 +493,7 @@
                     <div class="modal-body">
                         <div class="text-center">
                             <h2 class="mb-0">Say Hi,</h2>
-                            <h4 class="mb-0">Mr. Btechmart Preet</h4>
+                            <h4 class="mb-0">Mr. Btechmart</h4>
                             <a class="text-success font--bold" href="tel:4048651904">(404) 865-1904</a>
                         </div>
                         <div class="message-form">
@@ -774,7 +774,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Btechmart Preet">
+                                        <input type="text" class="form-control" placeholder="Btechmart">
                                     </div>
                                 </div>
 
@@ -782,7 +782,7 @@
                                     <div class="form-group">
                                         <label>Phone</label>
                                         <input type="text" class="form-control"
-                                            placeholder="Btechmartpreet@gmail.com">
+                                            placeholder="Btechmart@gmail.com">
                                     </div>
                                 </div>
 

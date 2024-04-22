@@ -5295,6 +5295,7 @@ span.prefix-title {
     display: flex;
     flex-direction: column;
     position: relative;
+    height: 100%;
 }
 .vesh-categ-box .vesh-categ-links {
     position: relative;
@@ -5308,6 +5309,8 @@ span.prefix-title {
 .vesh-categ-box.light .vesh-categ-links {
     background: #ffffff;
     border: 1px solid #e3ebf3;
+    height: 100%;
+    padding-inline: 5px;
 }
 .veshm-list-098 {
     position: absolute;
@@ -5432,6 +5435,7 @@ span.prefix-title {
     border: 2px solid #e3ebf3;
     border-radius: 0.4rem;
     color: #31496c;
+    transition: background-color 0.4s linear;
 }
 
 .side-thumber-wrap {
@@ -6110,6 +6114,12 @@ span.verify-icon {
     width: 100%;
 }
 .portrait-banner {
+    position: relative;
+    display: flex;
+    height: 335px;
+    width: 100%;
+}
+.box-banner {
     position: relative;
     display: flex;
     height: 335px;
@@ -8541,7 +8551,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     margin-left: 2px;
     margin-right: 1px;
     overflow: hidden;
-  }
+}
 
 .fre__outerwrap .fre__innerwrap {
     width: 115%;
@@ -8550,32 +8560,43 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     top: 0px;
     left: -2px;
     transform: skew(150deg);
-    background: linear-gradient(to right, transparent 40%, #baddc9 10%, transparent 50%);
-      background-repeat: repeat;
-      background-size: auto;
+    background: linear-gradient(
+        to right,
+        transparent 40%,
+        #baddc9 10%,
+        transparent 50%
+    );
+    background-repeat: repeat;
+    background-size: auto;
     background-size: 200% 200%;
     background-repeat: no-repeat;
     animation-name: fre__backplay;
     animation-duration: 3s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-  }
+}
 
-
-  .services-slide .vsm-stay-wrap {
+.services-slide .vsm-stay-wrap {
     border: 2px solid #e3ebf3;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 .125rem .25rem rgba(var(--bs-body-color-rgb),.075) !important;
-  }
-  .services-slide .vsm-stay-wrap:hover {
-    background-color: #F0F9FF;
-  }
-  .services-slide .vsm-stay-wrap:hover .vsm-stay-button .vsm-stay-btn {
-    background-color: #065EB5;
+    box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075) !important;
+    transition: background-color 0.2s linear;
+}
+.services-slide .vsm-stay-wrap:hover {
+    background-color: #f0f9ff;
+}
+.services-slide .vsm-stay-wrap:hover .vsm-stay-button .vsm-stay-btn {
+    background-color: #065eb5;
     color: white;
-  }
-  .services-slide .vsm-stay-caption h4 {
+}
+.services-slide .vsm-stay-caption h4 {
     font-size: 14px;
     font-weight: 500;
-  }
+}
+
+.abroad-slide img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}

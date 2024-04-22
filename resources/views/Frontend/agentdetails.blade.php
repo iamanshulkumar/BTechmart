@@ -80,7 +80,7 @@
                                 <div class="vl-elfo-icon"><i class="fa-brands fa-skype"></i></div>
                                 <div class="vl-elfo-caption">
                                     <h6>Skype</h6>
-                                    <p>Btechmart.preet</p>
+                                    <p>Btechmart</p>
                                 </div>
                             </div>
                             <div class="vl-elfo-group">

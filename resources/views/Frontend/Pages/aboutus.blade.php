@@ -126,7 +126,7 @@
                         </div>
 
                         <div class="teamgrid-content">
-                            <h4>Btechmart Preet</h4>
+                            <h4>Btechmart</h4>
                             <span>CEO & Manager</span>
                         </div>
 
