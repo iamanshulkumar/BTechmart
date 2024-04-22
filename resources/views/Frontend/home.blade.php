@@ -792,7 +792,7 @@
 
             <div class="row justify-content-center p-2">
 
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
                     <div class="vesh-categ-box light">
                         <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
@@ -802,32 +802,14 @@
                                     class="fa-solid fa-child"></i>
                             </div>
                             <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Hostels for Boys</div>
+                                <div class="vesh-content-title">Hostels for Boys/Girls</div>
                                 {{-- <div class="vesh-prt-location">06 Locations</div> --}}
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
-                    <div class="vesh-categ-box light">
-                        <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            {{-- <div class="veshm-list-098"><span>20 List</span></div> --}}
-                            <div class="vesh-categ-icons">
-                                <i class="fa-solid fa-child-dress abs"></i>
-                                <i class="fa-solid fa-child-dress"></i>
-                                
-                            </div>
-                            <div class="vesh-categ-content">
-                                <div class="vesh-content-title">Hostels for Girls</div>
-                                {{-- <div class="vesh-prt-location">04 Locations</div> --}}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
                     <div class="vesh-categ-box light">
                         <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
@@ -845,7 +827,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 p-0 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 ">
                     <div class="vesh-categ-box light">
                         <a href="JavaScript:Void(0);" class="vesh-categ-links" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
@@ -1839,7 +1821,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -1869,7 +1851,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -1898,7 +1880,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -1928,7 +1910,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -1959,7 +1941,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -1990,7 +1972,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2034,7 +2016,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2064,7 +2046,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2093,7 +2075,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2123,7 +2105,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2154,7 +2136,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2185,7 +2167,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2229,7 +2211,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2259,7 +2241,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2288,7 +2270,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2318,7 +2300,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2349,7 +2331,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2380,7 +2362,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2424,7 +2406,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2454,7 +2436,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2483,7 +2465,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2513,7 +2495,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2544,7 +2526,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2575,7 +2557,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2619,7 +2601,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2649,7 +2631,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i class="fa-solid fa-location-dot me-1"></i>Liverpool
                                                     </div>
@@ -2678,7 +2660,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2708,7 +2690,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2739,7 +2721,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -2770,7 +2752,7 @@
                                                         <div class="veshm-reviews-designation"><span>CEO of Climber</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="veshm-list-75"><span>23 Property</span></div>
+                                                <div class="veshm-list-75 hideInMobile"><span>23 Property</span></div>
                                                 <div class="veshm-agent-footer mt-2 p-2">
                                                     <div class="rlhc-prt-location"><i
                                                             class="fa-solid fa-location-dot me-1"></i>Liverpool
@@ -6115,11 +6097,11 @@
                                 </div>
                                 <div class="vsm-stay-caption">
                                     <div class="vsm-stay-title">
-                                        <h4>Building Map Approval </h4>
+                                        <h4> Map Approval </h4>
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6139,7 +6121,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6162,7 +6144,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6182,7 +6164,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6205,7 +6187,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6225,7 +6207,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6248,7 +6230,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>
@@ -6270,7 +6252,7 @@
                                     </div>
                                     <div class="vsm-stay-button">
                                         <a href="/addproperty" class="vsm-stay-btn">
-                                            <i class="fa-solid fa-comments me-2"></i>
+                                            
                                             Know More
                                         </a>
                                     </div>

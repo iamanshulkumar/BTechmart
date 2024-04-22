@@ -213,7 +213,7 @@ $(function () {
 		slidesToShow: 3,
 		infinite: true,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		responsive: [
 			{
 				breakpoint: 768,
@@ -238,9 +238,9 @@ $(function () {
 		centerMode: false,
 		centerPadding: '20px',
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -270,9 +270,9 @@ $(function () {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -296,9 +296,9 @@ $(function () {
 		slidesToShow: 3,
 		dots: true,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -323,10 +323,10 @@ $(function () {
 		slidesToShow: 5,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -351,10 +351,10 @@ $(function () {
 		slidesToShow: 3,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -378,10 +378,10 @@ $(function () {
 		slidesToShow: 4,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 2,
 		responsive: [
 			{
@@ -407,10 +407,10 @@ $(function () {
 		slidesToShow: 3,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -438,10 +438,10 @@ $(function () {
 		slidesToShow: 3,
 		dots: false,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -476,10 +476,10 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 3,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -504,10 +504,10 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 3,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -532,10 +532,10 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 4,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -562,9 +562,9 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 4,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		centerMode: true,
 		variableWidth: false,
 		slidesToScroll: 1,
@@ -590,9 +590,9 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 3,
 		dots: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		centerMode: true,
 		variableWidth: false,
 		slidesToScroll: 1,
@@ -619,9 +619,9 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 5,
 		dots: true,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -646,9 +646,9 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 4,
 		dots: true,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -672,7 +672,7 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 	$('.builders-slide').slick({
 		slidesToShow: 3,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		dots: true,
 		responsive: [
 			{
@@ -704,7 +704,7 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 	$('.choose-slide').slick({
 		slidesToShow: 1,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		dots: false,
 		responsive: [
 			{
@@ -736,10 +736,10 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 4,
 		dots: false,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		infinite: true,
 		centerMode: false,
-		speed: 3000,
+		speed: 250,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -812,7 +812,7 @@ $('button[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		fade: true,
 		dots: true,
 		autoplaySpeed: 4000,
