@@ -1771,27 +1771,30 @@
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active text-nowrap " id="pills-7d-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-7d" type="button" role="tab"
-                                        aria-controls="pills-7d" aria-selected="true">Agents</button>
+                                        aria-controls="pills-7d" aria-selected="true">
+                                        <i class="fa-solid fa-user-secret me-2"></i>
+                                        Agents
+                                    </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link text-nowrap" id="pills-8d-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-8d" type="button" role="tab"
-                                        aria-controls="pills-8d" aria-selected="false">Builders</button>
+                                        aria-controls="pills-8d" aria-selected="false"><i class="fa-solid fa-building me-2"></i>Builders</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link text-nowrap" id="pills-4d-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-4d" type="button" role="tab"
-                                        aria-controls="pills-4d" aria-selected="false">Contractors</button>
+                                        aria-controls="pills-4d" aria-selected="false"><i class="fa-solid fa-file-contract me-2"></i>Contractors</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link text-nowrap" id="pills-5d-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-5d" type="button" role="tab"
-                                        aria-controls="pills-5d" aria-selected="false">Interior Desginers </button>
+                                        aria-controls="pills-5d" aria-selected="false"> <i class="fa-solid fa-wand-magic-sparkles me-2"></i>Interior Desginers </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link text-nowrap" id="pills-6d-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-6d" type="button" role="tab"
-                                        aria-controls="pills-6d" aria-selected="false">Architectures</button>
+                                        aria-controls="pills-6d" aria-selected="false"><i class="fa-solid fa-compass-drafting me-2"></i>Architectures</button>
                                 </li>
     
                             </ul>
@@ -3003,12 +3006,12 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active text-nowrap " id="pills-2d-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-2d" type="button" role="tab"
-                                    aria-controls="pills-2d" aria-selected="true">Localities</button>
+                                    aria-controls="pills-2d" aria-selected="true"><i class="fa-solid fa-city me-2"></i>Localities</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link text-nowrap" id="pills-3d-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-3d" type="button" role="tab"
-                                    aria-controls="pills-3d" aria-selected="false">Societies</button>
+                                    aria-controls="pills-3d" aria-selected="false"><i class="fa-solid fa-building me-2"></i>Societies</button>
                             </li>
 
                         </ul>
